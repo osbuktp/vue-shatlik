@@ -1,9 +1,9 @@
 <template>
-    <button @click="toggleSidebar" class="hamburger hamburger--elastic" :class="{'is-active': activated}" type="button">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
+    <div @click="toggleSidebar" class="hamburger hamburger--elastic" :class="{'is-active': activated}" type="button">
+        <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+        </div>
+    </div>
 </template>
 
 <script>
