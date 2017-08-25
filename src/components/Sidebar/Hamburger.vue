@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss" scoped>
 $hamburger-padding-x: 4px !default;
-$hamburger-padding-y: 6px !default;
+$hamburger-padding-y: 8px !default;
 $hamburger-layer-width: 32px !default;
 $hamburger-layer-height: 4px !default;
 $hamburger-layer-spacing: 6px !default;
@@ -67,6 +67,7 @@ $hamburger-hover-filter: opacity(50%) !default;
     background-color: transparent;
     border: 0;
     margin: 0;
+    height: 24px;
     overflow: visible;
 
     &:hover {
