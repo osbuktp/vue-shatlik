@@ -30,6 +30,7 @@ export default {
 
 
 <style lang="scss" scoped>
+$min-width: 901px;
 $hamburger-padding-x: 4px !default;
 $hamburger-padding-y: 8px !default;
 $hamburger-layer-width: 32px !default;
@@ -47,7 +48,7 @@ $hamburger-hover-transition-timing-function: linear !default;
 $hamburger-hover-use-filter: false !default;
 $hamburger-hover-filter: opacity(50%) !default;
 .hamburger {
-    @media (min-width: 900px) {
+    @media (min-width: $min-width) {
         display: none;
     };
     padding: $hamburger-padding-y $hamburger-padding-x;

@@ -70,11 +70,12 @@ export default {
 
 
 <style lang="scss" scoped>
+$min-width: 901px;
 .acc-panel {
     @media (orientation: portrait) {
         padding-right: 48px;
     }
-    @media (min-width: 900px) {
+    @media (min-width: $min-width) {
         position: fixed;
         width: 400px;
         box-sizing: border-box;
@@ -103,7 +104,7 @@ export default {
             width: 32px;
         }
     }
-    @media (min-width: 900px) {
+    @media (min-width: $min-width) {
         .acc-panel__item:first-child {
             border-radius: 0 0 0 20px;
         }

@@ -32,6 +32,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$min-width: 901px;
+
 .test {
     font-size: 1rem;
 }
@@ -51,7 +53,7 @@ export default {
         width: 100vh;
         transform: translate3d(-100vh, 0px, 0px);
     }
-    @media (min-width: 900px) {
+    @media (min-width: $min-width) {
         overflow: visible;
         position: static;
         height: auto;
