@@ -52,6 +52,7 @@ export default {
         transform: translate3d(-100vh, 0px, 0px);
     }
     @media (min-width: 900px) {
+        overflow: visible;
         position: static;
         height: auto;
     }

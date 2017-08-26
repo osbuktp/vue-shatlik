@@ -84,6 +84,7 @@ export default {
     background-color: #EEEEEE;
     justify-content: center;
     display: flex;
+    z-index: 3;
     .acc-panel__item {
         background-color: transparent;
         flex: 1;
