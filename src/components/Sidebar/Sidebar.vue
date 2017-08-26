@@ -1,6 +1,9 @@
 <template>
     <div class="sidebar" :class="{sidebar_opened: opened}">
         <acc-panel></acc-panel>
+        <div class="test">
+            <p>Some test text</p>
+        </div>
     </div>
 </template>
 
@@ -29,6 +32,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.test {
+    font-size: 1rem;
+}
 .sidebar {
     @media (min-width: 900px) {
         display: none;
