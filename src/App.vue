@@ -25,6 +25,7 @@ export default {
 
 <style lang="scss">
 body {
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
 }

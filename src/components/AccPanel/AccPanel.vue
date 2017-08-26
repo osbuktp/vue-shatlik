@@ -49,7 +49,7 @@ export default {
             html.style.fontSize = `${this.fontSize}px`;
         },
         incFontSize() {
-            if (this.fontSize < 28) {
+            if (this.fontSize < 20) {
                 this.fontSize += 2;
                 this.updateHTMLFontSize();
             }
@@ -74,14 +74,23 @@ export default {
     @media (orientation: portrait) {
         padding-right: 48px;
     }
+    @media (min-width: 900px) {
+        position: fixed;
+        width: 400px;
+        box-sizing: border-box;
+        border-radius: 0 0 20px 20px;
+        margin-left: calc(50% - 200px);
+    }
+    background-color: #EEEEEE;
+    justify-content: center;
     display: flex;
-    background-color: #FFFFFF; // border-bottom: solid 2px #1976D2;
     .acc-panel__item {
+        background-color: transparent;
         flex: 1;
+        max-width: 100px;
         text-align: center;
-        padding: 0;
-        background: transparent;
-        border: 0;
+        padding: 8px 0px;
+        border: 0px;
         height: 48px;
         box-sizing: border-box;
         cursor: pointer;
@@ -93,9 +102,20 @@ export default {
             width: 32px;
         }
     }
+    @media (min-width: 900px) {
+        .acc-panel__item:first-child {
+            border-radius: 0 0 0 20px;
+        }
+        .acc-panel__item:last-child {
+            border-radius: 0 0 20px 0;
+        }
+        .acc-panel__item:hover {
+            background-color: #BDBDBD;
+        }
+    }
     .acc-panel__item:active {
         svg {
-            fill: #BDBDBD;
+            fill: #E0E0E0;
         }
     }
 }
