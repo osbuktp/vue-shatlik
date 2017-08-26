@@ -1,7 +1,7 @@
 <template>
     <nav class="menu">
         <div class="menu__item" v-for="route in routes" :key="route.id">
-            <div class="menu__item__link" @click="route.showSubRoutes = !route.showSubRoutes">
+            <div class="menu__item__link" :class="{ 'menu__item__link_active': route.id == 1 }" @click="route.showSubRoutes = !route.showSubRoutes">
                 <p>{{route.name}}</p>
             </div>
             <div class="menu__sub-menu" :class="{'menu__sub-menu_shown': route.showSubRoutes}" v-if="route.subRoutes != undefined">
@@ -28,7 +28,7 @@ $min-width: 901px;
 }
 
 .menu__item__link {
-    padding: 10px;
+    padding: 12px 10px;
     font-size: 1rem;
     color: white;
     text-transform: uppercase;
@@ -37,13 +37,19 @@ $min-width: 901px;
         padding: 1rem 10px;
         cursor: pointer;
         transition: box-shadow .2s ease;
-        .menu__item__link_active {
-            box-shadow: inset 0 -6px 0 0 #1976D2;
-        }
     }
     p {
         line-height: 1rem;
         margin: 0;
+    }
+}
+
+.menu__item__link_active {
+    box-shadow: inset 10px 0 0 0 #1976D2;
+    padding-left: 20px;
+    @media (min-width: $min-width) {
+        box-shadow: inset 0 -6px 0 0 #1976D2;
+        padding-left: 10px;
     }
 }
 
@@ -58,7 +64,7 @@ $min-width: 901px;
     display: none;
     flex-direction: column;
 
-    > .menu__item__link {
+    >.menu__item__link {
         padding-left: 20px;
     }
 
@@ -74,12 +80,14 @@ $min-width: 901px;
         left: 10%;
     }
 }
+
 .menu__item__link:hover+.menu__sub-menu,
 .menu__sub-menu:hover {
     @media (min-width: $min-width) {
         display: flex;
     }
 }
+
 .menu__sub-menu_shown {
     @media (max-width: $min-width) {
         display: flex;
