@@ -49,12 +49,6 @@ export default {
 <style lang="scss" scoped>
 $min-width: 901px;
 .slider {
-    // @media (orientation: portrait) and (max-width: 900px) {
-    //     height: 80vw;
-    // }
-    // @media (orientation: landscape) and (max-width: 900px) {
-    //     height: 80vh;
-    // }
     @media (min-width: $min-width) {
         height: 800px;
     }
