@@ -1,7 +1,7 @@
 <template>
     <div class="slider">
         <transition name="slide">
-            <div class="slider__image-wrapper" :key="currentImage" :style="{ backgroundImage: 'url(.' + imageUrl + ')' }">
+            <div class="slider__image-wrapper" :key="currentImage" :style="{ backgroundImage: currentUrl }">
             </div>
         </transition>
     </div>
@@ -37,6 +37,9 @@ export default {
     computed: {
         imageUrl() {
             return this.images[this.currentImage % this.images.length].url;
+        },
+        currentUrl() {
+            return `url(".${this.imageUrl}")`;
         }
     },
     mounted() {
