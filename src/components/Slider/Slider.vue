@@ -1,7 +1,7 @@
 <template>
     <div class="slider">
         <transition name="slide">
-            <div class="slider__image-wrapper" :key="currentImage" :style="{ backgroundImage: 'url(' + imageUrl + ')' }">
+            <div class="slider__image-wrapper" :key="currentImage" :style="{ backgroundImage: 'url(.' + imageUrl + ')' }">
             </div>
         </transition>
     </div>
