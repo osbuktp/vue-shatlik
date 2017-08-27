@@ -2,12 +2,14 @@
   <div id="app-wrapper">
     <hamburger></hamburger>
     <sidebar></sidebar>
+    <slider></slider>
   </div>
 </template>
 
 <script>
 import Hamburger from './components/Sidebar/Hamburger.vue';
 import Sidebar from './components/Sidebar/Sidebar.vue';
+import Slider from './components/Slider/Slider.vue'
 
 export default {
   name: 'app',
@@ -18,7 +20,8 @@ export default {
   },
   components: {
     Hamburger,
-    Sidebar
+    Sidebar,
+    Slider
   }
 }
 </script>

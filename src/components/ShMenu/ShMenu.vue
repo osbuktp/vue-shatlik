@@ -20,7 +20,7 @@ $min-width: 901px;
     display: flex;
     flex-direction: column;
     @media (min-width: $min-width) {
-        height: 200px;
+        height: 150px;
         align-items: flex-end;
         justify-content: center;
         flex-direction: row;
@@ -35,6 +35,7 @@ $min-width: 901px;
     box-sizing: border-box;
     @media (min-width: $min-width) {
         padding: 1rem 10px;
+        font-size: 1.3rem;
         cursor: pointer;
         transition: box-shadow .2s ease;
     }
@@ -63,18 +64,19 @@ $min-width: 901px;
 .menu__sub-menu {
     display: none;
     flex-direction: column;
+    overflow-y: hidden;
 
     >.menu__item__link {
         padding-left: 20px;
     }
 
     @media (min-width: $min-width) {
+        padding: 20px;
         box-sizing: border-box;
         background-color: #2196F3;
         position: absolute;
         z-index: 2;
-        top: 200px;
-        padding: 20px;
+        top: 150px;
         flex-direction: row;
         width: 80%;
         left: 10%;
@@ -131,7 +133,25 @@ export default {
                 {
                     id: 3,
                     path: '#',
-                    name: 'Услуги'
+                    name: 'Услуги',
+                    showSubRoutes: false,
+                    subRoutes: [
+                        {
+                            id: 3.1,
+                            path: '#',
+                            name: 'Раз'
+                        },
+                        {
+                            id: 3.2,
+                            path: '#',
+                            name: 'Два'
+                        },
+                        {
+                            id: 3.3,
+                            path: '#',
+                            name: 'Три'
+                        }
+                    ]
                 },
                 {
                     id: 4,
