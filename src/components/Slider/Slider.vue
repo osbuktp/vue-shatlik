@@ -1,9 +1,9 @@
 <template>
     <div class="slider">
         <transition name="slide">
-            <div class="slider__image-wrapper" :key="currentImage" :style="{ backgroundImage: currentUrl }">
+            <div class="slider__image-wrapper" :key="currentId" :style="{ backgroundImage: currentUrl }">
                 <div class="slider__image-text">
-                    <p>{{ images[currentImage % 3].text }}</p>
+                    <p>{{ images[currentId].text }}</p>
                 </div>
             </div>
         </transition>
@@ -12,24 +12,30 @@
 
 <script>
 import backImgOne from '../../assets/img1.jpg';
+import backImgOneMin from '../../assets/img1min.jpg';
 import backImgTwo from '../../assets/img2.jpg';
+import backImgTwoMin from '../../assets/img2min.jpg';
 import backImgThree from '../../assets/img3.jpg';
+import backImgThreeMin from '../../assets/img3min.jpg';
 
 export default {
     data() {
         return {
-            currentImage: 0,
+            currentId: 0,
             images: [
                 {
                     url: backImgOne,
+                    minUrl: backImgOneMin,
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum unde quis, numquam ratione quia iure, necessitatibus repudiandae quasi officia asperiores, at quas temporibus aperiam dolorem corrupti obcaecati vel assumenda enim nemo odit error quae! Neque possimus, voluptatibus laudantium, ipsa nam saepe adipisci rem fugiat libero mollitia, voluptate sint culpa.'
                 },
                 {
                     url: backImgTwo,
+                    minUrl: backImgTwoMin,
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, officiis inventore quisquam deleniti, ducimus in cum, magni blanditiis recusandae ipsam odio temporibus optio possimus ipsum quaerat praesentium non unde obcaecati maiores expedita nihil earum architecto neque impedit! Doloremque repellat laudantium labore cupiditate veniam unde aut debitis possimus nisi asperiores, vitae odit dolor tempora libero et! Laborum quasi iste nulla omnis.'
                 },
                 {
                     url: backImgThree,
+                    minUrl: backImgThreeMin,
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, officiis inventore quisquam deleniti, ducimus in cum, magni blanditiis recusandae ipsam odio temporibus optio possimus ipsum quaerat praesentium non unde obcaecati maiores expedita nihil earum architecto neque impedit!'
                 }
             ]
@@ -37,12 +43,15 @@ export default {
     },
     methods: {
         shuffleImages() {
-            this.currentImage++;
+            this.currentId = (this.currentId + 1) % 3;
         }
     },
     computed: {
+        currentImage() {
+            return this.images[this.currentId % this.images.length];
+        },
         imageUrl() {
-            return this.images[this.currentImage % this.images.length].url;
+            return document.documentElement.clientWidth > 900 ? this.currentImage.url : this.currentImage.minUrl;
         },
         currentUrl() {
             return `url(".${this.imageUrl}")`;
@@ -99,7 +108,7 @@ $min-width: 901px;
 }
 
 .slide-enter-active {
-    transform: translateX(-100%);
+    transform: translateX(100%);
 }
 
 .slide-enter-to {
@@ -107,6 +116,6 @@ $min-width: 901px;
 }
 
 .slide-leave-to {
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
 </style>
