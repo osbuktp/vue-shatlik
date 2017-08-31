@@ -53,7 +53,7 @@ $hamburger-hover-filter: opacity(50%) !default;
     };
     padding: $hamburger-padding-y $hamburger-padding-x;
     display: inline-block;
-    position: absolute;
+    position: fixed;
     top: 4px;
     right: 4px;
     cursor: pointer;

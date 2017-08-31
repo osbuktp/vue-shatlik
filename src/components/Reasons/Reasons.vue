@@ -4,7 +4,7 @@
         <div class="reasons-slider">
             <div @click="toggleReason(reason.id)" class="reason" :class="{ 'reason_opened': currentReasonId == reason.id }" v-for="reason in reasons" :key="reason.id">
                 <div class="reason-title">
-                    {{ reason.id }}
+                    <p>{{ reason.id }}</p>
                 </div>
                 <div class="reason-desc">
                     <p class="reason-desc__title">
@@ -25,22 +25,34 @@ $min-width: 901px;
 .reasons-slider {
     display: flex;
     background-color: seagreen;
+    flex-direction: column;
+    @media (min-width: $min-width) {
+        flex-direction: row;
+    }
 }
 
 .reason {
+    padding: 10px;
     p {
         font-size: 1.4rem;
+        margin: 0;
+    }
+    &-desc {
+        display: none;
     }
     @media (min-width: $min-width) {
-        max-width: 400px;
+        max-width: 600px;
         flex: 1;
         cursor: pointer;
         overflow: hidden;
         transition: flex-basis .5s ease-out;
         box-sizing: border-box;
-        padding: 10px;
+        p {
+            margin-bottom: 1rem;
+        }
         &-desc {
-            width: 380px;
+            display: block;
+            width: 580px;
             overflow-x: hidden;
             opacity: 0;
             transition: opacity .5s ease;
@@ -55,6 +67,12 @@ $min-width: 901px;
 }
 
 .reason_opened {
+    .reason-desc {
+        display: block;
+    }
+    .reason-title {
+        margin-bottom: 1rem;
+    }
     @media (min-width: $min-width) {
         &.reason {
             flex-basis: 400px;
