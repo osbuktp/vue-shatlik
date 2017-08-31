@@ -20,7 +20,6 @@ $min-width: 901px;
     display: flex;
     flex-direction: column;
     @media (min-width: $min-width) {
-        height: 150px;
         align-items: flex-end;
         justify-content: center;
         flex-direction: row;

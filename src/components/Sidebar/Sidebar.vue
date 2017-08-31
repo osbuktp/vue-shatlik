@@ -1,6 +1,7 @@
 <template>
     <div class="sidebar" :class="{sidebar_opened: opened}">
         <acc-panel></acc-panel>
+        <logo></logo>
         <sh-menu></sh-menu>
     </div>
 </template>
@@ -9,11 +10,13 @@
 import EventBus from '../../EventBus.vue';
 import AccPanel from '../AccPanel/AccPanel.vue';
 import ShMenu from '../ShMenu/ShMenu.vue';
+import Logo from '../Logo/Logo.vue';
 
 export default {
     components: {
         AccPanel,
-        ShMenu
+        ShMenu,
+        Logo
     },
     data() {
         return {
@@ -42,6 +45,8 @@ $min-width: 901px;
     position: fixed;
     background-color: #2196F3;
     z-index: 2;
+    top: 0;
+    bottom: 0;
     height: 100%;
     transition: transform .3s;
     overflow-y: auto;
