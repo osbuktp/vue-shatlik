@@ -28,6 +28,9 @@ $min-width: 901px;
 }
 
 .reason {
+    p {
+        font-size: 1.4rem;
+    }
     @media (min-width: $min-width) {
         max-width: 400px;
         flex: 1;
