@@ -108,14 +108,14 @@ $min-width: 901px;
 }
 
 .slide-enter-active {
-    transform: translateX(100%);
+    transform: translate3d(100%, 0, 0);
 }
 
 .slide-enter-to {
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
 }
 
 .slide-leave-to {
-    transform: translateX(-100%);
+    transform: translate3d(-100%, 0, 0);
 }
 </style>

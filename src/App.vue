@@ -5,6 +5,7 @@
     <sidebar></sidebar>
     <slider></slider>
     <reasons></reasons>
+    <main-gallery></main-gallery>
   </div>
 </template>
 
@@ -14,7 +15,7 @@ import Sidebar from './components/Sidebar/Sidebar.vue';
 import Slider from './components/Slider/Slider.vue'
 import Logo from './components/Logo/Logo.vue';
 import Reasons from './components/Reasons/Reasons.vue'
-
+import MainGallery from './components/MainGallery/MainGallery.vue';
 
 export default {
   name: 'app',
@@ -28,7 +29,8 @@ export default {
     Sidebar,
     Slider,
     Logo,
-    Reasons
+    Reasons,
+    MainGallery
   }
 }
 </script>
@@ -40,6 +42,7 @@ body {
   padding: 0;
 }
 .section-header {
+  margin-top: 4rem;
   font-size: 2.5rem;
   font-weight: 200;
   text-align: center;
