@@ -58,11 +58,11 @@ $min-width: 901px;
         width: calc(15.5vw - 25px);
         height: calc(9.2vw - 12px);
         transition: background-size .5s linear, filter .5s linear;
+            filter: brightness(70%);
         &:hover {
             background-size: 110% auto;
             filter: brightness(100%);
             cursor: pointer;
-            filter: brightness(60%);
         }
     }
 }
