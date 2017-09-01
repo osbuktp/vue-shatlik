@@ -1,6 +1,6 @@
 <template>
     <div :mobile="mobile" class="logo">
-        <img :src="Logo" alt="">
+        <img :src="'.' + Logo" alt="">
     </div>
 </template>
 

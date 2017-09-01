@@ -75,7 +75,6 @@ $min-width: 901px;
         background-color: #2196F3;
         position: absolute;
         z-index: 2;
-        top: 150px;
         flex-direction: row;
         width: 80%;
         left: 10%;
