@@ -68,7 +68,7 @@ export default {
 $min-width: 901px;
 .slider {
     @media (min-width: $min-width) {
-        height: 800px;
+        min-height: 640px;
     }
     height: 80vh;
     position: relative;

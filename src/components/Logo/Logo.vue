@@ -22,10 +22,13 @@ export default {
 $min-width: 901px;
 .logo {
     background-color: #2196F3;
-    padding: 10px;
     box-sizing: border-box;
-    img {
-        max-width: 200px;
+    @media (min-width: $min-width) {
+        flex: 1;
+        padding: 10px;
+        img {
+            max-width: 100px;
+        }
     }
 }
 
@@ -44,6 +47,7 @@ $min-width: 901px;
     }
     img {
         height: 100%;
+        width: auto;
     }
 }
 </style>

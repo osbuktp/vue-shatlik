@@ -50,18 +50,27 @@ $min-width: 901px;
     height: 100%;
     transition: transform .3s;
     overflow-y: auto;
-    @media (orientation: portrait) and (max-width: 900px) {
-        width: 100vw;
-        transform: translate3d(-100vw, 0px, 0px);
-    }
-    @media (orientation: landscape) and (max-width: 900px) {
-        width: 100vh;
-        transform: translate3d(-100vh, 0px, 0px);
+    // @media (orientation: portrait) and (max-width: 900px) {
+    //     width: 100vw;
+    //     transform: translate3d(-100vw, 0px, 0px);
+    // }
+    // @media (orientation: landscape) and (max-width: 900px) {
+    //     width: 100vh;
+    //     max-width: 360px;
+    //     transform: translate3d(-100vh, 0px, 0px);
+    // }
+    @media (max-width: 900px) {
+        max-width: 100vw;
+        width: 360px;
+        transform: translate3d(-100%, 0px, 0px);
     }
     @media (min-width: $min-width) {
         overflow: visible;
         position: static;
-        height: auto;
+        min-height: 120px;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
     }
 }
 

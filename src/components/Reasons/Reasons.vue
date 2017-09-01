@@ -57,6 +57,9 @@ $min-width: 901px;
         overflow: hidden;
         transition: flex-basis .5s ease, filter .5s ease;
         box-sizing: border-box;
+        &:hover {
+            filter: sepia(0);
+        }
         p {
             margin-bottom: 1rem;
         }
