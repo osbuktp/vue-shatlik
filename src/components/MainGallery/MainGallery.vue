@@ -50,11 +50,13 @@ $min-width: 901px;
 }
 
 .sub-image {
-    width: 170px;
-    height: 110px;
     margin: 5px;
     background-size: 100% auto;
+    width: calc(50vw - 15px);
+    height: 30vw;
     @media (min-width: $min-width) {
+    width: 170px;
+    height: 110px;
         transition: background-size .5s linear, filter .5s linear;
         &:hover {
             background-size: 110% auto;
