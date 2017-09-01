@@ -19,7 +19,7 @@ $min-width: 901px;
 .gallery {
     display: flex;
     @media (min-width: $min-width) {
-        height: 610px;
+        height: 46vw;
     }
 }
 
@@ -27,8 +27,9 @@ $min-width: 901px;
     display: none;
     @media (min-width: $min-width) {
         display: block;
-        flex: 1;
-        height: 100%;
+        width: calc(69vw - 10px);
+        height: calc(100% - 20px);
+        margin: 10px 0 10px 10px;
         background-size: cover;
     }
 }
@@ -39,24 +40,23 @@ $min-width: 901px;
 }
 
 .sub-images {
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     justify-content: center;
+    align-items: center;
     box-sizing: border-box;
-    @media (min-width: $min-width) {
-        width: 370px;
-    }
 }
 
 .sub-image {
     margin: 5px;
     background-size: 100% auto;
-    width: calc(50vw - 15px);
+    width: calc(50vw - 25px);
     height: 30vw;
     @media (min-width: $min-width) {
-    width: 170px;
-    height: 110px;
+        width: calc(15.5vw - 25px);
+        height: calc(9.2vw - 12px);
         transition: background-size .5s linear, filter .5s linear;
         &:hover {
             background-size: 110% auto;
