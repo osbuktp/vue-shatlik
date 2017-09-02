@@ -26,17 +26,17 @@ export default {
                 {
                     url: backImgOne,
                     minUrl: backImgOneMin,
-                    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum unde quis, numquam ratione quia iure, necessitatibus repudiandae quasi officia asperiores, at quas temporibus aperiam dolorem corrupti obcaecati vel assumenda enim nemo odit error quae! Neque possimus, voluptatibus laudantium, ipsa nam saepe adipisci rem fugiat libero mollitia, voluptate sint culpa.'
+                    text: 'Наслаждайтесь уникальной природой'
                 },
                 {
                     url: backImgTwo,
                     minUrl: backImgTwoMin,
-                    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, officiis inventore quisquam deleniti, ducimus in cum, magni blanditiis recusandae ipsam odio temporibus optio possimus ipsum quaerat praesentium non unde obcaecati maiores expedita nihil earum architecto neque impedit! Doloremque repellat laudantium labore cupiditate veniam unde aut debitis possimus nisi asperiores, vitae odit dolor tempora libero et! Laborum quasi iste nulla omnis.'
+                    text: 'Комплексное медицинское обслуживание'
                 },
                 {
                     url: backImgThree,
                     minUrl: backImgThreeMin,
-                    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, officiis inventore quisquam deleniti, ducimus in cum, magni blanditiis recusandae ipsam odio temporibus optio possimus ipsum quaerat praesentium non unde obcaecati maiores expedita nihil earum architecto neque impedit!'
+                    text: 'Комфортное проживание и высокий уровень сервиса'
                 }
             ]
         }
@@ -90,6 +90,7 @@ $min-width: 901px;
 .slider__image-text {
     background-color: rgba(25, 118, 210, 0.8);
     padding: 20px;
+    text-align: center;
     color: white;
     max-height: 70vh;
     overflow-y: auto;
