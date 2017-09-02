@@ -6,6 +6,7 @@
     <slider></slider>
     <reasons></reasons>
     <main-gallery></main-gallery>
+    <yandex-map></yandex-map>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Slider from './components/Slider/Slider.vue'
 import Logo from './components/Logo/Logo.vue';
 import Reasons from './components/Reasons/Reasons.vue'
 import MainGallery from './components/MainGallery/MainGallery.vue';
+import YandexMap from './components/YandexMap/YandexMap.vue';
 
 export default {
   name: 'app',
@@ -30,7 +32,8 @@ export default {
     Slider,
     Logo,
     Reasons,
-    MainGallery
+    MainGallery,
+    YandexMap
   }
 }
 </script>
