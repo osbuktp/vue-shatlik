@@ -57,7 +57,7 @@ $min-width: 901px;
     @media (min-width: $min-width) {
         width: calc(15.5vw - 25px);
         height: calc(9.2vw - 12px);
-        transition: background-size .5s linear, filter .5s linear;
+        transition: background-size .2s linear, filter .2s linear;
             filter: brightness(70%);
         &:hover {
             background-size: 110% auto;

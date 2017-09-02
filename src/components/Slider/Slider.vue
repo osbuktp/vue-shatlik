@@ -58,6 +58,8 @@ export default {
         }
     },
     mounted() {
+        this.shuffleImages();
+        this.shuffleImages();
         setInterval(this.shuffleImages, 5000);
     }
 }

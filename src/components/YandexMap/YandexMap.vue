@@ -13,6 +13,7 @@ $min-width: 901px;
 .yandex-map {
     &__map {
         height: 60vh;
+        min-height: 300px;
         @media (min-width: $min-width) {
             height: 600px;
         }
