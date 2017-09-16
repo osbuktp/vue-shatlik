@@ -6,7 +6,9 @@
     <slider></slider>
     <reasons></reasons>
     <main-gallery></main-gallery>
+    <f-a-q></f-a-q>
     <yandex-map></yandex-map>
+    <sh-footer></sh-footer>
   </div>
 </template>
 
@@ -18,6 +20,8 @@ import Logo from './components/Logo/Logo.vue';
 import Reasons from './components/Reasons/Reasons.vue'
 import MainGallery from './components/MainGallery/MainGallery.vue';
 import YandexMap from './components/YandexMap/YandexMap.vue';
+import FAQ from './components/FAQ/FAQ.vue';
+import ShFooter from './components/ShFooter/ShFooter.vue';
 
 export default {
   name: 'app',
@@ -33,7 +37,9 @@ export default {
     Logo,
     Reasons,
     MainGallery,
-    YandexMap
+    YandexMap,
+    FAQ,
+    ShFooter
   }
 }
 </script>

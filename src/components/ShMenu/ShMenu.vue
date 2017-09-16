@@ -39,7 +39,7 @@ $min-width: 901px;
         transition: box-shadow .2s ease;
     }
     p {
-        line-height: 1rem;
+        line-height: 2rem;
         margin: 0;
     }
 }
@@ -63,7 +63,7 @@ $min-width: 901px;
 .menu__sub-menu {
     display: none;
     flex-direction: column;
-    overflow-y: hidden;
+    // overflow-y: hidden;
 
     >.menu__item__link {
         padding-left: 20px;
@@ -71,6 +71,8 @@ $min-width: 901px;
 
     @media (min-width: $min-width) {
         padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
         box-sizing: border-box;
         background-color: #2196F3;
         position: absolute;
@@ -78,6 +80,9 @@ $min-width: 901px;
         flex-direction: row;
         width: 80%;
         left: 10%;
+        >.menu__item__link {
+            width: 300px;
+        }
     }
 }
 
@@ -114,22 +119,42 @@ export default {
                         {
                             id: 2.1,
                             path: '#',
-                            name: 'Подробнее о нас'
+                            name: 'Общая информация об учреждении'
                         },
                         {
                             id: 2.2,
                             path: '#',
-                            name: 'Документы и награды'
+                            name: 'Условия приема в центр'
                         },
                         {
                             id: 2.3,
                             path: '#',
-                            name: 'Инфраструктура'
+                            name: 'График работы специалистов'
+                        },
+                        {
+                            id: 2.4,
+                            path: '#',
+                            name: 'Правила внутреннего распорядка'
+                        },
+                        {
+                            id: 2.5,
+                            path: '#',
+                            name: 'Наши документы и награды'
                         }
                     ]
                 },
                 {
                     id: 3,
+                    path: '#',
+                    name: 'Специалисты'
+                },
+                {
+                    id: 4,
+                    path: '#',
+                    name: 'Номерной фонд'
+                },
+                {
+                    id: 5,
                     path: '#',
                     name: 'Услуги',
                     showSubRoutes: false,
@@ -137,27 +162,47 @@ export default {
                         {
                             id: 3.1,
                             path: '#',
-                            name: 'Раз'
+                            name: 'Социально-бытовые'
                         },
                         {
                             id: 3.2,
                             path: '#',
-                            name: 'Два'
+                            name: 'Социально-медицинские'
                         },
                         {
                             id: 3.3,
                             path: '#',
-                            name: 'Три'
+                            name: 'Социально-психологические'
+                        },
+                        {
+                            id: 3.4,
+                            path: '#',
+                            name: 'Социально-педагогические'
+                        },
+                        {
+                            id: 3.5,
+                            path: '#',
+                            name: 'Социально-трудовые'
+                        },
+                        {
+                            id: 3.6,
+                            path: '#',
+                            name: 'Социально-правовые'
+                        },
+                        {
+                            id: 3.7,
+                            path: '#',
+                            name: 'Усуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности'
                         }
                     ]
                 },
                 {
-                    id: 4,
+                    id: 6,
                     path: '#',
-                    name: 'Отзывы'
+                    name: 'Тарифы'
                 },
                 {
-                    id: 5,
+                    id: 7,
                     path: '#',
                     name: 'Контакты'
                 }

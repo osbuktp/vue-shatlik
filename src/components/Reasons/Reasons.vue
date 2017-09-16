@@ -21,6 +21,11 @@
 <style lang="scss">
 $min-width: 901px;
 
+// @font-face {
+//     font-family: '';
+//     src: url('');
+// }
+
 .reasons-slider {
     display: flex;
     background-color: #1976D2;
