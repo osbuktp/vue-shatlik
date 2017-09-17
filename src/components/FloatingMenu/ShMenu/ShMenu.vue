@@ -1,12 +1,12 @@
 <template>
     <nav class="menu">
-        <div class="menu__item" v-for="route in routes" :key="route.id">
-            <div class="menu__item__link" :class="{ 'menu__item__link_active': route.id == 1 }" @click="route.showSubRoutes = !route.showSubRoutes">
-                <p>{{route.name}}</p>
+        <div class="menu__item" v-for="(route, id) in routes" :key="id">
+            <div class="menu__item__link" :class="{ 'menu__item__link_active': route.path == activePath}" @click="route.showSubRoutes = !route.showSubRoutes">
+                <router-link :to="route.path">{{route.name}}</router-link>
             </div>
-            <div class="menu__sub-menu" :class="{'menu__sub-menu_shown': route.showSubRoutes}" v-if="route.subRoutes != undefined">
-                <div class="menu__item__link" v-for="subRoute in route.subRoutes" :key="subRoute.id">
-                    <p>{{subRoute.name}}</p>
+            <div class="menu__sub-menu" :class="{'menu__sub-menu_shown': route.showSubRoutes}" v-if="route.subPaths != undefined">
+                <div class="menu__item__link" v-for="(subRoute, id) in route.subPaths" :key="id">
+                    <router-link :to="route.path + subRoute.path">{{subRoute.name}}</router-link>
                 </div>
             </div>
         </div>
@@ -27,20 +27,27 @@
 }
 
 .menu__item__link {
-    padding: 12px 10px;
     font-size: 1rem;
+    text-align: center;
     color: white;
     text-transform: uppercase;
     box-sizing: border-box;
     @media (min-width: $min-width) {
-        padding: 1rem 10px;
         font-size: 1.3rem;
         cursor: pointer;
         transition: box-shadow .2s ease;
+        a {
+            padding: 1rem 10px;
+        }
     }
-    p {
-        line-height: 2rem;
+    a {
+        display: inline-block;
+        padding: 12px 10px;
+        box-sizing: border-box;
+        position: relative;
+        text-decoration: none;
         margin: 0;
+        color: inherit;
     }
 }
 
@@ -49,7 +56,7 @@
     padding-left: 20px;
     @media (min-width: $min-width) {
         box-shadow: inset 0 -6px 0 0 $primary-color-dark;
-        padding-left: 10px;
+        padding-left: 0px;
     }
 }
 
@@ -62,9 +69,7 @@
 
 .menu__sub-menu {
     display: none;
-    flex-direction: column;
-    // overflow-y: hidden;
-
+    flex-direction: column; // overflow-y: hidden;
     >.menu__item__link {
         padding-left: 20px;
     }
@@ -82,6 +87,7 @@
         left: 10%;
         >.menu__item__link {
             width: 300px;
+            padding-left: 0px;
         }
     }
 }
@@ -101,112 +107,17 @@
 </style>
 
 <script>
+import routes from '../../../routes.js';
+
 export default {
     data() {
         return {
-            routes: [
-                {
-                    id: 1,
-                    path: '#',
-                    name: 'Главная'
-                },
-                {
-                    id: 2,
-                    path: '#',
-                    name: 'О центре',
-                    showSubRoutes: false,
-                    subRoutes: [
-                        {
-                            id: 2.1,
-                            path: '#',
-                            name: 'Общая информация об учреждении'
-                        },
-                        {
-                            id: 2.2,
-                            path: '#',
-                            name: 'Условия приема в центр'
-                        },
-                        {
-                            id: 2.3,
-                            path: '#',
-                            name: 'График работы специалистов'
-                        },
-                        {
-                            id: 2.4,
-                            path: '#',
-                            name: 'Правила внутреннего распорядка'
-                        },
-                        {
-                            id: 2.5,
-                            path: '#',
-                            name: 'Наши документы и награды'
-                        }
-                    ]
-                },
-                {
-                    id: 3,
-                    path: '#',
-                    name: 'Специалисты'
-                },
-                {
-                    id: 4,
-                    path: '#',
-                    name: 'Номерной фонд'
-                },
-                {
-                    id: 5,
-                    path: '#',
-                    name: 'Услуги',
-                    showSubRoutes: false,
-                    subRoutes: [
-                        {
-                            id: 3.1,
-                            path: '#',
-                            name: 'Социально-бытовые'
-                        },
-                        {
-                            id: 3.2,
-                            path: '#',
-                            name: 'Социально-медицинские'
-                        },
-                        {
-                            id: 3.3,
-                            path: '#',
-                            name: 'Социально-психологические'
-                        },
-                        {
-                            id: 3.4,
-                            path: '#',
-                            name: 'Социально-педагогические'
-                        },
-                        {
-                            id: 3.5,
-                            path: '#',
-                            name: 'Социально-трудовые'
-                        },
-                        {
-                            id: 3.6,
-                            path: '#',
-                            name: 'Социально-правовые'
-                        },
-                        {
-                            id: 3.7,
-                            path: '#',
-                            name: 'Усуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности'
-                        }
-                    ]
-                },
-                {
-                    id: 6,
-                    path: '#',
-                    name: 'Тарифы'
-                },
-                {
-                    id: 7,
-                    path: '#',
-                    name: 'Контакты'
-                }
-            ]
+            routes
+        }
+    },
+    computed: {
+        activePath() {
+            return '/' + this.$route.path.split('/')[1];
         }
     }
 }

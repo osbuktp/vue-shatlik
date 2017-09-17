@@ -4,7 +4,7 @@
       <floating-menu></floating-menu>
     </header>
     <main>
-      <!-- <breadcrumbs></breadcrumbs> -->
+      <breadcrumbs></breadcrumbs>
       <router-view></router-view>
     </main>
     <sh-footer></sh-footer>
@@ -14,12 +14,14 @@
 <script>
 import FloatingMenu from './components/FloatingMenu/FloatingMenu.vue';
 import ShFooter from './components/ShFooter/ShFooter.vue';
+import Breadcrumbs from './components/Breadcrumbs/Breadcrumbs.vue';
 
 export default {
   name: 'app',
   components: {
     FloatingMenu,
-    ShFooter
+    ShFooter,
+    Breadcrumbs
   }
 }
 </script>
