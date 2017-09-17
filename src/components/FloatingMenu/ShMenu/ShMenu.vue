@@ -14,7 +14,7 @@
 </template>
 
 <style lang="scss" scoped>
-$min-width: 901px;
+@import '../../../assets/variables';
 .menu {
     position: relative;
     display: flex;
@@ -45,17 +45,17 @@ $min-width: 901px;
 }
 
 .menu__item__link_active {
-    box-shadow: inset 10px 0 0 0 #1976D2;
+    box-shadow: inset 10px 0 0 0 $primary-color-dark;
     padding-left: 20px;
     @media (min-width: $min-width) {
-        box-shadow: inset 0 -6px 0 0 #1976D2;
+        box-shadow: inset 0 -6px 0 0 $primary-color-dark;
         padding-left: 10px;
     }
 }
 
 .menu__item__link:hover {
     @media (min-width: $min-width) {
-        box-shadow: inset 0 -6px 0 0 #1976D2;
+        box-shadow: inset 0 -6px 0 0 $primary-color-dark;
     }
 }
 
@@ -74,7 +74,7 @@ $min-width: 901px;
         flex-wrap: wrap;
         justify-content: center;
         box-sizing: border-box;
-        background-color: #2196F3;
+        background-color: $primary-color;
         position: absolute;
         z-index: 2;
         flex-direction: row;

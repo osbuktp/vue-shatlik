@@ -1,6 +1,5 @@
 <template>
     <section class="reasons">
-        <h1 class="section-header">10 причин приехать к нам</h1>
         <div class="reasons-slider">
             <div @click="toggleReason(reason.id)" class="reason" :class="{ 'reason_opened': currentReasonId == reason.id }" v-for="reason in reasons" :key="reason.id" :style="{'background-image': 'url(.' + reason.background + ')'}">
                 <div class="reason-title">
@@ -19,7 +18,7 @@
 </template>
 
 <style lang="scss">
-$min-width: 901px;
+@import '../../assets/variables';
 
 // @font-face {
 //     font-family: '';
@@ -28,8 +27,8 @@ $min-width: 901px;
 
 .reasons-slider {
     display: flex;
-    background-color: #1976D2;
-    color: #eeeeee;
+    background-color: $primary-color-dark;
+    color: $secondary-color-text;
     flex-direction: column;
     @media (min-width: $min-width) {
         flex-direction: row;

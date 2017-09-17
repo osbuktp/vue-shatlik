@@ -70,7 +70,7 @@ export default {
 
 
 <style lang="scss" scoped>
-$min-width: 901px;
+@import '../../../assets/variables';
 .acc-panel {
     @media (orientation: portrait) {
         padding-right: 48px;

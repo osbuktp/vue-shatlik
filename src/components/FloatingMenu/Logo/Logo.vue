@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Logo from '../../assets/logo.png';
+import Logo from '../../../assets/logo.png';
 export default {
     data() {
         return {
@@ -19,9 +19,9 @@ export default {
 </script>
 
 <style lang="scss">
-$min-width: 901px;
+@import '../../../assets/variables';
 .logo {
-    background-color: #2196F3;
+    background-color: $primary-color;
     box-sizing: border-box;
     @media (min-width: $min-width) {
         flex: 1;

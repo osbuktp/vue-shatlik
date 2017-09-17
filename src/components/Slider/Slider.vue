@@ -68,7 +68,7 @@ export default {
 
 
 <style lang="scss" scoped>
-$min-width: 901px;
+@import '../../assets/variables';
 .slider {
     @media (min-width: $min-width) {
         min-height: 640px;

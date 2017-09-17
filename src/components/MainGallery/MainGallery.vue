@@ -1,21 +1,16 @@
 <template>
-    <section class="gallery-wrapper">
-        <header>
-            <h1 class="section-header">Фотоэкскурсия по санаторию</h1>
-        </header>
-        <div class="gallery">
-            <div class="main-image" :style="{ backgroundImage: 'url(' + mainImageSrc + ')' }">
-            </div>
-            <div class="sub-images">
-                <div class="sub-image" @click="updateMainImage(image.id)" v-for="image in images" :key="image.id" :style="{ backgroundImage: 'url(' + image.src + ')' }">
-                </div>
+    <div class="gallery">
+        <div class="main-image" :style="{ backgroundImage: 'url(' + mainImageSrc + ')' }">
+        </div>
+        <div class="sub-images">
+            <div class="sub-image" @click="updateMainImage(image.id)" v-for="image in images" :key="image.id" :style="{ backgroundImage: 'url(' + image.src + ')' }">
             </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <style lang="scss" scoped>
-$min-width: 901px;
+@import '../../assets/variables';
 .gallery {
     display: flex;
     @media (min-width: $min-width) {
@@ -58,7 +53,7 @@ $min-width: 901px;
         width: calc(15.5vw - 25px);
         height: calc(9.2vw - 12px);
         transition: background-size .2s linear, filter .2s linear;
-            filter: brightness(70%);
+        filter: brightness(70%);
         &:hover {
             background-size: 110% auto;
             filter: brightness(100%);

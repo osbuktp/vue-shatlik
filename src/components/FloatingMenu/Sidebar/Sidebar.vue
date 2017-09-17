@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import EventBus from '../../EventBus.vue';
+import EventBus from '../../../EventBus.vue';
 import AccPanel from '../AccPanel/AccPanel.vue';
 import ShMenu from '../ShMenu/ShMenu.vue';
 import Logo from '../Logo/Logo.vue';
@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$min-width: 901px;
+@import '../../../assets/variables';
 
 .test {
     font-size: 1rem;
@@ -43,23 +43,14 @@ $min-width: 901px;
 
 .sidebar {
     position: fixed;
-    background-color: #2196F3;
+    background-color: $primary-color;
     z-index: 2;
     top: 0;
     bottom: 0;
     height: 100%;
     transition: transform .3s;
     overflow-y: auto;
-    // @media (orientation: portrait) and (max-width: 900px) {
-    //     width: 100vw;
-    //     transform: translate3d(-100vw, 0px, 0px);
-    // }
-    // @media (orientation: landscape) and (max-width: 900px) {
-    //     width: 100vh;
-    //     max-width: 360px;
-    //     transform: translate3d(-100vh, 0px, 0px);
-    // }
-    @media (max-width: 900px) {
+    @media (max-width: $max-width) {
         max-width: 100vw;
         width: 360px;
         transform: translate3d(-100%, 0px, 0px);

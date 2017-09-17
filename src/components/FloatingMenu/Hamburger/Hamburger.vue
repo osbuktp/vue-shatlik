@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import EventBus from '../../EventBus.vue';
+import EventBus from '../../../EventBus.vue';
 export default {
     data() {
         return {
@@ -30,7 +30,7 @@ export default {
 
 
 <style lang="scss" scoped>
-$min-width: 901px;
+@import '../../../assets/variables';
 $hamburger-padding-x: 4px !default;
 $hamburger-padding-y: 8px !default;
 $hamburger-layer-width: 32px !default;

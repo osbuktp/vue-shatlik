@@ -6,10 +6,12 @@
 </template>
 
 <style lang="scss" scoped>
+@import "../../assets/variables";
+
 footer {
-    background-color: #1976D2;
+    background-color: $primary-color;
     padding: 40px;
-    color: #eee;
+    color: $primary-color-text;
     font-size: 1.5rem;
     font-weight: 300;
 }
