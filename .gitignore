@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
+.vscode/
 src/assets/palette.sass
 npm-debug.log
 yarn-error.log
