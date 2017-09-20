@@ -1,99 +1,172 @@
-import MainPage from './views/MainPage.vue';
-import AboutPage from './views/AboutPage.vue';
-import StaffPage from './views/StaffPage.vue';
-import RoomsPage from './views/RoomsPage.vue';
-import ServicesPage from './views/ServicesPage.vue';
-import RatesPage from './views/RatesPage.vue';
-import ContactsPage from './views/ContactsPage.vue';
+import MainPage from './views/Main/MainPage.vue';
+import AboutPage from './views/About/AboutPage.vue';
+import StaffPage from './views/Staff/StaffPage.vue';
+import RoomsPage from './views/Rooms/RoomsPage.vue';
+import ServicesPage from './views/Services/ServicesPage.vue';
+import RatesPage from './views/Rates/RatesPage.vue';
+import ContactsPage from './views/Contacts/ContactsPage.vue';
+import Common from './views/About/Common.vue';
 
-let routes = [
-    {
-        path: '/',
-        name: 'Главная',
+let routes = {
+    '/': {
+        routeName: 'Главная',
         component: MainPage
     },
-    {
-        path: '/about',
-        name: 'О нас',
+    '/about': {
+        routeName: 'О нас',
         component: AboutPage,
-        subPaths: [
-            {
-                path: '/common',
-                name: 'Общая информация'
+        subRoutes: {
+            '/common': {
+                routeName: 'Общая информация',
+                component: Common
             },
-            {
-                path: '/conditions',
-                name: 'Условия приема'
+            '/conditions': {
+                routeName: 'Условия приема'
             },
-            {
-                path: '/schedule',
-                name: 'График работы'
+            '/schedule': {
+                routeName: 'График работы'
             },
-            {
-                path: '/rules',
-                name: 'Правила внутреннего распорядка'
+            '/rules': {
+                routeName: 'Правила внутреннего распорядка'
             },
-            {
-                path: '/docs',
-                name: 'Документы и награды'
+            '/docs': {
+                routeName: 'Документы и награды'
             }
-        ]
+        }
     },
-    {
-        path: '/staff',
-        name: 'Специалисты',
+    '/staff': {
+        routeName: 'Специалисты',
         component: StaffPage
     },
-    {
-        path: '/rooms',
-        name: 'Номерной фонд',
+    '/rooms': {
+        routeName: 'Номерной фонд',
         component: RoomsPage
     },
-    {
-        path: '/services',
-        name: 'Услуги',
+    '/services': {
+        routeName: 'Услуги',
         component: ServicesPage,
-        subPaths: [
-            {
-                path: '/domestic',
-                name: 'Социально-бытовые'
+        subRoutes: {
+            '/domestic': {
+                routeName: 'Социально-бытовые'
             },
-            {
-                path: '/medical',
-                name: 'Социально-медицинские'
+            '/medical': {
+                routeName: 'Социально-медицинские'
             },
-            {
-                path: '/psychological',
-                name: 'Социально-психологические'
+            '/psychological': {
+                routeName: 'Социально-психологические'
             },
-            {
-                path: '/educational',
-                name: 'Социально-педагогические'
+            '/educational': {
+                routeName: 'Социально-педагогические'
             },
-            {
-                path: '/labor',
-                name: 'Социально-трудовые'
+            '/labor': {
+                routeName: 'Социально-трудовые'
             },
-            {
-                path: '/legal',
-                name: 'Социально-правовые'
+            '/legal': {
+                routeName: 'Социально-правовые'
             },
-            {
-                path: '/limitation',
-                name: 'Услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности'
+            '/limitations': {
+                routeName: 'Услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности'
             }
-        ]
+        }
     },
-    {
-        path: '/rates',
-        name: 'Тарифы',
+    '/rates': {
+        routeName: 'Тарифы',
         component: RatesPage
     },
-    {
-        path: '/contacts',
-        name: 'Контакты',
+    '/contacts': {
+        routeName: 'Контакты',
         component: ContactsPage
     }
-]
+};
 
 export default routes;
+
+// let routes = [
+//     {
+//         path: '/',
+//         routeName: 'Главная',
+//         component: MainPage
+//     },
+//     {
+//         path: '/about',
+//         routeName: 'О нас',
+//         component: AboutPage,
+//         subPaths: [
+//             {
+//                 path: '/common',
+//                 routeName: 'Общая информация'
+//             },
+//             {
+//                 path: '/conditions',
+//                 routeName: 'Условия приема'
+//             },
+//             {
+//                 path: '/schedule',
+//                 routeName: 'График работы'
+//             },
+//             {
+//                 path: '/rules',
+//                 routeName: 'Правила внутреннего распорядка'
+//             },
+//             {
+//                 path: '/docs',
+//                 routeName: 'Документы и награды'
+//             }
+//         ]
+//     },
+//     {
+//         path: '/staff',
+//         routeName: 'Специалисты',
+//         component: StaffPage
+//     },
+//     {
+//         path: '/rooms',
+//         routeName: 'Номерной фонд',
+//         component: RoomsPage
+//     },
+//     {
+//         path: '/services',
+//         routeName: 'Услуги',
+//         component: ServicesPage,
+//         subPaths: [
+//             {
+//                 path: '/domestic',
+//                 routeName: 'Социально-бытовые'
+//             },
+//             {
+//                 path: '/medical',
+//                 routeName: 'Социально-медицинские'
+//             },
+//             {
+//                 path: '/psychological',
+//                 routeName: 'Социально-психологические'
+//             },
+//             {
+//                 path: '/educational',
+//                 routeName: 'Социально-педагогические'
+//             },
+//             {
+//                 path: '/labor',
+//                 routeName: 'Социально-трудовые'
+//             },
+//             {
+//                 path: '/legal',
+//                 routeName: 'Социально-правовые'
+//             },
+//             {
+//                 path: '/limitation',
+//                 routeName: 'Услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности'
+//             }
+//         ]
+//     },
+//     {
+//         path: '/rates',
+//         routeName: 'Тарифы',
+//         component: RatesPage
+//     },
+//     {
+//         path: '/contacts',
+//         routeName: 'Контакты',
+//         component: ContactsPage
+//     }
+// ]

@@ -1,6 +1,6 @@
 <template>
     <div v-if="route[0].path != '/'" class="breadcrumbs">
-        <router-link :to="path.path" class="bc__item" v-for="(path, id) in route" :key="id">
+        <router-link :to="(route.length > 1) && (id == 0) ? '': path.path" class="bc__item" v-for="(path, id) in route" :key="id">
             {{path.name}}
         </router-link>
     </div>
@@ -15,7 +15,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .bc__item {
+    text-align: center;
     text-transform: uppercase;
     color: $secondary-text-color;
     &:not(:last-child):after {
@@ -31,61 +33,30 @@
 <script>
 import routes from '../../routes.js';
 
-function returnSubPaths(paths) {
-    if (!paths) return undefined;
-    return paths.map(item => {
-        return {
-            path: item.path,
-            name: item.name
-        }
-    })
-}
 
 export default {
-    data() {
-        return {
-            paths: []
-        }
-    },
-    created() {
-        this.paths = routes.map((item) => {
-            return {
-                path: item.path,
-                name: item.name,
-                subPaths: returnSubPaths(item.subPaths)
-            }
-        });
-    },
     computed: {
         route() {
-            let currentPath = this.$route.path.split('/');
-            currentPath = currentPath.filter(item => item != "");
-            currentPath = currentPath.map( item => {
-                let n, p;
-                this.paths.forEach(path => {
-                    if (`/${item}` == path.path) {
-                        n = path.name;
-                        p = path.path;
-                    };
-                    if (path.subPaths) {
-                        path.subPaths.forEach(subPath => {
-                            if (`/${item}` == subPath.path) {
-                                n = subPath.name;
-                                p = path.path + subPath.path
-                            }
-                        })
-                    }
-                });
-                return {
-                    name: n,
-                    path: p
+            let paths = this.$route.path.split('/');
+            paths.shift();
+            if (paths[0] == "") return [{
+                path: '/',
+                name: 'Главная'
+            }];
+            let currentRoutes = [];
+            if (routes[`/${paths[0]}`]) {
+                currentRoutes.push({
+                    path: `/${paths[0]}`,
+                    name: routes[`/${paths[0]}`].routeName
+                })
+                if (routes[`/${paths[0]}`].subRoutes[`/${paths[1]}`]) {
+                    currentRoutes.push({
+                        path: `/${paths[0]}/${paths[1]}`,
+                        name: routes[`/${paths[0]}`].subRoutes[`/${paths[1]}`].routeName
+                    })
                 }
-            });
-            if (currentPath.length == 0) return [{
-                    name: 'Главная',
-                    path: '/'
-                }];
-            return currentPath;
+            };
+            return currentRoutes;
         }
     }
 }
