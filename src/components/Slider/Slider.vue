@@ -11,12 +11,12 @@
 </template>
 
 <script>
-import backImgOne from '../../assets/img1.jpg';
-import backImgOneMin from '../../assets/img1min.jpg';
-import backImgTwo from '../../assets/img2.jpg';
-import backImgTwoMin from '../../assets/img2min.jpg';
-import backImgThree from '../../assets/img3.jpg';
-import backImgThreeMin from '../../assets/img3min.jpg';
+import backImgOne from '../../assets/slider1.png';
+import backImgOneMin from '../../assets/slider1.png';
+import backImgTwo from '../../assets/slider2.png';
+import backImgTwoMin from '../../assets/slider2.png';
+import backImgThree from '../../assets/slider3.png';
+import backImgThreeMin from '../../assets/slider3.png';
 
 export default {
     data() {

@@ -6,6 +6,8 @@ import ServicesPage from './views/Services/ServicesPage.vue';
 import RatesPage from './views/Rates/RatesPage.vue';
 import ContactsPage from './views/Contacts/ContactsPage.vue';
 import Common from './views/About/Common.vue';
+import Conditions from './views/About/Conditions.vue';
+import Rules from './views/About/Rules.vue';
 
 let routes = {
     '/': {
@@ -21,13 +23,15 @@ let routes = {
                 component: Common
             },
             '/conditions': {
-                routeName: 'Условия приема'
+                routeName: 'Условия приема',
+                component: Conditions
             },
             '/schedule': {
                 routeName: 'График работы'
             },
             '/rules': {
-                routeName: 'Правила внутреннего распорядка'
+                routeName: 'Правила внутреннего распорядка',
+                component: Rules
             },
             '/docs': {
                 routeName: 'Документы и награды'

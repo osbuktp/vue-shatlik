@@ -13,13 +13,18 @@
     justify-content: center;
     font-weight: 300;
     &__inner {
-        max-width: 900px;
+        max-width: 1200px;
         box-sizing: border-box;
         padding: 20px;
     }
     &__title {
-        font-size: 2rem;
         font-weight: inherit;
+    }
+    h1.article__title {
+        font-size: 2rem;
+    }
+    h2.article__title{
+        font-size: 1.8rem;
     }
     &__quote {
         padding: 10px 0 10px 40px;

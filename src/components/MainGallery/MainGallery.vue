@@ -64,32 +64,32 @@
 </style>
 
 <script>
-// import img1 from "../../assets/MainGallery/img1.png";
-// import img2 from "../../assets/MainGallery/img2.png";
-// import img3 from "../../assets/MainGallery/img3.png";
-// import img4 from "../../assets/MainGallery/img4.png";
-// import img5 from "../../assets/MainGallery/img5.png";
-// import img6 from "../../assets/MainGallery/img6.png";
-// import img7 from "../../assets/MainGallery/img7.png";
-// import img8 from "../../assets/MainGallery/img8.png";
-// import img9 from "../../assets/MainGallery/img9.png";
-// import img10 from "../../assets/MainGallery/img10.png";
+import img1 from "../../assets/MainGallery/1.jpg";
+import img2 from "../../assets/MainGallery/2.jpg";
+import img3 from "../../assets/MainGallery/3.jpg";
+import img4 from "../../assets/MainGallery/4.jpg";
+import img5 from "../../assets/MainGallery/5.jpg";
+import img6 from "../../assets/MainGallery/6.jpg";
+import img7 from "../../assets/MainGallery/7.jpg";
+import img8 from "../../assets/MainGallery/8.jpg";
+import img9 from "../../assets/MainGallery/9.jpg";
+import img10 from "../../assets/MainGallery/10.jpg";
 
 export default {
     data() {
         return {
             currentImageId: 0,
             images: [
-                { id: 0, src: 'https://unsplash.it/600/900/?random&sig=0' },
-                { id: 1, src: 'https://unsplash.it/600/900/?random&sig=1' },
-                { id: 2, src: 'https://unsplash.it/600/900/?random&sig=2' },
-                { id: 3, src: 'https://unsplash.it/600/900/?random&sig=3' },
-                { id: 4, src: 'https://unsplash.it/600/900/?random&sig=4' },
-                { id: 5, src: 'https://unsplash.it/600/900/?random&sig=5' },
-                { id: 6, src: 'https://unsplash.it/600/900/?random&sig=6' },
-                { id: 7, src: 'https://unsplash.it/600/900/?random&sig=7' },
-                { id: 8, src: 'https://unsplash.it/600/900/?random&sig=8' },
-                { id: 9, src: 'https://unsplash.it/600/900/?random&sig=9' }
+                { id: 0, src: img1 },
+                { id: 1, src: img2 },
+                { id: 2, src: img3 },
+                { id: 3, src: img4 },
+                { id: 4, src: img5 },
+                { id: 5, src: img6 },
+                { id: 6, src: img7 },
+                { id: 7, src: img8 },
+                { id: 8, src: img9 },
+                { id: 9, src: img10 }
             ]
         }
     },
