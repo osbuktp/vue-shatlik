@@ -5,7 +5,7 @@
         </h1>
         <div class="staff__wrapper">
             <div class="staff__item" v-for="(item, id) in staff" :key="id">
-                <img :src="item.photo" :alt="item.name">
+                <img :src="'./' + item.photo" :alt="item.name">
                 <div class="item__info">
                     <p class="info__name">{{item.name}}</p>
                     <p>{{item.spec}}</p>
