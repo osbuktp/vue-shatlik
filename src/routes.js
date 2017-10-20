@@ -8,6 +8,13 @@ import ContactsPage from './views/Contacts/ContactsPage.vue';
 import Common from './views/About/Common.vue';
 import Conditions from './views/About/Conditions.vue';
 import Rules from './views/About/Rules.vue';
+import Domestic from './views/Services/Domestic.vue';
+import Medical from './views/Services/Medical.vue';
+import Educational from './views/Services/Educational.vue';
+import Labor from './views/Services/Labor.vue';
+import Legal from './views/Services/Legal.vue';
+import Psychological from './views/Services/Psychological.vue';
+import Limitations from './views/Services/Limitations.vue';
 
 let routes = {
     '/': {
@@ -51,25 +58,32 @@ let routes = {
         component: ServicesPage,
         subRoutes: {
             '/domestic': {
-                routeName: 'Социально-бытовые'
+                routeName: 'Социально-бытовые',
+                component: Domestic
             },
             '/medical': {
-                routeName: 'Социально-медицинские'
+                routeName: 'Социально-медицинские',
+                component: Medical
             },
             '/psychological': {
-                routeName: 'Социально-психологические'
+                routeName: 'Социально-психологические',
+                component: Psychological
             },
             '/educational': {
-                routeName: 'Социально-педагогические'
+                routeName: 'Социально-педагогические',
+                component: Educational
             },
             '/labor': {
-                routeName: 'Социально-трудовые'
+                routeName: 'Занятия в сенсорной комнате',
+                component: Labor
             },
             '/legal': {
-                routeName: 'Социально-правовые'
+                routeName: 'Социально-правовые',
+                component: Legal
             },
             '/limitations': {
-                routeName: 'Услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности'
+                routeName: 'Коммуникативные',
+                component: Limitations
             }
         }
     },
@@ -84,93 +98,3 @@ let routes = {
 };
 
 export default routes;
-
-// let routes = [
-//     {
-//         path: '/',
-//         routeName: 'Главная',
-//         component: MainPage
-//     },
-//     {
-//         path: '/about',
-//         routeName: 'О нас',
-//         component: AboutPage,
-//         subPaths: [
-//             {
-//                 path: '/common',
-//                 routeName: 'Общая информация'
-//             },
-//             {
-//                 path: '/conditions',
-//                 routeName: 'Условия приема'
-//             },
-//             {
-//                 path: '/schedule',
-//                 routeName: 'График работы'
-//             },
-//             {
-//                 path: '/rules',
-//                 routeName: 'Правила внутреннего распорядка'
-//             },
-//             {
-//                 path: '/docs',
-//                 routeName: 'Документы и награды'
-//             }
-//         ]
-//     },
-//     {
-//         path: '/staff',
-//         routeName: 'Специалисты',
-//         component: StaffPage
-//     },
-//     {
-//         path: '/rooms',
-//         routeName: 'Номерной фонд',
-//         component: RoomsPage
-//     },
-//     {
-//         path: '/services',
-//         routeName: 'Услуги',
-//         component: ServicesPage,
-//         subPaths: [
-//             {
-//                 path: '/domestic',
-//                 routeName: 'Социально-бытовые'
-//             },
-//             {
-//                 path: '/medical',
-//                 routeName: 'Социально-медицинские'
-//             },
-//             {
-//                 path: '/psychological',
-//                 routeName: 'Социально-психологические'
-//             },
-//             {
-//                 path: '/educational',
-//                 routeName: 'Социально-педагогические'
-//             },
-//             {
-//                 path: '/labor',
-//                 routeName: 'Социально-трудовые'
-//             },
-//             {
-//                 path: '/legal',
-//                 routeName: 'Социально-правовые'
-//             },
-//             {
-//                 path: '/limitation',
-//                 routeName: 'Услуги в целях повышения коммуникативного потенциала получателей социальных услуг, имеющих ограничения жизнедеятельности'
-//             }
-//         ]
-//     },
-//     {
-//         path: '/rates',
-//         routeName: 'Тарифы',
-//         component: RatesPage
-//     },
-//     {
-//         path: '/contacts',
-//         routeName: 'Контакты',
-//         component: ContactsPage
-//     }
-// ]

@@ -1,6 +1,5 @@
 <template>
     <simple-page>
-        <div class="title">
             <h1 class="article__title">
                 Центр социальной помощи «Шатлык»
             </h1>
@@ -23,7 +22,6 @@
             <h1 class="article__title">
                 Заинск ждет вас! Приезжайте в наш центр, чтобы набраться сил и здоровья!
             </h1>
-        </div>
     </simple-page>
 </template>
 
