@@ -15,6 +15,7 @@ import Labor from './views/Services/Labor.vue';
 import Legal from './views/Services/Legal.vue';
 import Psychological from './views/Services/Psychological.vue';
 import Limitations from './views/Services/Limitations.vue';
+import InDev from './views/InDev/InDev.vue';
 
 let routes = {
     '/': {
@@ -34,14 +35,16 @@ let routes = {
                 component: Conditions
             },
             '/schedule': {
-                routeName: 'График работы'
+                routeName: 'График работы',
+                component: InDev
             },
             '/rules': {
                 routeName: 'Правила внутреннего распорядка',
                 component: Rules
             },
             '/docs': {
-                routeName: 'Документы и награды'
+                routeName: 'Документы и награды',
+                component: InDev
             }
         }
     },
@@ -65,16 +68,16 @@ let routes = {
                 routeName: 'Социально-медицинские',
                 component: Medical
             },
-            '/psychological': {
-                routeName: 'Социально-психологические',
-                component: Psychological
-            },
+            // '/psychological': {
+            //     routeName: 'Социально-психологические',
+            //     component: Psychological
+            // },
             '/educational': {
                 routeName: 'Социально-педагогические',
                 component: Educational
             },
             '/labor': {
-                routeName: 'Занятия в сенсорной комнате',
+                routeName: 'Социально-психологические',
                 component: Labor
             },
             '/legal': {
@@ -82,7 +85,7 @@ let routes = {
                 component: Legal
             },
             '/limitations': {
-                routeName: 'Коммуникативные',
+                routeName: 'Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности',
                 component: Limitations
             }
         }

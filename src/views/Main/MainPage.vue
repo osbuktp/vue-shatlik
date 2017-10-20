@@ -1,10 +1,10 @@
 <template>
     <div id="main-page">
         <slider></slider>
-        <section class="news">
+        <!-- <section class="news">
             <section-header message="Новости"></section-header>
             <news></news>
-        </section>
+        </section> -->
         <section class="reasons">
             <section-header message="10 причин приехать к нам"></section-header>
             <reasons></reasons>
@@ -31,7 +31,7 @@ import MainGallery from '../../components/MainGallery/MainGallery.vue';
 import FAQ from '../../components/FAQ/FAQ.vue';
 import YandexMap from '../../components/YandexMap/YandexMap.vue';
 import SectionHeader from '../../components/SectionHeader/SectionHeader.vue';
-import News from '../../components/News/News.vue';
+// import News from '../../components/News/News.vue';
 
 export default {
     components: {
@@ -40,8 +40,8 @@ export default {
         MainGallery,
         FAQ,
         YandexMap,
-        SectionHeader,
-        News
+        SectionHeader
+        // News
     }
 }
 </script>

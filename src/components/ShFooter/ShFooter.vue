@@ -8,7 +8,8 @@
             </p>
             <div class="site-map__wrapper">
             <div class="site-map__menu" v-for="(routeObj, route, id) in routes" :key="id">
-            <router-link class="site-map__route" :to="route">{{routeObj.routeName}}</router-link>
+            <router-link v-if="routeObj.subRoutes == undefined" class="site-map__route" :to="route">{{routeObj.routeName}}</router-link>
+            <a v-else class="site-map__route">{{routeObj.routeName}}</a>
             <router-link class="site-map__route site-map__sub-route" v-for="(subRouteObj, subRoute, subID) in routeObj.subRoutes" :key="subID" :to="route + subRoute">{{subRouteObj.routeName}}</router-link>
             </div>
             </div>
