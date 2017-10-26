@@ -58,10 +58,10 @@ export default {
     @media (min-width: $min-width) {
         overflow: visible;
         position: static;
-        min-height: 120px;
-        height: 20vh;
-        display: flex;
-        flex-direction: column;
+        min-height: 200px;
+        // height: 20vh;
+        // display: flex;
+        // flex-direction: column;
     }
 }
 

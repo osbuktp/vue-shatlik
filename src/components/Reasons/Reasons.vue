@@ -78,6 +78,7 @@
         }
         &-title {
             text-align: center;
+            font-family: 'Lobster', sans-serif;
             transition: opacity .5s ease, max-height .5s ease, ;
             max-height: 2.4rem;
             overflow: hidden;
@@ -119,16 +120,16 @@
 </style>
 
 <script>
-import r1 from '../../assets/reasons/r1.jpg';
-import r2 from '../../assets/reasons/r2.jpg';
-import r3 from '../../assets/reasons/r3.jpg';
-import r4 from '../../assets/reasons/r4.jpg';
-import r5 from '../../assets/reasons/r5.jpg';
-import r6 from '../../assets/reasons/r6.jpg';
-import r7 from '../../assets/reasons/r7.jpg';
-import r8 from '../../assets/reasons/r8.jpg';
-import r9 from '../../assets/reasons/r9.jpg';
-import r10 from '../../assets/reasons/r10.jpg';
+import r1 from '../../assets/reasons/1.jpg';
+import r2 from '../../assets/reasons/2.jpg';
+import r3 from '../../assets/reasons/3.jpg';
+import r4 from '../../assets/reasons/4.jpg';
+import r5 from '../../assets/reasons/5.jpg';
+import r6 from '../../assets/reasons/6.jpg';
+import r7 from '../../assets/reasons/7.jpg';
+import r8 from '../../assets/reasons/8.jpg';
+import r9 from '../../assets/reasons/9.jpg';
+import r10 from '../../assets/reasons/10.jpg';
 
 export default {
     methods: {

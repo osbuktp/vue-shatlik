@@ -11,12 +11,12 @@
 </template>
 
 <script>
-import backImgOne from '../../assets/slider1.png';
-import backImgOneMin from '../../assets/slider1.png';
-import backImgTwo from '../../assets/slider2.png';
-import backImgTwoMin from '../../assets/slider2.png';
-import backImgThree from '../../assets/slider3.png';
-import backImgThreeMin from '../../assets/slider3.png';
+import backImgOne from '../../assets/slider/1.png';
+import backImgOneMin from '../../assets/slider/1.png';
+import backImgTwo from '../../assets/slider/2.png';
+import backImgTwoMin from '../../assets/slider/2.png';
+import backImgThree from '../../assets/slider/3.png';
+import backImgThreeMin from '../../assets/slider/3.png';
 
 export default {
     data() {
@@ -91,6 +91,7 @@ export default {
     box-sizing: border-box;
 }
 .slider__image-text {
+    font-family: 'Lobster', sans-serif;
     background-color: rgba(25, 118, 210, 0.8);
     padding: 20px;
     text-align: center;

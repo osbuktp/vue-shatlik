@@ -4,7 +4,7 @@ var webpack = require('webpack')
 module.exports = {
   entry: {
     app: './src/main.js',
-    vendor: ['vue']
+    vendor: ['vue', 'vue-router', 'vue-resource']
   },
   output: {
     path: path.resolve(__dirname, './dist'),

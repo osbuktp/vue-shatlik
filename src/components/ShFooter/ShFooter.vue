@@ -70,11 +70,12 @@ footer {
     flex-direction: column;
     align-content: left;
     @media (min-width: $min-width) {
-    height: 360px;
+    height: 27rem;
     }
   }
   .site-map__menu {
-    padding-right: 40px;
+    margin-right: 40px;
+    max-width: 320px;
   }
   .site-map__title, .contacts__title {
     font-size: 1.7rem;
