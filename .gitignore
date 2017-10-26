@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
+src/
 .vscode/
 src/assets/palette.sass
 npm-debug.log
