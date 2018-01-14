@@ -2,54 +2,17 @@
   <div>
     <header>
       <section class="menu">
-        <nav class="navbar is-link">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-              <img src="./assets/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-            </a>
-            <div :class="{'is-active': isMenuToggled}" @click="isMenuToggled = !isMenuToggled" class="navbar-burger burger" data-target="navMenuColorlink-example">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-
-          <div id="navMenuColorlink-example" :class="{'is-active': isMenuToggled}" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item" href="https://bulma.io/">
-                Главная
-              </a>
-              <a href="#" class="navbar-item">
-                Об учреждении
-              </a>
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" href="/documentation/overview/start/">
-                  Услуги
-                </a>
-                <div class="navbar-dropdown">
-                  <a class="navbar-item" href="/documentation/overview/start/">
-                    Предоставляемые услуги
-                  </a>
-                  <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-                    Порядок и условия предоставления социальных услуг
-                  </a>
-                  <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-                    Численность получателей и объем предоставляемых социальных услуг
-                  </a>
-                  <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-                    Количество свободных мест
-                  </a>
-                  <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
-                  </a>
-                </div>
+        <nav class="navbar is-info">
+          <div class="container">
+            <div class="navbar-brand">
+              <router-link class="navbar-item" to="/">
+                <img src="./assets/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+              </router-link>
+              <div :class="{'is-active': isMenuToggled}" @click="isMenuToggled = !isMenuToggled" class="navbar-burger burger" data-target="navMenuColorlink-example">
+                <span></span>
+                <span></span>
+                <span></span>
               </div>
-              <a href="#" class="navbar-item">
-                Информация о деятельности
-              </a>
-              <a href="#" class="navbar-item">
-                Проводимые мероприятия
-              </a>
             </div>
 
             <div class="navbar-end">
@@ -59,6 +22,48 @@
                   <p class="control">Телефон</p>
                   <p class="control">Email</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <nav class="navbar is-info">
+          <div :class="{'is-active': isMenuToggled}" class="navbar-menu">
+            <div class="container">
+              <div class="navbar-start">
+                <router-link class="navbar-item" to="/">
+                  Главная
+                </router-link>
+                <router-link to="/about" class="navbar-item">
+                  Об учреждении
+                </router-link>
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    Услуги
+                  </a>
+                  <div class="navbar-dropdown">
+                    <router-link class="navbar-item" to="/services">
+                      Предоставляемые услуги
+                    </router-link>
+                    <router-link class="navbar-item" to="/services/conditions">
+                      Порядок и условия предоставления социальных услуг
+                    </router-link>
+                    <router-link class="navbar-item" to="/services/amount">
+                      Численность получателей и объем предоставляемых социальных услуг
+                    </router-link>
+                    <router-link class="navbar-item" to="/services/spots">
+                      Количество свободных мест
+                    </router-link>
+                    <router-link class="navbar-item" to="/services/complaints">
+                      Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
+                    </router-link>
+                  </div>
+                </div>
+                <router-link to="/activities" class="navbar-item">
+                  Информация о деятельности
+                </router-link>
+                <router-link to="/events" class="navbar-item">
+                  Проводимые мероприятия
+                </router-link>
               </div>
             </div>
           </div>
@@ -77,36 +82,9 @@
         </div>
       </section>
     </header>
-    <main class="main">
-      <section class="section reasons">
-        <div class="container">
-          <h1 class="title has-text-centered">
-            10 причин
-          </h1>
-        </div>
-      </section>
-      <section class="section excursion">
-        <div class="container">
-          <h1 class="title has-text-centered">
-            Экскурсия по санаторию
-          </h1>
-        </div>
-      </section>
-      <section class="section faq">
-        <div class="container">
-          <h1 class="title has-text-centered">
-            Часто задаваемые вопросы
-          </h1>
-        </div>
-      </section>
-      <section class="section yandex-map">
-        <div class="container">
-          <h1 class="title has-text-centered">
-            Мы на YandexMaps
-          </h1>
-        </div>
-      </section>
-    </main>
+
+    <router-view></router-view>
+
     <footer class="footer">
       <section class="section">
         <div class="container">
@@ -117,40 +95,54 @@
               </p>
               <ul class="menu-list">
                 <li>
-                  <a>Главная</a>
+                  <router-link to="/">
+                    Главная
+                  </router-link>
                 </li>
                 <li>
-                  <a>Об учреждении</a>
+                  <router-link to="/about">
+                    Об учреждении
+                  </router-link>
                 </li>
                 <li>
                   <a>Услуги</a>
                   <ul>
                     <li>
-                      <a>Предоставляемые услуги</a>
+                      <router-link to="/services">
+                        Предоставляемые услуги
+                      </router-link>
                     </li>
                     <li>
-                      <a>Порядок и условия предоставления социальных услуг</a>
+                      <router-link to="/services/conditions">
+                        Порядок и условия предоставления социальных услуг
+                      </router-link>
                     </li>
                     <li>
-                      <a>Численность получателей и объем предоставляемых социальных услуг</a>
+                      <router-link to="/services/amount">
+                        Численность получателей и объем предоставляемых социальных услуг
+                      </router-link>
                     </li>
                     <li>
-                      <a>
+                      <router-link to="/services/spots">
                         Количество свободных мест
-                      </a>
+                      </router-link>
                     </li>
                     <li>
-                      <a>
+                      <router-link to="/services/complaints">
                         Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
-                      </a>
+                      </router-link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a>Информация о деятельности</a>
+                  <router-link to="/activities" class="navbar-item">
+                    Информация о деятельности
+                  </router-link>
                 </li>
                 <li>
-                  <a>Проводимые мероприятия</a>
+                  <router-link to="/events" class="navbar-item">
+                    Проводимые мероприятия
+                  </router-link>
                 </li>
               </ul>
             </menu>
@@ -180,18 +172,21 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700');
-
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700");
 
 body {
-  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+  font-family: "Source Sans Pro", "Open Sans", sans-serif;
 }
 
 .navbar-brand img {
   width: auto;
   margin: 10px;
   min-height: 5rem;
+}
+
+.navbar {
+  min-height: 0;
 }
 
 .main .title {
