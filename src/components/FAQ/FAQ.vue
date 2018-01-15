@@ -9,8 +9,7 @@
 
 <style lang="scss" scoped>
 .faq__questions {
-    padding: 20px;
-    font-size: 1.3rem;
+    padding: 20px 0px;
 }
 
 details {

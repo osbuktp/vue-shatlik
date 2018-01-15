@@ -75,7 +75,7 @@ export default {
   height: 300px;
   box-sizing: border-box;
   top: calc(50% - 150px);
-  right: 0px;
+  left: 0px;
   flex-direction: column;
   background-color: #eeeeee;
   justify-content: center;

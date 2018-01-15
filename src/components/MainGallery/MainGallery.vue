@@ -11,50 +11,33 @@
 
 <style lang="scss" scoped>
 @import "~bulma/sass/utilities/mixins";
-
 .gallery {
   display: flex;
-  @include desktop {
-    height: 46vw;
-  }
 }
-
 .main-image {
-  display: none;
-  @include desktop {
-    display: block;
-    width: calc(69vw - 74px);
-    height: calc(100% - 20px);
-    margin: 10px 0;
-    background-size: cover;
-  }
-}
-
-.main-image,
-.sub-image {
+  margin: 5px 0px;
+  flex: 1;
+  background-size: cover;
   background-position: center;
 }
-
 .sub-images {
-  flex: 1;
+  padding: 2.5px;
   display: flex;
   flex-wrap: wrap;
-  padding: 5px;
   justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
-
-.sub-image {
-  margin: 5px;
-  background-size: cover;
-  width: calc(50vw - 67px);
-  min-width: 300px;
-  height: 30vw;
   @include desktop {
-    min-width: 0;
-    width: calc(15.5vw - 10px);
-    height: calc(9.2vw - 12px);
+    width: 475px;
+  }
+}
+.sub-image {
+  width: 300px;
+  height: 200px;
+  background-position: center;
+  background-size: 100% auto;
+  margin: 2.5px;
+  @include desktop {
+    width: 230px;
+    height: 150px;
     transition: background-size 0.2s linear, filter 0.2s linear;
     filter: brightness(70%);
     &:hover {
@@ -64,6 +47,58 @@
     }
   }
 }
+// .gallery {
+//     display: flex;
+//     @include desktop {
+//         height: 46vw;
+//     }
+// }
+
+// .main-image {
+//     display: none;
+//     @include desktop {
+//         display: block;
+//         width: calc(69vw - 10px);
+//         height: calc(100% - 20px);
+//         margin: 10px 0 10px 10px;
+//         background-size: cover;
+//     }
+// }
+
+// .main-image,
+// .sub-image {
+//     background-position: center;
+// }
+
+// .sub-images {
+//     flex: 1;
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 5px;
+//     justify-content: center;
+//     align-items: center;
+//     box-sizing: border-box;
+// }
+
+// .sub-image {
+//     margin: 5px;
+//     background-size: 100% auto;
+//     min-width: 300px;
+//     max-width: calc(50vw - 40px);
+//     height: 30vw;
+//     @include desktop {
+//         min-width: 0;
+//         width: calc(15.5vw - 67px);
+//         height: calc(9.2vw - 12px);
+//         transition: background-size .2s linear, filter .2s linear;
+//         filter: brightness(70%);
+//         &:hover {
+//             background-size: 110% auto;
+//             filter: brightness(100%);
+//             cursor: pointer;
+//         }
+//     }
+// }
 </style>
 
 <script>

@@ -19,9 +19,18 @@
             <div class="navbar-end">
               <div class="navbar-item">
                 <div class="field is-grouped">
-                  <p class="control">Адрес</p>
-                  <p class="control">Телефон</p>
-                  <p class="control">Email</p>
+                  <div class="info-field">
+                    <p>Адрес</p>
+                    <p>г. Заинск, ул.Тукая, д. 5А</p>
+                  </div>
+                  <div class="info-field">
+                  <p>Телефон</p>
+                  <p>+7(85558)3-32-32</p>
+                  </div>
+                  <div class="info-field">
+                  <p>Email</p>
+                  <p>shatlykcsp@yandex.ru</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -162,7 +171,7 @@
 </template>
 
 <script>
-import AccPanel from './components/AccPanel/AccPanel.vue';
+import AccPanel from "./components/AccPanel/AccPanel.vue";
 export default {
   components: {
     AccPanel

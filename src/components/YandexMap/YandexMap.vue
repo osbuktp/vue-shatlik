@@ -21,12 +21,13 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "../../assets/variables";
+@import "~bulma/sass/utilities/mixins";
+
 .yandex-map {
   &__map {
     height: 60vh;
     min-height: 300px;
-    @media (min-width: $min-width) {
+    @include desktop {
       height: 600px;
     }
   }
