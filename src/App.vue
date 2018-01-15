@@ -18,18 +18,18 @@
 
             <div class="navbar-end">
               <div class="navbar-item">
-                <div class="field is-grouped">
-                  <div class="info-field">
+                <div class="field is-grouped info-fields">
+                  <div class="info-field home">
                     <p>Адрес</p>
                     <p>г. Заинск, ул.Тукая, д. 5А</p>
                   </div>
-                  <div class="info-field">
-                  <p>Телефон</p>
-                  <p>+7(85558)3-32-32</p>
+                  <div class="info-field phone">
+                    <p>Телефон</p>
+                    <p>+7(85558)3-32-32</p>
                   </div>
-                  <div class="info-field">
-                  <p>Email</p>
-                  <p>shatlykcsp@yandex.ru</p>
+                  <div class="info-field email">
+                    <p>Email</p>
+                    <p>shatlykcsp@yandex.ru</p>
                   </div>
                 </div>
               </div>
@@ -82,12 +82,14 @@
       <section class="hero is-info">
         <div class="hero-body">
           <div class="container">
+            <div class="is-info hero-info">
             <h1 class="title">
-              Say something loving
+              Шатлык
             </h1>
             <h2 class="subtitle">
-              The xx
+              Центр социальной помощи
             </h2>
+            </div>
           </div>
         </div>
       </section>
@@ -188,6 +190,7 @@ export default {
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700");
+@import "~bulma/sass/utilities/initial-variables.sass";
 
 body {
   font-family: "Source Sans Pro", "Open Sans", sans-serif;
@@ -199,6 +202,11 @@ body {
   background-size: cover;
   padding: 200px 0;
 }
+.hero-info {
+  display: inline-block;
+  background-color: rgba($cyan, 0.5);
+  padding: 10px;
+}
 
 .navbar-brand img {
   width: auto;
@@ -209,11 +217,44 @@ body {
 .navbar {
   min-height: 0;
 }
+.navbar-item {
+  color: inherit;
+}
 
-// .navbar-overflow {
-//   overflow-x: auto;
-// }
-
+.info-fields {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info-field {
+  position: relative;
+  padding: 10px 30px;
+  margin: 16px 10px;
+  flex: 1;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.info-field::before {
+  content: "";
+  z-index: 999;
+  display: inline-block;
+  position: absolute;
+  top: calc(50% - 16px);
+  left: -17px;
+  background-color: $cyan;
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-size: cover;
+}
+.home::before {
+  background-image: url("./assets/svg/home.svg");
+}
+.phone::before {
+  background-image: url("./assets/svg/phone.svg");
+}
+.email::before {
+  background-image: url("./assets/svg/email.svg");
+}
 .main .title {
   font-weight: 300;
 }
