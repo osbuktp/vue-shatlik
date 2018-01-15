@@ -217,8 +217,8 @@ body {
 .navbar {
   min-height: 0;
 }
-.navbar-item {
-  color: inherit;
+.info-field {
+  color: white;
 }
 
 .info-fields {
