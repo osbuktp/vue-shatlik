@@ -5,7 +5,6 @@ import routes from './routes.js';
 
 import Bulma from 'bulma';
 
-
 Vue.use(VueRouter);
 const router = new VueRouter({
   routes

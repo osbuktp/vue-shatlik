@@ -1,6 +1,7 @@
 <template>
   <div>
     <header>
+      <acc-panel></acc-panel>
       <section class="menu">
         <nav class="navbar is-info">
           <div class="container">
@@ -29,7 +30,7 @@
         <nav class="navbar is-info">
           <div :class="{'is-active': isMenuToggled}" class="navbar-menu">
             <div class="container">
-              <div class="navbar-start">
+              <div class="navbar-start navbar-overflow">
                 <router-link class="navbar-item" to="/">
                   Главная
                 </router-link>
@@ -161,7 +162,11 @@
 </template>
 
 <script>
+import AccPanel from './components/AccPanel/AccPanel.vue';
 export default {
+  components: {
+    AccPanel
+  },
   name: "app",
   data() {
     return {
@@ -179,6 +184,13 @@ body {
   font-family: "Source Sans Pro", "Open Sans", sans-serif;
 }
 
+.hero {
+  background-image: url(./assets/house.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+}
+
 .navbar-brand img {
   width: auto;
   margin: 10px;
@@ -188,6 +200,10 @@ body {
 .navbar {
   min-height: 0;
 }
+
+// .navbar-overflow {
+//   overflow-x: auto;
+// }
 
 .main .title {
   font-weight: 300;
