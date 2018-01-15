@@ -7,7 +7,7 @@
           <div class="container">
             <div class="navbar-brand">
               <router-link class="navbar-item" to="/">
-                <img src="./assets/logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+                <img src='../src/assets/logo.png' width="112" height="28">
               </router-link>
               <div :class="{'is-active': isMenuToggled}" @click="isMenuToggled = !isMenuToggled" class="navbar-burger burger" data-target="navMenuColorlink-example">
                 <span></span>
@@ -247,13 +247,13 @@ body {
   background-size: cover;
 }
 .home::before {
-  background-image: url("./assets/svg/home.svg");
+  background-image: url('./assets/svg/home.svg');
 }
 .phone::before {
-  background-image: url("./assets/svg/phone.svg");
+  background-image: url('./assets/svg/phone.svg');
 }
 .email::before {
-  background-image: url("./assets/svg/email.svg");
+  background-image: url('./assets/svg/email.svg');
 }
 .main .title {
   font-weight: 300;

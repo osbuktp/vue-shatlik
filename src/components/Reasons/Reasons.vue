@@ -1,6 +1,6 @@
 <template>
     <div class="reasons-slider">
-        <div @click="toggleReason(reason.id)" class="reason" :class="{ 'reason_opened': currentReasonId == reason.id }" v-for="reason in reasons" :key="reason.id" :style="{'background-image': 'url(.' + reason.background + ')'}">
+        <div @click="toggleReason(reason.id)" class="reason" :class="{ 'reason_opened': currentReasonId == reason.id }" v-for="reason in reasons" :key="reason.id" :style="{'background-image': 'url(./' + reason.background + ')'}">
             <div class="reason-title">
                 <p>{{ reason.id }}</p>
             </div>

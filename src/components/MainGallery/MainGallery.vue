@@ -1,9 +1,9 @@
 <template>
     <div class="gallery">
-        <div class="main-image" :style="{ backgroundImage: 'url(' + mainImageSrc + ')' }">
+        <div class="main-image" :style="{ backgroundImage: 'url(./' + mainImageSrc + ')' }">
         </div>
         <div class="sub-images">
-            <div class="sub-image" @click="updateMainImage(image.id)" v-for="image in images" :key="image.id" :style="{ backgroundImage: 'url(' + image.src + ')' }">
+            <div class="sub-image" @click="updateMainImage(image.id)" v-for="image in images" :key="image.id" :style="{ backgroundImage: 'url(./' + image.src + ')' }">
             </div>
         </div>
     </div>
