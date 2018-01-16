@@ -1,5 +1,5 @@
 <template>
-    <section class="section content">
+    <section class="section content container">
         <h1>Предоставляемые услуги</h1>
         <ul>
             <li>

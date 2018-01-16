@@ -1,5 +1,5 @@
 <template>
-    <section class="section content">
+    <section class="section content container">
         <h1>
             Режим дня центра социальной помощи «Шатлык»
         </h1>

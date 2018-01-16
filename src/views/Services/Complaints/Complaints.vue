@@ -1,5 +1,5 @@
 <template>
-    <section class="section content">
+    <section class="section content container">
         <h1>
             Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
         </h1>

@@ -1,5 +1,5 @@
 <template>
-    <section class="section content">
+    <section class="section content container">
         <h1>Условия приема в ЦСП «Шатлык»</h1>
         <h2>
             (Стационарная форма)
