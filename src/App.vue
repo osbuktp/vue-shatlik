@@ -43,9 +43,24 @@
                 <router-link class="navbar-item" to="/">
                   Главная
                 </router-link>
-                <router-link to="/about" class="navbar-item">
-                  Об учреждении
-                </router-link>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    Об учреждении
+                  </a>
+                  <div class="navbar-dropdown">
+                    <router-link class="navbar-item" to="/about">
+                      Общая информация
+                    </router-link>
+                    <router-link class="navbar-item" to="/about/conditions">
+                      Условия приема
+                    </router-link>
+                    <router-link class="navbar-item" to="/about/rules">
+                      Режим дня
+                    </router-link>
+                  </div>
+                </div>
+
                 <div class="navbar-item has-dropdown is-hoverable">
                   <a class="navbar-link">
                     Услуги
@@ -83,12 +98,12 @@
         <div class="hero-body">
           <div class="container">
             <div class="is-info hero-info">
-            <h1 class="title">
-              Шатлык
-            </h1>
-            <h2 class="subtitle">
-              Центр социальной помощи
-            </h2>
+              <h1 class="title">
+                Шатлык
+              </h1>
+              <h2 class="subtitle">
+                Центр социальной помощи
+              </h2>
             </div>
           </div>
         </div>
@@ -112,9 +127,24 @@
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/about">
-                    Об учреждении
-                  </router-link>
+                  <a>Об учреждении</a>
+                  <ul>
+                    <li>
+                      <router-link to="/about">
+                        Общая информация
+                      </router-link>
+                    </li>
+                    <li>
+                      <router-link to="/about/conditions">
+                        Условия приема
+                      </router-link>
+                    </li>
+                    <li>
+                      <router-link to="/about/rules">
+                        Режим дня
+                      </router-link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a>Услуги</a>
@@ -200,7 +230,7 @@ body {
   background-image: url(./assets/house.jpg);
   background-position: center;
   background-size: cover;
-  padding: 200px 0;
+  padding: 150px 0;
 }
 .hero-info {
   display: inline-block;
@@ -247,13 +277,13 @@ body {
   background-size: cover;
 }
 .home::before {
-  background-image: url('./assets/svg/home.svg');
+  background-image: url("./assets/svg/home.svg");
 }
 .phone::before {
-  background-image: url('./assets/svg/phone.svg');
+  background-image: url("./assets/svg/phone.svg");
 }
 .email::before {
-  background-image: url('./assets/svg/email.svg');
+  background-image: url("./assets/svg/email.svg");
 }
 .main .title {
   font-weight: 300;

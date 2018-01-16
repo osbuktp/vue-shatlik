@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 12);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -274,7 +274,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(25)
+var listToStyles = __webpack_require__(26)
 
 /*
 type StyleObject = {
@@ -507,7 +507,37 @@ module.exports = g;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_AccPanel_AccPanel_vue__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_AccPanel_AccPanel_vue__ = __webpack_require__(27);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -775,10 +805,10 @@ let html = document.querySelector("html");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Reasons_Reasons_vue__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_MainGallery_MainGallery_vue__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_FAQ_FAQ_vue__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_YandexMap_YandexMap_vue__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Reasons_Reasons_vue__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_MainGallery_MainGallery_vue__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_FAQ_FAQ_vue__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_YandexMap_YandexMap_vue__ = __webpack_require__(69);
 //
 //
 //
@@ -838,25 +868,25 @@ let html = document.querySelector("html");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_reasons_1_jpg__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_reasons_1_jpg__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_reasons_1_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_reasons_1_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_reasons_2_jpg__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_reasons_2_jpg__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_reasons_2_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_reasons_2_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_reasons_3_jpg__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_reasons_3_jpg__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_reasons_3_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__assets_reasons_3_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_reasons_4_jpg__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_reasons_4_jpg__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_reasons_4_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__assets_reasons_4_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_reasons_5_jpg__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_reasons_5_jpg__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_reasons_5_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__assets_reasons_5_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_reasons_6_jpg__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_reasons_6_jpg__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_reasons_6_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__assets_reasons_6_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_reasons_7_jpg__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_reasons_7_jpg__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_reasons_7_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__assets_reasons_7_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_reasons_8_jpg__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_reasons_8_jpg__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_reasons_8_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__assets_reasons_8_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_reasons_9_jpg__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_reasons_9_jpg__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_reasons_9_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__assets_reasons_9_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_reasons_10_jpg__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_reasons_10_jpg__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_reasons_10_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__assets_reasons_10_jpg__);
 //
 //
@@ -1086,25 +1116,25 @@ let html = document.querySelector("html");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_maingallery_mg1_jpg__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_maingallery_mg1_jpg__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_maingallery_mg1_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_maingallery_mg1_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_maingallery_mg2_jpg__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_maingallery_mg2_jpg__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_maingallery_mg2_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_maingallery_mg2_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_maingallery_mg3_jpg__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_maingallery_mg3_jpg__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_maingallery_mg3_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__assets_maingallery_mg3_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_maingallery_mg4_jpg__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_maingallery_mg4_jpg__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_maingallery_mg4_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__assets_maingallery_mg4_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_maingallery_mg5_jpg__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_maingallery_mg5_jpg__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_maingallery_mg5_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__assets_maingallery_mg5_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_maingallery_mg6_jpg__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_maingallery_mg6_jpg__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_maingallery_mg6_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__assets_maingallery_mg6_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_maingallery_mg7_jpg__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_maingallery_mg7_jpg__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_maingallery_mg7_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__assets_maingallery_mg7_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_maingallery_mg8_jpg__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_maingallery_mg8_jpg__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_maingallery_mg8_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__assets_maingallery_mg8_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_maingallery_mg9_jpg__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_maingallery_mg9_jpg__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_maingallery_mg9_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__assets_maingallery_mg9_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_maingallery_mg10_jpg__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_maingallery_mg10_jpg__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_maingallery_mg10_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__assets_maingallery_mg10_jpg__);
 //
 //
@@ -1308,7 +1338,7 @@ let html = document.querySelector("html");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_yandex_maps__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_yandex_maps__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_yandex_maps___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue_yandex_maps__);
 //
 //
@@ -1335,12 +1365,115 @@ let html = document.querySelector("html");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  data() {
+    return {
+      rules: [{
+        start: "7:00",
+        end: "7:45",
+        text: "Лечебная гимнастика"
+      }, {
+        start: "8:00",
+        end: "8:15",
+        text: "Завтрак"
+      }, {
+        start: "8:15",
+        end: "9:00",
+        text: "Реабилитационные мероприятия: консультация медсестры, консультация врача- терапевта, выполнение медицинских процедур, инъекций, физиотерапия, массаж, гирудотерапия, трудотерапия"
+      }, {
+        start: "9:00",
+        end: "10:00",
+        text: "Реабилитационные мероприятия: лечебная физкультура, релаксация, трудотерапия, гимнастика для коррекции зрения / Скандинавская ходьба  (вторник, четверг)"
+      }, {
+        start: "10:00",
+        end: "10:15",
+        text: "Второй завтрак"
+      }, {
+        start: "10:15",
+        end: "11:00",
+        text: "Реабилитационные мероприятия: лечебная физкультура, релаксация, трудотерапия, гимнастика для коррекции зрения, физиотерапия, массаж"
+      }, {
+        start: "11:00",
+        end: "11:15",
+        text: "Кислородный коктейль"
+      }, {
+        start: "11:15",
+        end: "11:55",
+        text: "Беседа с психологом (понедельник, среда, пятница) <br> Встреча с врачом – терапевтом (вторник) <br> Консультации по социально-правовым вопросам (четверг)"
+      }, {
+        start: "11:55",
+        end: "12:10",
+        text: "Фиточай"
+      }, {
+        start: "12:10",
+        end: "12:45",
+        text: "Реабилитационный досуг"
+      }, {
+        start: "12:45",
+        end: "13:15",
+        text: "Обед"
+      }, {
+        start: "13:15",
+        end: "15:00",
+        text: "Реабилитационные мероприятия для стационара: консультация медсестры, выполнение медицинских процедур, инъекций, физиотерапия, массаж, трудотерапия"
+      }, {
+        start: "15:00",
+        end: "15:15",
+        text: "Полдник"
+      }, {
+        start: "15:15",
+        end: "17:00",
+        text: "Индивидуальные и групповые занятия:  консультации специалистов, занятия в тренажерном зале, реабилитационный досуг"
+      }, {
+        start: "17:00",
+        end: "18:00",
+        text: "Прогулка на свежем воздухе, встречи с посетителями"
+      }, {
+        start: "18:00",
+        end: "18:30",
+        text: "Ужин"
+      }, {
+        start: "18:30",
+        end: "19:00",
+        text: "Свободное время, встречи с посетителями"
+      }, {
+        start: "22:00",
+        end: "",
+        text: "Отбой"
+      }]
+    };
+  }
+});
+
+/***/ }),
+/* 12 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__App_vue__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__routes_js__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bulma__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__App_vue__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__routes_js__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bulma__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bulma___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bulma__);
 
 
@@ -1362,7 +1495,7 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 });
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12154,10 +12287,10 @@ Vue$3.compile = compileToFunctions;
 
 /* harmony default export */ __webpack_exports__["a"] = (Vue$3);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3), __webpack_require__(13).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3), __webpack_require__(14).setImmediate))
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -12210,13 +12343,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(14);
+__webpack_require__(15);
 exports.setImmediate = setImmediate;
 exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -12406,10 +12539,10 @@ exports.clearImmediate = clearImmediate;
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(15)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(16)))
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -12599,7 +12732,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15229,15 +15362,15 @@ if (inBrowser && window.Vue) {
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(4);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6f9811c8_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c4bac002_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(31);
 function injectStyle (ssrContext) {
-  __webpack_require__(18)
+  __webpack_require__(19)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15255,7 +15388,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6f9811c8_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c4bac002_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -15266,36 +15399,36 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(19);
+var content = __webpack_require__(20);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("2e3fe793", content, true);
+var update = __webpack_require__(2)("4e5f41e4", content, true);
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(20);
+var escape = __webpack_require__(21);
 exports = module.exports = __webpack_require__(1)(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lobster);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);", ""]);
 
 // module
-exports.push([module.i, "body{font-family:Source Sans Pro,Open Sans,sans-serif}.hero{background-image:url(" + escape(__webpack_require__(21)) + ");background-position:50%;background-size:cover;padding:200px 0}.hero-info{display:inline-block;background-color:rgba(32,156,238,.5);padding:10px}.navbar-brand img{width:auto;margin:10px;min-height:5rem}.navbar{min-height:0}.info-field{color:#fff}.info-fields{display:flex;flex-wrap:wrap}.info-field{position:relative;padding:10px 30px;margin:16px 10px;flex:1;border:2px solid #fff;border-radius:4px}.info-field:before{content:\"\";z-index:999;display:inline-block;position:absolute;top:calc(50% - 16px);left:-17px;background-color:#209cee;width:32px;height:32px;background-position:50%;background-size:cover}.home:before{background-image:url(" + escape(__webpack_require__(22)) + ")}.phone:before{background-image:url(" + escape(__webpack_require__(23)) + ")}.email:before{background-image:url(" + escape(__webpack_require__(24)) + ")}.main .title{font-weight:300}", ""]);
+exports.push([module.i, "body{font-family:Source Sans Pro,Open Sans,sans-serif}.hero{background-image:url(" + escape(__webpack_require__(22)) + ");background-position:50%;background-size:cover;padding:150px 0}.hero-info{display:inline-block;background-color:rgba(32,156,238,.5);padding:10px}.navbar-brand img{width:auto;margin:10px;min-height:5rem}.navbar{min-height:0}.info-field{color:#fff}.info-fields{display:flex;flex-wrap:wrap}.info-field{position:relative;padding:10px 30px;margin:16px 10px;flex:1;border:2px solid #fff;border-radius:4px}.info-field:before{content:\"\";z-index:999;display:inline-block;position:absolute;top:calc(50% - 16px);left:-17px;background-color:#209cee;width:32px;height:32px;background-position:50%;background-size:cover}.home:before{background-image:url(" + escape(__webpack_require__(23)) + ")}.phone:before{background-image:url(" + escape(__webpack_require__(24)) + ")}.email:before{background-image:url(" + escape(__webpack_require__(25)) + ")}.main .title{font-weight:300}", ""]);
 
 // exports
 
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = function escape(url) {
@@ -15314,31 +15447,31 @@ module.exports = function escape(url) {
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "house.jpg";
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "home.svg";
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "phone.svg";
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "email.svg";
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports) {
 
 /**
@@ -15371,15 +15504,15 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_AccPanel_vue__ = __webpack_require__(5);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6d80c05e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_AccPanel_vue__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_535aac6c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_AccPanel_vue__ = __webpack_require__(30);
 function injectStyle (ssrContext) {
-  __webpack_require__(27)
+  __webpack_require__(28)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15392,12 +15525,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-6d80c05e"
+var __vue_scopeId__ = "data-v-535aac6c"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_AccPanel_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6d80c05e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_AccPanel_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_535aac6c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_AccPanel_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -15408,20 +15541,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(28);
+var content = __webpack_require__(29);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("645394c5", content, true);
+var update = __webpack_require__(2)("080b7b9b", content, true);
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15429,13 +15562,13 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".acc-panel[data-v-6d80c05e]{position:fixed;height:300px;box-sizing:border-box;top:0;left:0;flex-direction:column;background-color:#eee;justify-content:center;display:flex;z-index:3}.acc-panel .acc-panel__item[data-v-6d80c05e]{background-color:transparent;flex:1;max-width:100px;text-align:center;padding:0 8px;border:0;height:48px;box-sizing:border-box;outline:0}.acc-panel .acc-panel__item svg[data-v-6d80c05e]{fill:#757575;height:32px;width:32px}.acc-panel .acc-panel__item[data-v-6d80c05e]:not(:first-child):hover{cursor:pointer;background-color:#bdbdbd}.acc-panel .acc-panel__item:active svg[data-v-6d80c05e]{fill:#e0e0e0}", ""]);
+exports.push([module.i, ".acc-panel[data-v-535aac6c]{position:fixed;height:300px;box-sizing:border-box;top:calc(50% - 150px);right:0;flex-direction:column;background-color:#eee;justify-content:center;display:flex;z-index:3}.acc-panel .acc-panel__item[data-v-535aac6c]{background-color:transparent;flex:1;max-width:100px;text-align:center;padding:0 8px;border:0;height:48px;box-sizing:border-box;outline:0}.acc-panel .acc-panel__item svg[data-v-535aac6c]{fill:#757575;height:32px;width:32px}.acc-panel .acc-panel__item[data-v-535aac6c]:not(:first-child):hover{cursor:pointer;background-color:#bdbdbd}.acc-panel .acc-panel__item:active svg[data-v-535aac6c]{fill:#e0e0e0}", ""]);
 
 // exports
 
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15445,35 +15578,39 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('header',[_c('acc-panel'),_vm._v(" "),_c('section',{staticClass:"menu"},[_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-brand"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_c('img',{attrs:{"src":__webpack_require__(31),"width":"112","height":"28"}})]),_vm._v(" "),_c('div',{staticClass:"navbar-burger burger",class:{'is-active': _vm.isMenuToggled},attrs:{"data-target":"navMenuColorlink-example"},on:{"click":function($event){_vm.isMenuToggled = !_vm.isMenuToggled}}},[_c('span'),_vm._v(" "),_c('span'),_vm._v(" "),_c('span')])],1),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"navbar-menu",class:{'is-active': _vm.isMenuToggled}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-start navbar-overflow"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_vm._v("\n                Главная\n              ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about"}},[_vm._v("\n                Об учреждении\n              ")]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Услуги\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services"}},[_vm._v("\n                    Предоставляемые услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/conditions"}},[_vm._v("\n                    Порядок и условия предоставления социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/amount"}},[_vm._v("\n                    Численность получателей и объем предоставляемых социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/spots"}},[_vm._v("\n                    Количество свободных мест\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/complaints"}},[_vm._v("\n                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                  ")])],1)]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities"}},[_vm._v("\n                Информация о деятельности\n              ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/events"}},[_vm._v("\n                Проводимые мероприятия\n              ")])],1)])])])]),_vm._v(" "),_vm._m(1)],1),_vm._v(" "),_c('router-view'),_vm._v(" "),_c('footer',{staticClass:"footer"},[_c('section',{staticClass:"section"},[_c('div',{staticClass:"container"},[_c('section',{staticClass:"site-map"},[_c('menu',{staticClass:"menu"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n              Карта сайта\n            ")]),_vm._v(" "),_c('ul',{staticClass:"menu-list"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("\n                  Главная\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about"}},[_vm._v("\n                  Об учреждении\n                ")])],1),_vm._v(" "),_c('li',[_c('a',[_vm._v("Услуги")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/services"}},[_vm._v("\n                      Предоставляемые услуги\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/conditions"}},[_vm._v("\n                      Порядок и условия предоставления социальных услуг\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/amount"}},[_vm._v("\n                      Численность получателей и объем предоставляемых социальных услуг\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/spots"}},[_vm._v("\n                      Количество свободных мест\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/complaints"}},[_vm._v("\n                      Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                    ")])],1)])]),_vm._v(" "),_c('li',[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities"}},[_vm._v("\n                  Информация о деятельности\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/events"}},[_vm._v("\n                  Проводимые мероприятия\n                ")])],1)])])])])]),_vm._v(" "),_vm._m(2)])],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navbar-end"},[_c('div',{staticClass:"navbar-item"},[_c('div',{staticClass:"field is-grouped info-fields"},[_c('div',{staticClass:"info-field home"},[_c('p',[_vm._v("Адрес")]),_vm._v(" "),_c('p',[_vm._v("г. Заинск, ул.Тукая, д. 5А")])]),_vm._v(" "),_c('div',{staticClass:"info-field phone"},[_c('p',[_vm._v("Телефон")]),_vm._v(" "),_c('p',[_vm._v("+7(85558)3-32-32")])]),_vm._v(" "),_c('div',{staticClass:"info-field email"},[_c('p',[_vm._v("Email")]),_vm._v(" "),_c('p',[_vm._v("shatlykcsp@yandex.ru")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"hero is-info"},[_c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"is-info hero-info"},[_c('h1',{staticClass:"title"},[_vm._v("\n            Шатлык\n          ")]),_vm._v(" "),_c('h2',{staticClass:"subtitle"},[_vm._v("\n            Центр социальной помощи\n          ")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"credentials"},[_c('div',{staticClass:"content has-text-centered"},[_c('p',[_c('strong',[_vm._v("os.buktp")])])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('header',[_c('acc-panel'),_vm._v(" "),_c('section',{staticClass:"menu"},[_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-brand"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_c('img',{attrs:{"src":__webpack_require__(32),"width":"112","height":"28"}})]),_vm._v(" "),_c('div',{staticClass:"navbar-burger burger",class:{'is-active': _vm.isMenuToggled},attrs:{"data-target":"navMenuColorlink-example"},on:{"click":function($event){_vm.isMenuToggled = !_vm.isMenuToggled}}},[_c('span'),_vm._v(" "),_c('span'),_vm._v(" "),_c('span')])],1),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"navbar-menu",class:{'is-active': _vm.isMenuToggled}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-start navbar-overflow"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_vm._v("\n                Главная\n              ")]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Об учреждении\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about"}},[_vm._v("\n                    Общая информация\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/conditions"}},[_vm._v("\n                    Условия приема\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/rules"}},[_vm._v("\n                    Режим дня\n                  ")])],1)]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Услуги\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services"}},[_vm._v("\n                    Предоставляемые услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/conditions"}},[_vm._v("\n                    Порядок и условия предоставления социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/amount"}},[_vm._v("\n                    Численность получателей и объем предоставляемых социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/spots"}},[_vm._v("\n                    Количество свободных мест\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/complaints"}},[_vm._v("\n                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                  ")])],1)]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities"}},[_vm._v("\n                Информация о деятельности\n              ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/events"}},[_vm._v("\n                Проводимые мероприятия\n              ")])],1)])])])]),_vm._v(" "),_vm._m(1)],1),_vm._v(" "),_c('router-view'),_vm._v(" "),_c('footer',{staticClass:"footer"},[_c('section',{staticClass:"section"},[_c('div',{staticClass:"container"},[_c('section',{staticClass:"site-map"},[_c('menu',{staticClass:"menu"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n              Карта сайта\n            ")]),_vm._v(" "),_c('ul',{staticClass:"menu-list"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("\n                  Главная\n                ")])],1),_vm._v(" "),_c('li',[_c('a',[_vm._v("Об учреждении")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/about"}},[_vm._v("\n                      Общая информация\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/conditions"}},[_vm._v("\n                      Условия приема\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/rules"}},[_vm._v("\n                      Режим дня\n                    ")])],1)])]),_vm._v(" "),_c('li',[_c('a',[_vm._v("Услуги")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/services"}},[_vm._v("\n                      Предоставляемые услуги\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/conditions"}},[_vm._v("\n                      Порядок и условия предоставления социальных услуг\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/amount"}},[_vm._v("\n                      Численность получателей и объем предоставляемых социальных услуг\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/spots"}},[_vm._v("\n                      Количество свободных мест\n                    ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/complaints"}},[_vm._v("\n                      Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                    ")])],1)])]),_vm._v(" "),_c('li',[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities"}},[_vm._v("\n                  Информация о деятельности\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/events"}},[_vm._v("\n                  Проводимые мероприятия\n                ")])],1)])])])])]),_vm._v(" "),_vm._m(2)])],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navbar-end"},[_c('div',{staticClass:"navbar-item"},[_c('div',{staticClass:"field is-grouped info-fields"},[_c('div',{staticClass:"info-field home"},[_c('p',[_vm._v("Адрес")]),_vm._v(" "),_c('p',[_vm._v("г. Заинск, ул.Тукая, д. 5А")])]),_vm._v(" "),_c('div',{staticClass:"info-field phone"},[_c('p',[_vm._v("Телефон")]),_vm._v(" "),_c('p',[_vm._v("+7(85558)3-32-32")])]),_vm._v(" "),_c('div',{staticClass:"info-field email"},[_c('p',[_vm._v("Email")]),_vm._v(" "),_c('p',[_vm._v("shatlykcsp@yandex.ru")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"hero is-info"},[_c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"is-info hero-info"},[_c('h1',{staticClass:"title"},[_vm._v("\n              Шатлык\n            ")]),_vm._v(" "),_c('h2',{staticClass:"subtitle"},[_vm._v("\n              Центр социальной помощи\n            ")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"credentials"},[_c('div',{staticClass:"content has-text-centered"},[_c('p',[_c('strong',[_vm._v("os.buktp")])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "logo.png";
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__views_Main_Main_vue__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__views_About_About_vue__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__views_Services_Services_vue__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__views_Services_Amount_Amount_vue__ = __webpack_require__(76);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__views_Services_Complaints_Complaints_vue__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__views_Services_Conditions_Conditions_vue__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__views_Services_Spots_Spots_vue__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__views_Activities_Activities_vue__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__views_Events_Events_vue__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__views_Main_Main_vue__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__views_About_About_vue__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__views_About_Conditions_Conditions_vue__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__views_About_Rules_Rules_vue__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__views_Services_Services_vue__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__views_Services_Amount_Amount_vue__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__views_Services_Complaints_Complaints_vue__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__views_Services_Conditions_Conditions_vue__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__views_Services_Spots_Spots_vue__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__views_Activities_Activities_vue__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__views_Events_Events_vue__ = __webpack_require__(92);
+
+
 
 
 
@@ -15491,40 +15628,46 @@ const routes = [{
     path: '/about',
     component: __WEBPACK_IMPORTED_MODULE_1__views_About_About_vue__["a" /* default */]
 }, {
+    path: '/about/conditions',
+    component: __WEBPACK_IMPORTED_MODULE_2__views_About_Conditions_Conditions_vue__["a" /* default */]
+}, {
+    path: '/about/rules',
+    component: __WEBPACK_IMPORTED_MODULE_3__views_About_Rules_Rules_vue__["a" /* default */]
+}, {
     path: '/services',
-    component: __WEBPACK_IMPORTED_MODULE_2__views_Services_Services_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_4__views_Services_Services_vue__["a" /* default */]
 }, {
     path: '/services/conditions',
-    component: __WEBPACK_IMPORTED_MODULE_5__views_Services_Conditions_Conditions_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_7__views_Services_Conditions_Conditions_vue__["a" /* default */]
 }, {
     path: '/services/amount',
-    component: __WEBPACK_IMPORTED_MODULE_3__views_Services_Amount_Amount_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_5__views_Services_Amount_Amount_vue__["a" /* default */]
 }, {
     path: '/services/spots',
-    component: __WEBPACK_IMPORTED_MODULE_6__views_Services_Spots_Spots_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_8__views_Services_Spots_Spots_vue__["a" /* default */]
 }, {
     path: '/services/complaints',
-    component: __WEBPACK_IMPORTED_MODULE_4__views_Services_Complaints_Complaints_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_6__views_Services_Complaints_Complaints_vue__["a" /* default */]
 }, {
     path: '/activities',
-    component: __WEBPACK_IMPORTED_MODULE_7__views_Activities_Activities_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_9__views_Activities_Activities_vue__["a" /* default */]
 }, {
     path: '/events',
-    component: __WEBPACK_IMPORTED_MODULE_8__views_Events_Events_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_10__views_Events_Events_vue__["a" /* default */]
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (routes);
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Main_vue__ = __webpack_require__(6);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_67dca082_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_67dca082_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__ = __webpack_require__(74);
 function injectStyle (ssrContext) {
-  __webpack_require__(34)
+  __webpack_require__(35)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15553,20 +15696,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(35);
+var content = __webpack_require__(36);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("3c461356", content, true);
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15580,15 +15723,15 @@ exports.push([module.i, ".main section[data-v-67dca082]{margin-top:40px}", ""]);
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Reasons_vue__ = __webpack_require__(7);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8ce2554c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reasons_vue__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8ce2554c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reasons_vue__ = __webpack_require__(50);
 function injectStyle (ssrContext) {
-  __webpack_require__(37)
+  __webpack_require__(38)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15617,20 +15760,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(38);
+var content = __webpack_require__(39);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("437ca748", content, true);
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15644,67 +15787,67 @@ exports.push([module.i, ".reasons-slider{display:flex;flex-direction:column}@med
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "1.jpg";
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2.jpg";
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "3.jpg";
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "4.jpg";
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "5.jpg";
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "6.jpg";
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "7.jpg";
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "8.jpg";
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "9.jpg";
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "10.jpg";
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15714,15 +15857,15 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_MainGallery_vue__ = __webpack_require__(8);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_050be1fc_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_MainGallery_vue__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_050be1fc_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_MainGallery_vue__ = __webpack_require__(64);
 function injectStyle (ssrContext) {
-  __webpack_require__(51)
+  __webpack_require__(52)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15751,20 +15894,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(52);
+var content = __webpack_require__(53);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("226b4d56", content, true);
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15778,67 +15921,67 @@ exports.push([module.i, ".gallery[data-v-050be1fc]{display:flex}.main-image[data
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg1.jpg";
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg2.jpg";
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg3.jpg";
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg4.jpg";
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg5.jpg";
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg6.jpg";
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg7.jpg";
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg8.jpg";
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg9.jpg";
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg10.jpg";
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15848,15 +15991,15 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FAQ_vue__ = __webpack_require__(9);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_74cf6af1_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FAQ_vue__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_74cf6af1_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FAQ_vue__ = __webpack_require__(68);
 function injectStyle (ssrContext) {
-  __webpack_require__(65)
+  __webpack_require__(66)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15885,20 +16028,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(66);
+var content = __webpack_require__(67);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("63a6d163", content, true);
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15912,7 +16055,7 @@ exports.push([module.i, ".faq__questions[data-v-74cf6af1]{padding:20px 0}details
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15922,15 +16065,15 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_YandexMap_vue__ = __webpack_require__(10);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6ae92a22_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_YandexMap_vue__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6ae92a22_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_YandexMap_vue__ = __webpack_require__(73);
 function injectStyle (ssrContext) {
-  __webpack_require__(69)
+  __webpack_require__(70)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15959,20 +16102,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(70);
+var content = __webpack_require__(71);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("40338354", content, true);
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15986,7 +16129,7 @@ exports.push([module.i, ".yandex-map__map[data-v-6ae92a22]{height:60vh;min-heigh
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {(function (global, factory) {
@@ -23225,7 +23368,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23235,7 +23378,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23245,45 +23388,16 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 74 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
-
-/***/ }),
 /* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_740e9df8_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__ = __webpack_require__(76);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = null
+
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -23294,7 +23408,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __vue_template__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_740e9df8_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -23309,41 +23423,22 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("\n        Центр социальной помощи «Шатлык»\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        «Шатлык» расположен в самом живописном и уютном уголке города Заинск. Рядом с центром расположился парк имени Р.Фардиева. Уникальный природный ландшафт рекреационной парковой зоны с многочисленными прогулочными дорожками, настоящим озером на территории, где обитают гуси и утки, создает для гостей центра атмосферу спокойствия и умиротворения. В шаговой доступности от центра находятся социально-значимые объекты: больница, аптеки, дворец спорта, стадион, конотеатр, магазины. Экологически благоприятная зона и высокая квалификация медицинского персонала позволяют нам гарантировать хорошие результаты при терапии различных заболеваний.\n    ")]),_vm._v(" "),_c('blockquote',[_vm._v("\n        Мы предлагаем стационарную и полустационарную форму реабилитации. Стационар рассчитан на 10 койко-мест и пребывания 18 полустационарных мест.\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Диагностика, реабилитация и отдых для тех, кто ценит качество жизни.\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Терапия включает в себя различные методы: массаж, магниотерапия, парафино-лечение, гирудотерапия, эрготерапия и восстановительная терапия и др. Вы сможете забыть про многие недуги, очистите организм от токсинов и шлаков, попарившись в сауне. Пребывание в спелеокамере (солевой пещере) и сенсорной комнате помогут укрепить нервную и сердечно-сосудистую систему, и вы станете полны сил и здоровья!\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Все, кто посетил центр, остаются очень довольны результатами лечения. Наше медицинское оборудование – на самом высоком уровне. Это дает возможность оперативно контролировать состояние получателей социальных услуг и наблюдать за ходом реабилитации.\n    ")]),_vm._v(" "),_c('blockquote',[_vm._v("\n        Заинск – небольшой и зеленый город. Устав от напряженного ритма жизни, вы можете комфортно отдохнуть в центре \"Шатлык\". Здесь удачно совмещаются мощная лечебная база и возможности оздоровления.\n    ")]),_vm._v(" "),_c('h1',[_vm._v("\n        Заинск ждет вас! Приезжайте в наш центр, чтобы набраться сил и здоровья!\n    ")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 /* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5d35bc19_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__ = __webpack_require__(78);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = null
+
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -23354,7 +23449,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __vue_template__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5d35bc19_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -23369,41 +23464,25 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("Условия приема в ЦСП «Шатлык»")]),_vm._v(" "),_c('h2',[_vm._v("\n            (Стационарная форма)\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Документы для пенсионеров и инвалидов в ЦСП «Шатлык»:\n        ")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\n                Индивидуальная программа предоставления услуг (в соцзащите), копия паспорта, копия ИПР или ИПРА, справки об инвалидности ( при наличии), копия документа подтверждающая отнесение гражданина к льготной категории, копия медицинского полиса, копия СНИЛС, сведения о наличии (отсутствии ) доходов гражданина\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Флюорография\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Анализы на яйца гельминтов\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Сведения о профилактических прививках\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Справка об отсутствии контактов с инфекционными больными в течение 21 дня до поступления в организацию социального обслуживания\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Результаты лабораторных исследований на инфекции передающихся половым путем\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Все анализы, указанные в санаторно-курортной карте.( анализ мочи, анализ крови на RW, общий анализ крови)\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Результаты лабораторных исследований на группу возбудителей кишечных инфекций.( в СЭС)\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Мазок на дифтерию. (в СЭС)\n            ")])]),_vm._v(" "),_c('h2',[_vm._v("\n            (Полустационарная форма)\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Документы для пенсионеров и инвалидов в Центр социальной помощи «Шатлык»:\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Обратиться в Управление социальной защиты города с документами (при себе иметь паспорт, справки об инвалидности (при наличии), мед. полис).\n        ")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\nИндивидуальная программа предоставления услуг( в соцзащите), копия паспорта, копия ИПР или ИПРА, справки об инвалидности ( при наличии), копия документа подтверждающая отнесение гражданина к льготной категории, копия медицинского полиса, копия СНИЛС, сведения о наличии (отсутствии ) доходов гражданина\n            ")]),_vm._v(" "),_c('li',[_vm._v("\nФлюорография\n            ")]),_vm._v(" "),_c('li',[_vm._v("\nСведения о профилактических прививках\n            ")]),_vm._v(" "),_c('li',[_vm._v("\nСправка об отсутствии контактов с инфекционными больными в течение 21 дня до поступления в организацию социального обслуживания\n            ")]),_vm._v(" "),_c('li',[_vm._v("\nВсе анализы, указанные в санаторно-курортной карте( анализ мочи, анализ крови на RW, общий анализ крови)\n            ")])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 /* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Rules_vue__ = __webpack_require__(11);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6a8cab5d_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rules_vue__ = __webpack_require__(80);
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = null
+
+
 /* template */
-var __vue_template__ = null
+
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -23413,8 +23492,8 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Rules_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6a8cab5d_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rules_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -23429,11 +23508,22 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("\n        Режим дня центра социальной помощи «Шатлык»\n    ")]),_vm._v(" "),_c('table',[_c('tbody',_vm._l((_vm.rules),function(item,id){return _c('tr',{key:id},[_c('td',[_vm._v(_vm._s(item.start))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.end))]),_vm._v(" "),_c('td',[_vm._v(_vm._s(item.text))])])}))])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 81 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4017d8d0_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__ = __webpack_require__(82);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = null
+
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -23444,7 +23534,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __vue_template__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4017d8d0_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -23455,7 +23545,181 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 81 */
+/* 82 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("Предоставляемые услуги")]),_vm._v(" "),_c('ul',[_c('li',[_vm._v("\n            Социально-бытовые\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социально-педагогические\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социально-медицинские\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социально-правовые\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности\n        ")])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 83 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_25b4cc06_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Amount_vue__ = __webpack_require__(84);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_25b4cc06_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Amount_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 84 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("\n        Численность получателей и объем предоставляемых социальных услуг\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Численность получателей социальных услуг\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Численность получателей социальных услуг за счет средств бюджета Республики Татарстан на 01.01.2018 г.\n    ")]),_vm._v(" "),_c('table',[_c('tr',[_c('td',[_vm._v("Стационарная форма обслуживания")]),_vm._v(" "),_c('td',[_vm._v("18 человек")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Полустационарная форма обслуживания")]),_vm._v(" "),_c('td',[_vm._v("10 человек")])])]),_vm._v(" "),_c('h3',[_vm._v("\n        Форма социального обслуживания - полустационарная\n    ")]),_vm._v(" "),_c('h4',[_vm._v("\n        Виды социальных услуг:\n    ")]),_vm._v(" "),_c('table',[_c('tr',[_c('td',[_vm._v("Социально-медицинские")]),_vm._v(" "),_c('td',[_vm._v("10")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Социально-правовые")]),_vm._v(" "),_c('td',[_vm._v("10")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Социально-психологические")]),_vm._v(" "),_c('td',[_vm._v("10")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Социально-трудовые")]),_vm._v(" "),_c('td',[_vm._v("10")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Услуги в целях повышения коммуникативного потенциала получателей социальных услуг")]),_vm._v(" "),_c('td',[_vm._v("10")])])]),_vm._v(" "),_c('h3',[_vm._v("\n        Форма социального обслуживания - стационарная\n    ")]),_vm._v(" "),_c('h4',[_vm._v("\n        Виды социальных услуг:\n    ")]),_vm._v(" "),_c('table',[_c('tr',[_c('td',[_vm._v("Социально-бытовые")]),_vm._v(" "),_c('td',[_vm._v("18")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Социально-медицинские")]),_vm._v(" "),_c('td',[_vm._v("18")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Социально-правовые")]),_vm._v(" "),_c('td',[_vm._v("18")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Социально-психологические")]),_vm._v(" "),_c('td',[_vm._v("18")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Социально-педагогические")]),_vm._v(" "),_c('td',[_vm._v("18")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Социально-трудовые")]),_vm._v(" "),_c('td',[_vm._v("18")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Услуги в целях повышения коммуникативного потенциала получателей социальных услуг")]),_vm._v(" "),_c('td',[_vm._v("18")])])]),_vm._v(" "),_c('h2',[_vm._v("\n        Государственное задание\n    ")]),_vm._v(" "),_c('h3',[_vm._v("\n        Объем социальных услуг (койко-дни), доведенный государственным заданием на текущий год составляет\n    ")]),_vm._v(" "),_c('table',[_c('tr',[_c('td',[_vm._v("\n                Стационарная форма обслуживания\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                3460\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Полустационарная форма обслуживания\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                4374\n            ")])])]),_vm._v(" "),_c('h2',[_vm._v("Объем социальных услуг в рамках предпринимательской деятельности")]),_vm._v(" "),_c('p',[_vm._v("В рамках предпринимательской деятельности в центре функционирует 2 палаты повышенной комфортности (6 койко-мест).")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 85 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1d922299_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__ = __webpack_require__(86);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1d922299_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 86 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("\n        Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n    ")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\n            Получатели имеют право на обжалование решений, принятых в ходе предоставления социальной услуги, действий или бездействия Специалистов Центра, предоставляющих социальные услуги, в вышестоящих органах, участвующих в оказании социальных услуг, в досудебном и судебном порядке\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Получатели имеют право обратиться с жалобой лично или направить письменное обращение, жалобу (претензию)\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            При обращении Получателя в письменной форме срок рассмотрения жалобы не должен превышать 10 дней с момента получения обращения. В случае если по обращению требуется провести расследования, проверки или обследования, срок рассмотрения жалобы может быть продлен, но не более чем до одного месяца с момента получения обращения, по решению руководителя Учреждения. О продлении срока рассмотрения жалобы Получатель уведомляется письменно с указанием причин продления.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя в письменной форме должно содержать следующую информацию:\n            "),_c('ul',[_c('li',[_vm._v("\n                    фамилию, имя, отчество Получателя которым подается жалоба (его законного представителя), его место жительства или пребывания, номер\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    наименование органа, должности, фамилии, имени и отчества Специалиста (при наличии информации), решение, действие или бездействие которого обжалуется\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    содержание обжалуемого решения, действия (бездействия). Дополнительно в жалобе указываются причины несогласия с обжалуемым решением, действием или бездействием, обстоятельства, на основании которых Получатель (его законный представитель) считает, что нарушены его права, свободы и законные интересы, созданы препятствия к их реализации либо незаконно возложена какая-либо обязанность, требования. К жалобе могут быть приложены копии документов, подтверждающих изложенные в жалобе обстоятельства. В таком случае в жалобе приводится перечень прилагаемых к ней документов. Если документы, имеющие существенное значение для рассмотрения жалобы, отсутствуют или не приложены к обращению, решение принимается без учета доводов, в подтверждение которых документы не представлены. Жалоба подписывается подавшим ее Получателем или его законным представителем\n                ")])])]),_vm._v(" "),_c('li',[_vm._v("\n            По результатам рассмотрения жалобы должностное лицо, ответственный или уполномоченный работник принимает решение об удовлетворении требований Получателя и о признании неправомерным обжалованного решения, действия (бездействия), либо об отказе в удовлетворении жалобы. Письменный ответ, содержащий результаты рассмотрения обращения, направляется Получателю\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя не рассматривается в случае:\n            "),_c('ul',[_c('li',[_vm._v("\n                    отсутствия сведений об обжалуемом решении, действии, бездействии (в чем выразилось, кем принято), о лице, обратившемся с жалобой (фамилия, имя, отчество физического лица)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    отсутствия подписи Получателя (его законного представителя)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    если предметом жалобы является решение, принятое в судебном или досудебном порядке\n                ")])])])]),_vm._v(" "),_c('p',[_vm._v("\n        Письменный ответ с указанием причин отказа в рассмотрении жалобы направляется Получателю или его законному представителю не позднее "),_c('strong',[_vm._v("10 дней")]),_vm._v(" с момента её получения.\n    ")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 87 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_632a4540_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__ = __webpack_require__(88);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_632a4540_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 88 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("\n        Порядок и условия предоставления социальных услуг\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Правила предоставления социальных услуг бесплатно, либо за плату или частичную плату\n    ")]),_vm._v(" "),_c('ol',[_c('h3',[_vm._v("\n            В стационарной форме\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в стационарной форме в Центре социальной помощи предоставляются за частичную плату, за исключением получателей услуг, указанных в пункте 2\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в стационарной форме в Центре предоставляются бесплатно:\n            "),_c('ul',[_c('li',[_vm._v("\n                    Лицам, пострадавшем в результате чрезвычайных ситуаций, вооруженных межнациональных (межэтнических) конфликтов\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Участникам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Ветеранам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Получателям социальных услуг, среднедушевой доход которых ниже или равен предельной величине среднедушевого дохода для предоставления социальных услуг бесплатно, установленной в Республике Татарстан\n                ")])])]),_vm._v(" "),_c('h3',[_vm._v("\n            В полустационарной форме\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в полустационарной форме в центре предоставляются за частичную плату, за исключением получателей социальных услуг, указанных в пункте 4, которым социальные услуги предоставляются бесплатно\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в полустационарной форме в центре предоставляются бесплатно:\n            "),_c('ul',[_c('li',[_vm._v("\n                    Лицам, пострадавшем в результате чрезвычайных ситуаций, вооруженных межнациональных (межэтнических) конфликтов\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Участникам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Ветеранам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Получателям социальных услуг, среднедушевой доход которых ниже или равен предельной величине среднедушевого дохода для предоставления социальных услуг бесплатно, установленной в Республике Татарстан\n                ")])])])]),_vm._v(" "),_c('h3',[_vm._v("\n        Размер платы за предоставление социальных услуг\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Размер платы за предоставление социальных услуг в центре исчисляется в соответствии с нижеприведенной таблицей, но не может превышать при социальном обслуживании в стационарной форме - 75 процентов величины среднедушевого дохода получателя социальной услуги; при социальном обслуживании в полустационарной форме - 50 процентов разницы между величиной среднедушевого дохода получателя социальной услуги и предельной величиной среднедушевого дохода\n    ")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 89 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_73b7f266_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Spots_vue__ = __webpack_require__(90);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_73b7f266_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Spots_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 90 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("Количество свободных мест")]),_vm._v(" "),_c('h2',[_vm._v("\n        Количество свободных мест в рамках предпринимательской деятельности\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        В рамках предпринимательской деятельности предоставляется 6 койко-мест (стационара).\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Количество свободных мест по госзаданию\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Всем гражданам, обратившиеся в Центр за помощью, оказываются необходимые им социальные услуги согласно действующему законодательству. Предоставляется 10 койко-мест на стационарной основе и 18 мест полустационара.\n    ")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23485,20 +23749,50 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 82 */
+/* 92 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(83);
+var content = __webpack_require__(94);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("c36c9aba", content, true);
 
 /***/ }),
-/* 83 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);

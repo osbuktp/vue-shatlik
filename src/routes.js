@@ -1,5 +1,7 @@
 import Main from './views/Main/Main.vue';
 import About from './views/About/About.vue';
+import AboutConditions from './views/About/Conditions/Conditions.vue';
+import AboutRules from './views/About/Rules/Rules.vue';
 import Services from './views/Services/Services.vue';
 import ServicesAmount from './views/Services/Amount/Amount.vue';
 import ServicesComplaints from './views/Services/Complaints/Complaints.vue';
@@ -17,6 +19,14 @@ const routes = [
     {
         path: '/about',
         component: About
+    },
+    {
+        path: '/about/conditions',
+        component: AboutConditions
+    },
+    {
+        path: '/about/rules',
+        component: AboutRules
     },
     {
         path: '/services',
