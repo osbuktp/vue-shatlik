@@ -1,18 +1,18 @@
 <template>
   <main class="main">
-    <section class="reasons">
+    <!-- <section class="reasons">
       <h1 class="title has-text-centered">
         10 причин приехать к нам
       </h1>
       <reasons></reasons>
-    </section>
+    </section> -->
     <section class="excursion">
       <h1 class="title has-text-centered">
         Экскурсия по санаторию
       </h1>
       <main-gallery></main-gallery>
     </section>
-    <section class="faq">
+    <section class="faq container">
         <h1 class="title has-text-centered">
           Часто задаваемые вопросы
         </h1>

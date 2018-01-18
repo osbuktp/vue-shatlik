@@ -83,12 +83,12 @@
                     </router-link>
                   </div>
                 </div>
-                <router-link to="/activities" class="navbar-item">
+                <!-- <router-link to="/activities" class="navbar-item">
                   Информация о деятельности
                 </router-link>
                 <router-link to="/events" class="navbar-item">
                   Проводимые мероприятия
-                </router-link>
+                </router-link> -->
               </div>
             </div>
           </div>
@@ -113,83 +113,79 @@
     <router-view></router-view>
 
     <footer class="footer">
-      <section class="section">
-        <div class="container">
-          <section class="site-map">
-            <menu class="menu">
-              <p class="menu-label">
-                Карта сайта
-              </p>
-              <ul class="menu-list">
+      <section class="site-map">
+        <menu class="menu">
+          <p class="menu-label">
+            Карта сайта
+          </p>
+          <ul class="menu-list">
+            <li>
+              <router-link to="/">
+                Главная
+              </router-link>
+            </li>
+            <li>
+              <a>Об учреждении</a>
+              <ul>
                 <li>
-                  <router-link to="/">
-                    Главная
+                  <router-link to="/about">
+                    Общая информация
                   </router-link>
                 </li>
                 <li>
-                  <a>Об учреждении</a>
-                  <ul>
-                    <li>
-                      <router-link to="/about">
-                        Общая информация
-                      </router-link>
-                    </li>
-                    <li>
-                      <router-link to="/about/conditions">
-                        Условия приема
-                      </router-link>
-                    </li>
-                    <li>
-                      <router-link to="/about/rules">
-                        Режим дня
-                      </router-link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a>Услуги</a>
-                  <ul>
-                    <li>
-                      <router-link to="/services">
-                        Предоставляемые услуги
-                      </router-link>
-                    </li>
-                    <li>
-                      <router-link to="/services/conditions">
-                        Порядок и условия предоставления социальных услуг
-                      </router-link>
-                    </li>
-                    <li>
-                      <router-link to="/services/amount">
-                        Численность получателей и объем предоставляемых социальных услуг
-                      </router-link>
-                    </li>
-                    <li>
-                      <router-link to="/services/spots">
-                        Количество свободных мест
-                      </router-link>
-                    </li>
-                    <li>
-                      <router-link to="/services/complaints">
-                        Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
-                      </router-link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <router-link to="/activities" class="navbar-item">
-                    Информация о деятельности
+                  <router-link to="/about/conditions">
+                    Условия приема
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/events" class="navbar-item">
-                    Проводимые мероприятия
+                  <router-link to="/about/rules">
+                    Режим дня
                   </router-link>
                 </li>
               </ul>
-            </menu>
-          </section>
-        </div>
+            </li>
+            <li>
+              <a>Услуги</a>
+              <ul>
+                <li>
+                  <router-link to="/services">
+                    Предоставляемые услуги
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/services/conditions">
+                    Порядок и условия предоставления социальных услуг
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/services/amount">
+                    Численность получателей и объем предоставляемых социальных услуг
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/services/spots">
+                    Количество свободных мест
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/services/complaints">
+                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
+                  </router-link>
+                </li>
+              </ul>
+            </li>
+            <!-- <li>
+              <router-link to="/activities" class="navbar-item">
+                Информация о деятельности
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/events" class="navbar-item">
+                Проводимые мероприятия
+              </router-link>
+            </li> -->
+          </ul>
+        </menu>
       </section>
       <section class="credentials">
         <div class="content has-text-centered">
@@ -224,6 +220,14 @@ export default {
 
 body {
   font-family: "Source Sans Pro", "Open Sans", sans-serif;
+}
+
+.navbar > .container {
+  flex-wrap: wrap;
+}
+
+.navbar-link, .navbar-item {
+  text-transform: uppercase;
 }
 
 .hero {

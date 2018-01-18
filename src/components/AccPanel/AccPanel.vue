@@ -38,7 +38,7 @@ let html = document.querySelector("html");
 export default {
   data() {
     return {
-      fontSize: 16
+      fontSize: 18
     };
   },
   created() {
@@ -55,13 +55,13 @@ export default {
       }
     },
     decFontSize() {
-      if (this.fontSize > 16) {
+      if (this.fontSize > 18) {
         this.fontSize -= 2;
         this.updateHTMLFontSize();
       }
     },
     abortChanges() {
-      this.fontSize = 16;
+      this.fontSize = 18;
       this.updateHTMLFontSize();
     }
   }
