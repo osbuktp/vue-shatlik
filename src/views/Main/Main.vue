@@ -1,11 +1,5 @@
 <template>
   <main class="main">
-    <!-- <section class="reasons">
-      <h1 class="title has-text-centered">
-        10 причин приехать к нам
-      </h1>
-      <reasons></reasons>
-    </section> -->
     <section class="excursion">
       <h1 class="title has-text-centered">
         Экскурсия по санаторию
@@ -38,14 +32,12 @@
 
 
 <script>
-import Reasons from "../../components/Reasons/Reasons.vue";
 import MainGallery from "../../components/MainGallery/MainGallery.vue";
 import FAQ from '../../components/FAQ/FAQ.vue';
 import YandexMap from '../../components/YandexMap/YandexMap.vue';
 
 export default {
   components: {
-    Reasons,
     MainGallery,
     FAQ,
     YandexMap

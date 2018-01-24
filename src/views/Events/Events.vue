@@ -1,46 +1,34 @@
 <template>
-    <section class="section container">
-        <div class="box" v-for="post in posts" :key="post.id">
-            <article class="media">
-            <div class="media-left">
-                <div class="img-wrapper" v-for="att in post.attachments" v-if="att.type == 'photo'" :key="att.photo.pid">
-                    <img :src="att.photo.src_xbig" alt="">
-                </div>
-            </div>
-            <div class="media-content" v-html="post.text">
-            </div>
-            </article>
+  <section class="section container content">
+    <h1>
+      Новости
+    </h1>
+    <div class="is-flex">
+      <div class="card" v-for="post in posts" :key="post.id">
+        <div class="card-image" v-if="post.attachment.type=='photo'">
+          <img :src="post.attachment.photo.src_xbig" alt="">
         </div>
-    </section>
+        <div class="card-content">
+          <div class="content" v-html="post.text"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
-
-<style lang="scss">
-.media-left {
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px
+<style lang="scss" scoped>
+.is-flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.img-wrapper {
-    flex-grow: 1;
-    overflow: hidden;
-    flex-basis: 240px;
-    max-height: 180px;
-    padding: 5px;
-    &:first-child {
-        flex-basis: 480px;
-        max-height: 360px
-    }
-    img {
-        margin-top: auto;
-        margin-bottom: auto;
-        height: auto;
-        min-width: 100%;
-    }
+.card {
+  &-image {
+    width: 100%;
+  }
+  flex-basis: 500px;
+  margin: 10px;
 }
 </style>
-
-
 
 <script>
 export default {

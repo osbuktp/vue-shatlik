@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 12);
+/******/ 	return __webpack_require__(__webpack_require__.s = 13);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -274,7 +274,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(26)
+var listToStyles = __webpack_require__(29)
 
 /*
 type StyleObject = {
@@ -507,7 +507,95 @@ module.exports = g;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_AccPanel_AccPanel_vue__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_AccPanel_AccPanel_vue__ = __webpack_require__(30);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -778,7 +866,7 @@ let html = document.querySelector("html");
       html.style.fontSize = `${this.fontSize}px`;
     },
     incFontSize() {
-      if (this.fontSize < 24) {
+      if (this.fontSize < 28) {
         this.fontSize += 2;
         this.updateHTMLFontSize();
       }
@@ -801,10 +889,9 @@ let html = document.querySelector("html");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Reasons_Reasons_vue__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_MainGallery_MainGallery_vue__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_FAQ_FAQ_vue__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_YandexMap_YandexMap_vue__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_MainGallery_MainGallery_vue__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_FAQ_FAQ_vue__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_YandexMap_YandexMap_vue__ = __webpack_require__(58);
 //
 //
 //
@@ -838,13 +925,6 @@ let html = document.querySelector("html");
 //
 //
 //
-//
-//
-//
-//
-//
-//
-
 
 
 
@@ -852,10 +932,9 @@ let html = document.querySelector("html");
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   components: {
-    Reasons: __WEBPACK_IMPORTED_MODULE_0__components_Reasons_Reasons_vue__["a" /* default */],
-    MainGallery: __WEBPACK_IMPORTED_MODULE_1__components_MainGallery_MainGallery_vue__["a" /* default */],
-    FAQ: __WEBPACK_IMPORTED_MODULE_2__components_FAQ_FAQ_vue__["a" /* default */],
-    YandexMap: __WEBPACK_IMPORTED_MODULE_3__components_YandexMap_YandexMap_vue__["a" /* default */]
+    MainGallery: __WEBPACK_IMPORTED_MODULE_0__components_MainGallery_MainGallery_vue__["a" /* default */],
+    FAQ: __WEBPACK_IMPORTED_MODULE_1__components_FAQ_FAQ_vue__["a" /* default */],
+    YandexMap: __WEBPACK_IMPORTED_MODULE_2__components_YandexMap_YandexMap_vue__["a" /* default */]
   }
 });
 
@@ -864,273 +943,25 @@ let html = document.querySelector("html");
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_reasons_1_jpg__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_reasons_1_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_reasons_1_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_reasons_2_jpg__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_reasons_2_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_reasons_2_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_reasons_3_jpg__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_reasons_3_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__assets_reasons_3_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_reasons_4_jpg__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_reasons_4_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__assets_reasons_4_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_reasons_5_jpg__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_reasons_5_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__assets_reasons_5_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_reasons_6_jpg__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_reasons_6_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__assets_reasons_6_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_reasons_7_jpg__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_reasons_7_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__assets_reasons_7_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_reasons_8_jpg__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_reasons_8_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__assets_reasons_8_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_reasons_9_jpg__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_reasons_9_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__assets_reasons_9_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_reasons_10_jpg__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_reasons_10_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__assets_reasons_10_jpg__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-
-
-
-
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  methods: {
-    toggleReason(id) {
-      this.currentReasonId = id;
-    }
-  },
-  data() {
-    return {
-      currentReasonId: 1,
-      reasons: [{
-        id: 1,
-        name: "Высокий уровень сервиса",
-        desc: `
-                    <p>За время пребывания в центре обеспечивается высокий оздоровительный эффект за счёт качественного социально-медицинского обслуживания и высокого уровня сервиса.</p>
-                    `,
-        background: __WEBPACK_IMPORTED_MODULE_0__assets_reasons_1_jpg___default.a
-      }, {
-        id: 2,
-        name: "Обслуживание по высоким стандартам",
-        desc: `
-                    <p>Мы обслуживаем всех получателей услуг по высоким стандартам, как в части социально- медицинского обслуживания, так размещения и питания.В центре имеются номера повышенной комфортности.</p>
-                    `,
-        background: __WEBPACK_IMPORTED_MODULE_1__assets_reasons_2_jpg___default.a
-      }, {
-        id: 3,
-        name: "Медицинские кадры",
-        desc: `
-                    <p>Ваше здоровье станет предметом заботы медицинского персонала из врача- терапевта и 8 сотрудников среднего медицинского персонала, а так же психолога и специалистов по социальной работе.</p>
-                    <p>Сочетая практическую лечебную работу с индивидуальным подходом они достигают высоких показателей в эффективности оказания медицинской помощи.</p>`,
-        background: __WEBPACK_IMPORTED_MODULE_2__assets_reasons_3_jpg___default.a
-      }, {
-        id: 4,
-        name: "Природный фактор",
-        desc: `
-                    <p>Центр «Шатлык» расположен в самом живописном и уютном уголке города Заинск. Рядом с центром расположился парк имени Р.Фардиева.</p>
-                    <p>Уникальный природный ландшафт рекреационной парковой зоны с многочисленными прогулочными дорожками, настоящим озером на территории, где обитают гуси и утки, создает для гостей центра атмосферу спокойствия и умиротворения.</p>`,
-        background: __WEBPACK_IMPORTED_MODULE_3__assets_reasons_4_jpg___default.a
-      }, {
-        id: 5,
-        name: "Широкий медицинский профиль",
-        desc: `
-                    <ul>
-                    <li>заболевания сердечно-сосудистой системы</li>
-                    <li>заболевания органов дыхания</li>
-                    <li>расстройства нервной системы</li>
-                    <li>заболевания опорно-двигательного аппарата</li>
-                    </ul>
-                    <p>Широкий спектр лечебных медицинских программ позволит подобрать для Вас наиболее оптимальный комплекс лечения. В заключение Вы получите рекомендации с учетом индивидуальных особенностей лечения Вашей болезни.</p>
-                    `,
-        background: __WEBPACK_IMPORTED_MODULE_4__assets_reasons_5_jpg___default.a
-      }, {
-        id: 6,
-        name: "Развитая инфраструктура",
-        desc: `
-                    <p>Комфортное размещение получателей услуг и гостей в современном гостиничном формате, дружественный персонал, а также различные спортивно-оздоровительные программы и возможности активного отдыха, такие как плавание, занятия в тренажёрном зале, скандинавская ходьба реально оздоравливают и в дальнейшем исцеляют пациентов, мобилизуют их на активный жизненный ритм и вне стен центра.</p>
-                    <ul>
-                    <li>Номерной фонд от стандарта, до номеров класса люкс</li>
-                    <li>Автостоянка/Парковка</li>
-                    <li>Сауна</li>
-                    <li>Крытый плавательный бассейн</li>
-                    <li>Тренажерный зал</li>
-                    <li>Столовая</li>
-                    <li>Фито-бар</li>
-                    </ul>`,
-        background: __WEBPACK_IMPORTED_MODULE_5__assets_reasons_6_jpg___default.a
-      }, {
-        id: 7,
-        name: "Широкий спектр предоставляемых услуг",
-        desc: `<ul>
-                    <li>социально-медицинские</li>
-                    <li>социально-педагогические</li>
-                    <li>социально-психологические</li>
-                    <li>социально-правовые</li>
-                    <li>социально-бытовые</li>
-                    <li>социально-трудовые</li>
-                    </ul>`,
-        background: __WEBPACK_IMPORTED_MODULE_6__assets_reasons_7_jpg___default.a
-      }, {
-        id: 8,
-        name: "Доступность",
-        desc: `<p>Центр «Шатлык» расположен в киломерте от Альметьевского шоссе.</p>`,
-        background: __WEBPACK_IMPORTED_MODULE_7__assets_reasons_8_jpg___default.a
-      }, {
-        id: 9,
-        name: "Экспресс-диагностика",
-        desc: `<p>Благодаря наличию кардиоритмографа, получатели услуг могут оценить функциональное состояние вегетативной и сердечно-сосудистой системы. Основные области применения диагностики: отслеживание результатов и дозирование реабилитационных упражнений и физиотерапевтических процедур.</p>`,
-        background: __WEBPACK_IMPORTED_MODULE_8__assets_reasons_9_jpg___default.a
-      }, {
-        id: 10,
-        name: "Правильное питаниe",
-        desc: `<p>Меню для получателей услуг разрабатывается в соответствии с картотекой блюд (лечебного и профилактического) питания.</p>
-                    <p>В центре работает фито-бар, где здоровье отдыхающих укрепляется кислородным и витаминным коктейлями, а также настоями из трав.</p>`,
-        background: __WEBPACK_IMPORTED_MODULE_9__assets_reasons_10_jpg___default.a
-      }]
-    };
-  }
-});
-
-/***/ }),
-/* 8 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_maingallery_mg1_jpg__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_maingallery_mg1_jpg__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_maingallery_mg1_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_maingallery_mg1_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_maingallery_mg2_jpg__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_maingallery_mg2_jpg__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_maingallery_mg2_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_maingallery_mg2_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_maingallery_mg3_jpg__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_maingallery_mg3_jpg__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_maingallery_mg3_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__assets_maingallery_mg3_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_maingallery_mg4_jpg__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_maingallery_mg4_jpg__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_maingallery_mg4_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__assets_maingallery_mg4_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_maingallery_mg5_jpg__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_maingallery_mg5_jpg__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_maingallery_mg5_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__assets_maingallery_mg5_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_maingallery_mg6_jpg__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_maingallery_mg6_jpg__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_maingallery_mg6_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__assets_maingallery_mg6_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_maingallery_mg7_jpg__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_maingallery_mg7_jpg__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_maingallery_mg7_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__assets_maingallery_mg7_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_maingallery_mg8_jpg__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_maingallery_mg8_jpg__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_maingallery_mg8_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__assets_maingallery_mg8_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_maingallery_mg9_jpg__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_maingallery_mg9_jpg__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_maingallery_mg9_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__assets_maingallery_mg9_jpg__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_maingallery_mg10_jpg__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_maingallery_mg10_jpg__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_maingallery_mg10_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__assets_maingallery_mg10_jpg__);
 //
 //
@@ -1267,7 +1098,7 @@ let html = document.querySelector("html");
 });
 
 /***/ }),
-/* 9 */
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1330,11 +1161,11 @@ let html = document.querySelector("html");
 });
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_yandex_maps__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_yandex_maps__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_yandex_maps___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue_yandex_maps__);
 //
 //
@@ -1357,7 +1188,7 @@ let html = document.querySelector("html");
 });
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1460,17 +1291,213 @@ let html = document.querySelector("html");
 });
 
 /***/ }),
+/* 11 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_staff_sandimirova_jpg__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_staff_sandimirova_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_staff_sandimirova_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_staff_larionova_jpg__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_staff_larionova_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_staff_larionova_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_staff_zaripova_jpg__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__assets_staff_zaripova_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__assets_staff_zaripova_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_staff_kamalova_jpg__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_staff_kamalova_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__assets_staff_kamalova_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_staff_muh_jpg__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_staff_muh_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__assets_staff_muh_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_staff_nosova_jpg__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__assets_staff_nosova_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__assets_staff_nosova_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_staff_komissarova_jpg__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assets_staff_komissarova_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__assets_staff_komissarova_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_staff_suleymanova_jpg__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__assets_staff_suleymanova_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__assets_staff_suleymanova_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_staff_hann_jpg__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__assets_staff_hann_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__assets_staff_hann_jpg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_staff_shar_jpg__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__assets_staff_shar_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__assets_staff_shar_jpg__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+// import Bataeva from "../../../assets/staff/bataeva.jpg";
+
+
+
+// import Kashapova from "../../../assets/staff/kashapova.jpg";
+// import Kolobova from "../../../assets/staff/kolobova.jpg";
+// import Kuzmina from "../../../assets/staff/kuzmina.jpg";
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  data() {
+    return {
+      staff: [{
+        name: "Ларионова Лидия Николаевна",
+        exp: "36 лет",
+        spec: "Директор",
+        photo: __WEBPACK_IMPORTED_MODULE_1__assets_staff_larionova_jpg___default.a
+      }, {
+        name: "Камалова Венера Гизаровна",
+        exp: "15 лет",
+        spec: "Специалист по социальной работе",
+        photo: __WEBPACK_IMPORTED_MODULE_3__assets_staff_kamalova_jpg___default.a
+      }, {
+        name: "Зарипова Назиря Гиздатулловна",
+        exp: "27 лет",
+        spec: "Инструктор ЛФК",
+        photo: __WEBPACK_IMPORTED_MODULE_2__assets_staff_zaripova_jpg___default.a
+      }, {
+        name: "Комиссарова Юлия Валерьевна",
+        exp: "12 лет 6 месяцев",
+        spec: "Психолог",
+        photo: __WEBPACK_IMPORTED_MODULE_6__assets_staff_komissarova_jpg___default.a
+      }, {
+        name: "Мухаметдинова Гульназ Минзахитовна",
+        exp: "9 лет",
+        spec: "Мед. сестра",
+        photo: __WEBPACK_IMPORTED_MODULE_4__assets_staff_muh_jpg___default.a
+      }, {
+        name: "Носова Людмилла Николаевна",
+        exp: "29 лет",
+        spec: "Мед. сестра по массажу",
+        photo: __WEBPACK_IMPORTED_MODULE_5__assets_staff_nosova_jpg___default.a
+      }, {
+        name: "Сандимирова Елена Павловна",
+        exp: "1 год",
+        spec: "Диет-сестра",
+        photo: __WEBPACK_IMPORTED_MODULE_0__assets_staff_sandimirova_jpg___default.a
+      }, {
+        name: "Сулейманова Гузэль Ингамовна",
+        exp: "38 лет",
+        spec: "Врач-терапевт",
+        photo: __WEBPACK_IMPORTED_MODULE_7__assets_staff_suleymanova_jpg___default.a
+      }, {
+        name: "Ханнанова Альфия Альфатовна",
+        exp: "13 лет",
+        spec: "Специалист по соц. работе",
+        photo: __WEBPACK_IMPORTED_MODULE_8__assets_staff_hann_jpg___default.a
+      }, {
+        name: "Шарафутдинова Гульнур Салахеевна",
+        exp: "41 год",
+        spec: "Мед. сестра",
+        photo: __WEBPACK_IMPORTED_MODULE_9__assets_staff_shar_jpg___default.a
+      }]
+    };
+  }
+});
+
+/***/ }),
 /* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  data() {
+    return {
+      posts: []
+    };
+  },
+  methods: {
+    fetchPosts() {
+      this.$http.jsonp(`https://api.vk.com/method/wall.get?domain=shatlyk_zainsk&count=5&access_token=37160b5937160b5937160b59473776b7f03371637160b596d755e1a6707659160c266f6`).then(resp => {
+        let respBody = resp.body.response;
+        respBody.shift();
+        this.posts = respBody;
+      });
+    }
+  },
+  created() {
+    this.fetchPosts();
+  }
+});
+
+/***/ }),
+/* 13 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__App_vue__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__routes_js__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bulma__ = __webpack_require__(93);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_bulma___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_bulma__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_resource__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__App_vue__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__routes_js__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bulma__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bulma___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_bulma__);
+
 
 
 
@@ -1480,18 +1507,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]);
 const router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
-  routes: __WEBPACK_IMPORTED_MODULE_3__routes_js__["a" /* default */]
+  routes: __WEBPACK_IMPORTED_MODULE_4__routes_js__["a" /* default */]
   // mode: 'history'
 });
+
+__WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODULE_2_vue_resource__["a" /* default */]);
 
 new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
   el: '#app',
   router: router,
-  render: h => h(__WEBPACK_IMPORTED_MODULE_2__App_vue__["a" /* default */])
+  render: h => h(__WEBPACK_IMPORTED_MODULE_3__App_vue__["a" /* default */])
 });
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12283,10 +12312,10 @@ Vue$3.compile = compileToFunctions;
 
 /* harmony default export */ __webpack_exports__["a"] = (Vue$3);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3), __webpack_require__(14).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(3), __webpack_require__(15).setImmediate))
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var apply = Function.prototype.apply;
@@ -12339,13 +12368,13 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(15);
+__webpack_require__(16);
 exports.setImmediate = setImmediate;
 exports.clearImmediate = clearImmediate;
 
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -12535,10 +12564,10 @@ exports.clearImmediate = clearImmediate;
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(16)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(17)))
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -12728,7 +12757,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15358,15 +15387,1599 @@ if (inBrowser && window.Vue) {
 
 
 /***/ }),
-/* 18 */
+/* 19 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export Url */
+/* unused harmony export Http */
+/* unused harmony export Resource */
+/*!
+ * vue-resource v1.3.5
+ * https://github.com/pagekit/vue-resource
+ * Released under the MIT License.
+ */
+
+/**
+ * Promises/A+ polyfill v1.1.4 (https://github.com/bramstein/promis)
+ */
+
+var RESOLVED = 0;
+var REJECTED = 1;
+var PENDING  = 2;
+
+function Promise$1(executor) {
+
+    this.state = PENDING;
+    this.value = undefined;
+    this.deferred = [];
+
+    var promise = this;
+
+    try {
+        executor(function (x) {
+            promise.resolve(x);
+        }, function (r) {
+            promise.reject(r);
+        });
+    } catch (e) {
+        promise.reject(e);
+    }
+}
+
+Promise$1.reject = function (r) {
+    return new Promise$1(function (resolve, reject) {
+        reject(r);
+    });
+};
+
+Promise$1.resolve = function (x) {
+    return new Promise$1(function (resolve, reject) {
+        resolve(x);
+    });
+};
+
+Promise$1.all = function all(iterable) {
+    return new Promise$1(function (resolve, reject) {
+        var count = 0, result = [];
+
+        if (iterable.length === 0) {
+            resolve(result);
+        }
+
+        function resolver(i) {
+            return function (x) {
+                result[i] = x;
+                count += 1;
+
+                if (count === iterable.length) {
+                    resolve(result);
+                }
+            };
+        }
+
+        for (var i = 0; i < iterable.length; i += 1) {
+            Promise$1.resolve(iterable[i]).then(resolver(i), reject);
+        }
+    });
+};
+
+Promise$1.race = function race(iterable) {
+    return new Promise$1(function (resolve, reject) {
+        for (var i = 0; i < iterable.length; i += 1) {
+            Promise$1.resolve(iterable[i]).then(resolve, reject);
+        }
+    });
+};
+
+var p$1 = Promise$1.prototype;
+
+p$1.resolve = function resolve(x) {
+    var promise = this;
+
+    if (promise.state === PENDING) {
+        if (x === promise) {
+            throw new TypeError('Promise settled with itself.');
+        }
+
+        var called = false;
+
+        try {
+            var then = x && x['then'];
+
+            if (x !== null && typeof x === 'object' && typeof then === 'function') {
+                then.call(x, function (x) {
+                    if (!called) {
+                        promise.resolve(x);
+                    }
+                    called = true;
+
+                }, function (r) {
+                    if (!called) {
+                        promise.reject(r);
+                    }
+                    called = true;
+                });
+                return;
+            }
+        } catch (e) {
+            if (!called) {
+                promise.reject(e);
+            }
+            return;
+        }
+
+        promise.state = RESOLVED;
+        promise.value = x;
+        promise.notify();
+    }
+};
+
+p$1.reject = function reject(reason) {
+    var promise = this;
+
+    if (promise.state === PENDING) {
+        if (reason === promise) {
+            throw new TypeError('Promise settled with itself.');
+        }
+
+        promise.state = REJECTED;
+        promise.value = reason;
+        promise.notify();
+    }
+};
+
+p$1.notify = function notify() {
+    var promise = this;
+
+    nextTick(function () {
+        if (promise.state !== PENDING) {
+            while (promise.deferred.length) {
+                var deferred = promise.deferred.shift(),
+                    onResolved = deferred[0],
+                    onRejected = deferred[1],
+                    resolve = deferred[2],
+                    reject = deferred[3];
+
+                try {
+                    if (promise.state === RESOLVED) {
+                        if (typeof onResolved === 'function') {
+                            resolve(onResolved.call(undefined, promise.value));
+                        } else {
+                            resolve(promise.value);
+                        }
+                    } else if (promise.state === REJECTED) {
+                        if (typeof onRejected === 'function') {
+                            resolve(onRejected.call(undefined, promise.value));
+                        } else {
+                            reject(promise.value);
+                        }
+                    }
+                } catch (e) {
+                    reject(e);
+                }
+            }
+        }
+    });
+};
+
+p$1.then = function then(onResolved, onRejected) {
+    var promise = this;
+
+    return new Promise$1(function (resolve, reject) {
+        promise.deferred.push([onResolved, onRejected, resolve, reject]);
+        promise.notify();
+    });
+};
+
+p$1.catch = function (onRejected) {
+    return this.then(undefined, onRejected);
+};
+
+/**
+ * Promise adapter.
+ */
+
+if (typeof Promise === 'undefined') {
+    window.Promise = Promise$1;
+}
+
+function PromiseObj(executor, context) {
+
+    if (executor instanceof Promise) {
+        this.promise = executor;
+    } else {
+        this.promise = new Promise(executor.bind(context));
+    }
+
+    this.context = context;
+}
+
+PromiseObj.all = function (iterable, context) {
+    return new PromiseObj(Promise.all(iterable), context);
+};
+
+PromiseObj.resolve = function (value, context) {
+    return new PromiseObj(Promise.resolve(value), context);
+};
+
+PromiseObj.reject = function (reason, context) {
+    return new PromiseObj(Promise.reject(reason), context);
+};
+
+PromiseObj.race = function (iterable, context) {
+    return new PromiseObj(Promise.race(iterable), context);
+};
+
+var p = PromiseObj.prototype;
+
+p.bind = function (context) {
+    this.context = context;
+    return this;
+};
+
+p.then = function (fulfilled, rejected) {
+
+    if (fulfilled && fulfilled.bind && this.context) {
+        fulfilled = fulfilled.bind(this.context);
+    }
+
+    if (rejected && rejected.bind && this.context) {
+        rejected = rejected.bind(this.context);
+    }
+
+    return new PromiseObj(this.promise.then(fulfilled, rejected), this.context);
+};
+
+p.catch = function (rejected) {
+
+    if (rejected && rejected.bind && this.context) {
+        rejected = rejected.bind(this.context);
+    }
+
+    return new PromiseObj(this.promise.catch(rejected), this.context);
+};
+
+p.finally = function (callback) {
+
+    return this.then(function (value) {
+            callback.call(this);
+            return value;
+        }, function (reason) {
+            callback.call(this);
+            return Promise.reject(reason);
+        }
+    );
+};
+
+/**
+ * Utility functions.
+ */
+
+var ref = {};
+var hasOwnProperty = ref.hasOwnProperty;
+
+var ref$1 = [];
+var slice = ref$1.slice;
+var debug = false;
+var ntick;
+
+var inBrowser = typeof window !== 'undefined';
+
+function Util (ref) {
+    var config = ref.config;
+    var nextTick = ref.nextTick;
+
+    ntick = nextTick;
+    debug = config.debug || !config.silent;
+}
+
+function warn(msg) {
+    if (typeof console !== 'undefined' && debug) {
+        console.warn('[VueResource warn]: ' + msg);
+    }
+}
+
+function error(msg) {
+    if (typeof console !== 'undefined') {
+        console.error(msg);
+    }
+}
+
+function nextTick(cb, ctx) {
+    return ntick(cb, ctx);
+}
+
+function trim(str) {
+    return str ? str.replace(/^\s*|\s*$/g, '') : '';
+}
+
+function trimEnd(str, chars) {
+
+    if (str && chars === undefined) {
+        return str.replace(/\s+$/, '');
+    }
+
+    if (!str || !chars) {
+        return str;
+    }
+
+    return str.replace(new RegExp(("[" + chars + "]+$")), '');
+}
+
+function toLower(str) {
+    return str ? str.toLowerCase() : '';
+}
+
+function toUpper(str) {
+    return str ? str.toUpperCase() : '';
+}
+
+var isArray = Array.isArray;
+
+function isString(val) {
+    return typeof val === 'string';
+}
+
+
+
+function isFunction(val) {
+    return typeof val === 'function';
+}
+
+function isObject(obj) {
+    return obj !== null && typeof obj === 'object';
+}
+
+function isPlainObject(obj) {
+    return isObject(obj) && Object.getPrototypeOf(obj) == Object.prototype;
+}
+
+function isBlob(obj) {
+    return typeof Blob !== 'undefined' && obj instanceof Blob;
+}
+
+function isFormData(obj) {
+    return typeof FormData !== 'undefined' && obj instanceof FormData;
+}
+
+function when(value, fulfilled, rejected) {
+
+    var promise = PromiseObj.resolve(value);
+
+    if (arguments.length < 2) {
+        return promise;
+    }
+
+    return promise.then(fulfilled, rejected);
+}
+
+function options(fn, obj, opts) {
+
+    opts = opts || {};
+
+    if (isFunction(opts)) {
+        opts = opts.call(obj);
+    }
+
+    return merge(fn.bind({$vm: obj, $options: opts}), fn, {$options: opts});
+}
+
+function each(obj, iterator) {
+
+    var i, key;
+
+    if (isArray(obj)) {
+        for (i = 0; i < obj.length; i++) {
+            iterator.call(obj[i], obj[i], i);
+        }
+    } else if (isObject(obj)) {
+        for (key in obj) {
+            if (hasOwnProperty.call(obj, key)) {
+                iterator.call(obj[key], obj[key], key);
+            }
+        }
+    }
+
+    return obj;
+}
+
+var assign = Object.assign || _assign;
+
+function merge(target) {
+
+    var args = slice.call(arguments, 1);
+
+    args.forEach(function (source) {
+        _merge(target, source, true);
+    });
+
+    return target;
+}
+
+function defaults(target) {
+
+    var args = slice.call(arguments, 1);
+
+    args.forEach(function (source) {
+
+        for (var key in source) {
+            if (target[key] === undefined) {
+                target[key] = source[key];
+            }
+        }
+
+    });
+
+    return target;
+}
+
+function _assign(target) {
+
+    var args = slice.call(arguments, 1);
+
+    args.forEach(function (source) {
+        _merge(target, source);
+    });
+
+    return target;
+}
+
+function _merge(target, source, deep) {
+    for (var key in source) {
+        if (deep && (isPlainObject(source[key]) || isArray(source[key]))) {
+            if (isPlainObject(source[key]) && !isPlainObject(target[key])) {
+                target[key] = {};
+            }
+            if (isArray(source[key]) && !isArray(target[key])) {
+                target[key] = [];
+            }
+            _merge(target[key], source[key], deep);
+        } else if (source[key] !== undefined) {
+            target[key] = source[key];
+        }
+    }
+}
+
+/**
+ * Root Prefix Transform.
+ */
+
+function root (options$$1, next) {
+
+    var url = next(options$$1);
+
+    if (isString(options$$1.root) && !/^(https?:)?\//.test(url)) {
+        url = trimEnd(options$$1.root, '/') + '/' + url;
+    }
+
+    return url;
+}
+
+/**
+ * Query Parameter Transform.
+ */
+
+function query (options$$1, next) {
+
+    var urlParams = Object.keys(Url.options.params), query = {}, url = next(options$$1);
+
+    each(options$$1.params, function (value, key) {
+        if (urlParams.indexOf(key) === -1) {
+            query[key] = value;
+        }
+    });
+
+    query = Url.params(query);
+
+    if (query) {
+        url += (url.indexOf('?') == -1 ? '?' : '&') + query;
+    }
+
+    return url;
+}
+
+/**
+ * URL Template v2.0.6 (https://github.com/bramstein/url-template)
+ */
+
+function expand(url, params, variables) {
+
+    var tmpl = parse(url), expanded = tmpl.expand(params);
+
+    if (variables) {
+        variables.push.apply(variables, tmpl.vars);
+    }
+
+    return expanded;
+}
+
+function parse(template) {
+
+    var operators = ['+', '#', '.', '/', ';', '?', '&'], variables = [];
+
+    return {
+        vars: variables,
+        expand: function expand(context) {
+            return template.replace(/\{([^\{\}]+)\}|([^\{\}]+)/g, function (_, expression, literal) {
+                if (expression) {
+
+                    var operator = null, values = [];
+
+                    if (operators.indexOf(expression.charAt(0)) !== -1) {
+                        operator = expression.charAt(0);
+                        expression = expression.substr(1);
+                    }
+
+                    expression.split(/,/g).forEach(function (variable) {
+                        var tmp = /([^:\*]*)(?::(\d+)|(\*))?/.exec(variable);
+                        values.push.apply(values, getValues(context, operator, tmp[1], tmp[2] || tmp[3]));
+                        variables.push(tmp[1]);
+                    });
+
+                    if (operator && operator !== '+') {
+
+                        var separator = ',';
+
+                        if (operator === '?') {
+                            separator = '&';
+                        } else if (operator !== '#') {
+                            separator = operator;
+                        }
+
+                        return (values.length !== 0 ? operator : '') + values.join(separator);
+                    } else {
+                        return values.join(',');
+                    }
+
+                } else {
+                    return encodeReserved(literal);
+                }
+            });
+        }
+    };
+}
+
+function getValues(context, operator, key, modifier) {
+
+    var value = context[key], result = [];
+
+    if (isDefined(value) && value !== '') {
+        if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
+            value = value.toString();
+
+            if (modifier && modifier !== '*') {
+                value = value.substring(0, parseInt(modifier, 10));
+            }
+
+            result.push(encodeValue(operator, value, isKeyOperator(operator) ? key : null));
+        } else {
+            if (modifier === '*') {
+                if (Array.isArray(value)) {
+                    value.filter(isDefined).forEach(function (value) {
+                        result.push(encodeValue(operator, value, isKeyOperator(operator) ? key : null));
+                    });
+                } else {
+                    Object.keys(value).forEach(function (k) {
+                        if (isDefined(value[k])) {
+                            result.push(encodeValue(operator, value[k], k));
+                        }
+                    });
+                }
+            } else {
+                var tmp = [];
+
+                if (Array.isArray(value)) {
+                    value.filter(isDefined).forEach(function (value) {
+                        tmp.push(encodeValue(operator, value));
+                    });
+                } else {
+                    Object.keys(value).forEach(function (k) {
+                        if (isDefined(value[k])) {
+                            tmp.push(encodeURIComponent(k));
+                            tmp.push(encodeValue(operator, value[k].toString()));
+                        }
+                    });
+                }
+
+                if (isKeyOperator(operator)) {
+                    result.push(encodeURIComponent(key) + '=' + tmp.join(','));
+                } else if (tmp.length !== 0) {
+                    result.push(tmp.join(','));
+                }
+            }
+        }
+    } else {
+        if (operator === ';') {
+            result.push(encodeURIComponent(key));
+        } else if (value === '' && (operator === '&' || operator === '?')) {
+            result.push(encodeURIComponent(key) + '=');
+        } else if (value === '') {
+            result.push('');
+        }
+    }
+
+    return result;
+}
+
+function isDefined(value) {
+    return value !== undefined && value !== null;
+}
+
+function isKeyOperator(operator) {
+    return operator === ';' || operator === '&' || operator === '?';
+}
+
+function encodeValue(operator, value, key) {
+
+    value = (operator === '+' || operator === '#') ? encodeReserved(value) : encodeURIComponent(value);
+
+    if (key) {
+        return encodeURIComponent(key) + '=' + value;
+    } else {
+        return value;
+    }
+}
+
+function encodeReserved(str) {
+    return str.split(/(%[0-9A-Fa-f]{2})/g).map(function (part) {
+        if (!/%[0-9A-Fa-f]/.test(part)) {
+            part = encodeURI(part);
+        }
+        return part;
+    }).join('');
+}
+
+/**
+ * URL Template (RFC 6570) Transform.
+ */
+
+function template (options) {
+
+    var variables = [], url = expand(options.url, options.params, variables);
+
+    variables.forEach(function (key) {
+        delete options.params[key];
+    });
+
+    return url;
+}
+
+/**
+ * Service for URL templating.
+ */
+
+function Url(url, params) {
+
+    var self = this || {}, options$$1 = url, transform;
+
+    if (isString(url)) {
+        options$$1 = {url: url, params: params};
+    }
+
+    options$$1 = merge({}, Url.options, self.$options, options$$1);
+
+    Url.transforms.forEach(function (handler) {
+
+        if (isString(handler)) {
+            handler = Url.transform[handler];
+        }
+
+        if (isFunction(handler)) {
+            transform = factory(handler, transform, self.$vm);
+        }
+
+    });
+
+    return transform(options$$1);
+}
+
+/**
+ * Url options.
+ */
+
+Url.options = {
+    url: '',
+    root: null,
+    params: {}
+};
+
+/**
+ * Url transforms.
+ */
+
+Url.transform = {template: template, query: query, root: root};
+Url.transforms = ['template', 'query', 'root'];
+
+/**
+ * Encodes a Url parameter string.
+ *
+ * @param {Object} obj
+ */
+
+Url.params = function (obj) {
+
+    var params = [], escape = encodeURIComponent;
+
+    params.add = function (key, value) {
+
+        if (isFunction(value)) {
+            value = value();
+        }
+
+        if (value === null) {
+            value = '';
+        }
+
+        this.push(escape(key) + '=' + escape(value));
+    };
+
+    serialize(params, obj);
+
+    return params.join('&').replace(/%20/g, '+');
+};
+
+/**
+ * Parse a URL and return its components.
+ *
+ * @param {String} url
+ */
+
+Url.parse = function (url) {
+
+    var el = document.createElement('a');
+
+    if (document.documentMode) {
+        el.href = url;
+        url = el.href;
+    }
+
+    el.href = url;
+
+    return {
+        href: el.href,
+        protocol: el.protocol ? el.protocol.replace(/:$/, '') : '',
+        port: el.port,
+        host: el.host,
+        hostname: el.hostname,
+        pathname: el.pathname.charAt(0) === '/' ? el.pathname : '/' + el.pathname,
+        search: el.search ? el.search.replace(/^\?/, '') : '',
+        hash: el.hash ? el.hash.replace(/^#/, '') : ''
+    };
+};
+
+function factory(handler, next, vm) {
+    return function (options$$1) {
+        return handler.call(vm, options$$1, next);
+    };
+}
+
+function serialize(params, obj, scope) {
+
+    var array = isArray(obj), plain = isPlainObject(obj), hash;
+
+    each(obj, function (value, key) {
+
+        hash = isObject(value) || isArray(value);
+
+        if (scope) {
+            key = scope + '[' + (plain || hash ? key : '') + ']';
+        }
+
+        if (!scope && array) {
+            params.add(value.name, value.value);
+        } else if (hash) {
+            serialize(params, value, key);
+        } else {
+            params.add(key, value);
+        }
+    });
+}
+
+/**
+ * XDomain client (Internet Explorer).
+ */
+
+function xdrClient (request) {
+    return new PromiseObj(function (resolve) {
+
+        var xdr = new XDomainRequest(), handler = function (ref) {
+            var type = ref.type;
+
+
+            var status = 0;
+
+            if (type === 'load') {
+                status = 200;
+            } else if (type === 'error') {
+                status = 500;
+            }
+
+            resolve(request.respondWith(xdr.responseText, {status: status}));
+        };
+
+        request.abort = function () { return xdr.abort(); };
+
+        xdr.open(request.method, request.getUrl());
+
+        if (request.timeout) {
+            xdr.timeout = request.timeout;
+        }
+
+        xdr.onload = handler;
+        xdr.onabort = handler;
+        xdr.onerror = handler;
+        xdr.ontimeout = handler;
+        xdr.onprogress = function () {};
+        xdr.send(request.getBody());
+    });
+}
+
+/**
+ * CORS Interceptor.
+ */
+
+var SUPPORTS_CORS = inBrowser && 'withCredentials' in new XMLHttpRequest();
+
+function cors (request, next) {
+
+    if (inBrowser) {
+
+        var orgUrl = Url.parse(location.href);
+        var reqUrl = Url.parse(request.getUrl());
+
+        if (reqUrl.protocol !== orgUrl.protocol || reqUrl.host !== orgUrl.host) {
+
+            request.crossOrigin = true;
+            request.emulateHTTP = false;
+
+            if (!SUPPORTS_CORS) {
+                request.client = xdrClient;
+            }
+        }
+    }
+
+    next();
+}
+
+/**
+ * Form data Interceptor.
+ */
+
+function form (request, next) {
+
+    if (isFormData(request.body)) {
+
+        request.headers.delete('Content-Type');
+
+    } else if (isObject(request.body) && request.emulateJSON) {
+
+        request.body = Url.params(request.body);
+        request.headers.set('Content-Type', 'application/x-www-form-urlencoded');
+    }
+
+    next();
+}
+
+/**
+ * JSON Interceptor.
+ */
+
+function json (request, next) {
+
+    var type = request.headers.get('Content-Type') || '';
+
+    if (isObject(request.body) && type.indexOf('application/json') === 0) {
+        request.body = JSON.stringify(request.body);
+    }
+
+    next(function (response) {
+
+        return response.bodyText ? when(response.text(), function (text) {
+
+            type = response.headers.get('Content-Type') || '';
+
+            if (type.indexOf('application/json') === 0 || isJson(text)) {
+
+                try {
+                    response.body = JSON.parse(text);
+                } catch (e) {
+                    response.body = null;
+                }
+
+            } else {
+                response.body = text;
+            }
+
+            return response;
+
+        }) : response;
+
+    });
+}
+
+function isJson(str) {
+
+    var start = str.match(/^\s*(\[|\{)/);
+    var end = {'[': /]\s*$/, '{': /}\s*$/};
+
+    return start && end[start[1]].test(str);
+}
+
+/**
+ * JSONP client (Browser).
+ */
+
+function jsonpClient (request) {
+    return new PromiseObj(function (resolve) {
+
+        var name = request.jsonp || 'callback', callback = request.jsonpCallback || '_jsonp' + Math.random().toString(36).substr(2), body = null, handler, script;
+
+        handler = function (ref) {
+            var type = ref.type;
+
+
+            var status = 0;
+
+            if (type === 'load' && body !== null) {
+                status = 200;
+            } else if (type === 'error') {
+                status = 500;
+            }
+
+            if (status && window[callback]) {
+                delete window[callback];
+                document.body.removeChild(script);
+            }
+
+            resolve(request.respondWith(body, {status: status}));
+        };
+
+        window[callback] = function (result) {
+            body = JSON.stringify(result);
+        };
+
+        request.abort = function () {
+            handler({type: 'abort'});
+        };
+
+        request.params[name] = callback;
+
+        if (request.timeout) {
+            setTimeout(request.abort, request.timeout);
+        }
+
+        script = document.createElement('script');
+        script.src = request.getUrl();
+        script.type = 'text/javascript';
+        script.async = true;
+        script.onload = handler;
+        script.onerror = handler;
+
+        document.body.appendChild(script);
+    });
+}
+
+/**
+ * JSONP Interceptor.
+ */
+
+function jsonp (request, next) {
+
+    if (request.method == 'JSONP') {
+        request.client = jsonpClient;
+    }
+
+    next();
+}
+
+/**
+ * Before Interceptor.
+ */
+
+function before (request, next) {
+
+    if (isFunction(request.before)) {
+        request.before.call(this, request);
+    }
+
+    next();
+}
+
+/**
+ * HTTP method override Interceptor.
+ */
+
+function method (request, next) {
+
+    if (request.emulateHTTP && /^(PUT|PATCH|DELETE)$/i.test(request.method)) {
+        request.headers.set('X-HTTP-Method-Override', request.method);
+        request.method = 'POST';
+    }
+
+    next();
+}
+
+/**
+ * Header Interceptor.
+ */
+
+function header (request, next) {
+
+    var headers = assign({}, Http.headers.common,
+        !request.crossOrigin ? Http.headers.custom : {},
+        Http.headers[toLower(request.method)]
+    );
+
+    each(headers, function (value, name) {
+        if (!request.headers.has(name)) {
+            request.headers.set(name, value);
+        }
+    });
+
+    next();
+}
+
+/**
+ * XMLHttp client (Browser).
+ */
+
+function xhrClient (request) {
+    return new PromiseObj(function (resolve) {
+
+        var xhr = new XMLHttpRequest(), handler = function (event) {
+
+            var response = request.respondWith(
+                'response' in xhr ? xhr.response : xhr.responseText, {
+                    status: xhr.status === 1223 ? 204 : xhr.status, // IE9 status bug
+                    statusText: xhr.status === 1223 ? 'No Content' : trim(xhr.statusText)
+                }
+            );
+
+            each(trim(xhr.getAllResponseHeaders()).split('\n'), function (row) {
+                response.headers.append(row.slice(0, row.indexOf(':')), row.slice(row.indexOf(':') + 1));
+            });
+
+            resolve(response);
+        };
+
+        request.abort = function () { return xhr.abort(); };
+
+        if (request.progress) {
+            if (request.method === 'GET') {
+                xhr.addEventListener('progress', request.progress);
+            } else if (/^(POST|PUT)$/i.test(request.method)) {
+                xhr.upload.addEventListener('progress', request.progress);
+            }
+        }
+
+        xhr.open(request.method, request.getUrl(), true);
+
+        if (request.timeout) {
+            xhr.timeout = request.timeout;
+        }
+
+        if (request.responseType && 'responseType' in xhr) {
+            xhr.responseType = request.responseType;
+        }
+
+        if (request.withCredentials || request.credentials) {
+            xhr.withCredentials = true;
+        }
+
+        if (!request.crossOrigin) {
+            request.headers.set('X-Requested-With', 'XMLHttpRequest');
+        }
+
+        request.headers.forEach(function (value, name) {
+            xhr.setRequestHeader(name, value);
+        });
+
+        xhr.onload = handler;
+        xhr.onabort = handler;
+        xhr.onerror = handler;
+        xhr.ontimeout = handler;
+        xhr.send(request.getBody());
+    });
+}
+
+/**
+ * Http client (Node).
+ */
+
+function nodeClient (request) {
+
+    var client = __webpack_require__(20);
+
+    return new PromiseObj(function (resolve) {
+
+        var url = request.getUrl();
+        var body = request.getBody();
+        var method = request.method;
+        var headers = {}, handler;
+
+        request.headers.forEach(function (value, name) {
+            headers[name] = value;
+        });
+
+        client(url, {body: body, method: method, headers: headers}).then(handler = function (resp) {
+
+            var response = request.respondWith(resp.body, {
+                    status: resp.statusCode,
+                    statusText: trim(resp.statusMessage)
+                }
+            );
+
+            each(resp.headers, function (value, name) {
+                response.headers.set(name, value);
+            });
+
+            resolve(response);
+
+        }, function (error$$1) { return handler(error$$1.response); });
+    });
+}
+
+/**
+ * Base client.
+ */
+
+function Client (context) {
+
+    var reqHandlers = [sendRequest], resHandlers = [], handler;
+
+    if (!isObject(context)) {
+        context = null;
+    }
+
+    function Client(request) {
+        return new PromiseObj(function (resolve, reject) {
+
+            function exec() {
+
+                handler = reqHandlers.pop();
+
+                if (isFunction(handler)) {
+                    handler.call(context, request, next);
+                } else {
+                    warn(("Invalid interceptor of type " + (typeof handler) + ", must be a function"));
+                    next();
+                }
+            }
+
+            function next(response) {
+
+                if (isFunction(response)) {
+
+                    resHandlers.unshift(response);
+
+                } else if (isObject(response)) {
+
+                    resHandlers.forEach(function (handler) {
+                        response = when(response, function (response) {
+                            return handler.call(context, response) || response;
+                        }, reject);
+                    });
+
+                    when(response, resolve, reject);
+
+                    return;
+                }
+
+                exec();
+            }
+
+            exec();
+
+        }, context);
+    }
+
+    Client.use = function (handler) {
+        reqHandlers.push(handler);
+    };
+
+    return Client;
+}
+
+function sendRequest(request, resolve) {
+
+    var client = request.client || (inBrowser ? xhrClient : nodeClient);
+
+    resolve(client(request));
+}
+
+/**
+ * HTTP Headers.
+ */
+
+var Headers = function Headers(headers) {
+    var this$1 = this;
+
+
+    this.map = {};
+
+    each(headers, function (value, name) { return this$1.append(name, value); });
+};
+
+Headers.prototype.has = function has (name) {
+    return getName(this.map, name) !== null;
+};
+
+Headers.prototype.get = function get (name) {
+
+    var list = this.map[getName(this.map, name)];
+
+    return list ? list.join() : null;
+};
+
+Headers.prototype.getAll = function getAll (name) {
+    return this.map[getName(this.map, name)] || [];
+};
+
+Headers.prototype.set = function set (name, value) {
+    this.map[normalizeName(getName(this.map, name) || name)] = [trim(value)];
+};
+
+Headers.prototype.append = function append (name, value){
+
+    var list = this.map[getName(this.map, name)];
+
+    if (list) {
+        list.push(trim(value));
+    } else {
+        this.set(name, value);
+    }
+};
+
+Headers.prototype.delete = function delete$1 (name){
+    delete this.map[getName(this.map, name)];
+};
+
+Headers.prototype.deleteAll = function deleteAll (){
+    this.map = {};
+};
+
+Headers.prototype.forEach = function forEach (callback, thisArg) {
+        var this$1 = this;
+
+    each(this.map, function (list, name) {
+        each(list, function (value) { return callback.call(thisArg, value, name, this$1); });
+    });
+};
+
+function getName(map, name) {
+    return Object.keys(map).reduce(function (prev, curr) {
+        return toLower(name) === toLower(curr) ? curr : prev;
+    }, null);
+}
+
+function normalizeName(name) {
+
+    if (/[^a-z0-9\-#$%&'*+.\^_`|~]/i.test(name)) {
+        throw new TypeError('Invalid character in header field name');
+    }
+
+    return trim(name);
+}
+
+/**
+ * HTTP Response.
+ */
+
+var Response = function Response(body, ref) {
+    var url = ref.url;
+    var headers = ref.headers;
+    var status = ref.status;
+    var statusText = ref.statusText;
+
+
+    this.url = url;
+    this.ok = status >= 200 && status < 300;
+    this.status = status || 0;
+    this.statusText = statusText || '';
+    this.headers = new Headers(headers);
+    this.body = body;
+
+    if (isString(body)) {
+
+        this.bodyText = body;
+
+    } else if (isBlob(body)) {
+
+        this.bodyBlob = body;
+
+        if (isBlobText(body)) {
+            this.bodyText = blobText(body);
+        }
+    }
+};
+
+Response.prototype.blob = function blob () {
+    return when(this.bodyBlob);
+};
+
+Response.prototype.text = function text () {
+    return when(this.bodyText);
+};
+
+Response.prototype.json = function json () {
+    return when(this.text(), function (text) { return JSON.parse(text); });
+};
+
+Object.defineProperty(Response.prototype, 'data', {
+
+    get: function get() {
+        return this.body;
+    },
+
+    set: function set(body) {
+        this.body = body;
+    }
+
+});
+
+function blobText(body) {
+    return new PromiseObj(function (resolve) {
+
+        var reader = new FileReader();
+
+        reader.readAsText(body);
+        reader.onload = function () {
+            resolve(reader.result);
+        };
+
+    });
+}
+
+function isBlobText(body) {
+    return body.type.indexOf('text') === 0 || body.type.indexOf('json') !== -1;
+}
+
+/**
+ * HTTP Request.
+ */
+
+var Request = function Request(options$$1) {
+
+    this.body = null;
+    this.params = {};
+
+    assign(this, options$$1, {
+        method: toUpper(options$$1.method || 'GET')
+    });
+
+    if (!(this.headers instanceof Headers)) {
+        this.headers = new Headers(this.headers);
+    }
+};
+
+Request.prototype.getUrl = function getUrl (){
+    return Url(this);
+};
+
+Request.prototype.getBody = function getBody (){
+    return this.body;
+};
+
+Request.prototype.respondWith = function respondWith (body, options$$1) {
+    return new Response(body, assign(options$$1 || {}, {url: this.getUrl()}));
+};
+
+/**
+ * Service for sending network requests.
+ */
+
+var COMMON_HEADERS = {'Accept': 'application/json, text/plain, */*'};
+var JSON_CONTENT_TYPE = {'Content-Type': 'application/json;charset=utf-8'};
+
+function Http(options$$1) {
+
+    var self = this || {}, client = Client(self.$vm);
+
+    defaults(options$$1 || {}, self.$options, Http.options);
+
+    Http.interceptors.forEach(function (handler) {
+
+        if (isString(handler)) {
+            handler = Http.interceptor[handler];
+        }
+
+        if (isFunction(handler)) {
+            client.use(handler);
+        }
+
+    });
+
+    return client(new Request(options$$1)).then(function (response) {
+
+        return response.ok ? response : PromiseObj.reject(response);
+
+    }, function (response) {
+
+        if (response instanceof Error) {
+            error(response);
+        }
+
+        return PromiseObj.reject(response);
+    });
+}
+
+Http.options = {};
+
+Http.headers = {
+    put: JSON_CONTENT_TYPE,
+    post: JSON_CONTENT_TYPE,
+    patch: JSON_CONTENT_TYPE,
+    delete: JSON_CONTENT_TYPE,
+    common: COMMON_HEADERS,
+    custom: {}
+};
+
+Http.interceptor = {before: before, method: method, jsonp: jsonp, json: json, form: form, header: header, cors: cors};
+Http.interceptors = ['before', 'method', 'jsonp', 'json', 'form', 'header', 'cors'];
+
+['get', 'delete', 'head', 'jsonp'].forEach(function (method$$1) {
+
+    Http[method$$1] = function (url, options$$1) {
+        return this(assign(options$$1 || {}, {url: url, method: method$$1}));
+    };
+
+});
+
+['post', 'put', 'patch'].forEach(function (method$$1) {
+
+    Http[method$$1] = function (url, body, options$$1) {
+        return this(assign(options$$1 || {}, {url: url, method: method$$1, body: body}));
+    };
+
+});
+
+/**
+ * Service for interacting with RESTful services.
+ */
+
+function Resource(url, params, actions, options$$1) {
+
+    var self = this || {}, resource = {};
+
+    actions = assign({},
+        Resource.actions,
+        actions
+    );
+
+    each(actions, function (action, name) {
+
+        action = merge({url: url, params: assign({}, params)}, options$$1, action);
+
+        resource[name] = function () {
+            return (self.$http || Http)(opts(action, arguments));
+        };
+    });
+
+    return resource;
+}
+
+function opts(action, args) {
+
+    var options$$1 = assign({}, action), params = {}, body;
+
+    switch (args.length) {
+
+        case 2:
+
+            params = args[0];
+            body = args[1];
+
+            break;
+
+        case 1:
+
+            if (/^(POST|PUT|PATCH)$/i.test(options$$1.method)) {
+                body = args[0];
+            } else {
+                params = args[0];
+            }
+
+            break;
+
+        case 0:
+
+            break;
+
+        default:
+
+            throw 'Expected up to 2 arguments [params, body], got ' + args.length + ' arguments';
+    }
+
+    options$$1.body = body;
+    options$$1.params = assign({}, options$$1.params, params);
+
+    return options$$1;
+}
+
+Resource.actions = {
+
+    get: {method: 'GET'},
+    save: {method: 'POST'},
+    query: {method: 'GET'},
+    update: {method: 'PUT'},
+    remove: {method: 'DELETE'},
+    delete: {method: 'DELETE'}
+
+};
+
+/**
+ * Install plugin.
+ */
+
+function plugin(Vue) {
+
+    if (plugin.installed) {
+        return;
+    }
+
+    Util(Vue);
+
+    Vue.url = Url;
+    Vue.http = Http;
+    Vue.resource = Resource;
+    Vue.Promise = PromiseObj;
+
+    Object.defineProperties(Vue.prototype, {
+
+        $url: {
+            get: function get() {
+                return options(Vue.url, this, this.$options.url);
+            }
+        },
+
+        $http: {
+            get: function get() {
+                return options(Vue.http, this, this.$options.http);
+            }
+        },
+
+        $resource: {
+            get: function get() {
+                return Vue.resource.bind(this);
+            }
+        },
+
+        $promise: {
+            get: function get() {
+                var this$1 = this;
+
+                return function (executor) { return new Vue.Promise(executor, this$1); };
+            }
+        }
+
+    });
+}
+
+if (typeof window !== 'undefined' && window.Vue) {
+    window.Vue.use(plugin);
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (plugin);
+
+
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(4);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7df7ddf1_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7ded84b6_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(34);
 function injectStyle (ssrContext) {
-  __webpack_require__(19)
+  __webpack_require__(22)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15384,7 +16997,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7df7ddf1_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7ded84b6_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -15395,36 +17008,36 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 19 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(20);
+var content = __webpack_require__(23);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("20d297d8", content, true);
+var update = __webpack_require__(2)("116c372b", content, true);
 
 /***/ }),
-/* 20 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(21);
+var escape = __webpack_require__(24);
 exports = module.exports = __webpack_require__(1)(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lobster);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);", ""]);
 
 // module
-exports.push([module.i, "body{font-family:Source Sans Pro,Open Sans,sans-serif}.navbar>.container{flex-wrap:wrap}.navbar-item,.navbar-link{text-transform:uppercase}.hero{background-image:url(" + escape(__webpack_require__(22)) + ");background-position:50%;background-size:cover;padding:150px 0}.hero-info{display:inline-block;background-color:rgba(32,156,238,.5);padding:10px}.navbar-brand img{width:auto;margin:10px;min-height:5rem}.navbar{min-height:0}.info-field{color:#fff}.info-fields{display:flex;flex-wrap:wrap}.info-field{position:relative;padding:10px 30px;margin:16px 10px;flex:1;border:2px solid #fff;border-radius:4px}.info-field:before{content:\"\";z-index:999;display:inline-block;position:absolute;top:calc(50% - 16px);left:-17px;background-color:#209cee;width:32px;height:32px;background-position:50%;background-size:cover}.home:before{background-image:url(" + escape(__webpack_require__(23)) + ")}.phone:before{background-image:url(" + escape(__webpack_require__(24)) + ")}.email:before{background-image:url(" + escape(__webpack_require__(25)) + ")}.main .title{font-weight:300}", ""]);
+exports.push([module.i, "body{font-family:Source Sans Pro,Open Sans,sans-serif}.navbar>.container{flex-wrap:wrap}.navbar-item,.navbar-link{text-transform:uppercase}.navbar-overflow{flex-wrap:wrap}.hero{background-image:url(" + escape(__webpack_require__(25)) + ");background-position:50%;background-size:cover;padding:150px 0}.hero-info{display:inline-block;background-color:rgba(32,156,238,.5);padding:10px}.navbar-brand img{width:auto;margin:10px;min-height:5rem}.navbar{min-height:0}.info-field{color:#fff}.info-fields{display:flex;flex-wrap:wrap}.info-field{position:relative;padding:10px 30px;margin:16px 10px;flex:1;border:2px solid #fff;border-radius:4px}.info-field:before{content:\"\";z-index:999;display:inline-block;position:absolute;top:calc(50% - 16px);left:-17px;background-color:#209cee;width:32px;height:32px;background-position:50%;background-size:cover}.home:before{background-image:url(" + escape(__webpack_require__(26)) + ")}.phone:before{background-image:url(" + escape(__webpack_require__(27)) + ")}.email:before{background-image:url(" + escape(__webpack_require__(28)) + ")}.main .title{font-weight:300}", ""]);
 
 // exports
 
 
 /***/ }),
-/* 21 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = function escape(url) {
@@ -15443,31 +17056,31 @@ module.exports = function escape(url) {
 
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "house.jpg";
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "home.svg";
 
 /***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "phone.svg";
 
 /***/ }),
-/* 25 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "email.svg";
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, exports) {
 
 /**
@@ -15500,15 +17113,15 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 27 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_AccPanel_vue__ = __webpack_require__(5);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_25c89448_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_AccPanel_vue__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_066eb1c4_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_AccPanel_vue__ = __webpack_require__(33);
 function injectStyle (ssrContext) {
-  __webpack_require__(28)
+  __webpack_require__(31)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15521,12 +17134,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-25c89448"
+var __vue_scopeId__ = "data-v-066eb1c4"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_AccPanel_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_25c89448_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_AccPanel_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_066eb1c4_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_AccPanel_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -15537,20 +17150,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 28 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(29);
+var content = __webpack_require__(32);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("63141139", content, true);
+var update = __webpack_require__(2)("70ef8a97", content, true);
 
 /***/ }),
-/* 29 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15558,13 +17171,13 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".acc-panel[data-v-25c89448]{position:fixed;height:300px;box-sizing:border-box;top:calc(50% - 150px);right:0;flex-direction:column;background-color:#eee;justify-content:center;display:flex;z-index:3}.acc-panel .acc-panel__item[data-v-25c89448]{background-color:transparent;flex:1;max-width:100px;text-align:center;padding:0 8px;border:0;height:48px;box-sizing:border-box;outline:0}.acc-panel .acc-panel__item svg[data-v-25c89448]{fill:#757575;height:32px;width:32px}.acc-panel .acc-panel__item[data-v-25c89448]:not(:first-child):hover{cursor:pointer;background-color:#bdbdbd}.acc-panel .acc-panel__item:active svg[data-v-25c89448]{fill:#e0e0e0}", ""]);
+exports.push([module.i, ".acc-panel[data-v-066eb1c4]{position:fixed;height:300px;box-sizing:border-box;top:calc(50% - 150px);right:0;flex-direction:column;background-color:#eee;justify-content:center;display:flex;z-index:3}.acc-panel .acc-panel__item[data-v-066eb1c4]{background-color:transparent;flex:1;max-width:100px;text-align:center;padding:0 8px;border:0;height:48px;box-sizing:border-box;outline:0}.acc-panel .acc-panel__item svg[data-v-066eb1c4]{fill:#757575;height:32px;width:32px}.acc-panel .acc-panel__item[data-v-066eb1c4]:not(:first-child):hover{cursor:pointer;background-color:#bdbdbd}.acc-panel .acc-panel__item:active svg[data-v-066eb1c4]{fill:#e0e0e0}", ""]);
 
 // exports
 
 
 /***/ }),
-/* 30 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15574,37 +17187,62 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 31 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('header',[_c('acc-panel'),_vm._v(" "),_c('section',{staticClass:"menu"},[_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-brand"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_c('img',{attrs:{"src":__webpack_require__(32),"width":"112","height":"28"}})]),_vm._v(" "),_c('div',{staticClass:"navbar-burger burger",class:{'is-active': _vm.isMenuToggled},attrs:{"data-target":"navMenuColorlink-example"},on:{"click":function($event){_vm.isMenuToggled = !_vm.isMenuToggled}}},[_c('span'),_vm._v(" "),_c('span'),_vm._v(" "),_c('span')])],1),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"navbar-menu",class:{'is-active': _vm.isMenuToggled}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-start navbar-overflow"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_vm._v("\n                Главная\n              ")]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Об учреждении\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about"}},[_vm._v("\n                    Общая информация\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/conditions"}},[_vm._v("\n                    Условия приема\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/rules"}},[_vm._v("\n                    Режим дня\n                  ")])],1)]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Услуги\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services"}},[_vm._v("\n                    Предоставляемые услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/conditions"}},[_vm._v("\n                    Порядок и условия предоставления социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/amount"}},[_vm._v("\n                    Численность получателей и объем предоставляемых социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/spots"}},[_vm._v("\n                    Количество свободных мест\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/complaints"}},[_vm._v("\n                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                  ")])],1)])],1)])])])]),_vm._v(" "),_vm._m(1)],1),_vm._v(" "),_c('router-view'),_vm._v(" "),_c('footer',{staticClass:"footer"},[_c('section',{staticClass:"site-map"},[_c('menu',{staticClass:"menu"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n          Карта сайта\n        ")]),_vm._v(" "),_c('ul',{staticClass:"menu-list"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("\n              Главная\n            ")])],1),_vm._v(" "),_c('li',[_c('a',[_vm._v("Об учреждении")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/about"}},[_vm._v("\n                  Общая информация\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/conditions"}},[_vm._v("\n                  Условия приема\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/rules"}},[_vm._v("\n                  Режим дня\n                ")])],1)])]),_vm._v(" "),_c('li',[_c('a',[_vm._v("Услуги")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/services"}},[_vm._v("\n                  Предоставляемые услуги\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/conditions"}},[_vm._v("\n                  Порядок и условия предоставления социальных услуг\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/amount"}},[_vm._v("\n                  Численность получателей и объем предоставляемых социальных услуг\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/spots"}},[_vm._v("\n                  Количество свободных мест\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/complaints"}},[_vm._v("\n                  Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                ")])],1)])])])])]),_vm._v(" "),_vm._m(2)])],1)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('header',[_c('acc-panel'),_vm._v(" "),_c('section',{staticClass:"menu"},[_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-brand"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_c('img',{attrs:{"src":__webpack_require__(35),"width":"112","height":"28"}})]),_vm._v(" "),_c('div',{staticClass:"navbar-burger burger",class:{'is-active': _vm.isMenuToggled},attrs:{"data-target":"navMenuColorlink-example"},on:{"click":function($event){_vm.isMenuToggled = !_vm.isMenuToggled}}},[_c('span'),_vm._v(" "),_c('span'),_vm._v(" "),_c('span')])],1),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"navbar-menu",class:{'is-active': _vm.isMenuToggled}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-start navbar-overflow"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_vm._v("\n                Главная\n              ")]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Об учреждении\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about"}},[_vm._v("\n                    Общая информация\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/lead"}},[_vm._v("\n                    Руководство\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/staff"}},[_vm._v("\n                    Персональный состав работников\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/documents"}},[_vm._v("\n                    Документы\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/equipment"}},[_vm._v("\n                    Материально-техническое обеспечение\n                  ")])],1)]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Услуги\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services"}},[_vm._v("\n                    Предоставляемые услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/conditions"}},[_vm._v("\n                    Порядок и условия предоставления социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/rates"}},[_vm._v("\n                    Тарифы на социальные услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/amount"}},[_vm._v("\n                    Численность получателей и объем предоставляемых социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/spots"}},[_vm._v("\n                    Количество свободных мест\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/experience"}},[_vm._v("\n                    Опыт работы\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/complaints"}},[_vm._v("\n                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                  ")])],1)]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Информация о деятельности\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/reports"}},[_vm._v("\n                    Отчеты о деятельности\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/exams"}},[_vm._v("\n                    Проверки\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/rates"}},[_vm._v("\n                    Независимая оценка качества оказания услуг\n                  ")])],1)]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/events"}},[_vm._v("\n                Мероприятия\n              ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/interrogation"}},[_vm._v("\n                Опрос о качестве услуг\n              ")])],1)])])])]),_vm._v(" "),_vm._m(1)],1),_vm._v(" "),_c('router-view'),_vm._v(" "),_c('footer',{staticClass:"footer"},[_c('section',{staticClass:"site-map"},[_c('menu',{staticClass:"menu"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n          Карта сайта\n        ")]),_vm._v(" "),_c('ul',{staticClass:"menu-list"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("\n              Главная\n            ")])],1),_vm._v(" "),_c('li',[_c('a',[_vm._v("Об учреждении")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/about"}},[_vm._v("\n                  Общая информация\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/lead"}},[_vm._v("\n                  Руководство\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/staff"}},[_vm._v("\n                  Персональный состав работников\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/documents"}},[_vm._v("\n                  Документы\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/equipment"}},[_vm._v("\n                  Материально-техническое обеспечение\n                ")])],1)])]),_vm._v(" "),_c('li',[_c('a',[_vm._v("Услуги")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/services"}},[_vm._v("\n                  Предоставляемые услуги\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/conditions"}},[_vm._v("\n                  Порядок и условия предоставления социальных услуг\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/rates"}},[_vm._v("\n                  Тарифы на социальные услуги\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/amount"}},[_vm._v("\n                  Численность получателей и объем предоставляемых социальных услуг\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/spots"}},[_vm._v("\n                  Количество свободных мест\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/experience"}},[_vm._v("\n                  Опыт работы\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/complaints"}},[_vm._v("\n                  Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                ")])],1)])]),_vm._v(" "),_c('li',[_c('a',[_vm._v("\n              Информация о деятельности\n            ")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/activities/reports"}},[_vm._v("\n                  Отчеты о деятельности\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/activities/exams"}},[_vm._v("\n                  Проверки\n                ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/activities/rates"}},[_vm._v("\n                  Независимая оценка качества оказания услуг\n                ")])],1)])]),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/events"}},[_vm._v("\n              Проводимые мероприятия\n            ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/interrogation"}},[_vm._v("\n              Опрос граждан о качестве оказания услуг\n            ")])],1)])])]),_vm._v(" "),_vm._m(2)])],1)}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navbar-end"},[_c('div',{staticClass:"navbar-item"},[_c('div',{staticClass:"field is-grouped info-fields"},[_c('div',{staticClass:"info-field home"},[_c('p',[_vm._v("Адрес")]),_vm._v(" "),_c('p',[_vm._v("г. Заинск, ул.Тукая, д. 5А")])]),_vm._v(" "),_c('div',{staticClass:"info-field phone"},[_c('p',[_vm._v("Телефон")]),_vm._v(" "),_c('p',[_vm._v("+7(85558)3-32-32")])]),_vm._v(" "),_c('div',{staticClass:"info-field email"},[_c('p',[_vm._v("Email")]),_vm._v(" "),_c('p',[_vm._v("shatlykcsp@yandex.ru")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"hero is-info"},[_c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"is-info hero-info"},[_c('h1',{staticClass:"title"},[_vm._v("\n              Шатлык\n            ")]),_vm._v(" "),_c('h2',{staticClass:"subtitle"},[_vm._v("\n              Центр социальной помощи\n            ")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"credentials"},[_c('div',{staticClass:"content has-text-centered"},[_c('p',[_c('strong',[_vm._v("os.buktp")])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 32 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "logo.png";
 
 /***/ }),
-/* 33 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__views_Main_Main_vue__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__views_About_About_vue__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__views_About_Conditions_Conditions_vue__ = __webpack_require__(77);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__views_About_Rules_Rules_vue__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__views_Services_Services_vue__ = __webpack_require__(81);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__views_Services_Amount_Amount_vue__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__views_Services_Complaints_Complaints_vue__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__views_Services_Conditions_Conditions_vue__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__views_Services_Spots_Spots_vue__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__views_Activities_Activities_vue__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__views_Events_Events_vue__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__views_Main_Main_vue__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__views_About_About_vue__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__views_About_Conditions_Conditions_vue__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__views_About_Rules_Rules_vue__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__views_About_Lead_Lead_vue__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__views_About_Staff_Staff_vue__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__views_About_Documents_Documents_vue__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__views_About_Equipment_Equipment_vue__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__views_Services_Services_vue__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__views_Services_Rates_Rates_vue__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__views_Services_Experience_Experience_vue__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__views_Services_Amount_Amount_vue__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__views_Services_Complaints_Complaints_vue__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__views_Services_Conditions_Conditions_vue__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__views_Services_Spots_Spots_vue__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__views_Activities_Activities_vue__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__views_Activities_Reports_Reports_vue__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__views_Activities_Exams_Exams_vue__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__views_Activities_Rating_Rating_vue__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__views_Events_Events_vue__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__views_Interrogation_Interrogation_vue__ = __webpack_require__(124);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -15630,102 +17268,68 @@ const routes = [{
     path: '/about/rules',
     component: __WEBPACK_IMPORTED_MODULE_3__views_About_Rules_Rules_vue__["a" /* default */]
 }, {
+    path: '/about/lead',
+    component: __WEBPACK_IMPORTED_MODULE_4__views_About_Lead_Lead_vue__["a" /* default */]
+}, {
+    path: '/about/staff',
+    component: __WEBPACK_IMPORTED_MODULE_5__views_About_Staff_Staff_vue__["a" /* default */]
+}, {
+    path: '/about/documents',
+    component: __WEBPACK_IMPORTED_MODULE_6__views_About_Documents_Documents_vue__["a" /* default */]
+}, {
+    path: '/about/equipment',
+    component: __WEBPACK_IMPORTED_MODULE_7__views_About_Equipment_Equipment_vue__["a" /* default */]
+}, {
     path: '/services',
-    component: __WEBPACK_IMPORTED_MODULE_4__views_Services_Services_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_8__views_Services_Services_vue__["a" /* default */]
+}, {
+    path: '/services/rates',
+    component: __WEBPACK_IMPORTED_MODULE_9__views_Services_Rates_Rates_vue__["a" /* default */]
+}, {
+    path: '/services/experience',
+    component: __WEBPACK_IMPORTED_MODULE_10__views_Services_Experience_Experience_vue__["a" /* default */]
 }, {
     path: '/services/conditions',
-    component: __WEBPACK_IMPORTED_MODULE_7__views_Services_Conditions_Conditions_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_13__views_Services_Conditions_Conditions_vue__["a" /* default */]
 }, {
     path: '/services/amount',
-    component: __WEBPACK_IMPORTED_MODULE_5__views_Services_Amount_Amount_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_11__views_Services_Amount_Amount_vue__["a" /* default */]
 }, {
     path: '/services/spots',
-    component: __WEBPACK_IMPORTED_MODULE_8__views_Services_Spots_Spots_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_14__views_Services_Spots_Spots_vue__["a" /* default */]
 }, {
     path: '/services/complaints',
-    component: __WEBPACK_IMPORTED_MODULE_6__views_Services_Complaints_Complaints_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_12__views_Services_Complaints_Complaints_vue__["a" /* default */]
 }, {
     path: '/activities',
-    component: __WEBPACK_IMPORTED_MODULE_9__views_Activities_Activities_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_15__views_Activities_Activities_vue__["a" /* default */]
+}, {
+    path: '/activities/reports',
+    component: __WEBPACK_IMPORTED_MODULE_16__views_Activities_Reports_Reports_vue__["a" /* default */]
+}, {
+    path: '/activities/exams',
+    component: __WEBPACK_IMPORTED_MODULE_17__views_Activities_Exams_Exams_vue__["a" /* default */]
+}, {
+    path: '/activities/rating',
+    component: __WEBPACK_IMPORTED_MODULE_18__views_Activities_Rating_Rating_vue__["a" /* default */]
 }, {
     path: '/events',
-    component: __WEBPACK_IMPORTED_MODULE_10__views_Events_Events_vue__["a" /* default */]
+    component: __WEBPACK_IMPORTED_MODULE_19__views_Events_Events_vue__["a" /* default */]
+}, {
+    path: '/interrogation',
+    component: __WEBPACK_IMPORTED_MODULE_20__views_Interrogation_Interrogation_vue__["a" /* default */]
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (routes);
-
-/***/ }),
-/* 34 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Main_vue__ = __webpack_require__(6);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6d3f890a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__ = __webpack_require__(74);
-function injectStyle (ssrContext) {
-  __webpack_require__(35)
-}
-var normalizeComponent = __webpack_require__(0)
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-6d3f890a"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Main_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6d3f890a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(36);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(2)("36661d1f", content, true);
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(1)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".main section[data-v-6d3f890a]{margin-top:40px}", ""]);
-
-// exports
-
 
 /***/ }),
 /* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Reasons_vue__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Main_vue__ = __webpack_require__(6);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8ce2554c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reasons_vue__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6bddb976_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__ = __webpack_require__(63);
 function injectStyle (ssrContext) {
   __webpack_require__(38)
 }
@@ -15740,12 +17344,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-6bddb976"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Reasons_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8ce2554c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reasons_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Main_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6bddb976_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Main_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -15766,7 +17370,7 @@ var content = __webpack_require__(39);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("437ca748", content, true);
+var update = __webpack_require__(2)("788d5c0e", content, true);
 
 /***/ }),
 /* 39 */
@@ -15777,91 +17381,21 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".reasons-slider{display:flex;flex-direction:column}@media screen and (min-width:1024px){.reasons-slider{flex-direction:row}}.reason{filter:sepia(50%);padding:20px;background:transparent;background-size:cover;background-position:50%;color:#fff}.reason li,.reason p{margin:0}.reason-desc{display:none;background-color:rgba(25,118,210,.8);padding:10px;box-sizing:border-box}.reason-desc p{margin-bottom:1rem}@media screen and (min-width:1024px){.reason{flex:1;cursor:pointer;overflow:hidden;transition:flex-basis .5s ease,filter .5s ease;box-sizing:border-box}.reason:hover{filter:sepia(0)}.reason p{margin-bottom:1rem}.reason-desc{display:block;width:560px;margin-left:auto;margin-right:auto;overflow-x:hidden;opacity:0;transition:opacity .5s ease,margin .5s ease}.reason-title{text-align:center;font-family:Lobster,sans-serif;transition:opacity .5s ease,max-height .5s ease;max-height:2.4rem;overflow:hidden}.reason-title p{height:1.4rem}}.reason_opened.reason{filter:sepia(0)}.reason_opened .reason-desc{display:block}.reason_opened .reason-title{display:none}@media screen and (min-width:1024px){.reason_opened.reason{flex-basis:600px}.reason_opened .reason-desc{transition-delay:.5s;opacity:1;margin:1.2rem auto}.reason_opened .reason-title{display:block;max-height:0;opacity:0;transition-delay:.5s;margin:0}}", ""]);
+exports.push([module.i, ".main section[data-v-6bddb976]{margin-top:40px}", ""]);
 
 // exports
 
 
 /***/ }),
 /* 40 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "1.jpg";
-
-/***/ }),
-/* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "2.jpg";
-
-/***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "3.jpg";
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "4.jpg";
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "5.jpg";
-
-/***/ }),
-/* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "6.jpg";
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "7.jpg";
-
-/***/ }),
-/* 47 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "8.jpg";
-
-/***/ }),
-/* 48 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "9.jpg";
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "10.jpg";
-
-/***/ }),
-/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"reasons-slider"},_vm._l((_vm.reasons),function(reason){return _c('div',{key:reason.id,staticClass:"reason",class:{ 'reason_opened': _vm.currentReasonId == reason.id },style:({'background-image': 'url(./' + reason.background + ')'}),on:{"click":function($event){_vm.toggleReason(reason.id)}}},[_c('div',{staticClass:"reason-title"},[_c('p',[_vm._v(_vm._s(reason.id))])]),_vm._v(" "),_c('div',{staticClass:"reason-desc"},[_c('p',{staticClass:"reason-desc__title"},[_vm._v("\n                Причина №"+_vm._s(reason.id)+": "+_vm._s(reason.name)+"\n            ")]),_vm._v(" "),_c('div',{staticClass:"reason-desc__text",domProps:{"innerHTML":_vm._s(reason.desc)}})])])}))}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-/* 51 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_MainGallery_vue__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_MainGallery_vue__ = __webpack_require__(7);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_050be1fc_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_MainGallery_vue__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_050be1fc_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_MainGallery_vue__ = __webpack_require__(53);
 function injectStyle (ssrContext) {
-  __webpack_require__(52)
+  __webpack_require__(41)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -15890,20 +17424,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 52 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(53);
+var content = __webpack_require__(42);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("226b4d56", content, true);
 
 /***/ }),
-/* 53 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -15917,67 +17451,67 @@ exports.push([module.i, ".gallery[data-v-050be1fc]{display:flex}.main-image[data
 
 
 /***/ }),
-/* 54 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg1.jpg";
 
 /***/ }),
-/* 55 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg2.jpg";
 
 /***/ }),
-/* 56 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg3.jpg";
 
 /***/ }),
-/* 57 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg4.jpg";
 
 /***/ }),
-/* 58 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg5.jpg";
 
 /***/ }),
-/* 59 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg6.jpg";
 
 /***/ }),
-/* 60 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg7.jpg";
 
 /***/ }),
-/* 61 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg8.jpg";
 
 /***/ }),
-/* 62 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg9.jpg";
 
 /***/ }),
-/* 63 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "mg10.jpg";
 
 /***/ }),
-/* 64 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15987,15 +17521,15 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 65 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FAQ_vue__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FAQ_vue__ = __webpack_require__(8);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_74cf6af1_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FAQ_vue__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_74cf6af1_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FAQ_vue__ = __webpack_require__(57);
 function injectStyle (ssrContext) {
-  __webpack_require__(66)
+  __webpack_require__(55)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -16024,20 +17558,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 66 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(67);
+var content = __webpack_require__(56);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("63a6d163", content, true);
 
 /***/ }),
-/* 67 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -16051,7 +17585,7 @@ exports.push([module.i, ".faq__questions[data-v-74cf6af1]{padding:20px 0}details
 
 
 /***/ }),
-/* 68 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16061,15 +17595,15 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 69 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_YandexMap_vue__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_YandexMap_vue__ = __webpack_require__(9);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6ae92a22_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_YandexMap_vue__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6ae92a22_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_YandexMap_vue__ = __webpack_require__(62);
 function injectStyle (ssrContext) {
-  __webpack_require__(70)
+  __webpack_require__(59)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -16098,20 +17632,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 70 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(71);
+var content = __webpack_require__(60);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("40338354", content, true);
 
 /***/ }),
-/* 71 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -16125,7 +17659,7 @@ exports.push([module.i, ".yandex-map__map[data-v-6ae92a22]{height:60vh;min-heigh
 
 
 /***/ }),
-/* 72 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {(function (global, factory) {
@@ -23364,7 +24898,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
-/* 73 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23374,7 +24908,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 74 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23384,11 +24918,11 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 75 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ff0844ce_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6f719e86_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__ = __webpack_require__(65);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -23404,7 +24938,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ff0844ce_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6f719e86_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -23415,21 +24949,21 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 76 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("\n        Центр социальной помощи «Шатлык»\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        «Шатлык» расположен в самом живописном и уютном уголке города Заинск. Рядом с центром расположился парк имени Р.Фардиева. Уникальный природный ландшафт рекреационной парковой зоны с многочисленными прогулочными дорожками, настоящим озером на территории, где обитают гуси и утки, создает для гостей центра атмосферу спокойствия и умиротворения. В шаговой доступности от центра находятся социально-значимые объекты: больница, аптеки, дворец спорта, стадион, конотеатр, магазины. Экологически благоприятная зона и высокая квалификация медицинского персонала позволяют нам гарантировать хорошие результаты при терапии различных заболеваний.\n    ")]),_vm._v(" "),_c('blockquote',[_vm._v("\n        Мы предлагаем стационарную и полустационарную форму реабилитации. Стационар рассчитан на 10 койко-мест и пребывания 18 полустационарных мест.\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Диагностика, реабилитация и отдых для тех, кто ценит качество жизни.\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Терапия включает в себя различные методы: массаж, магниотерапия, парафино-лечение, гирудотерапия, эрготерапия и восстановительная терапия и др. Вы сможете забыть про многие недуги, очистите организм от токсинов и шлаков, попарившись в сауне. Пребывание в спелеокамере (солевой пещере) и сенсорной комнате помогут укрепить нервную и сердечно-сосудистую систему, и вы станете полны сил и здоровья!\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Все, кто посетил центр, остаются очень довольны результатами лечения. Наше медицинское оборудование – на самом высоком уровне. Это дает возможность оперативно контролировать состояние получателей социальных услуг и наблюдать за ходом реабилитации.\n    ")]),_vm._v(" "),_c('blockquote',[_vm._v("\n        Заинск – небольшой и зеленый город. Устав от напряженного ритма жизни, вы можете комфортно отдохнуть в центре \"Шатлык\". Здесь удачно совмещаются мощная лечебная база и возможности оздоровления.\n    ")]),_vm._v(" "),_c('h1',[_vm._v("\n        Заинск ждет вас! Приезжайте в наш центр, чтобы набраться сил и здоровья!\n    ")])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("\n        Центр социальной помощи «Шатлык»\n    ")]),_vm._v(" "),_c('h3',[_vm._v("Дата государственной регистрации")]),_vm._v(" "),_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                Полное наименование\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ЦЕНТР СОЦИАЛЬНОЙ ПОМОЩИ «ШАТЛЫК» («РАДОСТЬ»)\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Краткое наименование\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АНО «ЦСП «ШАТЛЫК» («РАДОСТЬ»)\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Дата государственной регистрации\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                12.05.2017\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Форма собственности\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                НЕКОММЕРЧЕСКАЯ\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Организационно – правовая форма\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ\n            ")])])])]),_vm._v(" "),_c('h3',[_vm._v("Учредитель")]),_vm._v(" "),_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("Полное наименование")]),_vm._v(" "),_c('td',[_vm._v("АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ЦЕНТР СОЦИАЛЬНОЙ ПОМОЩИ «ШАТЛЫК» («РАДОСТЬ»)")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Учредитель")]),_vm._v(" "),_c('td',[_vm._v("ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ УЧРЕЖДЕНИЕ СОЦИАЛЬНОГО ОБСЛУЖИВАНИЯ «КОМПЛЕКСНЫЙ ЦЕНТР СОЦИАЛЬНОГО ОБСЛУЖИВАНИЯ НАСЕЛЕНИЯ «РАДОСТЬ» МИНИСТЕРСТВА ТРУДА, ЗАНЯТОСТИ И СОЦИАЛЬНОЙ ЗАЩИТЫ РЕСПУБЛИКИ ТАТАРСТАН В ЗАИНСКОМ МУНИЦИПАЛЬНОМ РАЙОНЕ»")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Муниципальное образование")]),_vm._v(" "),_c('td',[_vm._v("Г. ЗАИНСК")])])])]),_vm._v(" "),_c('h3',[_vm._v("Режим и график работы")]),_vm._v(" "),_c('h4',[_vm._v("Часы приема в АНО «ЦСП «ШАТЛЫК» («РАДОСТЬ»)")]),_vm._v(" "),_c('table',[_c('thead',[_c('tr',[_c('td',[_vm._v("\n                    Дни недели\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    Время работы\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    Обед\n                ")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                    Понедельник\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Вторник\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Среда\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Четверг\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Пятница\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Суббота\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-12.00\n                ")]),_vm._v(" "),_c('td')]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Воскресенье")]),_vm._v(" "),_c('td',[_vm._v("\n                    Выходной\n                ")])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 77 */
+/* 66 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d5f8e08c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d5f8e08c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__ = __webpack_require__(67);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -23456,7 +24990,7 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 78 */
+/* 67 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23466,13 +25000,13 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 79 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Rules_vue__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Rules_vue__ = __webpack_require__(10);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bebe4484_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rules_vue__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bebe4484_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rules_vue__ = __webpack_require__(69);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 
@@ -23500,7 +25034,7 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 80 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23510,11 +25044,11 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 81 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ba6b540e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5a8ba19a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Lead_vue__ = __webpack_require__(71);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -23530,7 +25064,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ba6b540e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5a8ba19a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Lead_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -23541,21 +25075,450 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 82 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("Предоставляемые услуги")]),_vm._v(" "),_c('ul',[_c('li',[_vm._v("\n            Социально-бытовые\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социально-педагогические\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социально-медицинские\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социально-правовые\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности\n        ")])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("\n        Директор АНО «ЦСП «Шатлык» («Радость»)\n    ")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(72),"alt":"Ларионова Лидия Николаевна"}}),_vm._v(" "),_c('h1',[_c('small',[_vm._v("Ларионова Лидия Николаевна")])]),_vm._v(" "),_c('p',[_vm._v("Родилась 16.12.1962")]),_vm._v(" "),_c('p',[_vm._v("Образование: высшее, окончила Казанский государственный медицинский университет. С января 1995г. работала в должности заведующей социальной помощи на дому Заинского района, с октября 1997г. переведена на должность директора центра в Заинском районе.")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\n            С 20.04.2001 по 07.12.2001 прошла курсы квалификации в г.Санкт Петербург по программе «Для директоров центров социального обслуживания».\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 17.02.2003 по 21.02.2003 прошла курсы повышения квалификации директоров в учебно-методическом центре МСЗ РТ «Менеджмент в социальной сфере»\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 04.04.2005 прошла обучение по теме «Менеджмент в сфере оказания медико-социальных услуг пожилым по специальности М4.00.53; «Геронтология и гериартрия» в г.Санкт Петербург в институте биорегуляции и геронтологии Российской академии наук.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 24.04.2006 по 29.04.2006 прошла обучение в учебно-методическом центре МСЗ РТ по программе «Менеджмент в социальной сфере».\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 13.10.2008 по 08.11.2008 прошла повышение квалификации в ГОУ ВПО «Казанский государственный медицинский университет» по ТУ «Медицинская реабилитация больных с заболеваниями нервной системы.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 21.10.2008 по 01.11.2008 прошла обучение в Комплексном центре подготовки кадров и развития отрасли МТЗ и СЗ РТ по программе «Медико-социальная реабилитация в условиях учреждений социального обслуживания.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 23.08.2009г по 03.09.2009 практическая стажировка в Израиле.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 7.06.2010 по 10.06.2010 прошла обучение в\n            "),_c('em',[_vm._v("Национальной школе администрации ЭНА")]),_vm._v(" (Франция).\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 10.03.2011 по 31.03.2011 прошла обучение в ГОУ ДПО «Региональное агентство развития квалификации» по программе « Деловая подготовка руководителя по модулям «Основы предпринимательской деятельности» и «Финансы для нефинансистов.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 11.07.2011 по 20.07.2011 прошла курс подготовки в Консалтинговом центре «Технологии управления» по повышению эффективности управленческой деятельности.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            С 09.08.2013 по 16.08.2013 прошла обучение в ЧОУ ВПО «Институт экономики, управления и права (г.Казань)» по программе «Оптимизация операционной деятельности государственных учреждений».\n        ")])]),_vm._v(" "),_c('p',[_vm._v("\n        20.02.2006 награждена памятной медалью «Энциклопедия «Лучшие люди России»."),_c('br'),_vm._v("\n        29.05.2009 награждена нагрудным знаком «Отличник социальной защиты РТ»."),_c('br'),_vm._v("\n        26.12.2016 присвоено почетное звание «Заслуженный работник социальной защиты населения РТ.\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Замужем, имеет 2 дочерей.\n    ")])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 83 */
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "director.jpg";
+
+/***/ }),
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e4b5b2b2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Amount_vue__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Staff_vue__ = __webpack_require__(11);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2380a16a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Staff_vue__ = __webpack_require__(86);
+function injectStyle (ssrContext) {
+  __webpack_require__(74)
+}
+var normalizeComponent = __webpack_require__(0)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-2380a16a"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Staff_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2380a16a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Staff_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(75);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("29a9b4af", content, true);
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".is-flex[data-v-2380a16a]{flex-wrap:wrap;justify-content:space-around}.card[data-v-2380a16a]{flex-basis:400px;margin-bottom:20px}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "sandimirova.jpg";
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "larionova.jpg";
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "zaripova.jpg";
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "kamalova.jpg";
+
+/***/ }),
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "muh.jpg";
+
+/***/ }),
+/* 81 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "nosova.jpg";
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "komissarova.jpg";
+
+/***/ }),
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "suleymanova.jpg";
+
+/***/ }),
+/* 84 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "hann.jpg";
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "shar.jpg";
+
+/***/ }),
+/* 86 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("\n        Специалисты\n    ")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',{staticClass:"is-flex"},_vm._l((_vm.staff),function(item,id){return _c('div',{key:id,staticClass:"card"},[_c('div',{staticClass:"card-image"},[_c('img',{attrs:{"src":'./' + item.photo,"alt":item.name}})]),_vm._v(" "),_c('div',{staticClass:"card-content"},[_c('div',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('p',{staticClass:"title is-4"},[_vm._v(_vm._s(item.name))]),_vm._v(" "),_c('p',{staticClass:"subtitle is-6"},[_vm._v(_vm._s(item.spec))]),_vm._v(" "),_c('p',{staticClass:"subtitle is-6"},[_vm._v("Стаж: "+_vm._s(item.exp))])])])])])}))])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 87 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_17c9ecb4_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Documents_vue__ = __webpack_require__(88);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_17c9ecb4_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Documents_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 88 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("Документы")]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Устав учреждения\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Устав учреждения.docx"}},[_vm._v("Скачать в формате docx")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Правила внутреннего распорядка для получателей социальных услуг\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx"}},[_vm._v("Скачать в формате docx")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Правила внутреннего трудового распорядка\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/правила внутреннего  распорядка с печатью.docx"}},[_vm._v("Скачать в формате docx")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Положение 2018\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/положение2018.docx"}},[_vm._v("Скачать в формате docx")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Лицензии\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Лицензии.docx"}},[_vm._v("Скачать в формате docx")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Правила внутреннего распорядка для получателей социальных услуг\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx"}},[_vm._v("Скачать в формате docx")]),_vm._v(" "),_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Лицензия 1.jpg"}},[_vm._v("Лицензия 1 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Лицензия 2.jpg"}},[_vm._v("Лицензия 2 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Лицензия 3.jpg"}},[_vm._v("Лицензия 3 (jpg)")])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 89 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4793ebe7_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Equipment_vue__ = __webpack_require__(92);
+function injectStyle (ssrContext) {
+  __webpack_require__(90)
+}
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-4793ebe7"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4793ebe7_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Equipment_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 90 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(91);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("4916db2e", content, true);
+
+/***/ }),
+/* 91 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(false);
+// imports
+
+
+// module
+exports.push([module.i, "article[data-v-4793ebe7]:not(:last-child){margin-bottom:30px}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 92 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("\n        Материально-техническая база\n    ")]),_vm._v(" "),_c('article',[_c('h3',[_vm._v("Помещения для реабилитационной деятельности")]),_vm._v(" "),_c('p',[_vm._v("\n            Для посетителей АНО «ЦСП» «Шатлык» («Радость») в здании учреждения размещены стенды и уголки, на которых представлена информация о   законодательстве в сфере социального обслуживания, о порядке и условиях предоставления социальных услуг, тарифы на социальные услуги и др.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Для посетителей имеются оборудованные уголки для чтения.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Библиотека находится в малой комнате отдыха. Предназначена для проведения досуга отдыхающих в Цетре.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Оснащена современной мебелью, телевизором, книжными шкафами.\n        ")])]),_vm._v(" "),_c('article',[_c('h3',[_vm._v("\n            Помещения (объекты) для занятий физкультурой и спортом\n        ")]),_vm._v(" "),_c('h5',[_vm._v("\n            Кабинет лечебной физкультуры предназначен для проведения занятий по ЛФК с учетом особенностей течения заболевания, функционального состояния организма, общей физической работоспособности оснащен:\n        ")]),_vm._v(" "),_c('ul',[_c('li',[_vm._v("\n                комплектом тренажеров Агашина\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                гимнастическими палками\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                механическими тренажерами\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                палками телескопическими для скандинавской ходьбы\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                обручами\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                в наличии ТИСА (тренажерно-информационная система), шведская стенка, массажные и гимнастические мячи, массажные палки, массажные коврики (резиновые и с камнями), гантели, весы, стулья, шкаф\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Облучатель передвижной\n            ")])]),_vm._v("\n\n        Дополнительное оборудование: устройство для адаптивной физкультуры.\n        "),_c('ul',[_c('li',[_vm._v("\n                MUV, оксицикл, велотренажер, параллельные брусья, нейроортопедические пневмокостюмы «Атлант»(всех размеров), шахматы.\n            ")])]),_vm._v(" "),_c('h5',[_vm._v("Кабинет механотерапии оснащен:")]),_vm._v(" "),_c('ul',[_c('li',[_vm._v("\n                силовыми тренажерами\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                беговой дорожкой\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                свинг машиной\n            ")])])]),_vm._v(" "),_c('article',[_c('h3',[_vm._v("\n            Условия питания\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Организация питания получателей социальных услуг осуществляется с учетом норм питания, утверждаемых в соответствии с законодательством.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            В социально-реабилитационном отделении АНО «ЦСП «Шатлык» («Радость») согласно Постановлению КМ РТ от 7 декабря 2015 г. N 922 \"Об утверждении на 2016 год нормативных затрат организаций социального обслуживания Республики Татарстан\" (с изменениями и дополнениями); Постановлению Кабинета Министров № 1100 от 31.12.2014 \"Об утверждении Порядка предоставления социальных услуг поставщиками социальных услуг в стационарной форме социального обслуживания в Республике Татарстан\"; Постановлению Кабинета Министров № 1101 от 31.12.2014 \"Об утверждении Порядка предоставления социальных услуг поставщиками социальных услуг в полустационарной форме социального обслуживания в Республике Татарстан\" и приказу № 12 от 01.03.2016г по основной деятельности о финансовых нормах на 2016 г предоставляются социально-бытовые услуги:\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            В перечень гарантированных социально-бытовых услуг в том числе входит обеспечение питанием (на 2018 г.):\n            "),_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                            в стационарной форме\n                        ")]),_vm._v(" "),_c('td',[_vm._v("\n                            4 приема пищи (сутки в период социального обслуживания)\n                        ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                            в полустационарной форме\n                        ")]),_vm._v(" "),_c('td',[_vm._v("\n                            1 прием пищи (сутки в период социального обслуживания)\n                        ")])])])])])]),_vm._v(" "),_c('article',[_c('h3',[_vm._v("\n            Обеспечение охраны здоровья получателей социальных услуг\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            В АНО «ЦСП «Шатлык» («Радость») проводятся мероприятия направленные на сохранение и укрепление физического и психологического здоровья получателей социальных услуг в учреждении, посредством профилактических, оздоровительных, реабилитационных мероприятий.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Состояние и содержание территории, здания, оборудования соответствуют требованиям санитарных правил, требованиям пожарной безопасности.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Кабинеты для предоставления социальных услуг оснащены естественным и искусственным освещением, воздушно – тепловым режимом, необходимым оборудованием и инвентарем.\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            Здание оборудовано звуковой системой оповещения при пожаре – «Стрелец - Мониторинг». В холлах и коридорах зданий размещены огнетушители и планы эвакуации при пожаре, также имеется система видеонаблюдения.\n        ")])]),_vm._v(" "),_c('article',[_c('h3',[_vm._v("\n            Доступная среда\n        ")]),_vm._v(" "),_c('p',[_vm._v("\n            В АНО «ЦСП» Шатлык» («Радость») в рамках организации без барьерной среды для инвалидов и других маломобильных лиц\n        ")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\n                Обустроены парковочные места:\n                "),_c('ul',[_c('li',[_vm._v("\n                        нанесена разметка 2-х мест  для регулярной стоянки личных автотранспортных средств инвалидов  и МГН\n                    ")])])]),_vm._v(" "),_c('li',[_vm._v("\n                Переоборудованы входные группы:\n                "),_c('ul',[_c('li',[_vm._v("\n                        устроены пандусы с шероховатым, антискользящим покрытием\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        установлены двухуровневые поручни на пандусах\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        переоборудованы лестницы на крыльце с учетом технических требований\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        краевые ступени лестничных маршей выделены цветом и рифлением\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        установлены предупредительные тактильные полосы\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        устроен навес с водоотводом над пандусом над входной группой крыльца\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        расширен дверной проем, установлен дверной блок с доводчиком, обеспечивающего задержку закрывания дверей продолжительностью более 5 сек\n                    ")])])]),_vm._v(" "),_c('li',[_vm._v("\n                Переоборудовано санитарно-гигиеническое помещение:\n                "),_c('ul',[_c('li',[_vm._v("\n                        установлен унитаз  с откидными опорными поручнями с двух сторон, стационарным поручнем на стене\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        установлена раковина с поручнями\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        установлены крючки для трости, костылей и других принадлежностей\n                    ")])])]),_vm._v(" "),_c('li',[_vm._v("\n                Технологическое оборудование:\n                "),_c('ul',[_c('li',[_vm._v("\n                        установлен напольный компьютер с сенсорным экраном\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        установлены специальные информационные таблички и указатели\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        имеются кресло-коляска и ходунки\n                    ")]),_vm._v(" "),_c('li',[_vm._v("\n                        установлен лифт, имеется пандус при входе в здание; коридоры, лестницы, туалетные комнаты снабжены поручнями. Вся внутренняя инфраструктура Центра создана таким образом, чтобы инвалид, передвигающийся с помощью кресла-коляски, имел беспрепятственный доступ в любые помещения Центра (широкие дверные проемы, отсутствие порогов)\n                    ")])])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 93 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2c788d16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__ = __webpack_require__(94);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2c788d16_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 94 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("Предоставляемые услуги")]),_vm._v(" "),_c('div',[_c('ul',[_c('li',[_vm._v("\n                Социально-бытовые\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Социально-педагогические\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Социально-психологические\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Социально-медицинские\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Социально-правовые\n            ")]),_vm._v(" "),_c('li',[_vm._v("\n                Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности\n            ")])])]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',[_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        О порядке и условиях предоставления платных услуг\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/О порядке и условиях предоставления платных услуг.docx"}},[_vm._v("Скачать в формате docx")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Услуги, подтвержденные постановлением кабинета Министров РТ\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Услуги, утвержденные постановлением Кабинета Министров РТ.docx"}},[_vm._v("Скачать в формате docx")])])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 95 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0fdcc65c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rates_vue__ = __webpack_require__(96);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0fdcc65c_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rates_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 96 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('img',{attrs:{"src":__webpack_require__(97),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(98),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(99),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(100),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(101),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(102),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(103),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(104),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(105),"alt":""}})])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 97 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (1).jpg";
+
+/***/ }),
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (2).jpg";
+
+/***/ }),
+/* 99 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (3).jpg";
+
+/***/ }),
+/* 100 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (4).jpg";
+
+/***/ }),
+/* 101 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (5).jpg";
+
+/***/ }),
+/* 102 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (6).jpg";
+
+/***/ }),
+/* 103 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (7).jpg";
+
+/***/ }),
+/* 104 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (8).jpg";
+
+/***/ }),
+/* 105 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "тарифы (9).jpg";
+
+/***/ }),
+/* 106 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2713533e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Experience_vue__ = __webpack_require__(107);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2713533e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Experience_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 107 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("Опыт работы")]),_vm._v(" "),_c('p',[_vm._v("\n        Формы работы "),_c('strong',[_vm._v("АНО «ЦСП «Шатлык» («Радость»)")]),_vm._v(" позволяют осуществлять оздоровительные и социально – реабилитационные мероприятия с гражданами, сохранившими способность к самообслуживанию или частично ее утратившими. Здесь  предлагается комплекс социально – реабилитационных и  лечебно – оздоровительных  мероприятий. Целью всех социально – реабилитационных  технологий внедренных в АНО «ЦСП «Шатлык» («Радость») является вовлечение людей с ограниченными возможностями и пожилых граждан в социальную  жизнь, устранение или уменьшение ограничений жизнедеятельности.\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        И здесь существенную роль играет организация именно системного процесса социальной реабилитации. В АНО «ЦСП «Шатлык» («Радость») "),_c('strong',[_vm._v("создан Экспертный совет")]),_vm._v(" из числа специалистов отделения, благодаря чему реабилитационный процесс выстраивается комплексно, коллегиально, используется индивидуальный подход к каждому клиенту. Все специалисты, участвующие в реабилитационном процессе имеют соответствующее образование, прошли дополнительное обучение, вся деятельность в этом направлении сертифицирована. Центр имеет лицензию по осуществлению медицинской деятельности, что позволяет внедрять современные технологии оздоровления и реабилитации граждан пожилого возраста и инвалидов. Все реабилитационные услуги стандартизированы.\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Организации  единого реабилитационного процесса способствует "),_c('strong',[_vm._v("программа «Исцели себя сам»")]),_vm._v(", реализуемая в нашем учреждении. Программа включает в себя комплекс разнообразных реабилитационных услуг. Применяются все виды современной "),_c('strong',[_vm._v("физиотерапии, различные виды массажа, в том числе ваакумный")]),_vm._v(". Оборудован прекрасный "),_c('strong',[_vm._v("фитобар")]),_vm._v(" с разнообразием фиточаёв и кислородного коктейля. Фитотерапия эффективно укрепляет иммунитет и является отличным способом борьбы с гипоксией.  Наряду с уже ставшими традиционными услугами в АНО «ЦСП «Шатлык» («Радость») внедряются новые формы работы. Внедрены такие технологии, как:\n    ")]),_vm._v(" "),_c('p',[_c('strong',[_vm._v("Реабилитационная методика «MOVE»")]),_vm._v(", направленная на обучение пожилых граждан со значительными ограничениями жизнедеятельности, способностей различным навыкам, позволяющим вести максимально независимый образ жизни. "),_c('strong',[_vm._v("Кинезиотерапия в медико-кондуктивной реабилитации")]),_vm._v(" неврологических больных с двигательными нарушениями и кондуктивная терапия; (сегодня данное направление осуществляется в тесном партнерстве мед.работников: инструктора ЛФК и  специалиста по движению. Работа ведется с применением костюма «Атлант» - для реабилитации двигательных нарушений с использованием возможностей активизации различных зон коры головного мозга. В настоящее время в нашем учреждении есть 3 размера костюма, что дает возможность охватить данной реабилитационной  услугой всех нуждающихся. В деятельность Центра внедрена реабилитационная технология – "),_c('strong',[_vm._v("эрготерапия")]),_vm._v(". Проводятся индивидуальные и групповые занятия по восстановлению двигательной функции рук, а также бытовую адаптацию. С целью восстановления утраченных функций организма людей с ограниченными возможностями оборудован "),_c('strong',[_vm._v("кабинет восстановительной терапии")]),_vm._v(". В данном кабинете находится комплекс реабилитационного оборудования, который не только благотворно влияет на физическое состояние клиента, но и активизирует его эмоциональный фон, стимулирует к выполнению комплекса мероприятий, предлагаемых специалистом. Считаю нужным отметить, что наличие кабинета восстановительной терапии на базе Центра социального обслуживания является новацией не только для Заинского района, но и для Республики в целом. Для коррекции более легких дефектов моторики с целью развития функциональных двигательных систем проводятся "),_c('strong',[_vm._v("лечебная физкультура с применением тренажерно-информационной системы")]),_vm._v(", занятия в зале механических тренажеров, общеразвивающие физкультурные занятия. Внедрен новый вид физической активности – "),_c('strong',[_vm._v("Скандинавская ходьба")]),_vm._v(". "),_c('strong',[_vm._v("Спелеотерапия")]),_vm._v(" – это еще один естественный, природный метод применяемый в реабилитации пожилых и инвалидов. Эффект при лечении сухим насыщенным солью воздухом в спелеокамере составляет 95% у пожилых граждан, практически при всех распространенных воспалительных заболеваниях бронхо-легочной системы. Возможно также успешное лечение этим методом аллергии и ряда кожных болезней. Наиболее популярные услуги – "),_c('strong',[_vm._v("гирудотерапия, озонотерапия, магнитотерапия")]),_vm._v(". Неотъемлемой частью комплексной реабилитации является "),_c('strong',[_vm._v("психологическая и педагогическая коррекция, психологическое сопровождение семьи инвалида")]),_vm._v(". В решении задач психологической и педагогической коррекции используются "),_c('strong',[_vm._v("сенсорная комната")]),_vm._v(", оснащенная новейшим сенсорным оборудованием, мультимедийным оборудованием, благодаря которому клиенты могут наслаждаться не только музыкой, звуками, спецэффектами, но и фильмами для релаксации, обучающими программами всех форматов.  Используются сертифицированные программные комплексы. Для снятия эмоционального напряжения, для лечения стрессов, используется технология социально-психологической реабилитации "),_c('strong',[_vm._v("«Ритмы сердца»")]),_vm._v(" (барабанные ритмы). Инструктором по трудотерапии используются разнообразные методы, находящие яркий отклик у клиентов, это и "),_c('strong',[_vm._v("квиллинг, тестопластика, роспись по стеклу, витражная живопись, работа с соломкой, природным камнем")]),_vm._v(". Занимаясь трудотерапией, инвалид получает ощутимый реабилитационный эффект, выражающийся в улучшении объективных показателей соматического и психического состояния, в положительном эмоциональном тонусе, ощущении более полноценной жизни.  Инвалиды и пожилые люди из сельской местности на период реабилитации размещаются в стационаре, где созданы комфортные условия для проживания и социальной реабилитации. Материально-техническая база, на которой располагается  сегодня АНО «ЦСП «Шатлык» («Радость»), отвечает всем современным требованиям и не уступает лучшим санаториям и оздоровительным учреждениям.\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Кроме реабилитационной работы, направленной на восстановление утраченных функций организма, в нашем Центре огромное внимание уделяется профилактической и санитарно-просветительской деятельности. "),_c('strong',[_vm._v("Врачом проводятся  консультирование")]),_vm._v(" по социально – медицинским вопросам;"),_c('strong',[_vm._v("санитарно – просветительская")]),_vm._v(" работа по вопросам профилактики заболеваний;  "),_c('strong',[_vm._v("обучение членов семьи")]),_vm._v(" основам социально – медицинских знаний для проведения реабилитационных мероприятий в домашних условиях. С 2015г. в АНО «ЦСП «Шатлык» («Радость») реализуется "),_c('strong',[_vm._v("проект  «Школа безопасности»")]),_vm._v(", который направлен на повышение уровня осведомленности людей с ограниченными возможностями в вопросах социально-бытовой и правовой безопасности, формирования у них более ответственного отношения к собственной безопасности в быту и в отношениях с людьми, снижения количества инцидентов, связанных с несоблюдением правил безопасности жизнедеятельности.\n    ")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 108 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e4b5b2b2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Amount_vue__ = __webpack_require__(109);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -23582,7 +25545,7 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 84 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23592,11 +25555,11 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 85 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_53bfcb98_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_fd0904e2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__ = __webpack_require__(111);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -23612,7 +25575,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_53bfcb98_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_fd0904e2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -23623,21 +25586,21 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 86 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("\n        Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n    ")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\n            Получатели имеют право на обжалование решений, принятых в ходе предоставления социальной услуги, действий или бездействия Специалистов Центра, предоставляющих социальные услуги, в вышестоящих органах, участвующих в оказании социальных услуг, в досудебном и судебном порядке\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Получатели имеют право обратиться с жалобой лично или направить письменное обращение, жалобу (претензию)\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            При обращении Получателя в письменной форме срок рассмотрения жалобы не должен превышать 10 дней с момента получения обращения. В случае если по обращению требуется провести расследования, проверки или обследования, срок рассмотрения жалобы может быть продлен, но не более чем до одного месяца с момента получения обращения, по решению руководителя Учреждения. О продлении срока рассмотрения жалобы Получатель уведомляется письменно с указанием причин продления.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя в письменной форме должно содержать следующую информацию:\n            "),_c('ul',[_c('li',[_vm._v("\n                    фамилию, имя, отчество Получателя которым подается жалоба (его законного представителя), его место жительства или пребывания, номер\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    наименование органа, должности, фамилии, имени и отчества Специалиста (при наличии информации), решение, действие или бездействие которого обжалуется\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    содержание обжалуемого решения, действия (бездействия). Дополнительно в жалобе указываются причины несогласия с обжалуемым решением, действием или бездействием, обстоятельства, на основании которых Получатель (его законный представитель) считает, что нарушены его права, свободы и законные интересы, созданы препятствия к их реализации либо незаконно возложена какая-либо обязанность, требования. К жалобе могут быть приложены копии документов, подтверждающих изложенные в жалобе обстоятельства. В таком случае в жалобе приводится перечень прилагаемых к ней документов. Если документы, имеющие существенное значение для рассмотрения жалобы, отсутствуют или не приложены к обращению, решение принимается без учета доводов, в подтверждение которых документы не представлены. Жалоба подписывается подавшим ее Получателем или его законным представителем\n                ")])])]),_vm._v(" "),_c('li',[_vm._v("\n            По результатам рассмотрения жалобы должностное лицо, ответственный или уполномоченный работник принимает решение об удовлетворении требований Получателя и о признании неправомерным обжалованного решения, действия (бездействия), либо об отказе в удовлетворении жалобы. Письменный ответ, содержащий результаты рассмотрения обращения, направляется Получателю\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя не рассматривается в случае:\n            "),_c('ul',[_c('li',[_vm._v("\n                    отсутствия сведений об обжалуемом решении, действии, бездействии (в чем выразилось, кем принято), о лице, обратившемся с жалобой (фамилия, имя, отчество физического лица)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    отсутствия подписи Получателя (его законного представителя)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    если предметом жалобы является решение, принятое в судебном или досудебном порядке\n                ")])])])]),_vm._v(" "),_c('p',[_vm._v("\n        Письменный ответ с указанием причин отказа в рассмотрении жалобы направляется Получателю или его законному представителю не позднее "),_c('strong',[_vm._v("10 дней")]),_vm._v(" с момента её получения.\n    ")])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("\n        Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n    ")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\n            Получатели имеют право на обжалование решений, принятых в ходе предоставления социальной услуги, действий или бездействия Специалистов Центра, предоставляющих социальные услуги, в вышестоящих органах, участвующих в оказании социальных услуг, в досудебном и судебном порядке\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Получатели имеют право обратиться с жалобой лично или направить письменное обращение, жалобу (претензию)\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            При обращении Получателя в письменной форме срок рассмотрения жалобы не должен превышать 10 дней с момента получения обращения. В случае если по обращению требуется провести расследования, проверки или обследования, срок рассмотрения жалобы может быть продлен, но не более чем до одного месяца с момента получения обращения, по решению руководителя Учреждения. О продлении срока рассмотрения жалобы Получатель уведомляется письменно с указанием причин продления.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя в письменной форме должно содержать следующую информацию:\n            "),_c('ul',[_c('li',[_vm._v("\n                    фамилию, имя, отчество Получателя которым подается жалоба (его законного представителя), его место жительства или пребывания, номер\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    наименование органа, должности, фамилии, имени и отчества Специалиста (при наличии информации), решение, действие или бездействие которого обжалуется\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    содержание обжалуемого решения, действия (бездействия). Дополнительно в жалобе указываются причины несогласия с обжалуемым решением, действием или бездействием, обстоятельства, на основании которых Получатель (его законный представитель) считает, что нарушены его права, свободы и законные интересы, созданы препятствия к их реализации либо незаконно возложена какая-либо обязанность, требования. К жалобе могут быть приложены копии документов, подтверждающих изложенные в жалобе обстоятельства. В таком случае в жалобе приводится перечень прилагаемых к ней документов. Если документы, имеющие существенное значение для рассмотрения жалобы, отсутствуют или не приложены к обращению, решение принимается без учета доводов, в подтверждение которых документы не представлены. Жалоба подписывается подавшим ее Получателем или его законным представителем\n                ")])])]),_vm._v(" "),_c('li',[_vm._v("\n            По результатам рассмотрения жалобы должностное лицо, ответственный или уполномоченный работник принимает решение об удовлетворении требований Получателя и о признании неправомерным обжалованного решения, действия (бездействия), либо об отказе в удовлетворении жалобы. Письменный ответ, содержащий результаты рассмотрения обращения, направляется Получателю\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя не рассматривается в случае:\n            "),_c('ul',[_c('li',[_vm._v("\n                    отсутствия сведений об обжалуемом решении, действии, бездействии (в чем выразилось, кем принято), о лице, обратившемся с жалобой (фамилия, имя, отчество физического лица)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    отсутствия подписи Получателя (его законного представителя)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    если предметом жалобы является решение, принятое в судебном или досудебном порядке\n                ")])])])]),_vm._v(" "),_c('p',[_vm._v("\n        Письменный ответ с указанием причин отказа в рассмотрении жалобы направляется Получателю или его законному представителю не позднее "),_c('strong',[_vm._v("10 дней")]),_vm._v(" с момента её получения.\n    ")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',[_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Положение о порядке рассмотрения письменных и устных обращений\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-primary",attrs:{"download":"","href":"/documents/Положение о порядке рассмотрения письменных и устных обращений.docx"}},[_vm._v("Скачать в формате docx")])])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 87 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0caba5df_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e0756844_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__ = __webpack_require__(113);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -23653,7 +25616,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0caba5df_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e0756844_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Conditions_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -23664,21 +25627,21 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 88 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("\n        Порядок и условия предоставления социальных услуг\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Правила предоставления социальных услуг бесплатно, либо за плату или частичную плату\n    ")]),_vm._v(" "),_c('ol',[_c('h3',[_vm._v("\n            В стационарной форме\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в стационарной форме в Центре социальной помощи предоставляются за частичную плату, за исключением получателей услуг, указанных в пункте 2\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в стационарной форме в Центре предоставляются бесплатно:\n            "),_c('ul',[_c('li',[_vm._v("\n                    Лицам, пострадавшем в результате чрезвычайных ситуаций, вооруженных межнациональных (межэтнических) конфликтов\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Участникам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Ветеранам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Получателям социальных услуг, среднедушевой доход которых ниже или равен предельной величине среднедушевого дохода для предоставления социальных услуг бесплатно, установленной в Республике Татарстан\n                ")])])]),_vm._v(" "),_c('h3',[_vm._v("\n            В полустационарной форме\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в полустационарной форме в центре предоставляются за частичную плату, за исключением получателей социальных услуг, указанных в пункте 4, которым социальные услуги предоставляются бесплатно\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в полустационарной форме в центре предоставляются бесплатно:\n            "),_c('ul',[_c('li',[_vm._v("\n                    Лицам, пострадавшем в результате чрезвычайных ситуаций, вооруженных межнациональных (межэтнических) конфликтов\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Участникам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Ветеранам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Получателям социальных услуг, среднедушевой доход которых ниже или равен предельной величине среднедушевого дохода для предоставления социальных услуг бесплатно, установленной в Республике Татарстан\n                ")])])])]),_vm._v(" "),_c('h3',[_vm._v("\n        Размер платы за предоставление социальных услуг\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Размер платы за предоставление социальных услуг в центре исчисляется в соответствии с нижеприведенной таблицей, но не может превышать при социальном обслуживании в стационарной форме - 75 процентов величины среднедушевого дохода получателя социальной услуги; при социальном обслуживании в полустационарной форме - 50 процентов разницы между величиной среднедушевого дохода получателя социальной услуги и предельной величиной среднедушевого дохода\n    ")])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("\n        Порядок и условия предоставления социальных услуг\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Правила предоставления социальных услуг бесплатно, либо за плату или частичную плату\n    ")]),_vm._v(" "),_c('ol',[_c('h3',[_vm._v("\n            В стационарной форме\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в стационарной форме в Центре социальной помощи предоставляются за частичную плату, за исключением получателей услуг, указанных в пункте 2\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в стационарной форме в Центре предоставляются бесплатно:\n            "),_c('ul',[_c('li',[_vm._v("\n                    Лицам, пострадавшем в результате чрезвычайных ситуаций, вооруженных межнациональных (межэтнических) конфликтов\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Участникам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Ветеранам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Получателям социальных услуг, среднедушевой доход которых ниже или равен предельной величине среднедушевого дохода для предоставления социальных услуг бесплатно, установленной в Республике Татарстан\n                ")])])]),_vm._v(" "),_c('h3',[_vm._v("\n            В полустационарной форме\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в полустационарной форме в центре предоставляются за частичную плату, за исключением получателей социальных услуг, указанных в пункте 4, которым социальные услуги предоставляются бесплатно\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Социальные услуги в полустационарной форме в центре предоставляются бесплатно:\n            "),_c('ul',[_c('li',[_vm._v("\n                    Лицам, пострадавшем в результате чрезвычайных ситуаций, вооруженных межнациональных (межэтнических) конфликтов\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Участникам Великой Отечественной войны\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Инвалидам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Ветеранам боевых действий\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    Получателям социальных услуг, среднедушевой доход которых ниже или равен предельной величине среднедушевого дохода для предоставления социальных услуг бесплатно, установленной в Республике Татарстан\n                ")])])])]),_vm._v(" "),_c('h3',[_vm._v("\n        Размер платы за предоставление социальных услуг\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Размер платы за предоставление социальных услуг в центре исчисляется в соответствии с нижеприведенной таблицей, но не может превышать при социальном обслуживании в стационарной форме - 75 процентов величины среднедушевого дохода получателя социальной услуги; при социальном обслуживании в полустационарной форме - 50 процентов разницы между величиной среднедушевого дохода получателя социальной услуги и предельной величиной среднедушевого дохода\n    ")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('table',[_c('thead',[_c('tr',[_c('td',{attrs:{"rowspan":"2"}},[_vm._v("\n                    Величина среднедушевого дохода получателя социальной услуги к величине прожиточного минимума, установленного в Республике Татарстан для соответствующих социально-демографических групп населения по итогам II квартала года, предшествующего году предоставления социальной услуги, %\n                ")]),_vm._v(" "),_c('td',{attrs:{"colspan":"2"}},[_vm._v("\n                    Размер ежемесячной платы за предоставление социальных услуг в соответствии с индивидуальной программой предоставления социальных услуг (за 30 дней социального обслуживания) в центрах реабилитации инвалидов, социально-реабилитационных отделениях комплексных центров социального обслуживания населения, рублей\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    в стационарной форме\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    в полустационарной форме\n                ")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("151 - 200")]),_vm._v(" "),_c('td',[_vm._v("5% S*")]),_vm._v(" "),_c('td',[_vm._v("2% S*")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("201 - 250")]),_vm._v(" "),_c('td',[_vm._v("10% S*")]),_vm._v(" "),_c('td',[_vm._v("5% S*")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("251 - 300")]),_vm._v(" "),_c('td',[_vm._v("15% S*")]),_vm._v(" "),_c('td',[_vm._v("10% S*")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("301 - 350")]),_vm._v(" "),_c('td',[_vm._v("20% S*")]),_vm._v(" "),_c('td',[_vm._v("15% S*")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("351 - 400")]),_vm._v(" "),_c('td',[_vm._v("25% S*")]),_vm._v(" "),_c('td',[_vm._v("20% S*")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("401 и выше")]),_vm._v(" "),_c('td',[_vm._v("30% S*")]),_vm._v(" "),_c('td',[_vm._v("30% S*")])])])]),_vm._v(" "),_c('p',[_c('em',[_vm._v("\n            *S - стоимость социальных услуг, рассчитанная на основе тарифов на социальные услуги.\n        ")])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 89 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_23b2d268_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Spots_vue__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_23b2d268_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Spots_vue__ = __webpack_require__(115);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -23705,7 +25668,7 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 90 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23715,7 +25678,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 91 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23745,7 +25708,7 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 92 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23775,20 +25738,195 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 93 */
+/* 118 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 119 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 120 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Events_vue__ = __webpack_require__(12);
+/* unused harmony namespace reexport */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_458f78a6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Events_vue__ = __webpack_require__(123);
+function injectStyle (ssrContext) {
+  __webpack_require__(121)
+}
+var normalizeComponent = __webpack_require__(0)
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = "data-v-458f78a6"
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Events_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_458f78a6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Events_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(94);
+var content = __webpack_require__(122);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("0dfeac51", content, true);
+
+/***/ }),
+/* 122 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".is-flex[data-v-458f78a6]{flex-wrap:wrap;justify-content:space-around}.card[data-v-458f78a6]{flex-basis:500px;margin:10px}.card-image[data-v-458f78a6]{width:100%}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 123 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("\n    Новости\n  ")]),_vm._v(" "),_c('div',{staticClass:"is-flex"},_vm._l((_vm.posts),function(post){return _c('div',{key:post.id,staticClass:"card"},[(post.attachment.type=='photo')?_c('div',{staticClass:"card-image"},[_c('img',{attrs:{"src":post.attachment.photo.src_xbig,"alt":""}})]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"card-content"},[_c('div',{staticClass:"content",domProps:{"innerHTML":_vm._s(post.text)}})])])}))])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 124 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3f8e2396_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Interrogation_vue__ = __webpack_require__(125);
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3f8e2396_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Interrogation_vue__["a" /* default */],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 125 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("Опрос граждан о качестве оказания услуг")]),_vm._v(" "),_c('p',[_vm._v("\n        Министерство труда, занятости и социальной защиты Республики Татарстан проводит опрос граждан по вопросам получения социальных услуг в организациях социального обслуживания.\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Опрос можно пройти по "),_c('em',[_c('a',{attrs:{"href":"http://sobes.tatarstan.ru/rus/opros-grazhdan-o-kachestve-okazaniya-uslug.htm"}},[_vm._v("ссылке")])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 126 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(127);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("c36c9aba", content, true);
 
 /***/ }),
-/* 94 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
