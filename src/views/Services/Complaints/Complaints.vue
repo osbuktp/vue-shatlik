@@ -48,5 +48,20 @@
         <p>
             Письменный ответ с указанием причин отказа в рассмотрении жалобы направляется Получателю или его законному представителю не позднее <strong>10 дней</strong> с момента её получения.
         </p>
+        <br>
+        <div>
+            <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <h5>
+                            Положение о порядке рассмотрения письменных и устных обращений
+                        </h5>
+                    </div>
+                    <nav class="level">
+                        <a download href="/documents/Положение о порядке рассмотрения письменных и устных обращений.docx" class="button is-primary">Скачать в формате docx</a>
+                    </nav>
+                </div>
+            </article>
+        </div>
     </section>
 </template>

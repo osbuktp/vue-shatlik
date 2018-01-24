@@ -49,7 +49,7 @@ export default {
       html.style.fontSize = `${this.fontSize}px`;
     },
     incFontSize() {
-      if (this.fontSize < 24) {
+      if (this.fontSize < 28) {
         this.fontSize += 2;
         this.updateHTMLFontSize();
       }

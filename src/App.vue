@@ -52,11 +52,23 @@
                     <router-link class="navbar-item" to="/about">
                       Общая информация
                     </router-link>
-                    <router-link class="navbar-item" to="/about/conditions">
+                    <!-- <router-link class="navbar-item" to="/about/conditions">
                       Условия приема
                     </router-link>
                     <router-link class="navbar-item" to="/about/rules">
                       Режим дня
+                    </router-link> -->
+                    <router-link class="navbar-item" to="/about/lead">
+                      Руководство
+                    </router-link>
+                    <router-link class="navbar-item" to="/about/staff">
+                      Персональный состав работников
+                    </router-link>
+                    <router-link class="navbar-item" to="/about/documents">
+                      Документы
+                    </router-link>
+                    <router-link class="navbar-item" to="/about/equipment">
+                      Материально-техническое обеспечение
                     </router-link>
                   </div>
                 </div>
@@ -72,23 +84,47 @@
                     <router-link class="navbar-item" to="/services/conditions">
                       Порядок и условия предоставления социальных услуг
                     </router-link>
+                    <router-link class="navbar-item" to="/services/rates">
+                      Тарифы на социальные услуги
+                    </router-link>
                     <router-link class="navbar-item" to="/services/amount">
                       Численность получателей и объем предоставляемых социальных услуг
                     </router-link>
                     <router-link class="navbar-item" to="/services/spots">
                       Количество свободных мест
                     </router-link>
+                    <router-link class="navbar-item" to="/services/experience">
+                      Опыт работы
+                    </router-link>
                     <router-link class="navbar-item" to="/services/complaints">
                       Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
                     </router-link>
                   </div>
                 </div>
-                <!-- <router-link to="/activities" class="navbar-item">
-                  Информация о деятельности
-                </router-link>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    Информация о деятельности
+                  </a>
+                  <div class="navbar-dropdown">
+                    <router-link class="navbar-item" to="/activities/reports">
+                      Отчеты о деятельности
+                    </router-link>
+                    <router-link class="navbar-item" to="/activities/exams">
+                      Проверки
+                    </router-link>
+                    <router-link class="navbar-item" to="/activities/rates">
+                      Независимая оценка качества оказания услуг
+                    </router-link>
+                  </div>
+                </div>
+
                 <router-link to="/events" class="navbar-item">
-                  Проводимые мероприятия
-                </router-link> -->
+                  Мероприятия
+                </router-link>
+                <router-link to="/interrogation" class="navbar-item">
+                  Опрос о качестве услуг
+                </router-link>
               </div>
             </div>
           </div>
@@ -132,7 +168,7 @@
                     Общая информация
                   </router-link>
                 </li>
-                <li>
+                <!-- <li>
                   <router-link to="/about/conditions">
                     Условия приема
                   </router-link>
@@ -140,6 +176,26 @@
                 <li>
                   <router-link to="/about/rules">
                     Режим дня
+                  </router-link>
+                </li> -->
+                <li>
+                  <router-link to="/about/lead">
+                    Руководство
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/about/staff">
+                    Персональный состав работников
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/about/documents">
+                    Документы
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/about/equipment">
+                    Материально-техническое обеспечение
                   </router-link>
                 </li>
               </ul>
@@ -158,6 +214,11 @@
                   </router-link>
                 </li>
                 <li>
+                  <router-link to="/services/rates">
+                    Тарифы на социальные услуги
+                  </router-link>
+                </li>
+                <li>
                   <router-link to="/services/amount">
                     Численность получателей и объем предоставляемых социальных услуг
                   </router-link>
@@ -168,22 +229,49 @@
                   </router-link>
                 </li>
                 <li>
+                  <router-link to="/services/experience">
+                    Опыт работы
+                  </router-link>
+                </li>
+                <li>
                   <router-link to="/services/complaints">
                     Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
                   </router-link>
                 </li>
               </ul>
             </li>
-            <!-- <li>
-              <router-link to="/activities" class="navbar-item">
+            <li>
+              <a>
                 Информация о деятельности
+              </a>
+              <ul>
+                <li>
+                  <router-link to="/activities/reports">
+                    Отчеты о деятельности
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/activities/exams">
+                    Проверки
+                  </router-link>
+                </li>
+                <li>
+                  <router-link to="/activities/rates">
+                    Независимая оценка качества оказания услуг
+                  </router-link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <router-link to="/events">
+                Проводимые мероприятия
               </router-link>
             </li>
             <li>
-              <router-link to="/events" class="navbar-item">
-                Проводимые мероприятия
+              <router-link to="/interrogation">
+                Опрос граждан о качестве оказания услуг
               </router-link>
-            </li> -->
+            </li>
           </ul>
         </menu>
       </section>
@@ -226,9 +314,22 @@ body {
   flex-wrap: wrap;
 }
 
-.navbar-link, .navbar-item {
+.navbar-link,
+.navbar-item {
   text-transform: uppercase;
 }
+
+.navbar-overflow {
+  flex-wrap: wrap;
+}
+
+// .navbar-item + a{
+//   display: block;
+//   max-width: 300px;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+//   white-space: nowrap;
+// }
 
 .hero {
   background-image: url(./assets/house.jpg);
