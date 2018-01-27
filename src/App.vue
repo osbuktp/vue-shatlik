@@ -39,7 +39,7 @@
         <nav class="navbar is-info">
           <div :class="{'is-active': isMenuToggled}" class="navbar-menu">
             <div class="container">
-              <div class="navbar-start navbar-overflow">
+              <div @click="scrollToContent()" class="navbar-start navbar-overflow">
                 <router-link class="navbar-item" to="/">
                   Главная
                 </router-link>
@@ -52,12 +52,6 @@
                     <router-link class="navbar-item" to="/about">
                       Общая информация
                     </router-link>
-                    <!-- <router-link class="navbar-item" to="/about/conditions">
-                      Условия приема
-                    </router-link>
-                    <router-link class="navbar-item" to="/about/rules">
-                      Режим дня
-                    </router-link> -->
                     <router-link class="navbar-item" to="/about/lead">
                       Руководство
                     </router-link>
@@ -146,7 +140,9 @@
       </section>
     </header>
 
-    <router-view></router-view>
+    <section id="content">
+      <router-view></router-view>
+    </section>
 
     <footer class="footer">
       <section class="site-map">
@@ -168,16 +164,6 @@
                     Общая информация
                   </router-link>
                 </li>
-                <!-- <li>
-                  <router-link to="/about/conditions">
-                    Условия приема
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/about/rules">
-                    Режим дня
-                  </router-link>
-                </li> -->
                 <li>
                   <router-link to="/about/lead">
                     Руководство
@@ -297,6 +283,18 @@ export default {
     return {
       isMenuToggled: false
     };
+  },
+  methods: {
+    scrollToContent() {
+      let interval = document.querySelector("#content").offsetTop;
+      let timer = setInterval(function() {
+        if (window.scrollY < interval - 48) {
+          window.scrollBy(0, 50);
+        } else {
+          clearInterval(timer);
+        };
+      }, 15);
+    }
   }
 };
 </script>
