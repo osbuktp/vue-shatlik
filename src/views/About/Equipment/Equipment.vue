@@ -374,15 +374,15 @@ article:not(:last-child) {
 
 
 <script>
-import gal1img1 from "../../../assets/кабинет психологической разгрузки/_MG_1320-min.JPG";
-import gal1img2 from "../../../assets/кабинет психологической разгрузки/_MG_1346-min.JPG";
-import gal1img3 from "../../../assets/кабинет психологической разгрузки/_MG_1350-min.JPG";
-import gal1img4 from "../../../assets/кабинет психологической разгрузки/_MG_1369-min.JPG";
+import gal1img1 from "../../../assets/кабинет психологической разгрузки/MG_1320-min.JPG";
+import gal1img2 from "../../../assets/кабинет психологической разгрузки/MG_1346-min.JPG";
+import gal1img3 from "../../../assets/кабинет психологической разгрузки/MG_1350-min.JPG";
+import gal1img4 from "../../../assets/кабинет психологической разгрузки/MG_1369-min.JPG";
 
 import gal2img1 from "../../../assets/кабинет восстановительной медицины/16-10-2014-IMG-4548-min.JPG";
 import gal2img2 from "../../../assets/кабинет восстановительной медицины/16-10-2014-IMG-4556-min.JPG";
 import gal2img3 from "../../../assets/кабинет восстановительной медицины/20170202_112151_001-min.jpg";
-import gal2img4 from "../../../assets/кабинет восстановительной медицины/_MG_1385-min.JPG";
+import gal2img4 from "../../../assets/кабинет восстановительной медицины/MG_1385-min.JPG";
 
 import gal3img1 from "../../../assets/кабинет лечебной физкультуры/IMG_0306-min.JPG";
 import gal3img2 from "../../../assets/кабинет лечебной физкультуры/IMG_0309-min.JPG";

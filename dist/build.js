@@ -25830,7 +25830,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Equipment_vue__ = __webpack_require__(12);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e19832cc_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Equipment_vue__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2716f43e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Equipment_vue__ = __webpack_require__(138);
 function injectStyle (ssrContext) {
   __webpack_require__(91)
   __webpack_require__(93)
@@ -25846,12 +25846,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-e19832cc"
+var __vue_scopeId__ = "data-v-2716f43e"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Equipment_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e19832cc_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Equipment_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2716f43e_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Equipment_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -25872,7 +25872,7 @@ var content = __webpack_require__(92);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("77dd336a", content, true);
+var update = __webpack_require__(2)("3ea022ea", content, true);
 
 /***/ }),
 /* 92 */
@@ -25883,7 +25883,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "article[data-v-e19832cc]:not(:last-child){margin-bottom:30px}", ""]);
+exports.push([module.i, "article[data-v-2716f43e]:not(:last-child){margin-bottom:30px}", ""]);
 
 // exports
 
@@ -25899,7 +25899,7 @@ var content = __webpack_require__(94);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("6117c302", content, true);
+var update = __webpack_require__(2)("46a69e3f", content, true);
 
 /***/ }),
 /* 94 */
@@ -25919,25 +25919,25 @@ exports.push([module.i, ".vue-lightbox ul{max-width:none!important;text-align:le
 /* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "_MG_1320-min.JPG";
+module.exports = __webpack_require__.p + "MG_1320-min.JPG";
 
 /***/ }),
 /* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "_MG_1346-min.JPG";
+module.exports = __webpack_require__.p + "MG_1346-min.JPG";
 
 /***/ }),
 /* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "_MG_1350-min.JPG";
+module.exports = __webpack_require__.p + "MG_1350-min.JPG";
 
 /***/ }),
 /* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "_MG_1369-min.JPG";
+module.exports = __webpack_require__.p + "MG_1369-min.JPG";
 
 /***/ }),
 /* 99 */
@@ -25961,7 +25961,7 @@ module.exports = __webpack_require__.p + "20170202_112151_001-min.jpg";
 /* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "_MG_1385-min.JPG";
+module.exports = __webpack_require__.p + "MG_1385-min.JPG";
 
 /***/ }),
 /* 103 */
