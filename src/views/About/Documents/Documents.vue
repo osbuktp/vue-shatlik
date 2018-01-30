@@ -21,7 +21,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a  target="_blank" href="http://docs.google.com/viewer?url=shatlik.ru/documents/Правила внутреннего распорядка для получателей социальных услуг.docx" class="button is-link">Открыть в Google Docs</a>
+                    <a  target="_blank" href="https://docs.google.com/viewer?url=shatlik.ru/documents/Правила внутреннего распорядка для получателей социальных услуг.docx" class="button is-link">Открыть в Google Docs</a>
                 </nav>
             </div>
         </article>
@@ -33,7 +33,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a target="_blank" href="http://docs.google.com/viewer?url=shatlik.ru/documents/Правила внутреннего трудового распорядка.doc" class="button is-link">Открыть в Google Docs</a>
+                    <a target="_blank" href="https://docs.google.com/viewer?url=shatlik.ru/documents/Правила внутреннего трудового распорядка.doc" class="button is-link">Открыть в Google Docs</a>
                 </nav>
             </div>
         </article>
@@ -45,7 +45,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a  target="_blank" href="http://docs.google.com/viewer?url=shatlik.ru/documents/положение2018.docx" class="button is-link">Открыть в Google Docs</a>
+                    <a  target="_blank" href="https://docs.google.com/viewer?url=shatlik.ru/documents/положение2018.docx" class="button is-link">Открыть в Google Docs</a>
                 </nav>
             </div>
         </article>
@@ -57,7 +57,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a  target="_blank" href="http://docs.google.com/viewer?url=shatlik.ru/documents/Лицензия.docx" class="button is-link">Открыть в Google Docs</a>
+                    <a  target="_blank" href="https://docs.google.com/viewer?url=shatlik.ru/documents/Лицензия.docx" class="button is-link">Открыть в Google Docs</a>
                     <a target="_blank" href="/documents/Лицензия 1.jpg" class="button is-link">Лицензия 1 (jpg)</a>
                     <a target="_blank"  href="/documents/Лицензия 2.jpg" class="button is-link">Лицензия 2 (jpg)</a>
                     <a target="_blank"  href="/documents/Лицензия 3.jpg" class="button is-link">Лицензия 3 (jpg)</a>
@@ -72,7 +72,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a target="_blank"  href="http://docs.google.com/viewer?url=shatlik.ru/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx" class="button is-link">Открыть в Google Docs</a>
+                    <a target="_blank"  href="https://docs.google.com/viewer?url=shatlik.ru/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx" class="button is-link">Открыть в Google Docs</a>
                 </nav>
             </div>
         </article>

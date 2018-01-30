@@ -58,7 +58,7 @@
                         </h5>
                     </div>
                     <nav class="level">
-                        <a target="_blank" href="http://docs.google.com/viewer?url=shatlik.ru/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx" class="button is-link">Открыть в Google Docs</a>
+                        <a target="_blank" href="https://docs.google.com/viewer?url=shatlik.ru/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx" class="button is-link">Открыть в Google Docs</a>
                     </nav>
                 </div>
             </article>
