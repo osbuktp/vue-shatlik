@@ -20,6 +20,7 @@
                 </div>
             </div>
         </div>
+        <img src="../../../assets/staff/all.jpg" alt="">
     </section>
 </template>
 

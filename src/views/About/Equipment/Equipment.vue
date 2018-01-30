@@ -8,6 +8,7 @@
                 Для посетителей АНО «ЦСП» «Шатлык» («Радость») в здании учреждения размещены стенды и уголки, на которых представлена информация о   законодательстве в сфере социального обслуживания, о порядке и условиях предоставления социальных услуг, тарифы на социальные услуги и др.
             </p>
         </article>
+        <lightbox :images="gal13"></lightbox>
         <article>
             <h3>Помещения для социально-реабилитационных мероприятий</h3>
             <p>
@@ -208,6 +209,7 @@
             <p>
                 Обучение различным видам прикладного искусства: квиллинг, соленое тесто, декупаж, вышивание лентами, витражная живопись, работа с соломкой и т.д.    Кабинет оснащен: стол, стулья, швейная машинка, стеллажи для выставочных экспонатов.
             </p>
+            <lightbox :images="gal12"></lightbox>
         </article>
         <article>
             <h3>
@@ -351,7 +353,7 @@ article:not(:last-child) {
     max-width: none !important;
     text-align: left !important;
     img {
-      height: 150px;
+      height: 200px;
       width: auto !important;
       cursor: pointer;
     }
@@ -428,6 +430,13 @@ import gal10img5 from "../../../assets/кабинет эрготерапии/IMG
 import gal11img1 from "../../../assets/доступная среда/20161111_095125-min.jpg";
 import gal11img2 from "../../../assets/доступная среда/3 (2)-min.JPG";
 
+import gal12img1 from '../../../assets/трудотерапия/20161228_120624.jpg';
+import gal12img2 from '../../../assets/трудотерапия/IMG_0238.JPG';
+import gal12img3 from '../../../assets/трудотерапия/IMG_0241.JPG';
+
+import gal13img1 from '../../../assets/стенды/22.jpg';
+import gal13img2 from '../../../assets/стенды/23.jpg';
+
 export default {
   data() {
     return {
@@ -497,7 +506,9 @@ export default {
         { src: gal10img4 },
         { src: gal10img5 }
       ],
-      gal11: [{ src: gal11img1 }, { src: gal11img2 }]
+      gal11: [{ src: gal11img1 }, { src: gal11img2 }],
+      gal12: [{ src: gal12img1 }, {src: gal12img2}],
+      gal13: [{src: gal13img1}, {src: gal13img2}]
     };
   }
 };
