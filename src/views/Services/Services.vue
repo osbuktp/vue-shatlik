@@ -52,7 +52,7 @@
                         </h5>
                     </div>
                     <nav class="level">
-                        <a download href="/documents/О порядке и условиях предоставления платных услуг.doc" class="button is-primary">Скачать в формате doc</a>
+                        <a href="http://docs.google.com/viewer?url=shatlik.ru/documents/О порядке и условиях предоставления платных услуг.doc" class="button is-link">Открыть в Google Docs</a>
                     </nav>
                 </div>
             </article>
@@ -64,7 +64,7 @@
                         </h5>
                     </div>
                     <nav class="level">
-                        <a download href="/documents/Услуги, утвержденные постановлением Кабинета Министров РТ.docx" class="button is-primary">Скачать в формате docx</a>
+                        <a href="http://docs.google.com/viewer?url=shatlik.ru/documents/Услуги, утвержденные постановлением Кабинета Министров РТ.docx" class="button is-link">Открыть в Google Docs</a>
                     </nav>
                 </div>
             </article>
