@@ -9,7 +9,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a download href="/documents/Устав АНО.pdf" class="button is-primary">Скачать в формате pdf</a>
+                    <a href="/documents/Устав АНО.pdf" class="button is-info">Просмотр</a>
                 </nav>
             </div>
         </article>
@@ -21,7 +21,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a download href="/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx" class="button is-primary">Скачать в формате docx</a>
+                    <a download href="/documents/Правила внутреннего распорядка для получателей социальных услуг.docx" class="button is-primary">Скачать в формате docx</a>
                 </nav>
             </div>
         </article>
@@ -33,7 +33,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a download href="/documents/правила внутреннего  распорядка с печатью.docx" class="button is-primary">Скачать в формате docx</a>
+                    <a download href="/documents/Правила внутреннего трудового распорядка.doc" class="button is-primary">Скачать в формате doc</a>
                 </nav>
             </div>
         </article>
@@ -57,7 +57,7 @@
                     </p>
                 </div>
                 <nav class="level">
-                    <a download href="/documents/Лицензии.docx" class="button is-primary">Скачать в формате docx</a>
+                    <a download href="/documents/Лицензия.docx" class="button is-primary">Скачать в формате docx</a>
                     <a download href="/documents/Лицензия 1.jpg" class="button is-primary">Лицензия 1 (jpg)</a>
                     <a download href="/documents/Лицензия 2.jpg" class="button is-primary">Лицензия 2 (jpg)</a>
                     <a download href="/documents/Лицензия 3.jpg" class="button is-primary">Лицензия 3 (jpg)</a>
