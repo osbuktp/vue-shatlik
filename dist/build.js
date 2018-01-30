@@ -17535,7 +17535,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(4);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_381a3b0a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bcf91840_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(35);
 function injectStyle (ssrContext) {
   __webpack_require__(23)
 }
@@ -17555,7 +17555,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_381a3b0a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bcf91840_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -17576,7 +17576,7 @@ var content = __webpack_require__(24);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("2c747f38", content, true);
+var update = __webpack_require__(2)("d8a3d134", content, true);
 
 /***/ }),
 /* 24 */
@@ -17589,7 +17589,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lob
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);", ""]);
 
 // module
-exports.push([module.i, "body{font-family:Source Sans Pro,Open Sans,sans-serif}.navbar>.container{flex-wrap:wrap}.navbar-item,.navbar-link{text-transform:uppercase}.navbar-overflow{flex-wrap:wrap}.hero{background-image:url(" + escape(__webpack_require__(26)) + ");background-position:50%;background-size:cover;padding:150px 0}.hero-info{display:inline-block;background-color:rgba(32,156,238,.5);padding:10px}.navbar-brand img{width:auto;margin:10px;min-height:5rem}.navbar{min-height:0}.info-field{color:#fff}.info-fields{display:flex;flex-wrap:wrap}.info-field{position:relative;padding:10px 30px;margin:16px 10px;flex:1;border:2px solid #fff;border-radius:4px}.info-field:before{content:\"\";z-index:999;display:inline-block;position:absolute;top:calc(50% - 16px);left:-17px;background-color:#209cee;width:32px;height:32px;background-position:50%;background-size:cover}.home:before{background-image:url(" + escape(__webpack_require__(27)) + ")}.phone:before{background-image:url(" + escape(__webpack_require__(28)) + ")}.email:before{background-image:url(" + escape(__webpack_require__(29)) + ")}.main .title{font-weight:300}", ""]);
+exports.push([module.i, "body{font-family:Source Sans Pro,Open Sans,sans-serif}.navbar>.container{flex-wrap:wrap}.navbar-item,.navbar-link{text-transform:uppercase}.navbar-overflow{flex-wrap:wrap}.hero{background-image:url(" + escape(__webpack_require__(26)) + ");background-position:50%;background-size:cover;padding:100px 0}.hero-info{display:inline-block;background-color:rgba(32,156,238,.5);padding:10px}.navbar-brand img{width:auto;margin:10px;min-height:5rem}.navbar{min-height:0}.info-field{color:#fff}.info-fields{display:flex;flex-wrap:wrap}.info-field{position:relative;padding:10px 30px;margin:16px 10px;flex:1;border:2px solid #fff;border-radius:4px}.info-field:before{content:\"\";z-index:999;display:inline-block;position:absolute;top:calc(50% - 16px);left:-17px;background-color:#209cee;width:32px;height:32px;background-position:50%;background-size:cover}.home:before{background-image:url(" + escape(__webpack_require__(27)) + ")}.phone:before{background-image:url(" + escape(__webpack_require__(28)) + ")}.email:before{background-image:url(" + escape(__webpack_require__(29)) + ")}.main .title{font-weight:300}", ""]);
 
 // exports
 

@@ -333,7 +333,7 @@ body {
   background-image: url(./assets/house.jpg);
   background-position: center;
   background-size: cover;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 .hero-info {
   display: inline-block;
