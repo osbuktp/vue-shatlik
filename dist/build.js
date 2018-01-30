@@ -1375,45 +1375,45 @@ let html = document.querySelector("html");
         spec: "Директор",
         photo: __WEBPACK_IMPORTED_MODULE_1__assets_staff_larionova_jpg___default.a
       }, {
+        name: "Сулейманова Гузэль Ингамовна",
+        exp: "38 лет",
+        spec: "Врач-терапевт",
+        photo: __WEBPACK_IMPORTED_MODULE_7__assets_staff_suleymanova_jpg___default.a
+      }, {
         name: "Камалова Венера Гизаровна",
         exp: "15 лет",
         spec: "Специалист по социальной работе",
         photo: __WEBPACK_IMPORTED_MODULE_3__assets_staff_kamalova_jpg___default.a
       }, {
-        name: "Зарипова Назиря Гиздатулловна",
-        exp: "27 лет",
-        spec: "Инструктор ЛФК",
-        photo: __WEBPACK_IMPORTED_MODULE_2__assets_staff_zaripova_jpg___default.a
+        name: "Ханнанова Альфия Альфатовна",
+        exp: "13 лет",
+        spec: "Специалист по социальной работе",
+        photo: __WEBPACK_IMPORTED_MODULE_8__assets_staff_hann_jpg___default.a
       }, {
         name: "Комиссарова Юлия Валерьевна",
         exp: "12 лет 6 месяцев",
         spec: "Психолог",
         photo: __WEBPACK_IMPORTED_MODULE_6__assets_staff_komissarova_jpg___default.a
       }, {
-        name: "Мухаметдинова Гульназ Минзахитовна",
-        exp: "9 лет",
-        spec: "Мед. сестра",
-        photo: __WEBPACK_IMPORTED_MODULE_4__assets_staff_muh_jpg___default.a
-      }, {
-        name: "Носова Людмилла Николаевна",
-        exp: "29 лет",
-        spec: "Мед. сестра по массажу",
-        photo: __WEBPACK_IMPORTED_MODULE_5__assets_staff_nosova_jpg___default.a
+        name: "Зарипова Назиря Гиздатулловна",
+        exp: "27 лет",
+        spec: "Инструктор ЛФК",
+        photo: __WEBPACK_IMPORTED_MODULE_2__assets_staff_zaripova_jpg___default.a
       }, {
         name: "Сандимирова Елена Павловна",
         exp: "1 год",
         spec: "Диет-сестра",
         photo: __WEBPACK_IMPORTED_MODULE_0__assets_staff_sandimirova_jpg___default.a
       }, {
-        name: "Сулейманова Гузэль Ингамовна",
-        exp: "38 лет",
-        spec: "Врач-терапевт",
-        photo: __WEBPACK_IMPORTED_MODULE_7__assets_staff_suleymanova_jpg___default.a
+        name: "Носова Людмилла Николаевна",
+        exp: "29 лет",
+        spec: "Мед. сестра по массажу",
+        photo: __WEBPACK_IMPORTED_MODULE_5__assets_staff_nosova_jpg___default.a
       }, {
-        name: "Ханнанова Альфия Альфатовна",
-        exp: "13 лет",
-        spec: "Специалист по соц. работе",
-        photo: __WEBPACK_IMPORTED_MODULE_8__assets_staff_hann_jpg___default.a
+        name: "Мухаметдинова Гульназ Минзахитовна",
+        exp: "9 лет",
+        spec: "Мед. сестра",
+        photo: __WEBPACK_IMPORTED_MODULE_4__assets_staff_muh_jpg___default.a
       }, {
         name: "Шарафутдинова Гульнур Салахеевна",
         exp: "41 год",
@@ -25655,7 +25655,7 @@ module.exports = __webpack_require__.p + "director.jpg";
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Staff_vue__ = __webpack_require__(11);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2380a16a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Staff_vue__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_960d239c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Staff_vue__ = __webpack_require__(87);
 function injectStyle (ssrContext) {
   __webpack_require__(75)
 }
@@ -25670,12 +25670,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-2380a16a"
+var __vue_scopeId__ = "data-v-960d239c"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Staff_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2380a16a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Staff_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_960d239c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Staff_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -25696,7 +25696,7 @@ var content = __webpack_require__(76);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("29a9b4af", content, true);
+var update = __webpack_require__(2)("a0eb7bb2", content, true);
 
 /***/ }),
 /* 76 */
@@ -25707,7 +25707,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".is-flex[data-v-2380a16a]{flex-wrap:wrap;justify-content:space-around}.card[data-v-2380a16a]{flex-basis:400px;margin-bottom:20px}", ""]);
+exports.push([module.i, ".is-flex[data-v-960d239c]{flex-wrap:wrap;justify-content:space-around}.card[data-v-960d239c]{flex-basis:400px;margin-bottom:20px}", ""]);
 
 // exports
 
