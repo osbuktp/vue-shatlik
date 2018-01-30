@@ -63,6 +63,9 @@
                     комплектом этнобарабанов
                 </li>
             </ul>
+
+            <lightbox :images="gal1"></lightbox>
+
             <h4>Кабинет восстановительной медицины</h4>
             <h5>Кабинет восстановительной медицины оборудован:</h5>
             <ul>
@@ -85,6 +88,9 @@
                 <li>интерактивной доской со встроенным проектором</li>
                 <li>трехколесным адаптационным ортопедическим велосипедом для инвалидов</li>
             </ul>
+
+            <lightbox :images="gal2"></lightbox>
+
             <h4>Кабинет лечебной физкультуры</h4>
             <h5>
                 Кабинет лечебной физкультуры предназначен для проведения занятий по ЛФК с учетом особенностей течения заболевания, функционального состояния организма, общей физической работоспособности оснащен:
@@ -120,6 +126,8 @@
                 </li>
             </ul>
 
+            <lightbox :images="gal3"></lightbox>
+
             <h4>Кабинет механотерапии</h4>
             <h5>Кабинет механотерапии оснащен:</h5>
             <ul>
@@ -139,6 +147,7 @@
                     свинг машиной
                 </li>
             </ul>
+            <lightbox :images="gal4"></lightbox>
             <h4>
                 Кабинет массажа
             </h4>
@@ -151,6 +160,7 @@
                 <li>аппаратом вакуумного массажа АЛОДЕК4-АК</li>
                 <li>электрическим столок для массажа МК-10</li>
             </ul>
+            <lightbox :images="gal5"></lightbox>
             <h4>Кабинеты физиотерапии</h4>
             <h5>Кабинеты физиотерапии оснещены:</h5>
             <ul>
@@ -164,22 +174,26 @@
                 <li>термостатом охлаждающим ТСО-1</li>
                 <li>ингаляторами Бореал F400</li>
             </ul>
+            <lightbox :images="gal6"></lightbox>
             <h4>
                 Спелеокамера
             </h4>
-            <h5>Кабинет врача-озонотерапевта оснащен:</h5>
+            <lightbox :images="gal7"></lightbox>
+            <h4>Кабинет врача-озонотерапевта оснащен:</h4>
             <ul>
                 <li>аппаратом «Мезодонс БМ-03»</li>
                 <li>концентратором кислорода</li>
                 <li>медицинскими кушетками</li>
                 <li>бактерицидным рециркулятором</li>
             </ul>
-            <h5>Кабинет гирудотерапии оснещен:</h5>
+            <lightbox :images="gal8"></lightbox>
+            <h4>Кабинет гирудотерапии оснещен:</h4>
             <ul>
                 <li>медицинскими кушетками</li>
                 <li>холодильным оборудованием</li>
                 <li>контейнерами для хранения пиявок</li>
             </ul>
+            <lightbox :images="gal9"></lightbox>
             <h4>Кабинет эрготерапии</h4>
             <h5>Кабинет эрготерапии оборудован:</h5>
             <ul>
@@ -189,10 +203,12 @@
                 <li>тренажерами для нижних и верхних конечностей</li>
                 <li>стендом сенсорной тренировки</li>
             </ul>
+            <lightbox :images="gal10"></lightbox>
             <h4>Кабинет трудотерапии</h4>
             <p>
                 Обучение различным видам прикладного искусства: квиллинг, соленое тесто, декупаж, вышивание лентами, витражная живопись, работа с соломкой и т.д.    Кабинет оснащен: стол, стулья, швейная машинка, стеллажи для выставочных экспонатов.
             </p>
+            <lightbox :images="gal11"></lightbox>
         </article>
         <article>
             <h3>
@@ -328,3 +344,161 @@ article:not(:last-child) {
   margin-bottom: 30px;
 }
 </style>
+
+<style lang="scss">
+.vue-lightbox {
+  ul {
+    max-width: none !important;
+    text-align: left !important;
+    img {
+      height: 150px;
+      width: auto !important;
+      cursor: pointer;
+    }
+  }
+}
+.lightbox-overlay {
+  display: flex;
+  align-items: center;
+  .holder {
+    max-width: 900px !important;
+    img {
+      max-width: 900px !important;
+      @media (min-width: 1024px) {
+        width: auto !important;
+      }
+    }
+  }
+}
+</style>
+
+
+<script>
+import gal1img1 from "../../../assets/кабинет психологической разгрузки/_MG_1320-min.JPG";
+import gal1img2 from "../../../assets/кабинет психологической разгрузки/_MG_1346-min.JPG";
+import gal1img3 from "../../../assets/кабинет психологической разгрузки/_MG_1350-min.JPG";
+import gal1img4 from "../../../assets/кабинет психологической разгрузки/_MG_1369-min.JPG";
+
+import gal2img1 from "../../../assets/кабинет восстановительной медицины/16-10-2014-IMG-4548-min.JPG";
+import gal2img2 from "../../../assets/кабинет восстановительной медицины/16-10-2014-IMG-4556-min.JPG";
+import gal2img3 from "../../../assets/кабинет восстановительной медицины/20170202_112151_001-min.jpg";
+import gal2img4 from "../../../assets/кабинет восстановительной медицины/_MG_1385-min.JPG";
+
+import gal3img1 from "../../../assets/кабинет лечебной физкультуры/IMG_0306-min.JPG";
+import gal3img2 from "../../../assets/кабинет лечебной физкультуры/IMG_0309-min.JPG";
+import gal3img3 from "../../../assets/кабинет лечебной физкультуры/IMGL4353-min.JPG";
+
+import gal4img1 from "../../../assets/кабинет механотерапии/6 (2)-min.JPG";
+import gal4img2 from "../../../assets/кабинет механотерапии/IMG_0076-min.JPG";
+
+import gal5img1 from "../../../assets/кабинет массажа/10-min.JPG";
+import gal5img2 from "../../../assets/кабинет массажа/12-min.JPG";
+import gal5img3 from "../../../assets/кабинет массажа/6-min.JPG";
+import gal5img4 from "../../../assets/кабинет массажа/7-min.JPG";
+
+import gal6img1 from "../../../assets/кабинет физиотерапии/13-min.JPG";
+import gal6img2 from "../../../assets/кабинет физиотерапии/14-min.jpg";
+import gal6img3 from "../../../assets/кабинет физиотерапии/20161220_083954-min.jpg";
+import gal6img4 from "../../../assets/кабинет физиотерапии/20161220_084129-min.jpg";
+import gal6img5 from "../../../assets/кабинет физиотерапии/3-min.JPG";
+
+import gal7img1 from "../../../assets/спелеокамера/IMG_0130-min.JPG";
+import gal7img2 from "../../../assets/спелеокамера/IMG_0131-min.JPG";
+import gal7img3 from "../../../assets/спелеокамера/IMG_0133-min.JPG";
+
+import gal8img1 from "../../../assets/кабинет врача озонотерапевта/15-min.jpg";
+import gal8img2 from "../../../assets/кабинет врача озонотерапевта/16-min.jpg";
+import gal8img3 from "../../../assets/кабинет врача озонотерапевта/17-min.jpg";
+import gal8img4 from "../../../assets/кабинет врача озонотерапевта/18-min.jpg";
+import gal8img5 from "../../../assets/кабинет врача озонотерапевта/19-min.jpg";
+import gal8img6 from "../../../assets/кабинет врача озонотерапевта/20-min.jpg";
+import gal8img7 from "../../../assets/кабинет врача озонотерапевта/21-min.jpg";
+
+import gal9img1 from "../../../assets/кабинет гирудотерапии/17-min.jpg";
+import gal9img2 from "../../../assets/кабинет гирудотерапии/IMG_0302-min.JPG";
+import gal9img3 from "../../../assets/кабинет гирудотерапии/IMGL4360-min.JPG";
+import gal9img4 from "../../../assets/кабинет гирудотерапии/IMGL4362-min.JPG";
+
+import gal10img1 from "../../../assets/кабинет эрготерапии/16-10-2014-IMG-4510-min.JPG";
+import gal10img2 from "../../../assets/кабинет эрготерапии/DSC00562-min.JPG";
+import gal10img3 from "../../../assets/кабинет эрготерапии/IMG_0056-min.JPG";
+import gal10img4 from "../../../assets/кабинет эрготерапии/IMG_0059-min.JPG";
+import gal10img5 from "../../../assets/кабинет эрготерапии/IMGL4185-min.JPG";
+
+import gal11img1 from "../../../assets/доступная среда/20161111_095125-min.jpg";
+import gal11img2 from "../../../assets/доступная среда/3 (2)-min.JPG";
+
+export default {
+  data() {
+    return {
+      gal1: [
+        {
+          src: gal1img1
+        },
+        {
+          src: gal1img2
+        },
+        {
+          src: gal1img3
+        },
+        {
+          src: gal1img4
+        }
+      ],
+      gal2: [
+        {
+          src: gal2img1
+        },
+        {
+          src: gal2img2
+        },
+        {
+          src: gal2img3
+        },
+        {
+          src: gal2img4
+        }
+      ],
+      gal3: [{ src: gal3img1 }, { src: gal3img2 }, { src: gal3img3 }],
+      gal4: [{ src: gal4img1 }, { src: gal4img2 }],
+      gal5: [
+        { src: gal5img1 },
+        { src: gal5img2 },
+        { src: gal5img3 },
+        { src: gal5img4 }
+      ],
+      gal6: [
+        { src: gal6img1 },
+        { src: gal6img2 },
+        { src: gal6img3 },
+        { src: gal6img4 },
+        { src: gal6img5 }
+      ],
+      gal7: [{ src: gal7img1 }, { src: gal7img2 }, { src: gal7img3 }],
+      gal8: [
+        { src: gal8img1 },
+        { src: gal8img2 },
+        { src: gal8img3 },
+        { src: gal8img4 },
+        { src: gal8img5 },
+        { src: gal8img6 },
+        { src: gal8img7 }
+      ],
+      gal9: [
+        { src: gal9img1 },
+        { src: gal9img2 },
+        { src: gal9img3 },
+        { src: gal9img4 }
+      ],
+      gal10: [
+        { src: gal10img1 },
+        { src: gal10img2 },
+        { src: gal10img3 },
+        { src: gal10img4 },
+        { src: gal10img5 }
+      ],
+      gal11: [{ src: gal11img1 }, { src: gal11img2 }]
+    };
+  }
+};
+</script>
