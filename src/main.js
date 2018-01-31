@@ -4,9 +4,6 @@ import VueResource from 'vue-resource';
 import App from './App.vue';
 import routes from './routes.js';
 
-import lightbox from 'vlightbox';
-Vue.use(lightbox);
-
 import Bulma from 'bulma';
 
 

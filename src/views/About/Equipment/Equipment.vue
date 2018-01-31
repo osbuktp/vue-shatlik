@@ -7,8 +7,8 @@
             <p>
                 Для посетителей АНО «ЦСП» «Шатлык» («Радость») в здании учреждения размещены стенды и уголки, на которых представлена информация о   законодательстве в сфере социального обслуживания, о порядке и условиях предоставления социальных услуг, тарифы на социальные услуги и др.
             </p>
-        </article>
         <lightbox :images="gal13"></lightbox>
+        </article>
         <article>
             <h3>Помещения для социально-реабилитационных мероприятий</h3>
             <p>
@@ -347,66 +347,116 @@ article:not(:last-child) {
 }
 </style>
 
-<style lang="scss">
-.vue-lightbox {
-  ul {
-    max-width: none !important;
-    text-align: left !important;
-    img {
-      height: 200px;
-      width: auto !important;
-      cursor: pointer;
-    }
-  }
-}
-.lightbox-overlay {
-  display: flex;
-  align-items: center;
-  .holder {
-    max-width: 900px !important;
-    img {
-      max-width: 900px !important;
-      @media (min-width: 1024px) {
-        width: auto !important;
-      }
-    }
-  }
-}
-</style>
-
-
 <script>
+import Lightbox from "../../../components/Lightbox/Lightbox.vue";
+
 import gal1img1 from "../../../assets/кабинет психологической разгрузки/MG_1320-min.JPG";
 import gal1img2 from "../../../assets/кабинет психологической разгрузки/MG_1346-min.JPG";
 import gal1img3 from "../../../assets/кабинет психологической разгрузки/MG_1350-min.JPG";
 import gal1img4 from "../../../assets/кабинет психологической разгрузки/MG_1369-min.JPG";
+import gal1img5 from "../../../assets/кабинет психологической разгрузки/IMG_1317-min.JPG";
+import gal1img6 from "../../../assets/кабинет психологической разгрузки/MG_1375-min.JPG";
+import gal1img1thumb from "../../../assets/кабинет психологической разгрузки/MG_1320-min.resized.JPG";
+import gal1img2thumb from "../../../assets/кабинет психологической разгрузки/MG_1346-min.resized.JPG";
+import gal1img3thumb from "../../../assets/кабинет психологической разгрузки/MG_1350-min.resized.JPG";
+import gal1img4thumb from "../../../assets/кабинет психологической разгрузки/MG_1369-min.resized.JPG";
+import gal1img5thumb from "../../../assets/кабинет психологической разгрузки/IMG_1317-min.resized.JPG";
+import gal1img6thumb from "../../../assets/кабинет психологической разгрузки/MG_1375-min.resized.JPG";
 
 import gal2img1 from "../../../assets/кабинет восстановительной медицины/16-10-2014-IMG-4548-min.JPG";
 import gal2img2 from "../../../assets/кабинет восстановительной медицины/16-10-2014-IMG-4556-min.JPG";
 import gal2img3 from "../../../assets/кабинет восстановительной медицины/20170202_112151_001-min.jpg";
 import gal2img4 from "../../../assets/кабинет восстановительной медицины/MG_1385-min.JPG";
+import gal2img5 from "../../../assets/кабинет восстановительной медицины/20170202_112310-min.jpg";
+import gal2img6 from "../../../assets/кабинет восстановительной медицины/IMG_0006-min.JPG";
+import gal2img7 from "../../../assets/кабинет восстановительной медицины/IMG_0007-min.JPG";
+import gal2img8 from "../../../assets/кабинет восстановительной медицины/IMG_0009-min.JPG";
+import gal2img9 from "../../../assets/кабинет восстановительной медицины/IMG_0011-min.JPG";
+import gal2img10 from "../../../assets/кабинет восстановительной медицины/IMG_0071-min.JPG";
+import gal2img11 from "../../../assets/кабинет восстановительной медицины/IMG_0072-min.JPG";
+import gal2img12 from "../../../assets/кабинет восстановительной медицины/IMG_1381-min.JPG";
+import gal2img13 from "../../../assets/кабинет восстановительной медицины/IMG_1390-min.JPG";
+import gal2img14 from "../../../assets/кабинет восстановительной медицины/IMG_1393-min.JPG";
+import gal2img15 from "../../../assets/кабинет восстановительной медицины/IMG_1396-min.JPG";
+import gal2img16 from "../../../assets/кабинет восстановительной медицины/IMG_1406-min.JPG";
+import gal2img17 from "../../../assets/кабинет восстановительной медицины/IMG_1460-min.JPG";
+
+import gal2img1thumb from "../../../assets/кабинет восстановительной медицины/16-10-2014-IMG-4548-min.resized.JPG";
+import gal2img2thumb from "../../../assets/кабинет восстановительной медицины/16-10-2014-IMG-4556-min.resized.JPG";
+import gal2img3thumb from "../../../assets/кабинет восстановительной медицины/20170202_112151_001-min.resized.jpg";
+import gal2img4thumb from "../../../assets/кабинет восстановительной медицины/MG_1385-min.resized.JPG";
+import gal2img5thumb from "../../../assets/кабинет восстановительной медицины/20170202_112310-min.resized.jpg";
+import gal2img6thumb from "../../../assets/кабинет восстановительной медицины/IMG_0006-min.resized.JPG";
+import gal2img7thumb from "../../../assets/кабинет восстановительной медицины/IMG_0007-min.resized.JPG";
+import gal2img8thumb from "../../../assets/кабинет восстановительной медицины/IMG_0009-min.resized.JPG";
+import gal2img9thumb from "../../../assets/кабинет восстановительной медицины/IMG_0011-min.resized.JPG";
+import gal2img10thumb from "../../../assets/кабинет восстановительной медицины/IMG_0071-min.resized.JPG";
+import gal2img11thumb from "../../../assets/кабинет восстановительной медицины/IMG_0072-min.resized.JPG";
+import gal2img12thumb from "../../../assets/кабинет восстановительной медицины/IMG_1381-min.resized.JPG";
+import gal2img13thumb from "../../../assets/кабинет восстановительной медицины/IMG_1390-min.resized.JPG";
+import gal2img14thumb from "../../../assets/кабинет восстановительной медицины/IMG_1393-min.resized.JPG";
+import gal2img15thumb from "../../../assets/кабинет восстановительной медицины/IMG_1396-min.resized.JPG";
+import gal2img16thumb from "../../../assets/кабинет восстановительной медицины/IMG_1406-min.resized.JPG";
+import gal2img17thumb from "../../../assets/кабинет восстановительной медицины/IMG_1460-min.resized.JPG";
+
 
 import gal3img1 from "../../../assets/кабинет лечебной физкультуры/IMG_0306-min.JPG";
 import gal3img2 from "../../../assets/кабинет лечебной физкультуры/IMG_0309-min.JPG";
 import gal3img3 from "../../../assets/кабинет лечебной физкультуры/IMGL4353-min.JPG";
+import gal3img1thumb from "../../../assets/кабинет лечебной физкультуры/IMG_0306-min.resized.JPG";
+import gal3img2thumb from "../../../assets/кабинет лечебной физкультуры/IMG_0309-min.resized.JPG";
+import gal3img3thumb from "../../../assets/кабинет лечебной физкультуры/IMGL4353-min.resized.JPG";
 
 import gal4img1 from "../../../assets/кабинет механотерапии/6 (2)-min.JPG";
 import gal4img2 from "../../../assets/кабинет механотерапии/IMG_0076-min.JPG";
+import gal4img1thumb from "../../../assets/кабинет механотерапии/6 (2)-min.resized.JPG";
+import gal4img2thumb from "../../../assets/кабинет механотерапии/IMG_0076-min.resized.JPG";
 
 import gal5img1 from "../../../assets/кабинет массажа/10-min.JPG";
 import gal5img2 from "../../../assets/кабинет массажа/12-min.JPG";
 import gal5img3 from "../../../assets/кабинет массажа/6-min.JPG";
 import gal5img4 from "../../../assets/кабинет массажа/7-min.JPG";
+import gal5img5 from '../../../assets/кабинет массажа/8-min.JPG';
+import gal5img6 from '../../../assets/кабинет массажа/9-min.JPG';
+import gal5img1thumb from "../../../assets/кабинет массажа/10-min.resized.JPG";
+import gal5img2thumb from "../../../assets/кабинет массажа/12-min.resized.JPG";
+import gal5img3thumb from "../../../assets/кабинет массажа/6-min.resized.JPG";
+import gal5img4thumb from "../../../assets/кабинет массажа/7-min.resized.JPG";
+import gal5img5thumb from '../../../assets/кабинет массажа/8-min.resized.JPG';
+import gal5img6thumb from '../../../assets/кабинет массажа/9-min.resized.JPG';
 
 import gal6img1 from "../../../assets/кабинет физиотерапии/13-min.JPG";
 import gal6img2 from "../../../assets/кабинет физиотерапии/14-min.jpg";
 import gal6img3 from "../../../assets/кабинет физиотерапии/20161220_083954-min.jpg";
 import gal6img4 from "../../../assets/кабинет физиотерапии/20161220_084129-min.jpg";
 import gal6img5 from "../../../assets/кабинет физиотерапии/3-min.JPG";
+import gal6img6 from "../../../assets/кабинет физиотерапии/20161220_084219-min.jpg";
+import gal6img7 from "../../../assets/кабинет физиотерапии/4-min.JPG";
+import gal6img8 from "../../../assets/кабинет физиотерапии/IMG_0025-min.JPG";
+import gal6img9 from "../../../assets/кабинет физиотерапии/IMG_9123-min.JPG";
+import gal6img10 from "../../../assets/кабинет физиотерапии/img1498561265107-min.jpg";
+import gal6img11 from "../../../assets/кабинет физиотерапии/img1498561442467-min.jpg";
+import gal6img12 from "../../../assets/кабинет физиотерапии/IMGL4375-min.JPG";
+
+import gal6img1thumb from "../../../assets/кабинет физиотерапии/13-min.resized.JPG";
+import gal6img2thumb from "../../../assets/кабинет физиотерапии/14-min.resized.jpg";
+import gal6img3thumb from "../../../assets/кабинет физиотерапии/20161220_083954-min.resized.jpg";
+import gal6img4thumb from "../../../assets/кабинет физиотерапии/20161220_084129-min.resized.jpg";
+import gal6img5thumb from "../../../assets/кабинет физиотерапии/3-min.resized.JPG";
+import gal6img6thumb from "../../../assets/кабинет физиотерапии/20161220_084219-min.resized.jpg";
+import gal6img7thumb from "../../../assets/кабинет физиотерапии/4-min.resized.JPG";
+import gal6img8thumb from "../../../assets/кабинет физиотерапии/IMG_0025-min.resized.JPG";
+import gal6img9thumb from "../../../assets/кабинет физиотерапии/IMG_9123-min.resized.JPG";
+import gal6img10thumb from "../../../assets/кабинет физиотерапии/img1498561265107-min.resized.jpg";
+import gal6img11thumb from "../../../assets/кабинет физиотерапии/img1498561442467-min.resized.jpg";
+import gal6img12thumb from "../../../assets/кабинет физиотерапии/IMGL4375-min.resized.JPG";
 
 import gal7img1 from "../../../assets/спелеокамера/IMG_0130-min.JPG";
 import gal7img2 from "../../../assets/спелеокамера/IMG_0131-min.JPG";
 import gal7img3 from "../../../assets/спелеокамера/IMG_0133-min.JPG";
+import gal7img1thumb from "../../../assets/спелеокамера/IMG_0130-min.resized.JPG";
+import gal7img2thumb from "../../../assets/спелеокамера/IMG_0131-min.resized.JPG";
+import gal7img3thumb from "../../../assets/спелеокамера/IMG_0133-min.resized.JPG";
 
 import gal8img1 from "../../../assets/кабинет врача озонотерапевта/15-min.jpg";
 import gal8img2 from "../../../assets/кабинет врача озонотерапевта/16-min.jpg";
@@ -415,100 +465,164 @@ import gal8img4 from "../../../assets/кабинет врача озонотер
 import gal8img5 from "../../../assets/кабинет врача озонотерапевта/19-min.jpg";
 import gal8img6 from "../../../assets/кабинет врача озонотерапевта/20-min.jpg";
 import gal8img7 from "../../../assets/кабинет врача озонотерапевта/21-min.jpg";
+import gal8img1thumb from "../../../assets/кабинет врача озонотерапевта/15-min.resized.jpg";
+import gal8img2thumb from "../../../assets/кабинет врача озонотерапевта/16-min.resized.jpg";
+import gal8img3thumb from "../../../assets/кабинет врача озонотерапевта/17-min.resized.jpg";
+import gal8img4thumb from "../../../assets/кабинет врача озонотерапевта/18-min.resized.jpg";
+import gal8img5thumb from "../../../assets/кабинет врача озонотерапевта/19-min.resized.jpg";
+import gal8img6thumb from "../../../assets/кабинет врача озонотерапевта/20-min.resized.jpg";
+import gal8img7thumb from "../../../assets/кабинет врача озонотерапевта/21-min.resized.jpg";
 
 import gal9img1 from "../../../assets/кабинет гирудотерапии/17-min.jpg";
 import gal9img2 from "../../../assets/кабинет гирудотерапии/IMG_0302-min.JPG";
 import gal9img3 from "../../../assets/кабинет гирудотерапии/IMGL4360-min.JPG";
 import gal9img4 from "../../../assets/кабинет гирудотерапии/IMGL4362-min.JPG";
+import gal9img1thumb from "../../../assets/кабинет гирудотерапии/17-min.resized.jpg";
+import gal9img2thumb from "../../../assets/кабинет гирудотерапии/IMG_0302-min.resized.JPG";
+import gal9img3thumb from "../../../assets/кабинет гирудотерапии/IMGL4360-min.resized.JPG";
+import gal9img4thumb from "../../../assets/кабинет гирудотерапии/IMGL4362-min.resized.JPG";
 
 import gal10img1 from "../../../assets/кабинет эрготерапии/16-10-2014-IMG-4510-min.JPG";
 import gal10img2 from "../../../assets/кабинет эрготерапии/DSC00562-min.JPG";
 import gal10img3 from "../../../assets/кабинет эрготерапии/IMG_0056-min.JPG";
 import gal10img4 from "../../../assets/кабинет эрготерапии/IMG_0059-min.JPG";
 import gal10img5 from "../../../assets/кабинет эрготерапии/IMGL4185-min.JPG";
+import gal10img6 from '../../../assets/кабинет эрготерапии/IMGL4187-min.JPG';
+import gal10img7 from '../../../assets/кабинет эрготерапии/IMGL4189-min.JPG';
+import gal10img8 from '../../../assets/кабинет эрготерапии/IMGL4190-min.JPG';
+
+import gal10img1thumb from "../../../assets/кабинет эрготерапии/16-10-2014-IMG-4510-min.resized.JPG";
+import gal10img2thumb from "../../../assets/кабинет эрготерапии/DSC00562-min.resized.JPG";
+import gal10img3thumb from "../../../assets/кабинет эрготерапии/IMG_0056-min.resized.JPG";
+import gal10img4thumb from "../../../assets/кабинет эрготерапии/IMG_0059-min.resized.JPG";
+import gal10img5thumb from "../../../assets/кабинет эрготерапии/IMGL4185-min.resized.JPG";
+import gal10img6thumb from '../../../assets/кабинет эрготерапии/IMGL4187-min.resized.JPG';
+import gal10img7thumb from '../../../assets/кабинет эрготерапии/IMGL4189-min.resized.JPG';
+import gal10img8thumb from '../../../assets/кабинет эрготерапии/IMGL4190-min.resized.JPG';
 
 import gal11img1 from "../../../assets/доступная среда/20161111_095125-min.jpg";
 import gal11img2 from "../../../assets/доступная среда/3 (2)-min.JPG";
+import gal11img1thumb from "../../../assets/доступная среда/20161111_095125-min.resized.jpg";
+import gal11img2thumb from "../../../assets/доступная среда/3-min.resized.JPG";
 
-import gal12img1 from '../../../assets/трудотерапия/20161228_120624.jpg';
-import gal12img2 from '../../../assets/трудотерапия/IMG_0238.JPG';
-import gal12img3 from '../../../assets/трудотерапия/IMG_0241.JPG';
+import gal12img1 from "../../../assets/трудотерапия/20161228_120624.jpg";
+import gal12img2 from "../../../assets/трудотерапия/IMG_0238.JPG";
+import gal12img3 from "../../../assets/трудотерапия/IMG_0241.JPG";
+import gal12img1thumb from "../../../assets/трудотерапия/20161228_120624.resized.jpg";
+import gal12img2thumb from "../../../assets/трудотерапия/IMG_0238.resized.JPG";
+import gal12img3thumb from "../../../assets/трудотерапия/IMG_0241.resized.JPG";
 
-import gal13img1 from '../../../assets/стенды/22.jpg';
-import gal13img2 from '../../../assets/стенды/23.jpg';
+import gal13img1 from "../../../assets/стенды/22.jpg";
+import gal13img2 from "../../../assets/стенды/23.jpg";
+import gal13img1thumb from "../../../assets/стенды/22.resized.jpg";
+import gal13img2thumb from "../../../assets/стенды/23.resized.jpg";
 
 export default {
+  components: {
+    Lightbox
+  },
   data() {
     return {
       gal1: [
-        {
-          src: gal1img1
-        },
-        {
-          src: gal1img2
-        },
-        {
-          src: gal1img3
-        },
-        {
-          src: gal1img4
-        }
+        { src: gal1img1, thumb: gal1img1thumb },
+        { src: gal1img2, thumb: gal1img2thumb },
+        { src: gal1img3, thumb: gal1img3thumb },
+        { src: gal1img4, thumb: gal1img4thumb },
+        { src: gal1img5, thumb: gal1img5thumb },
+        { src: gal1img6, thumb: gal1img6thumb }
       ],
       gal2: [
-        {
-          src: gal2img1
-        },
-        {
-          src: gal2img2
-        },
-        {
-          src: gal2img3
-        },
-        {
-          src: gal2img4
-        }
+        { src: gal2img1, thumb: gal2img1thumb },
+        { src: gal2img2, thumb: gal2img2thumb },
+        { src: gal2img3, thumb: gal2img3thumb },
+        { src: gal2img4, thumb: gal2img4thumb },
+        { src: gal2img5, thumb: gal2img5thumb },
+        { src: gal2img6, thumb: gal2img6thumb },
+        { src: gal2img7, thumb: gal2img7thumb },
+        { src: gal2img8, thumb: gal2img8thumb },
+        { src: gal2img9, thumb: gal2img9thumb },
+        { src: gal2img10, thumb: gal2img10thumb },
+        { src: gal2img11, thumb: gal2img11thumb },
+        { src: gal2img12, thumb: gal2img12thumb },
+        { src: gal2img13, thumb: gal2img13thumb },
+        { src: gal2img14, thumb: gal2img14thumb },
+        { src: gal2img15, thumb: gal2img15thumb },
+        { src: gal2img16, thumb: gal2img16thumb },
+        { src: gal2img17, thumb: gal2img17thumb }
       ],
-      gal3: [{ src: gal3img1 }, { src: gal3img2 }, { src: gal3img3 }],
-      gal4: [{ src: gal4img1 }, { src: gal4img2 }],
+      gal3: [
+        { src: gal3img1, thumb: gal3img1thumb },
+        { src: gal3img2, thumb: gal3img2thumb },
+        { src: gal3img3, thumb: gal3img3thumb }
+      ],
+      gal4: [
+        { src: gal4img1, thumb: gal4img1thumb },
+        { src: gal4img2, thumb: gal4img2thumb }
+      ],
       gal5: [
-        { src: gal5img1 },
-        { src: gal5img2 },
-        { src: gal5img3 },
-        { src: gal5img4 }
+        { src: gal5img1, thumb: gal5img1thumb },
+        { src: gal5img2, thumb: gal5img2thumb },
+        { src: gal5img3, thumb: gal5img3thumb },
+        { src: gal5img4, thumb: gal5img4thumb },
+        { src: gal5img5, thumb: gal5img5thumb },
+        { src: gal5img6, thumb: gal5img6thumb }
       ],
       gal6: [
-        { src: gal6img1 },
-        { src: gal6img2 },
-        { src: gal6img3 },
-        { src: gal6img4 },
-        { src: gal6img5 }
+        { src: gal6img1, thumb: gal6img1thumb },
+        { src: gal6img2, thumb: gal6img2thumb },
+        { src: gal6img3, thumb: gal6img3thumb },
+        { src: gal6img4, thumb: gal6img4thumb },
+        { src: gal6img5, thumb: gal6img5thumb },
+        { src: gal6img6, thumb: gal6img6thumb },
+        { src: gal6img7, thumb: gal6img7thumb },
+        { src: gal6img8, thumb: gal6img8thumb },
+        { src: gal6img9, thumb: gal6img9thumb },
+        { src: gal6img10, thumb: gal6img10thumb },
+        { src: gal6img11, thumb: gal6img11thumb },
+        { src: gal6img12, thumb: gal6img12thumb }
       ],
-      gal7: [{ src: gal7img1 }, { src: gal7img2 }, { src: gal7img3 }],
+      gal7: [
+        { src: gal7img1, thumb: gal7img1thumb },
+        { src: gal7img2, thumb: gal7img2thumb },
+        { src: gal7img3, thumb: gal7img3thumb }
+      ],
       gal8: [
-        { src: gal8img1 },
-        { src: gal8img2 },
-        { src: gal8img3 },
-        { src: gal8img4 },
-        { src: gal8img5 },
-        { src: gal8img6 },
-        { src: gal8img7 }
+        { src: gal8img1, thumb: gal8img1thumb },
+        { src: gal8img2, thumb: gal8img2thumb },
+        { src: gal8img3, thumb: gal8img3thumb },
+        { src: gal8img4, thumb: gal8img4thumb },
+        { src: gal8img5, thumb: gal8img5thumb },
+        { src: gal8img6, thumb: gal8img6thumb },
+        { src: gal8img7, thumb: gal8img7thumb }
       ],
       gal9: [
-        { src: gal9img1 },
-        { src: gal9img2 },
-        { src: gal9img3 },
-        { src: gal9img4 }
+        { src: gal9img1, thumb: gal9img1thumb },
+        { src: gal9img2, thumb: gal9img2thumb },
+        { src: gal9img3, thumb: gal9img3thumb },
+        { src: gal9img4, thumb: gal9img4thumb }
       ],
       gal10: [
-        { src: gal10img1 },
-        { src: gal10img2 },
-        { src: gal10img3 },
-        { src: gal10img4 },
-        { src: gal10img5 }
+        { src: gal10img1, thumb: gal10img1thumb },
+        { src: gal10img2, thumb: gal10img2thumb },
+        { src: gal10img3, thumb: gal10img3thumb },
+        { src: gal10img4, thumb: gal10img4thumb },
+        { src: gal10img5, thumb: gal10img5thumb },
+        { src: gal10img6, thumb: gal10img6thumb },
+        { src: gal10img7, thumb: gal10img7thumb },
+        { src: gal10img8, thumb: gal10img8thumb }
       ],
-      gal11: [{ src: gal11img1 }, { src: gal11img2 }],
-      gal12: [{ src: gal12img1 }, {src: gal12img2}],
-      gal13: [{src: gal13img1}, {src: gal13img2}]
+      gal11: [
+        { src: gal11img1, thumb: gal11img1thumb },
+        { src: gal11img2, thumb: gal11img2thumb }
+      ],
+      gal12: [
+        { src: gal12img1, thumb: gal12img1thumb },
+        { src: gal12img2, thumb: gal12img2thumb }
+      ],
+      gal13: [
+        { src: gal13img1, thumb: gal13img1thumb },
+        { src: gal13img2, thumb: gal13img2thumb }
+      ]
     };
   }
 };
