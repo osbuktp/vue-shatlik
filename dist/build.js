@@ -2488,7 +2488,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_resource__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__App_vue__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__routes_js__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bulma__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bulma__ = __webpack_require__(292);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bulma___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_bulma__);
 
 
@@ -18217,10 +18217,10 @@ module.exports = __webpack_require__.p + "logo.png";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__views_Services_Spots_Spots_vue__ = __webpack_require__(277);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__views_Activities_Activities_vue__ = __webpack_require__(279);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__views_Activities_Reports_Reports_vue__ = __webpack_require__(280);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__views_Activities_Exams_Exams_vue__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__views_Activities_Rating_Rating_vue__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__views_Events_Events_vue__ = __webpack_require__(283);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__views_Interrogation_Interrogation_vue__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__views_Activities_Exams_Exams_vue__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__views_Activities_Rating_Rating_vue__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__views_Events_Events_vue__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__views_Interrogation_Interrogation_vue__ = __webpack_require__(290);
 
 
 
@@ -26252,7 +26252,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4888a7b5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Documents_vue__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c048686c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Documents_vue__ = __webpack_require__(97);
 function injectStyle (ssrContext) {
   __webpack_require__(95)
 }
@@ -26266,12 +26266,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-4888a7b5"
+var __vue_scopeId__ = "data-v-c048686c"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4888a7b5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Documents_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c048686c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Documents_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -26292,7 +26292,7 @@ var content = __webpack_require__(96);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("01cf6484", content, true);
+var update = __webpack_require__(2)("a477bbea", content, true);
 
 /***/ }),
 /* 96 */
@@ -26303,7 +26303,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".level[data-v-4888a7b5]{justify-content:flex-start}.level a[data-v-4888a7b5]{margin-right:20px}", ""]);
+exports.push([module.i, ".level[data-v-c048686c]{justify-content:flex-start}.level a[data-v-c048686c]{margin-right:20px}", ""]);
 
 // exports
 
@@ -26314,7 +26314,7 @@ exports.push([module.i, ".level[data-v-4888a7b5]{justify-content:flex-start}.lev
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("Документы")]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Устав учреждения\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Устав АНО.pdf"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Правила внутреннего распорядка для получателей социальных услуг\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/viewer?url=shatlik.ru/documents/Правила внутреннего распорядка для получателей социальных услуг.docx"}},[_vm._v("Открыть в Google Docs")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Правила внутреннего трудового распорядка\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/viewer?url=shatlik.ru/documents/Правила внутреннего трудового распорядка.doc"}},[_vm._v("Открыть в Google Docs")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Положение об АНО ЦСП «Шатлык»\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/viewer?url=shatlik.ru/documents/положение2018.docx"}},[_vm._v("Открыть в Google Docs")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Лицензии\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/viewer?url=shatlik.ru/documents/Лицензия.docx"}},[_vm._v("Открыть в Google Docs")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Лицензия 1.jpg"}},[_vm._v("Лицензия 1 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Лицензия 2.jpg"}},[_vm._v("Лицензия 2 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Лицензия 3.jpg"}},[_vm._v("Лицензия 3 (jpg)")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    План финансово-хозяйственной деятельности АНО \"ЦСП \"Шатлык\" (\"Радость\") на 2018 год\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/План ФХД 1.jpg"}},[_vm._v("План ФХД 1 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/План ФХД 2.jpg"}},[_vm._v("План ФХД 2 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/План ФХД 3.jpg"}},[_vm._v("План ФХД 3 (jpg)")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Положение о порядке рассмотрения письменных и устных обращений\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/viewer?url=shatlik.ru/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx"}},[_vm._v("Открыть в Google Docs")])])])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section container content"},[_c('h1',[_vm._v("Документы")]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Устав учреждения\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Устав АНО.pdf"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Правила внутреннего распорядка для получателей социальных услуг\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B5%D0%B3%D0%BE%20%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3.docx"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Правила внутреннего трудового распорядка\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B5%D0%B3%D0%BE%20%D1%82%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B0.doc"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Положение об АНО ЦСП «Шатлык»\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B52018.docx"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Лицензии\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F.docx"}},[_vm._v("Просмотр")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Лицензия 1.jpg"}},[_vm._v("Лицензия 1 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Лицензия 2.jpg"}},[_vm._v("Лицензия 2 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Лицензия 3.jpg"}},[_vm._v("Лицензия 3 (jpg)")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    Положение о порядке рассмотрения письменных и устных обращений\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B5%20%D1%80%D0%B0%D1%81%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B8%20%D1%83%D1%81%D1%82%D0%BD%D1%8B%D1%85%20%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B9%20%D1%81%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%D1%8E.docx"}},[_vm._v("Просмотр")])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -27371,7 +27371,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d3875e7e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6ea4aea2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__ = __webpack_require__(257);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -27387,7 +27387,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d3875e7e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6ea4aea2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -27403,7 +27403,7 @@ var Component = normalizeComponent(
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("Предоставляемые услуги")]),_vm._v(" "),_c('div',[_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                        Социально-бытовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-медицинские\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-психологические\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-педагогические\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-трудовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-правовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности\n                    ")])])])])]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',[_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        О порядке и условиях предоставления платных услуг\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/viewer?url=shatlik.ru/documents/О порядке и условиях предоставления платных услуг.doc"}},[_vm._v("Открыть в Google Docs")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Услуги, подтвержденные постановлением кабинета Министров РТ\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/viewer?url=shatlik.ru/documents/Услуги, утвержденные постановлением Кабинета Министров РТ.docx"}},[_vm._v("Открыть в Google Docs")])])])])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("Предоставляемые услуги")]),_vm._v(" "),_c('div',[_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                        Социально-бытовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-медицинские\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-психологические\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-педагогические\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-трудовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-правовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности\n                    ")])])])])]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',[_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        О порядке и условиях предоставления платных услуг\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%9E%20%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B5%20%D0%B8%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%D1%85%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3.doc.doc"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Услуги, подтвержденные постановлением кабинета Министров РТ\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8%2C%20%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%BE%D0%B2%20%D0%A0%D0%A2.docx"}},[_vm._v("Просмотр")])])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -27589,7 +27589,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ab86a93a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6a766887_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__ = __webpack_require__(274);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -27605,7 +27605,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ab86a93a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6a766887_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Complaints_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -27621,7 +27621,7 @@ var Component = normalizeComponent(
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("\n        Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n    ")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\n            Получатели имеют право на обжалование решений, принятых в ходе предоставления социальной услуги, действий или бездействия Специалистов Центра, предоставляющих социальные услуги, в вышестоящих органах, участвующих в оказании социальных услуг, в досудебном и судебном порядке\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Получатели имеют право обратиться с жалобой лично или направить письменное обращение, жалобу (претензию)\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            При обращении Получателя в письменной форме срок рассмотрения жалобы не должен превышать 10 дней с момента получения обращения. В случае если по обращению требуется провести расследования, проверки или обследования, срок рассмотрения жалобы может быть продлен, но не более чем до одного месяца с момента получения обращения, по решению руководителя Учреждения. О продлении срока рассмотрения жалобы Получатель уведомляется письменно с указанием причин продления.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя в письменной форме должно содержать следующую информацию:\n            "),_c('ul',[_c('li',[_vm._v("\n                    фамилию, имя, отчество Получателя которым подается жалоба (его законного представителя), его место жительства или пребывания, номер\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    наименование органа, должности, фамилии, имени и отчества Специалиста (при наличии информации), решение, действие или бездействие которого обжалуется\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    содержание обжалуемого решения, действия (бездействия). Дополнительно в жалобе указываются причины несогласия с обжалуемым решением, действием или бездействием, обстоятельства, на основании которых Получатель (его законный представитель) считает, что нарушены его права, свободы и законные интересы, созданы препятствия к их реализации либо незаконно возложена какая-либо обязанность, требования. К жалобе могут быть приложены копии документов, подтверждающих изложенные в жалобе обстоятельства. В таком случае в жалобе приводится перечень прилагаемых к ней документов. Если документы, имеющие существенное значение для рассмотрения жалобы, отсутствуют или не приложены к обращению, решение принимается без учета доводов, в подтверждение которых документы не представлены. Жалоба подписывается подавшим ее Получателем или его законным представителем\n                ")])])]),_vm._v(" "),_c('li',[_vm._v("\n            По результатам рассмотрения жалобы должностное лицо, ответственный или уполномоченный работник принимает решение об удовлетворении требований Получателя и о признании неправомерным обжалованного решения, действия (бездействия), либо об отказе в удовлетворении жалобы. Письменный ответ, содержащий результаты рассмотрения обращения, направляется Получателю\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя не рассматривается в случае:\n            "),_c('ul',[_c('li',[_vm._v("\n                    отсутствия сведений об обжалуемом решении, действии, бездействии (в чем выразилось, кем принято), о лице, обратившемся с жалобой (фамилия, имя, отчество физического лица)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    отсутствия подписи Получателя (его законного представителя)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    если предметом жалобы является решение, принятое в судебном или досудебном порядке\n                ")])])])]),_vm._v(" "),_c('p',[_vm._v("\n        Письменный ответ с указанием причин отказа в рассмотрении жалобы направляется Получателю или его законному представителю не позднее "),_c('strong',[_vm._v("10 дней")]),_vm._v(" с момента её получения.\n    ")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',[_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Положение о порядке рассмотрения письменных и устных обращений\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/viewer?url=shatlik.ru/documents/Положение о порядке рассмотрения письменных и устных обращений с печатью.docx"}},[_vm._v("Открыть в Google Docs")])])])])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content container"},[_c('h1',[_vm._v("\n        Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n    ")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("\n            Получатели имеют право на обжалование решений, принятых в ходе предоставления социальной услуги, действий или бездействия Специалистов Центра, предоставляющих социальные услуги, в вышестоящих органах, участвующих в оказании социальных услуг, в досудебном и судебном порядке\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Получатели имеют право обратиться с жалобой лично или направить письменное обращение, жалобу (претензию)\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            При обращении Получателя в письменной форме срок рассмотрения жалобы не должен превышать 10 дней с момента получения обращения. В случае если по обращению требуется провести расследования, проверки или обследования, срок рассмотрения жалобы может быть продлен, но не более чем до одного месяца с момента получения обращения, по решению руководителя Учреждения. О продлении срока рассмотрения жалобы Получатель уведомляется письменно с указанием причин продления.\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя в письменной форме должно содержать следующую информацию:\n            "),_c('ul',[_c('li',[_vm._v("\n                    фамилию, имя, отчество Получателя которым подается жалоба (его законного представителя), его место жительства или пребывания, номер\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    наименование органа, должности, фамилии, имени и отчества Специалиста (при наличии информации), решение, действие или бездействие которого обжалуется\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    содержание обжалуемого решения, действия (бездействия). Дополнительно в жалобе указываются причины несогласия с обжалуемым решением, действием или бездействием, обстоятельства, на основании которых Получатель (его законный представитель) считает, что нарушены его права, свободы и законные интересы, созданы препятствия к их реализации либо незаконно возложена какая-либо обязанность, требования. К жалобе могут быть приложены копии документов, подтверждающих изложенные в жалобе обстоятельства. В таком случае в жалобе приводится перечень прилагаемых к ней документов. Если документы, имеющие существенное значение для рассмотрения жалобы, отсутствуют или не приложены к обращению, решение принимается без учета доводов, в подтверждение которых документы не представлены. Жалоба подписывается подавшим ее Получателем или его законным представителем\n                ")])])]),_vm._v(" "),_c('li',[_vm._v("\n            По результатам рассмотрения жалобы должностное лицо, ответственный или уполномоченный работник принимает решение об удовлетворении требований Получателя и о признании неправомерным обжалованного решения, действия (бездействия), либо об отказе в удовлетворении жалобы. Письменный ответ, содержащий результаты рассмотрения обращения, направляется Получателю\n        ")]),_vm._v(" "),_c('li',[_vm._v("\n            Обращение Получателя не рассматривается в случае:\n            "),_c('ul',[_c('li',[_vm._v("\n                    отсутствия сведений об обжалуемом решении, действии, бездействии (в чем выразилось, кем принято), о лице, обратившемся с жалобой (фамилия, имя, отчество физического лица)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    отсутствия подписи Получателя (его законного представителя)\n                ")]),_vm._v(" "),_c('li',[_vm._v("\n                    если предметом жалобы является решение, принятое в судебном или досудебном порядке\n                ")])])])]),_vm._v(" "),_c('p',[_vm._v("\n        Письменный ответ с указанием причин отказа в рассмотрении жалобы направляется Получателю или его законному представителю не позднее "),_c('strong',[_vm._v("10 дней")]),_vm._v(" с момента её получения.\n    ")]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',[_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Положение о порядке рассмотрения письменных и устных обращений\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B5%20%D1%80%D0%B0%D1%81%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B8%20%D1%83%D1%81%D1%82%D0%BD%D1%8B%D1%85%20%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B9%20%D1%81%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%D1%8E.docx"}},[_vm._v("Просмотр")])])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -27742,22 +27742,26 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_056c6569_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__ = __webpack_require__(283);
+function injectStyle (ssrContext) {
+  __webpack_require__(281)
+}
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = null
+
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-056c6569"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __vue_template__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_056c6569_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -27769,62 +27773,29 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 281 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
+// style-loader: Adds some css to the DOM by adding a <style> tag
 
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
+// load the styles
+var content = __webpack_require__(282);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("33450ad0", content, true);
 
 /***/ }),
 /* 282 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
+exports = module.exports = __webpack_require__(1)(false);
+// imports
 
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+// module
+exports.push([module.i, ".level[data-v-056c6569]{justify-content:flex-start}.level a[data-v-056c6569]{margin-right:20px}", ""]);
+
+// exports
 
 
 /***/ }),
@@ -27832,11 +27803,81 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content section container"},[_c('header',[_c('h1',[_vm._v("Отчеты")])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    План финансово-хозяйственной деятельности АНО \"ЦСП \"Шатлык\" (\"Радость\") на 2018 год\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/План ФХД 1.jpg"}},[_vm._v("План ФХД 1 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/План ФХД 2.jpg"}},[_vm._v("План ФХД 2 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/План ФХД 3.jpg"}},[_vm._v("План ФХД 3 (jpg)")])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 284 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 285 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+/* 286 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Events_vue__ = __webpack_require__(14);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_458f78a6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Events_vue__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_458f78a6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Events_vue__ = __webpack_require__(289);
 function injectStyle (ssrContext) {
-  __webpack_require__(284)
+  __webpack_require__(287)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -27865,20 +27906,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 284 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(285);
+var content = __webpack_require__(288);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("0dfeac51", content, true);
 
 /***/ }),
-/* 285 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -27892,7 +27933,7 @@ exports.push([module.i, ".is-flex[data-v-458f78a6]{flex-wrap:wrap;justify-conten
 
 
 /***/ }),
-/* 286 */
+/* 289 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27902,11 +27943,11 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 287 */
+/* 290 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3f8e2396_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Interrogation_vue__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3f8e2396_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Interrogation_vue__ = __webpack_require__(291);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -27933,7 +27974,7 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 288 */
+/* 291 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27943,20 +27984,20 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 289 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(290);
+var content = __webpack_require__(293);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("c36c9aba", content, true);
 
 /***/ }),
-/* 290 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
