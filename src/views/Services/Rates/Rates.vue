@@ -1,5 +1,5 @@
 <template>
-  <section class="section container content">
+  <section class="section content">
       <img src="../../../assets/prices/тарифы (1).jpg" alt="">
       <img src="../../../assets/prices/тарифы (2).jpg" alt="">
       <img src="../../../assets/prices/тарифы (3).jpg" alt="">

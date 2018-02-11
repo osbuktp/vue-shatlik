@@ -1,5 +1,5 @@
 <template>
-    <section class="section container content">
+    <section class="section content">
         <h1>Документы</h1>
         <article class="media">
             <div class="media-content">

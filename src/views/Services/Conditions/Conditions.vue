@@ -1,5 +1,5 @@
 <template>
-    <section class="section content container">
+    <section class="section content">
         <h1>
             Порядок и условия предоставления социальных услуг
         </h1>

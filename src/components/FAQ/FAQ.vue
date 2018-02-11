@@ -8,9 +8,9 @@
 </template>
 
 <style lang="scss" scoped>
-.faq__questions {
-    padding: 20px 0px;
-}
+// .faq__questions {
+//     padding: 20px 0px;
+// }
 
 details {
     cursor: pointer;

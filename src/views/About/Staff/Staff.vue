@@ -1,5 +1,5 @@
 <template>
-    <section class="section container content">
+    <section class="section content">
         <h1>
             Специалисты
         </h1>
@@ -32,7 +32,7 @@
   justify-content: space-around;
 }
 .card {
-  flex-basis: 400px;
+  flex-basis: 250px;
   margin-bottom: 20px;
 }
 </style>

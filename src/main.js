@@ -9,7 +9,8 @@ import Bulma from 'bulma';
 
 Vue.use(VueRouter);
 const router = new VueRouter({
-  routes
+  routes,
+  linkExactActiveClass: "is-active"
   // mode: 'history'
 });
 

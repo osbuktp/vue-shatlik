@@ -1,5 +1,5 @@
 <template>
-    <section class="section container content">
+    <section class="section content">
         <h1>
             Материально-техническая база
         </h1>

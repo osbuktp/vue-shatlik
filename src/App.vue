@@ -6,10 +6,10 @@
         <nav class="navbar is-info">
           <div class="container">
             <div class="navbar-brand">
-              <router-link class="navbar-item" to="/">
+              <router-link exact-active-class="someother" active-class="someother" class="navbar-item" to="/">
                 <img src='../src/assets/logo.png' width="112" height="28">
               </router-link>
-              <div :class="{'is-active': isMenuToggled}" @click="isMenuToggled = !isMenuToggled" class="navbar-burger burger" data-target="navMenuColorlink-example">
+              <div :class="{'is-active': isMenuToggled}" @click="isMenuToggled = !isMenuToggled" class=" is-hidden-desktop navbar-burger burger" data-target="navMenuColorlink-example">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -36,10 +36,10 @@
             </div>
           </div>
         </nav>
-        <nav class="navbar is-info">
+        <nav class="is-hidden-desktop navbar is-info">
           <div :class="{'is-active': isMenuToggled}" class="navbar-menu">
             <div class="container">
-              <div @click="scrollToContent()" class="navbar-start navbar-overflow">
+              <div class="navbar-start navbar-overflow">
                 <router-link class="navbar-item" to="/">
                   Главная
                 </router-link>
@@ -140,131 +140,158 @@
       </section>
     </header>
 
-    <section id="content">
-      <router-view></router-view>
-    </section>
+    <main>
+      <section class="left-aside is-hidden-touch">
+        <section class="site-map">
+          <menu class="menu">
+            <p class="menu-label">
+              Карта сайта
+            </p>
+            <ul class="menu-list">
+              <li>
+                <router-link to="/">
+                  Главная
+                </router-link>
+              </li>
+              <li>
+                <a expandable :opened="isAboutOpened" @click="isAboutOpened = !isAboutOpened">
+                  Об учреждении
+                </a>
+                <ul>
+                  <li>
+                    <router-link to="/about">
+                      Общая информация
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/about/lead">
+                      Руководство
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/about/staff">
+                      Персональный состав работников
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/about/documents">
+                      Документы
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/about/equipment">
+                      Материально-техническое обеспечение
+                    </router-link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a expandable :opened="isServicesOpened" @click="isServicesOpened = !isServicesOpened">
+                  Услуги
+                </a>
+                <ul>
+                  <li>
+                    <router-link to="/services">
+                      Предоставляемые услуги
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/services/conditions">
+                      Порядок и условия предоставления социальных услуг
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/services/rates">
+                      Тарифы на социальные услуги
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/services/amount">
+                      Численность получателей и объем предоставляемых социальных услуг
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/services/spots">
+                      Количество свободных мест
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/services/experience">
+                      Опыт работы
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/services/complaints">
+                      Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
+                    </router-link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a expandable :opened="isActivitiesOpened" @click="isActivitiesOpened = !isActivitiesOpened">
+                  Информация о деятельности
+                </a>
+                <ul>
+                  <li>
+                    <router-link to="/activities/reports">
+                      Отчеты о деятельности
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/activities/exams">
+                      Проверки
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link to="/activities/rates">
+                      Независимая оценка качества оказания услуг
+                    </router-link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <router-link to="/events">
+                  Проводимые мероприятия
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/interrogation">
+                  Опрос граждан о качестве оказания услуг
+                </router-link>
+              </li>
+            </ul>
+          </menu>
+        </section>
+      </section>
 
-    <footer class="footer">
-      <section class="site-map">
+      <section id="content">
+        <router-view></router-view>
+      </section>
+
+      <section class="right-aside is-hidden-touch">
         <menu class="menu">
           <p class="menu-label">
-            Карта сайта
+            Мы в соцсетях
           </p>
-          <ul class="menu-list">
-            <li>
-              <router-link to="/">
-                Главная
-              </router-link>
-            </li>
-            <li>
-              <a>Об учреждении</a>
-              <ul>
-                <li>
-                  <router-link to="/about">
-                    Общая информация
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/about/lead">
-                    Руководство
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/about/staff">
-                    Персональный состав работников
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/about/documents">
-                    Документы
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/about/equipment">
-                    Материально-техническое обеспечение
-                  </router-link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Услуги</a>
-              <ul>
-                <li>
-                  <router-link to="/services">
-                    Предоставляемые услуги
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/services/conditions">
-                    Порядок и условия предоставления социальных услуг
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/services/rates">
-                    Тарифы на социальные услуги
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/services/amount">
-                    Численность получателей и объем предоставляемых социальных услуг
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/services/spots">
-                    Количество свободных мест
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/services/experience">
-                    Опыт работы
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/services/complaints">
-                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
-                  </router-link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>
-                Информация о деятельности
-              </a>
-              <ul>
-                <li>
-                  <router-link to="/activities/reports">
-                    Отчеты о деятельности
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/activities/exams">
-                    Проверки
-                  </router-link>
-                </li>
-                <li>
-                  <router-link to="/activities/rates">
-                    Независимая оценка качества оказания услуг
-                  </router-link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <router-link to="/events">
-                Проводимые мероприятия
-              </router-link>
-            </li>
-            <li>
-              <router-link to="/interrogation">
-                Опрос граждан о качестве оказания услуг
-              </router-link>
-            </li>
-          </ul>
+
+          <!-- VK Widget -->
+          <div id="vk_groups"></div>
+        </menu>
+        <menu class="menu">
+          <p class="menu-label">
+            Часто задаваемые вопросы
+          </p>
+          <f-a-q></f-a-q>
         </menu>
       </section>
+    </main>
+
+    <footer class="footer">
+
       <section class="credentials">
         <div class="content has-text-centered">
           <p>
-            <strong>os.buktp</strong>
+            <strong>АНО ЦСП «ШАТЛЫК»</strong>
           </p>
         </div>
       </section>
@@ -273,29 +300,34 @@
 </template>
 
 <script>
+import FAQ from "./components/FAQ/FAQ.vue";
 import AccPanel from "./components/AccPanel/AccPanel.vue";
 export default {
   components: {
-    AccPanel
+    AccPanel,
+    FAQ
   },
   name: "app",
   data() {
     return {
-      isMenuToggled: false
+      isMenuToggled: false,
+      isAboutOpened: false,
+      isServicesOpened: false,
+      isActivitiesOpened: false
     };
-  },
-  methods: {
-    scrollToContent() {
-      let interval = document.querySelector("#content").offsetTop;
-      let timer = setInterval(function() {
-        if (window.scrollY < interval - 48) {
-          window.scrollBy(0, 50);
-        } else {
-          clearInterval(timer);
-        };
-      }, 15);
-    }
   }
+  // methods: {
+  //   scrollToContent() {
+  //     let interval = document.querySelector("#content").offsetTop;
+  //     let timer = setInterval(function() {
+  //       if (window.scrollY < interval - 48) {
+  //         window.scrollBy(0, 50);
+  //       } else {
+  //         clearInterval(timer);
+  //       }
+  //     }, 15);
+  //   }
+  // }
 };
 </script>
 
@@ -350,6 +382,7 @@ body {
 .navbar {
   min-height: 0;
 }
+
 .info-field {
   color: white;
 }
@@ -390,5 +423,54 @@ body {
 }
 .main .title {
   font-weight: 300;
+}
+
+.left-aside,
+.right-aside {
+  width: 320px;
+  padding: 3rem 20px;
+  box-sizing: border-box;
+}
+
+#content {
+  flex: 1;
+}
+
+// .site-map {
+//   padding: 0 20px;
+// }
+menu {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  .menu-label {
+    font-size: 1rem;
+  }
+}
+
+main {
+  display: flex;
+}
+
+a[expandable]::before {
+  background-image: url(./assets/svg/right.svg);
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-position: center 0.15rem;
+  background-size: cover;
+}
+
+a[expandable][opened]::before {
+  background-image: url(./assets/svg/down.svg);
+}
+
+a + ul {
+  display: none;
+}
+
+a[opened="true"] + ul {
+  display: block;
 }
 </style>

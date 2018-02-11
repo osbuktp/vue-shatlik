@@ -1,5 +1,5 @@
 <template>
-  <section class="section content container">
+  <section class="section content">
       <h1>Количество свободных мест</h1>
       <h2>
           Количество свободных мест в рамках предпринимательской деятельности

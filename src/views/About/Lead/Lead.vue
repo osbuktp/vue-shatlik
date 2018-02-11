@@ -1,5 +1,5 @@
 <template>
-    <section class="section container content">
+    <section class="section content">
         <h1>
             Директор АНО «ЦСП «Шатлык» («Радость»)
         </h1>
