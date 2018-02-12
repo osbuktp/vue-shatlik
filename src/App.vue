@@ -5,40 +5,40 @@
       <section class="menu">
         <nav class="navbar is-link">
           <!-- <div class="container"> -->
-            <div class="navbar-brand">
-              <router-link exact-active-class="someother" active-class="someother" class="navbar-item" to="/">
-                <img src='../src/assets/logo.png' width="112" height="28">
-              </router-link>
-              <div :class="{'is-active': isMenuToggled}" @click="isMenuToggled = !isMenuToggled" class=" is-hidden-desktop navbar-burger burger" data-target="navMenuColorlink-example">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
+          <div class="navbar-brand">
+            <router-link exact-active-class="someother" active-class="someother" class="navbar-item" to="/">
+              <img src='../src/assets/logo.png' width="112" height="28">
+            </router-link>
+            <div :class="{'is-active': isMenuToggled}" @click="isMenuToggled = !isMenuToggled" class=" is-hidden-desktop navbar-burger burger" data-target="navMenuColorlink-example">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-            <div class="navbar-start">
-              <div class="navbar-item logo-text">
-                <p>Автономная Некоммерческая Организация «Центр социальной помощи «Шатлык»</p>
-              </div>
+          </div>
+          <div class="navbar-start">
+            <div class="navbar-item logo-text">
+              <p>Автономная Некоммерческая Организация «Центр социальной помощи «Шатлык»</p>
             </div>
+          </div>
 
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <div class="field is-grouped info-fields">
-                  <div class="info-field home">
-                    <p>Адрес</p>
-                    <p>г. Заинск, ул.Тукая, д. 5А</p>
-                  </div>
-                  <div class="info-field phone">
-                    <p>Телефон</p>
-                    <p>+7(85558)3-32-32</p>
-                  </div>
-                  <div class="info-field email">
-                    <p>Email</p>
-                    <p>shatlykcsp@yandex.ru</p>
-                  </div>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="field is-grouped info-fields">
+                <div class="info-field home">
+                  <p>Адрес</p>
+                  <p>г. Заинск, ул.Тукая, д. 5А</p>
+                </div>
+                <div class="info-field phone">
+                  <p>Телефон</p>
+                  <p>+7(85558)3-32-32</p>
+                </div>
+                <div class="info-field email">
+                  <p>Email</p>
+                  <p>shatlykcsp@yandex.ru</p>
                 </div>
               </div>
             </div>
+          </div>
           <!-- </div> -->
         </nav>
         <nav class="is-hidden-desktop navbar is-info">
@@ -131,7 +131,7 @@
       </section>
       <section class="hero is-info">
         <div class="hero-body">
-          <div class="container">
+          <!-- <div class="container">
             <div class="is-info hero-info">
               <h1 class="title">
                 Шатлык
@@ -140,6 +140,25 @@
                 Центр социальной помощи
               </h2>
             </div>
+          </div> -->
+          <div class="slider">
+            <ul class="slides" :style="style">
+              <li v-for="(slide,i) in playslides" :key="i">
+                <div class="img" :style="{ backgroundImage: `url(${slide.img})` }"></div>
+              </li>
+            </ul>
+            <ul class="indicators">
+              <li v-for="(slide,i) in slides" :key="i" @click="selectSlide(i)" :class="i==current ? 'active' : null">
+                <div class="item">
+                  <span class="title">{{slide.title}}</span>
+                  <!-- <span class="progress">
+                    <div class="fill" :style="{ width: `${percent}%`}"></div>
+                    <div class="dot"></div>
+                  </span> -->
+                  <!-- <p class="mark">{{slide.mark}}</p> -->
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -307,6 +326,12 @@
 <script>
 import FAQ from "./components/FAQ/FAQ.vue";
 import AccPanel from "./components/AccPanel/AccPanel.vue";
+
+import house from "./assets/house.jpg";
+import slider1 from "./assets/slider1.png";
+import slider2 from "./assets/slider2.png";
+import slider3 from "./assets/slider3.png";
+
 export default {
   components: {
     AccPanel,
@@ -318,23 +343,178 @@ export default {
       isMenuToggled: false,
       isAboutOpened: false,
       isServicesOpened: false,
-      isActivitiesOpened: false
+      isActivitiesOpened: false,
+      slides: [
+        {
+          img: house,
+          title: "АНО ЦСП «Шатлык»"
+        },
+        {
+          img: slider1,
+          title: "Наслаждайтесь уникальной природой"
+        },
+        {
+          img: slider2,
+          title: "Комплексное медицинское обслуживание"
+        },
+        {
+          img: slider3,
+          title: "Комфортное проживание и высокий уровень сервиса"
+        }
+      ],
+      current: 0,
+      percent: 0,
+      timer: 0,
+      interval: 0,
+      progress: 0,
+      duration: 5000,
+      playslides: []
     };
+  },
+  computed: {
+    style() {
+      switch (this.current % 2) {
+        case 0:
+          return { top: "0" };
+        case 1:
+          return { top: "-100%" };
+      }
+    }
+  },
+  methods: {
+    selectSlide(i) {
+      this.current = i;
+      this.playslides[this.current % 2] = this.slides[this.current];
+      this.resetPlay();
+    },
+    process() {
+      this.current++;
+      if (this.current >= this.slides.length) {
+        this.current = 0;
+      }
+      this.playslides[this.current % 2] = this.slides[this.current];
+      this.resetPlay();
+    },
+    going() {
+      let time = new Date().getTime();
+      this.percent = Math.floor(100 * (time - this.timer) / this.duration);
+    },
+    resetPlay() {
+      clearInterval(this.interval);
+      clearInterval(this.progress);
+      this.play();
+    },
+    stop() {
+      clearInterval(this.interval);
+      clearInterval(this.progress);
+    },
+    play() {
+      this.timer = new Date().getTime();
+      this.progress = setInterval(this.going, this.duration / 100);
+      this.interval = setInterval(this.process, this.duration);
+    }
+  },
+  created() {
+    this.playslides[0] = this.slides[0];
+    this.playslides[1] = this.slides[1];
+    this.play();
   }
-  // methods: {
-  //   scrollToContent() {
-  //     let interval = document.querySelector("#content").offsetTop;
-  //     let timer = setInterval(function() {
-  //       if (window.scrollY < interval - 48) {
-  //         window.scrollBy(0, 50);
-  //       } else {
-  //         clearInterval(timer);
-  //       }
-  //     }, 15);
-  //   }
-  // }
 };
+// methods: {
+//   scrollToContent() {
+//     let interval = document.querySelector("#content").offsetTop;
+//     let timer = setInterval(function() {
+//       if (window.scrollY < interval - 48) {
+//         window.scrollBy(0, 50);
+//       } else {
+//         clearInterval(timer);
+//       }
+//     }, 15);
+//   }
+// }
 </script>
+
+<style lang="sass" scoped>
+.slider
+  position: relative
+  z-index: 1
+  overflow: hidden
+  height: 500px
+  ul
+    list-style: none
+    &.slides
+      position: absolute
+      width: 100%
+      height: 100%
+      margin: 0
+      padding: 0
+      transition: top 800ms
+      li
+        height: 100%
+        .img
+          height: 100%
+          background-size: cover
+          background-position: 50%
+    &.indicators
+      position: absolute
+      padding-right: 20px
+      right: 0
+      top: 50%
+      transform: translateY(-50%)
+      z-index: 2
+      text-align: right
+      li
+        clear: both
+        .item
+          position: relative
+          margin-bottom: 16px
+          float: right
+          padding: 10px 20px
+          background-color: rgba(#3273dc, 0.7)
+        &:last-child
+          .item
+            margin-bottom: 0
+        .title
+          color: #fff
+          cursor: pointer
+          font-size: 16px
+          font-family: 'SegoeUI-Bold'
+          transition: font-size 0.6s ease-out
+        .mark
+          color: #fff
+          font-family: 'SegoeUI-Semilight'
+        .dot
+          position: absolute
+          top: 50%
+          right: -20px
+          margin-top: -5.5px
+          margin-left: 10px
+          width: 11px
+          height: 11px
+          background: #fff
+          border-radius: 50%
+        .progress
+          position: relative
+          display: inline-block
+          width: 100%
+          height: 2px
+          margin: 8px 0
+          background: rgba(255, 255, 255, .5)
+        &.active
+          .title
+            transition: font-size 0.6s ease-in
+            font-size: 36px
+            font-family: 'SegoeUI-Light'
+          .progress .fill
+            height: 100%
+            background: #fff
+  @media (min-width: 1024px)
+    max-height: 50vh
+    ul
+      &.indicators
+        padding-right: 70px
+</style>
+
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Lobster");
@@ -370,16 +550,19 @@ body {
 //   white-space: nowrap;
 // }
 
-.hero {
-  background-image: url(./assets/house.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 100px 0;
-}
-.hero-info {
-  display: inline-block;
-  background-color: rgba($blue, 0.5);
-  padding: 10px;
+// .hero {
+//   background-image: url(./assets/house.jpg);
+//   background-position: center;
+//   background-size: cover;
+//   padding: 100px 0;
+// }
+// .hero-info {
+//   display: inline-block;
+//   background-color: rgba($blue, 0.5);
+//   padding: 10px;
+// }
+.hero-body {
+  padding: 0;
 }
 
 .navbar-brand img {
