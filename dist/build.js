@@ -810,6 +810,11 @@ module.exports = g;
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 
@@ -2509,7 +2514,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_resource__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__App_vue__ = __webpack_require__(22);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__routes_js__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bulma__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bulma__ = __webpack_require__(282);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_bulma___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_bulma__);
 
 
@@ -17992,7 +17997,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(4);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_526643ad_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_01d2b91e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(41);
 function injectStyle (ssrContext) {
   __webpack_require__(23)
 }
@@ -18012,7 +18017,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_526643ad_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_01d2b91e_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -18033,7 +18038,7 @@ var content = __webpack_require__(24);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("1077866e", content, true);
+var update = __webpack_require__(2)("77655469", content, true);
 
 /***/ }),
 /* 24 */
@@ -18046,7 +18051,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Lob
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);", ""]);
 
 // module
-exports.push([module.i, "body{font-family:Source Sans Pro,Open Sans,sans-serif}.navbar>.container{flex-wrap:wrap}.navbar-item,.navbar-link{text-transform:uppercase}.navbar-overflow{flex-wrap:wrap}.hero{background-image:url(" + escape(__webpack_require__(26)) + ");background-position:50%;background-size:cover;padding:100px 0}.hero-info{display:inline-block;background-color:rgba(32,156,238,.5);padding:10px}.navbar-brand img{width:auto;margin:10px;min-height:5rem}.navbar{min-height:0}.info-field{color:#fff}.info-fields{display:flex;flex-wrap:wrap}.info-field{position:relative;padding:10px 30px;margin:16px 10px;flex:1;border:2px solid #fff;border-radius:4px}.info-field:before{content:\"\";z-index:999;display:inline-block;position:absolute;top:calc(50% - 16px);left:-17px;background-color:#209cee;width:32px;height:32px;background-position:50%;background-size:cover}.home:before{background-image:url(" + escape(__webpack_require__(27)) + ")}.phone:before{background-image:url(" + escape(__webpack_require__(28)) + ")}.email:before{background-image:url(" + escape(__webpack_require__(29)) + ")}.main .title{font-weight:300}.left-aside,.right-aside{width:320px;padding:3rem 20px;box-sizing:border-box}#content{flex:1}menu{margin:0;margin-bottom:20px;padding:0}menu .menu-label{font-size:1rem}main{display:flex}a[expandable]:before{background-image:url(" + escape(__webpack_require__(30)) + ");content:\"\";display:inline-block;width:1rem;height:1rem;background-position:center .15rem;background-size:cover}a[expandable][opened]:before{background-image:url(" + escape(__webpack_require__(31)) + ")}a+ul{display:none}a[opened=true]+ul{display:block}", ""]);
+exports.push([module.i, "body{font-family:Source Sans Pro,Open Sans,sans-serif}.logo-text{width:320px}.navbar>.container{flex-wrap:wrap}.navbar-item,.navbar-link{text-transform:uppercase}.navbar-overflow{flex-wrap:wrap}.hero{background-image:url(" + escape(__webpack_require__(26)) + ");background-position:50%;background-size:cover;padding:100px 0}.hero-info{display:inline-block;background-color:rgba(50,115,220,.5);padding:10px}.navbar-brand img{width:auto;margin:10px;min-height:5rem}.navbar{min-height:0}.info-field{color:#fff}.info-fields{display:flex;flex-wrap:wrap}.info-field{position:relative;padding:10px 30px;margin:16px 10px;flex:1;border:2px solid #fff;border-radius:4px}.info-field:before{content:\"\";z-index:999;display:inline-block;position:absolute;top:calc(50% - 16px);left:-17px;background-color:#3273dc;width:32px;height:32px;background-position:50%;background-size:cover}.home:before{background-image:url(" + escape(__webpack_require__(27)) + ")}.phone:before{background-image:url(" + escape(__webpack_require__(28)) + ")}.email:before{background-image:url(" + escape(__webpack_require__(29)) + ")}.main .title{font-weight:300}.left-aside,.right-aside{padding:3rem 0;width:320px}.left-aside{padding-left:20px}.right-aside{padding-right:20px}#content{flex:1}menu{margin:0;margin-bottom:20px;padding:0}menu .menu-label{font-size:1rem;background-color:#3273dc;color:#fff;padding:10px;margin-bottom:0!important}menu .menu-label+*{padding:10px}menu #vk_groups{padding:0}main{display:flex}a[expandable]:before{background-image:url(" + escape(__webpack_require__(30)) + ");content:\"\";display:inline-block;width:1rem;height:1rem;background-position:center .15rem;background-size:cover}a[expandable][opened]:before{background-image:url(" + escape(__webpack_require__(31)) + ")}a+ul{display:none}a[opened=true]+ul{display:block}", ""]);
 
 // exports
 
@@ -18292,8 +18297,8 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('header',[_c('acc-panel'),_vm._v(" "),_c('section',{staticClass:"menu"},[_c('nav',{staticClass:"navbar is-info"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-brand"},[_c('router-link',{staticClass:"navbar-item",attrs:{"exact-active-class":"someother","active-class":"someother","to":"/"}},[_c('img',{attrs:{"src":__webpack_require__(42),"width":"112","height":"28"}})]),_vm._v(" "),_c('div',{staticClass:" is-hidden-desktop navbar-burger burger",class:{'is-active': _vm.isMenuToggled},attrs:{"data-target":"navMenuColorlink-example"},on:{"click":function($event){_vm.isMenuToggled = !_vm.isMenuToggled}}},[_c('span'),_vm._v(" "),_c('span'),_vm._v(" "),_c('span')])],1),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('nav',{staticClass:"is-hidden-desktop navbar is-info"},[_c('div',{staticClass:"navbar-menu",class:{'is-active': _vm.isMenuToggled}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-start navbar-overflow"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_vm._v("\n                Главная\n              ")]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Об учреждении\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about"}},[_vm._v("\n                    Общая информация\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/lead"}},[_vm._v("\n                    Руководство\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/staff"}},[_vm._v("\n                    Персональный состав работников\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/documents"}},[_vm._v("\n                    Документы\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/equipment"}},[_vm._v("\n                    Материально-техническое обеспечение\n                  ")])],1)]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Услуги\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services"}},[_vm._v("\n                    Предоставляемые услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/conditions"}},[_vm._v("\n                    Порядок и условия предоставления социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/rates"}},[_vm._v("\n                    Тарифы на социальные услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/amount"}},[_vm._v("\n                    Численность получателей и объем предоставляемых социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/spots"}},[_vm._v("\n                    Количество свободных мест\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/experience"}},[_vm._v("\n                    Опыт работы\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/complaints"}},[_vm._v("\n                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                  ")])],1)]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Информация о деятельности\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/reports"}},[_vm._v("\n                    Отчеты о деятельности\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/exams"}},[_vm._v("\n                    Проверки\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/rates"}},[_vm._v("\n                    Независимая оценка качества оказания услуг\n                  ")])],1)]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/events"}},[_vm._v("\n                Мероприятия\n              ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/interrogation"}},[_vm._v("\n                Опрос о качестве услуг\n              ")])],1)])])])]),_vm._v(" "),_vm._m(1)],1),_vm._v(" "),_c('main',[_c('section',{staticClass:"left-aside is-hidden-touch"},[_c('section',{staticClass:"site-map"},[_c('menu',{staticClass:"menu"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n            Карта сайта\n          ")]),_vm._v(" "),_c('ul',{staticClass:"menu-list"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("\n                Главная\n              ")])],1),_vm._v(" "),_c('li',[_c('a',{attrs:{"expandable":"","opened":_vm.isAboutOpened},on:{"click":function($event){_vm.isAboutOpened = !_vm.isAboutOpened}}},[_vm._v("\n                Об учреждении\n              ")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/about"}},[_vm._v("\n                    Общая информация\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/lead"}},[_vm._v("\n                    Руководство\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/staff"}},[_vm._v("\n                    Персональный состав работников\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/documents"}},[_vm._v("\n                    Документы\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/equipment"}},[_vm._v("\n                    Материально-техническое обеспечение\n                  ")])],1)])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"expandable":"","opened":_vm.isServicesOpened},on:{"click":function($event){_vm.isServicesOpened = !_vm.isServicesOpened}}},[_vm._v("\n                Услуги\n              ")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/services"}},[_vm._v("\n                    Предоставляемые услуги\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/conditions"}},[_vm._v("\n                    Порядок и условия предоставления социальных услуг\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/rates"}},[_vm._v("\n                    Тарифы на социальные услуги\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/amount"}},[_vm._v("\n                    Численность получателей и объем предоставляемых социальных услуг\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/spots"}},[_vm._v("\n                    Количество свободных мест\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/experience"}},[_vm._v("\n                    Опыт работы\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/complaints"}},[_vm._v("\n                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                  ")])],1)])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"expandable":"","opened":_vm.isActivitiesOpened},on:{"click":function($event){_vm.isActivitiesOpened = !_vm.isActivitiesOpened}}},[_vm._v("\n                Информация о деятельности\n              ")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/activities/reports"}},[_vm._v("\n                    Отчеты о деятельности\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/activities/exams"}},[_vm._v("\n                    Проверки\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/activities/rates"}},[_vm._v("\n                    Независимая оценка качества оказания услуг\n                  ")])],1)])]),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/events"}},[_vm._v("\n                Проводимые мероприятия\n              ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/interrogation"}},[_vm._v("\n                Опрос граждан о качестве оказания услуг\n              ")])],1)])])])]),_vm._v(" "),_c('section',{attrs:{"id":"content"}},[_c('router-view')],1),_vm._v(" "),_c('section',{staticClass:"right-aside is-hidden-touch"},[_vm._m(2),_vm._v(" "),_c('menu',{staticClass:"menu"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n          Часто задаваемые вопросы\n        ")]),_vm._v(" "),_c('f-a-q')],1)])]),_vm._v(" "),_vm._m(3)])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navbar-end"},[_c('div',{staticClass:"navbar-item"},[_c('div',{staticClass:"field is-grouped info-fields"},[_c('div',{staticClass:"info-field home"},[_c('p',[_vm._v("Адрес")]),_vm._v(" "),_c('p',[_vm._v("г. Заинск, ул.Тукая, д. 5А")])]),_vm._v(" "),_c('div',{staticClass:"info-field phone"},[_c('p',[_vm._v("Телефон")]),_vm._v(" "),_c('p',[_vm._v("+7(85558)3-32-32")])]),_vm._v(" "),_c('div',{staticClass:"info-field email"},[_c('p',[_vm._v("Email")]),_vm._v(" "),_c('p',[_vm._v("shatlykcsp@yandex.ru")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"hero is-info"},[_c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"is-info hero-info"},[_c('h1',{staticClass:"title"},[_vm._v("\n              Шатлык\n            ")]),_vm._v(" "),_c('h2',{staticClass:"subtitle"},[_vm._v("\n              Центр социальной помощи\n            ")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('menu',{staticClass:"menu"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n          Мы в соцсетях\n        ")]),_vm._v(" "),_c('div',{attrs:{"id":"vk_groups"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('footer',{staticClass:"footer"},[_c('section',{staticClass:"credentials"},[_c('div',{staticClass:"content has-text-centered"},[_c('p',[_c('strong',[_vm._v("АНО ЦСП «ШАТЛЫК»")])])])])])}]
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('header',[_c('acc-panel'),_vm._v(" "),_c('section',{staticClass:"menu"},[_c('nav',{staticClass:"navbar is-link"},[_c('div',{staticClass:"navbar-brand"},[_c('router-link',{staticClass:"navbar-item",attrs:{"exact-active-class":"someother","active-class":"someother","to":"/"}},[_c('img',{attrs:{"src":__webpack_require__(42),"width":"112","height":"28"}})]),_vm._v(" "),_c('div',{staticClass:" is-hidden-desktop navbar-burger burger",class:{'is-active': _vm.isMenuToggled},attrs:{"data-target":"navMenuColorlink-example"},on:{"click":function($event){_vm.isMenuToggled = !_vm.isMenuToggled}}},[_c('span'),_vm._v(" "),_c('span'),_vm._v(" "),_c('span')])],1),_vm._v(" "),_vm._m(0),_vm._v(" "),_vm._m(1)]),_vm._v(" "),_c('nav',{staticClass:"is-hidden-desktop navbar is-info"},[_c('div',{staticClass:"navbar-menu",class:{'is-active': _vm.isMenuToggled}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"navbar-start navbar-overflow"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/"}},[_vm._v("\n                Главная\n              ")]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Об учреждении\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about"}},[_vm._v("\n                    Общая информация\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/lead"}},[_vm._v("\n                    Руководство\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/staff"}},[_vm._v("\n                    Персональный состав работников\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/documents"}},[_vm._v("\n                    Документы\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/about/equipment"}},[_vm._v("\n                    Материально-техническое обеспечение\n                  ")])],1)]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Услуги\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services"}},[_vm._v("\n                    Предоставляемые услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/conditions"}},[_vm._v("\n                    Порядок и условия предоставления социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/rates"}},[_vm._v("\n                    Тарифы на социальные услуги\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/amount"}},[_vm._v("\n                    Численность получателей и объем предоставляемых социальных услуг\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/spots"}},[_vm._v("\n                    Количество свободных мест\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/experience"}},[_vm._v("\n                    Опыт работы\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/services/complaints"}},[_vm._v("\n                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                  ")])],1)]),_vm._v(" "),_c('div',{staticClass:"navbar-item has-dropdown is-hoverable"},[_c('a',{staticClass:"navbar-link"},[_vm._v("\n                  Информация о деятельности\n                ")]),_vm._v(" "),_c('div',{staticClass:"navbar-dropdown"},[_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/reports"}},[_vm._v("\n                    Отчеты о деятельности\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/exams"}},[_vm._v("\n                    Проверки\n                  ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/activities/rating"}},[_vm._v("\n                    Независимая оценка качества оказания услуг\n                  ")])],1)]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/events"}},[_vm._v("\n                Мероприятия\n              ")]),_vm._v(" "),_c('router-link',{staticClass:"navbar-item",attrs:{"to":"/interrogation"}},[_vm._v("\n                Опрос о качестве услуг\n              ")])],1)])])])]),_vm._v(" "),_vm._m(2)],1),_vm._v(" "),_c('main',[_c('section',{staticClass:"left-aside is-hidden-touch"},[_c('section',{staticClass:"site-map"},[_c('menu',{staticClass:"menu card"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n            Карта сайта\n          ")]),_vm._v(" "),_c('ul',{staticClass:"menu-list"},[_c('li',[_c('router-link',{attrs:{"to":"/"}},[_vm._v("\n                Главная\n              ")])],1),_vm._v(" "),_c('li',[_c('a',{attrs:{"expandable":"","opened":_vm.isAboutOpened},on:{"click":function($event){_vm.isAboutOpened = !_vm.isAboutOpened}}},[_vm._v("\n                Об учреждении\n              ")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/about"}},[_vm._v("\n                    Общая информация\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/lead"}},[_vm._v("\n                    Руководство\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/staff"}},[_vm._v("\n                    Персональный состав работников\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/documents"}},[_vm._v("\n                    Документы\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/about/equipment"}},[_vm._v("\n                    Материально-техническое обеспечение\n                  ")])],1)])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"expandable":"","opened":_vm.isServicesOpened},on:{"click":function($event){_vm.isServicesOpened = !_vm.isServicesOpened}}},[_vm._v("\n                Услуги\n              ")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/services"}},[_vm._v("\n                    Предоставляемые услуги\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/conditions"}},[_vm._v("\n                    Порядок и условия предоставления социальных услуг\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/rates"}},[_vm._v("\n                    Тарифы на социальные услуги\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/amount"}},[_vm._v("\n                    Численность получателей и объем предоставляемых социальных услуг\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/spots"}},[_vm._v("\n                    Количество свободных мест\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/experience"}},[_vm._v("\n                    Опыт работы\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/services/complaints"}},[_vm._v("\n                    Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг\n                  ")])],1)])]),_vm._v(" "),_c('li',[_c('a',{attrs:{"expandable":"","opened":_vm.isActivitiesOpened},on:{"click":function($event){_vm.isActivitiesOpened = !_vm.isActivitiesOpened}}},[_vm._v("\n                Информация о деятельности\n              ")]),_vm._v(" "),_c('ul',[_c('li',[_c('router-link',{attrs:{"to":"/activities/reports"}},[_vm._v("\n                    Отчеты о деятельности\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/activities/exams"}},[_vm._v("\n                    Проверки\n                  ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/activities/rating"}},[_vm._v("\n                    Независимая оценка качества оказания услуг\n                  ")])],1)])]),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/events"}},[_vm._v("\n                Проводимые мероприятия\n              ")])],1),_vm._v(" "),_c('li',[_c('router-link',{attrs:{"to":"/interrogation"}},[_vm._v("\n                Опрос граждан о качестве оказания услуг\n              ")])],1)])])])]),_vm._v(" "),_c('section',{attrs:{"id":"content"}},[_c('router-view')],1),_vm._v(" "),_c('section',{staticClass:"right-aside is-hidden-touch"},[_vm._m(3),_vm._v(" "),_c('menu',{staticClass:"menu card"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n          Часто задаваемые вопросы\n        ")]),_vm._v(" "),_c('f-a-q')],1)])]),_vm._v(" "),_vm._m(4)])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navbar-start"},[_c('div',{staticClass:"navbar-item logo-text"},[_c('p',[_vm._v("Автономная Некоммерческая Организация «Центр социальной помощи «Шатлык»")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"navbar-end"},[_c('div',{staticClass:"navbar-item"},[_c('div',{staticClass:"field is-grouped info-fields"},[_c('div',{staticClass:"info-field home"},[_c('p',[_vm._v("Адрес")]),_vm._v(" "),_c('p',[_vm._v("г. Заинск, ул.Тукая, д. 5А")])]),_vm._v(" "),_c('div',{staticClass:"info-field phone"},[_c('p',[_vm._v("Телефон")]),_vm._v(" "),_c('p',[_vm._v("+7(85558)3-32-32")])]),_vm._v(" "),_c('div',{staticClass:"info-field email"},[_c('p',[_vm._v("Email")]),_vm._v(" "),_c('p',[_vm._v("shatlykcsp@yandex.ru")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"hero is-info"},[_c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"is-info hero-info"},[_c('h1',{staticClass:"title"},[_vm._v("\n              Шатлык\n            ")]),_vm._v(" "),_c('h2',{staticClass:"subtitle"},[_vm._v("\n              Центр социальной помощи\n            ")])])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('menu',{staticClass:"menu card"},[_c('p',{staticClass:"menu-label"},[_vm._v("\n          Мы в соцсетях\n        ")]),_vm._v(" "),_c('div',{attrs:{"id":"vk_groups"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('footer',{staticClass:"footer"},[_c('section',{staticClass:"credentials"},[_c('div',{staticClass:"content has-text-centered"},[_c('p',[_c('strong',[_vm._v("АНО ЦСП «ШАТЛЫК»")])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -18327,8 +18332,8 @@ module.exports = __webpack_require__.p + "logo.png";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__views_Activities_Reports_Reports_vue__ = __webpack_require__(267);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__views_Activities_Exams_Exams_vue__ = __webpack_require__(271);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__views_Activities_Rating_Rating_vue__ = __webpack_require__(272);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__views_Events_Events_vue__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__views_Interrogation_Interrogation_vue__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__views_Events_Events_vue__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__views_Interrogation_Interrogation_vue__ = __webpack_require__(280);
 
 
 
@@ -27743,22 +27748,26 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_02fb0126_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rating_vue__ = __webpack_require__(275);
+function injectStyle (ssrContext) {
+  __webpack_require__(273)
+}
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = null
+
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-02fb0126"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __vue_template__,
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_02fb0126_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rating_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -27770,14 +27779,51 @@ var Component = normalizeComponent(
 
 /***/ }),
 /* 273 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(274);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(2)("8c286552", content, true);
+
+/***/ }),
+/* 274 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(1)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".level[data-v-02fb0126]{justify-content:flex-start}.level a[data-v-02fb0126]{margin-right:20px}", ""]);
+
+// exports
+
+
+/***/ }),
+/* 275 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content section"},[_c('header',[_c('h1',[_vm._v("Отчеты")])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    План работы по повышению качества\n                ")])]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=shatlik.ru%2Fdocuments%2F%D0%BF%D0%BB%D0%B0%D0%BD%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D1%8E%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D1%81%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%D1%8E.docx"}},[_vm._v("Просмотр")])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+/* 276 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Events_vue__ = __webpack_require__(13);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5911ad05_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Events_vue__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5911ad05_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Events_vue__ = __webpack_require__(279);
 function injectStyle (ssrContext) {
-  __webpack_require__(274)
+  __webpack_require__(277)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -27806,20 +27852,20 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 274 */
+/* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(275);
+var content = __webpack_require__(278);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("a2448e10", content, true);
 
 /***/ }),
-/* 275 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);
@@ -27833,7 +27879,7 @@ exports.push([module.i, ".is-flex[data-v-5911ad05]{flex-wrap:wrap;justify-conten
 
 
 /***/ }),
-/* 276 */
+/* 279 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27843,11 +27889,11 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 277 */
+/* 280 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_36491a96_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Interrogation_vue__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_36491a96_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Interrogation_vue__ = __webpack_require__(281);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -27874,7 +27920,7 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 278 */
+/* 281 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27884,20 +27930,20 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
-/* 279 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(280);
+var content = __webpack_require__(283);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var update = __webpack_require__(2)("c36c9aba", content, true);
 
 /***/ }),
-/* 280 */
+/* 283 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(false);

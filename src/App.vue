@@ -3,8 +3,8 @@
     <header>
       <acc-panel></acc-panel>
       <section class="menu">
-        <nav class="navbar is-info">
-          <div class="container">
+        <nav class="navbar is-link">
+          <!-- <div class="container"> -->
             <div class="navbar-brand">
               <router-link exact-active-class="someother" active-class="someother" class="navbar-item" to="/">
                 <img src='../src/assets/logo.png' width="112" height="28">
@@ -13,6 +13,11 @@
                 <span></span>
                 <span></span>
                 <span></span>
+              </div>
+            </div>
+            <div class="navbar-start">
+              <div class="navbar-item logo-text">
+                <p>Автономная Некоммерческая Организация «Центр социальной помощи «Шатлык»</p>
               </div>
             </div>
 
@@ -34,7 +39,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </nav>
         <nav class="is-hidden-desktop navbar is-info">
           <div :class="{'is-active': isMenuToggled}" class="navbar-menu">
@@ -107,7 +112,7 @@
                     <router-link class="navbar-item" to="/activities/exams">
                       Проверки
                     </router-link>
-                    <router-link class="navbar-item" to="/activities/rates">
+                    <router-link class="navbar-item" to="/activities/rating">
                       Независимая оценка качества оказания услуг
                     </router-link>
                   </div>
@@ -143,7 +148,7 @@
     <main>
       <section class="left-aside is-hidden-touch">
         <section class="site-map">
-          <menu class="menu">
+          <menu class="menu card">
             <p class="menu-label">
               Карта сайта
             </p>
@@ -243,7 +248,7 @@
                     </router-link>
                   </li>
                   <li>
-                    <router-link to="/activities/rates">
+                    <router-link to="/activities/rating">
                       Независимая оценка качества оказания услуг
                     </router-link>
                   </li>
@@ -269,7 +274,7 @@
       </section>
 
       <section class="right-aside is-hidden-touch">
-        <menu class="menu">
+        <menu class="menu card">
           <p class="menu-label">
             Мы в соцсетях
           </p>
@@ -277,7 +282,7 @@
           <!-- VK Widget -->
           <div id="vk_groups"></div>
         </menu>
-        <menu class="menu">
+        <menu class="menu card">
           <p class="menu-label">
             Часто задаваемые вопросы
           </p>
@@ -340,6 +345,10 @@ body {
   font-family: "Source Sans Pro", "Open Sans", sans-serif;
 }
 
+.logo-text {
+  width: 320px;
+}
+
 .navbar > .container {
   flex-wrap: wrap;
 }
@@ -369,7 +378,7 @@ body {
 }
 .hero-info {
   display: inline-block;
-  background-color: rgba($cyan, 0.5);
+  background-color: rgba($blue, 0.5);
   padding: 10px;
 }
 
@@ -406,7 +415,7 @@ body {
   position: absolute;
   top: calc(50% - 16px);
   left: -17px;
-  background-color: $cyan;
+  background-color: $blue;
   width: 32px;
   height: 32px;
   background-position: center;
@@ -427,9 +436,16 @@ body {
 
 .left-aside,
 .right-aside {
+  padding: 3rem 0;
   width: 320px;
-  padding: 3rem 20px;
-  box-sizing: border-box;
+}
+
+.left-aside {
+  padding-left: 20px;
+}
+
+.right-aside {
+  padding-right: 20px;
 }
 
 #content {
@@ -443,8 +459,19 @@ menu {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
+  // box-sizing: border-box;
   .menu-label {
     font-size: 1rem;
+    background-color: #3273dc;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0 !important;
+  }
+  .menu-label + * {
+    padding: 10px;
+  }
+  #vk_groups {
+    padding: 0;
   }
 }
 
