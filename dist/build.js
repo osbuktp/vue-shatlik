@@ -27723,7 +27723,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d4115592_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Spots_vue__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6685dd11_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Spots_vue__ = __webpack_require__(270);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -27739,7 +27739,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_d4115592_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Spots_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6685dd11_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Spots_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -27755,7 +27755,7 @@ var Component = normalizeComponent(
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("Количество свободных мест")]),_vm._v(" "),_c('h2',[_vm._v("\n        Количество свободных мест в рамках предпринимательской деятельности\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        В рамках предпринимательской деятельности свободных мест нет.\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Количество свободных мест по госзаданию\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Всем гражданам, обратившиеся в Центр за помощью, оказываются необходимые им социальные услуги согласно действующему законодательству. Предоставляется 10 койко-мест на стационарной основе и 18 мест полустационара.\n    ")])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("Количество свободных мест")]),_vm._v(" "),_c('h2',[_vm._v("\n        Количество свободных мест в рамках предпринимательской деятельности\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        В рамках предпринимательской деятельности свободных мест нет.\n    ")]),_vm._v(" "),_c('h2',[_vm._v("\n        Количество свободных мест по госзаданию\n    ")]),_vm._v(" "),_c('p',[_vm._v("\n        Всем гражданам, обратившиеся в Центр за помощью, оказываются необходимые им социальные услуги согласно действующему законодательству. Предоставляется 10 койко-мест на стационарной основе и 18 мест полустационара.\n    ")]),_vm._v(" "),_c('p',[_c('i',[_vm._v("Обновлено 19.02.18")])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
