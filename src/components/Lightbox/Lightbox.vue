@@ -1,7 +1,7 @@
 <template>
   <div :class="{ 'vue-lightbox' : !resetstyles }">
     <h1 v-if="title">{{ title }}</h1>
-    <ul>
+    <ul class="lightbox-list">
       <li :key="index" v-for="(image, index) in images">
         <div @click="clickImage(index)" class="img-thumb" :style="{'background-image': 'url(' + image.thumb + ')'}"></div>
       </li>

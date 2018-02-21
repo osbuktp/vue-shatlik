@@ -41,7 +41,7 @@
           </div>
           <!-- </div> -->
         </nav>
-        <nav class="is-hidden-desktop navbar is-info">
+        <nav class="navbar is-link">
           <div :class="{'is-active': isMenuToggled}" class="navbar-menu">
             <div class="container">
               <div class="navbar-start navbar-overflow">
@@ -328,7 +328,7 @@ import FAQ from "./components/FAQ/FAQ.vue";
 import AccPanel from "./components/AccPanel/AccPanel.vue";
 
 import house from "./assets/house.jpg";
-import slider1 from "./assets/slider1.png";
+import slider1 from "./assets/slider1.jpg";
 import slider2 from "./assets/slider2.png";
 import slider3 from "./assets/slider3.png";
 
@@ -527,6 +527,7 @@ body {
 
 .logo-text {
   width: 320px;
+  color: white;
 }
 
 .navbar > .container {
