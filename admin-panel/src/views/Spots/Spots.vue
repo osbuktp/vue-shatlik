@@ -56,12 +56,12 @@ export default {
           const updated = new Date()
           newSpots.updated = updated.toISOString()
           console.dir(newSpots)
-          this.$http.put('https://shatlik-staging.herokuapp.com//services/spots', JSON.stringify(newSpots))
+          this.$http.put('https://shatlik-staging.herokuapp.com/services/spots', JSON.stringify(newSpots))
           .then(() => alert('Успешно обновлено'))
           .catch(err => console.dir(err))
       },
       fetchSpots() {
-          this.$http.get('https://shatlik-staging.herokuapp.com//services/spots').then(data => {
+          this.$http.get('https://shatlik-staging.herokuapp.com/services/spots').then(data => {
               this.spots = data.body
           })
           .catch(err => console.dir(err.message))
