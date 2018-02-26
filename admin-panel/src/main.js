@@ -6,6 +6,9 @@ import routes from './routes.js';
 
 import Bulma from 'bulma';
 
+Vue.use(VueResource);
+Vue.http.options.credentials = true
+
 
 Vue.use(VueRouter);
 const router = new VueRouter({
@@ -15,18 +18,17 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   if (to.path == '/') next()
   let authStatus;
-  fetch('https://shatlik-staging.herokuapp.com/auth')
-  .then(res => res.json()).then(data => authStatus = data.auth)
+  Vue.http.get('https://shatlik-staging.herokuapp.com/auth')
+  .then(res => res.json())
+  .then(data => authStatus = data.auth)
   .catch(err => {
     console.log(err)
     authStatus = false
   })
+  console.log(authStatus)
   if (authStatus) next()
   else next('/')
 })
-
-Vue.use(VueResource);
-Vue.http.options.credentials = true
 
 new Vue({
   el: '#app',
