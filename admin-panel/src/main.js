@@ -20,14 +20,16 @@ router.beforeEach((to, from, next) => {
   let authStatus;
   Vue.http.get('https://shatlik-staging.herokuapp.com/auth')
   .then(res => res.json())
-  .then(data => authStatus = data.auth)
+  .then(data => {
+    authStatus = data.auth
+    console.log(authStatus)
+    if (authStatus) next()
+    else next('/')
+  })
   .catch(err => {
     console.log(err)
-    authStatus = false
+    next('/')
   })
-  console.log(authStatus)
-  if (authStatus) next()
-  else next('/')
 })
 
 new Vue({
