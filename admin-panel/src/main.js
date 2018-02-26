@@ -8,12 +8,21 @@ import Bulma from 'bulma';
 
 
 Vue.use(VueRouter);
-const router = new VueRouter({routes});
+const router = new VueRouter({
+  routes
+});
 
 router.beforeEach((to, from, next) => {
-  if (document.cookie || to.fullPath == '/') {
-    next()
-  } else next('/')
+  if (to.path == '/') next()
+  let authStatus;
+  fetch('https://shatlik-staging.herokuapp.com/auth')
+  .then(res => res.json()).then(data => authStatus = data.auth)
+  .catch(err => {
+    console.log(err)
+    authStatus = false
+  })
+  if (authStatus) next()
+  else next('/')
 })
 
 Vue.use(VueResource);
