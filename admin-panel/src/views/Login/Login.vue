@@ -20,13 +20,22 @@
 export default {
   data() {
     return {
-      password: ''
+      password: ""
     };
   },
   methods: {
     submit() {
-      document.cookie = `password=${this.password}`;
-      this.$router.push("/events");
+      this.$http
+        .post(
+          "https://shatlik-staging.herokuapp.com/auth",
+          JSON.stringify({ password: this.password })
+        )
+        .then(() => {
+          this.$router.push("/events");
+        })
+        .catch(() => {
+            console.log("Auth failed")
+        })
     }
   }
 };
