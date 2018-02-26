@@ -2,7 +2,6 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-admin-panel/node_modules
 
 # Editor directories and files
 .idea
