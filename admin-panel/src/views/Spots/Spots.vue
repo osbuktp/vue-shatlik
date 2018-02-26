@@ -55,7 +55,7 @@ export default {
           const newSpots = this.spots
           const updated = new Date()
           newSpots.updated = `${updated.getDate()}.${updated.getMonth()}.${updated.getFullYear()}`
-          console.dir(newSpots)
+          console.log(JSON.stringify(newSpots))
           this.$http.put('https://shatlik-staging.herokuapp.com/services/spots', JSON.stringify(newSpots))
           .then(() => alert('Успешно обновлено'))
           .catch(err => console.dir(err))
