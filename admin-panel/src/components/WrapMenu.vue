@@ -15,12 +15,12 @@
         </div>
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item" href="shatlik.ru">
+            <a class="navbar-item" target="_blank" href="http://shatlik.ru">
               Перейти к сайту
             </a>
-            <a class="navbar-item" href="shatlik.ru">
+            <router-link to="/login" class="navbar-item">
               Выйти
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
