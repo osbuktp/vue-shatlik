@@ -1,6 +1,6 @@
 <template>
     <wrap-menu>
-        <section class="container box">
+        <section class="box">
             <h1>Мероприятия</h1>
         </section>
     </wrap-menu>

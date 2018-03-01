@@ -22,26 +22,28 @@
                 </div>
             </div>
         </nav>
-        <div class="columns">
-            <div class="column is-3">
-                <aside class="menu">
-                    <p class="menu-label">
-                        Меню
-                    </p>
-                    <ul class="menu-list">
-                        <li>
-                            <router-link to="/spots">Свободные места</router-link>
-                        </li>
-                        <li>
-                            <router-link to="/events">Мероприятия</router-link>
-                        </li>
-                    </ul>
-                </aside>
-            </div>
-            <div class="column is-9">
-                <slot>
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3">
+                    <aside class="menu">
+                        <p class="menu-label">
+                            Меню
+                        </p>
+                        <ul class="menu-list">
+                            <li>
+                                <router-link to="/spots">Свободные места</router-link>
+                            </li>
+                            <li>
+                                <router-link to="/events">Мероприятия</router-link>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="column is-9">
+                    <slot>
 
-                </slot>
+                    </slot>
+                </div>
             </div>
         </div>
     </div>

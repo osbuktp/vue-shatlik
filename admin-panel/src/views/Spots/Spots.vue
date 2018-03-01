@@ -2,7 +2,7 @@
     <wrap-menu>
         <section class="box">
             <h3 class="is-size-3">Количество свободных мест</h3>
-            <form @submit="updateSpots" class="form">
+            <form @submit.prevent="updateSpots" class="form">
                 <div class="field">
                     <label class="label">В рамках предпринимательской деятельности</label>
                     <div class="control">

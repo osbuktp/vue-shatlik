@@ -4,13 +4,13 @@
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
                     <div class="box">
-                        <form @submit="submit">
+                        <form @submit.prevent="submit">
                             <div class="field">
                                 <div class="control">
                                     <input class="input is-large" type="password" placeholder="Пароль" v-model="password">
                                 </div>
                             </div>
-                            <button class="button is-block is-info is-large is-fullwidth">Login</button>
+                            <button class="button is-block is-info is-large is-fullwidth">Войти</button>
                         </form>
                     </div>
                 </div>
