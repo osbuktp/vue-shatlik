@@ -18,7 +18,7 @@
             <a class="navbar-item" target="_blank" href="http://shatlik.ru">
               Перейти к сайту
             </a>
-            <router-link to="/login" class="navbar-item">
+            <router-link to="/" class="navbar-item">
               Выйти
             </router-link>
           </div>
