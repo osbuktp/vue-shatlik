@@ -68,7 +68,7 @@ export default {
   },
   computed: {
       updatedTime() {
-          return `${this.updated.getDate()}.${this.updated.getMonth()}.${this.updated.getFullYear()}`
+          return `${this.spots.updated.getDate()}.${this.spots.updated.getMonth()}.${this.spots.updated.getFullYear()}`
       }
   },
   methods: {
