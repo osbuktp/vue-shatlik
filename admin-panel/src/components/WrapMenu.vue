@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar is-white">
+        <nav class="navbar is-white container">
             <div class="navbar-brand">
                 <a class="navbar-item brand-text">
                     Шатлык
@@ -49,7 +49,7 @@
     </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 html, body {
   font-family: 'Open Sans', serif;
   font-size: 16px;

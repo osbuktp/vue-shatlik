@@ -49,7 +49,7 @@
             </tbody>
         </table>
         <p>
-            <i>Обновлено {{spots.updated}}</i>
+            <i>Обновлено {{updatedTime}}</i>
         </p>
     </section>
 </template>
@@ -65,6 +65,11 @@ export default {
         updated: new Date()
       }
     };
+  },
+  computed: {
+      updatedTime() {
+          return `${this.updated.getDate()}.${this.updated.getMonth()}.${this.updated.getFullYear()}`
+      }
   },
   methods: {
     fetchSpots() {
