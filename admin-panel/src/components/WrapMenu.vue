@@ -1,61 +1,64 @@
 <template>
-    <div>
-        <nav class="navbar is-white container">
-            <div class="navbar-brand">
-                <a class="navbar-item brand-text">
-                    Шатлык
-                </a>
-                <div class="navbar-burger burger" data-target="navMenu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-            <div id="navMenu" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="shatlik.ru">
-                        Перейти к сайту
-                    </a>
-                    <a class="navbar-item" href="shatlik.ru">
-                        Выйти
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <div class="container">
-            <div class="columns">
-                <div class="column is-3">
-                    <aside class="menu">
-                        <p class="menu-label">
-                            Меню
-                        </p>
-                        <ul class="menu-list">
-                            <li>
-                                <router-link to="/spots">Свободные места</router-link>
-                            </li>
-                            <li>
-                                <router-link to="/events">Мероприятия</router-link>
-                            </li>
-                        </ul>
-                    </aside>
-                </div>
-                <div class="column is-9">
-                    <slot>
+  <div>
+    <nav class="navbar is-white">
+      <div class="container">
 
-                    </slot>
-                </div>
-            </div>
+        <div class="navbar-brand">
+          <a class="navbar-item brand-text">
+            ШАТЛЫК
+          </a>
+          <div class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="shatlik.ru">
+              Перейти к сайту
+            </a>
+            <a class="navbar-item" href="shatlik.ru">
+              Выйти
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3">
+          <aside class="menu">
+            <p class="menu-label">
+              Меню
+            </p>
+            <ul class="menu-list">
+              <li>
+                <router-link to="/spots">Свободные места</router-link>
+              </li>
+              <li>
+                <router-link to="/events">Мероприятия</router-link>
+              </li>
+            </ul>
+          </aside>
+        </div>
+        <div class="column is-9">
+          <slot>
+
+          </slot>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <style lang="scss">
-html, body {
-  font-family: 'Open Sans', serif;
-  font-size: 16px;
+html,
+body {
+  font-size: 18px;
   line-height: 1.5;
   height: 100%;
-  background: #ECF0F3;
+  background: #ecf0f3;
 }
 nav.navbar {
   border-top: 4px solid #276cda;
@@ -64,7 +67,8 @@ nav.navbar {
 .navbar-item.brand-text {
   font-weight: 300;
 }
-.navbar-item, .navbar-link {
+.navbar-item,
+.navbar-link {
   font-size: 14px;
   font-weight: 700;
 }
@@ -73,12 +77,12 @@ nav.navbar {
   height: 100%;
 }
 .menu-label {
-  color: #8F99A3;
+  color: #8f99a3;
   letter-spacing: 1.3;
   font-weight: 700;
 }
 .menu-list a {
-  color: #0F1D38;
+  color: #0f1d38;
   font-size: 14px;
   font-weight: 700;
 }
@@ -96,7 +100,7 @@ nav.navbar {
   margin-bottom: 2rem;
 }
 .card-header-title {
-  color: #8F99A3;
+  color: #8f99a3;
   font-weight: 400;
 }
 .info-tiles {
@@ -104,14 +108,15 @@ nav.navbar {
 }
 .info-tiles .subtitle {
   font-weight: 300;
-  color: #8F99A3;
+  color: #8f99a3;
 }
 .hero.welcome.is-info {
-  background: #36D1DC;
-  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
-  background: linear-gradient(to right, #5B86E5, #36D1DC);
+  background: #36d1dc;
+  background: -webkit-linear-gradient(to right, #5b86e5, #36d1dc);
+  background: linear-gradient(to right, #5b86e5, #36d1dc);
 }
-.hero.welcome .title, .hero.welcome .subtitle {
+.hero.welcome .title,
+.hero.welcome .subtitle {
   color: hsl(192, 17%, 99%);
 }
 .card .content {
@@ -120,7 +125,7 @@ nav.navbar {
 .card-footer-item {
   font-size: 14px;
   font-weight: 700;
-  color: #8F99A3;
+  color: #8f99a3;
 }
 .card-table .table {
   margin-bottom: 0;
