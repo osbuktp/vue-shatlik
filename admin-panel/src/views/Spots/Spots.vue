@@ -1,7 +1,6 @@
 <template>
-    <section class="section is-flex">
-        <aside-menu></aside-menu>
-        <section>
+    <wrap-menu>
+        <section class="container box">
             <h3 class="is-size-3">Количество свободных мест</h3>
             <form @submit="updateSpots" class="form">
                 <div class="field">
@@ -32,43 +31,49 @@
                 </div>
             </form>
         </section>
-    </section>
+    </wrap-menu>
 </template>
 
 <script>
-import AsideMenu from "../../components/AsideMenu";
+import WrapMenu from "../../components/WrapMenu";
 export default {
   components: {
-    AsideMenu
+    WrapMenu
   },
   data() {
     return {
       spots: {
-          business: 0,
-          stac: 0,
-          semistac: 0
+        business: 0,
+        stac: 0,
+        semistac: 0
       }
-    }
+    };
   },
   methods: {
-      updateSpots() {
-          const newSpots = this.spots
-          const updated = new Date()
-          newSpots.updated = `${updated.getDate()}.${updated.getMonth()}.${updated.getFullYear()}`
-          console.log(JSON.stringify(newSpots))
-          this.$http.put('https://shatlik-staging.herokuapp.com/services/spots', JSON.stringify(newSpots))
-          .then(() => alert('Успешно обновлено'))
-          .catch(err => console.dir(err))
-      },
-      fetchSpots() {
-          this.$http.get('https://shatlik-staging.herokuapp.com/services/spots').then(data => {
-              this.spots = data.body
-          })
-          .catch(err => console.dir(err.message))
-      }
+    updateSpots() {
+      const newSpots = this.spots;
+      const updated = new Date();
+      newSpots.updated = `${updated.getDate()}.${updated.getMonth()}.${updated.getFullYear()}`;
+      console.log(JSON.stringify(newSpots));
+      this.$http
+        .put(
+          "https://shatlik-staging.herokuapp.com/services/spots",
+          JSON.stringify(newSpots)
+        )
+        .then(() => alert("Успешно обновлено"))
+        .catch(err => console.dir(err));
+    },
+    fetchSpots() {
+      this.$http
+        .get("https://shatlik-staging.herokuapp.com/services/spots")
+        .then(data => {
+          this.spots = data.body;
+        })
+        .catch(err => console.dir(err.message));
+    }
   },
   created() {
-      this.fetchSpots()
+    this.fetchSpots();
   }
 };
 </script>

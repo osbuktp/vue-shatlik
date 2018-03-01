@@ -1,15 +1,17 @@
 <template>
-    <section class="section is-flex">
-        <aside-menu></aside-menu>
-    </section>
+    <wrap-menu>
+        <section class="container box">
+            <h1>Мероприятия</h1>
+        </section>
+    </wrap-menu>
 </template>
 
 <script>
-import AsideMenu from '../../components/AsideMenu'
+import WrapMenu from "../../components/WrapMenu";
 export default {
   components: {
-      AsideMenu
+    WrapMenu
   }
-}
+};
 </script>
 

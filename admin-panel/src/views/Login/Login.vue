@@ -1,15 +1,18 @@
 <template>
-    <section class="section tile is-ancestor">
-        <div class="form is-3">
-            <div class="field">
-                <label class="label">Password</label>
-                <div class="control">
-                    <input v-model="password" class="input" type="password" placeholder="Text input">
-                </div>
-            </div>
-            <div class="field">
-                <div class="control">
-                    <button @click="submit" class="button is-link">Submit</button>
+    <section class="hero is-success is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="column is-4 is-offset-4">
+                    <div class="box">
+                        <form @submit="submit">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input is-large" type="password" placeholder="Пароль" v-model="password">
+                                </div>
+                            </div>
+                            <button class="button is-block is-info is-large is-fullwidth">Login</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -34,8 +37,8 @@ export default {
           this.$router.push("/spots");
         })
         .catch(() => {
-            console.log("Auth failed")
-        })
+          console.log("Auth failed");
+        });
     }
   }
 };
