@@ -1,33 +1,34 @@
 <template>
   <div>
     <nav class="navbar is-white">
-      <div class="container">
+      <!-- <div class="container"> -->
 
-        <div class="navbar-brand">
-          <a class="navbar-item brand-text">
-            ШАТЛЫК
-          </a>
-          <div class="navbar-burger burger" data-target="navMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div id="navMenu" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" target="_blank" href="http://shatlik.ru">
-              Перейти к сайту
-            </a>
-            <router-link to="/" class="navbar-item">
-              Выйти
-            </router-link>
-          </div>
+      <div class="navbar-brand">
+        <a class="navbar-item brand-text">
+          ШАТЛЫК
+        </a>
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" target="_blank" href="http://shatlik.ru">
+            Перейти к сайту
+          </a>
+          <router-link to="/" class="navbar-item">
+            Выйти
+          </router-link>
+        </div>
+      </div>
+      <!-- </div> -->
     </nav>
-    <div class="container">
-      <div class="columns">
-        <div class="column is-3">
+    <!-- <div class="container"> -->
+    <div class="columns">
+      <div class="column is-3">
+        <div class="box">
           <aside class="menu">
             <p class="menu-label">
               Меню
@@ -42,13 +43,14 @@
             </ul>
           </aside>
         </div>
-        <div class="column is-9">
-          <slot>
+      </div>
+      <div class="column is-9">
+        <slot>
 
-          </slot>
-        </div>
+        </slot>
       </div>
     </div>
+    <!-- </div> -->
   </div>
 </template>
 
@@ -75,6 +77,7 @@ nav.navbar {
 .columns {
   width: 100%;
   height: 100%;
+  margin-left: 0;
 }
 .menu-label {
   color: #8f99a3;
