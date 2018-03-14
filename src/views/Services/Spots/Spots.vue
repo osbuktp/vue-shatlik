@@ -62,19 +62,23 @@ export default {
         business: 0,
         stac: 0,
         semistac: 0,
-        updated: new Date()
+        updated: ""
       }
     };
   },
   computed: {
-      updatedTime() {
-          return `${this.spots.updated.getDate()}.${this.spots.updated.getMonth()}.${this.spots.updated.getFullYear()}`
-      }
+    updatedTime() {
+      let updated = new Date(this.spots.updated);
+      console.log(updated.getMonth())
+      return `${updated.getDate()}.${updated.getMonth()+1}.${updated.getFullYear()}`;
+    }
   },
   methods: {
     fetchSpots() {
+    //   let baseURL = "http://localhost:3000";
+      let baseURL = "https://shatlik-staging.herokuapp.com"
       this.$http
-        .get("https://shatlik-staging.herokuapp.com/services/spots")
+        .get(baseURL + "/services/spots")
         .then(data => {
           this.spots = data.body;
         })
@@ -82,7 +86,7 @@ export default {
     }
   },
   created() {
-      this.fetchSpots()
+    this.fetchSpots();
   }
 };
 </script>

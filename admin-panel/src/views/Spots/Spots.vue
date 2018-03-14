@@ -53,7 +53,7 @@ export default {
     updateSpots() {
       const newSpots = this.spots;
       const updated = new Date();
-      newSpots.updated = `${updated.getDate()}.${updated.getMonth()}.${updated.getFullYear()}`;
+      newSpots.updated = `${updated.getDate()}.${updated.getMonth()+1}.${updated.getFullYear()}`;
       console.log(JSON.stringify(newSpots));
       this.$http
         .put(
