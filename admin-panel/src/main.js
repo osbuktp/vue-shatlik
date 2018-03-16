@@ -6,6 +6,8 @@ import routes from './routes.js';
 
 import Bulma from 'bulma';
 
+import config from './config.js'
+
 Vue.use(VueResource);
 Vue.http.options.credentials = true
 
@@ -18,7 +20,7 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   if (to.path == '/') next()
   let authStatus;
-  Vue.http.get('https://shatlik-staging.herokuapp.com/auth')
+  Vue.http.get(`${config.BASEURL}/auth`)
   .then(res => res.json())
   .then(data => {
     authStatus = data.auth

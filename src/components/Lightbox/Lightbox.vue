@@ -3,7 +3,7 @@
     <h1 v-if="title">{{ title }}</h1>
     <ul class="lightbox-list">
       <li :key="index" v-for="(image, index) in images">
-        <div @click="clickImage(index)" class="img-thumb" :style="{'background-image': 'url(' + image.thumb + ')'}"></div>
+        <div @click="clickImage(index)" class="img-thumb" :style="{'background-image': 'url(' + (image.thumb ? image.thumb : image.src) + ')'}"></div>
       </li>
     </ul>
     <div class="lightbox-overlay" v-if="overlayActive" @click.self="closeOverlay">
@@ -142,6 +142,7 @@ export default {
 .lightbox-overlay {
   width: 100%;
   height: 100%;
+  z-index: 9000;
   position: fixed;
   top: 0;
   left: 0;

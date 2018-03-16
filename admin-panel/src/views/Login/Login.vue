@@ -20,6 +20,8 @@
 </template>
 
 <script>
+import config from '../../config.js';
+
 export default {
   data() {
     return {
@@ -30,7 +32,7 @@ export default {
     submit() {
       this.$http
         .post(
-          "https://shatlik-staging.herokuapp.com/auth",
+          `${config.BASEURL}/auth`,
           JSON.stringify({ password: this.password })
         )
         .then(() => {

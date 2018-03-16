@@ -36,6 +36,7 @@
 
 <script>
 import WrapMenu from "../../components/WrapMenu";
+import config from "../../config.js";
 export default {
   components: {
     WrapMenu
@@ -53,11 +54,12 @@ export default {
     updateSpots() {
       const newSpots = this.spots;
       const updated = new Date();
-      newSpots.updated = `${updated.getDate()}.${updated.getMonth()+1}.${updated.getFullYear()}`;
+      newSpots.updated = `${updated.getDate()}.${updated.getMonth() +
+        1}.${updated.getFullYear()}`;
       console.log(JSON.stringify(newSpots));
       this.$http
         .put(
-          "https://shatlik-staging.herokuapp.com/services/spots",
+          `${config.BASEURL}/services/spots`,
           JSON.stringify(newSpots)
         )
         .then(() => alert("Успешно обновлено"))
@@ -65,7 +67,7 @@ export default {
     },
     fetchSpots() {
       this.$http
-        .get("https://shatlik-staging.herokuapp.com/services/spots")
+        .get(`${config.BASEURL}/services/spots`)
         .then(data => {
           this.spots = data.body;
         })

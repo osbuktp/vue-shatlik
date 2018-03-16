@@ -16,6 +16,11 @@ const router = new VueRouter({
 
 Vue.use(VueResource);
 
+Vue.filter('toDate', function (date) {
+  date = new Date(date);
+  return `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
+})
+
 new Vue({
   el: '#app',
   router: router,

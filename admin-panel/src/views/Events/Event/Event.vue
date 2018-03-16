@@ -1,89 +1,113 @@
 <template>
-    <wrap-menu>
-        <section class="box">
-            <form>
-                <div class="field">
-                    <label class="label">Название</label>
-                    <div class="control">
-                        <input v-model="post.title" class="input" type="text" placeholder="Text input">
-                    </div>
-                </div>
+  <wrap-menu>
+    <section class="box">
+      <form>
+        <div class="field">
+          <label class="label">Название</label>
+          <div class="control">
+            <input v-model="post.title" class="input" type="text" placeholder="Text input">
+          </div>
+        </div>
 
-                <div class="field">
-                    <label class="label">Главное изображение</label>
-                    <div class="control">
-                        <input v-model="post.main_image" class="input" type="text" placeholder="Text input">
-                    </div>
-                </div>
+        <div class="field">
+          <label class="label">Главное изображение</label>
+          <div class="control">
+            <input v-model="post.main_image" class="input" type="text" placeholder="Text input">
+          </div>
+        </div>
+        <div class="field">
+          <div v-if="post.main_image" class="box thumb-image">
+            <img :src="post.main_image" alt="">
+          </div>
+        </div>
 
-                <div class="field">
-                    <label class="label">Интро</label>
-                    <div class="control">
-                        <textarea v-model="post.small_text" class="textarea"></textarea>
-                    </div>
-                </div>
+        <div class="field">
+          <label class="label">Интро</label>
+          <div class="control">
+            <textarea v-model="post.small_text" class="textarea"></textarea>
+          </div>
+        </div>
 
-                <details class="post-block box details" v-for="(block, id) in post.blocks" :key="id" open>
-                    <summary class="summary">
-                        Блок №{{id+1}}
-                    </summary>
-                    <div class="details-content">
-                        <div class="field">
-                            <label class="label">
-                                Текст
-                            </label>
-                            <div class="control">
-                                <textarea v-model="block.text" class="textarea"></textarea>
-                            </div>
-                        </div>
-                        <div class="field has-addons" v-for="(blockimage, imageid) in block.images" :key="imageid">
-                            <div class="control">
-                                <input v-model="blockimage.url" class="input" type="text" :placeholder="'Изображение №' + (imageid + 1)">
-                            </div>
-                            <div class="control">
-                                <a @click="block.images.splice(imageid, 1)" class="button is-danger">
-                                    X
-                                </a>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <div class="control">
-                                <a @click="block.images.push({url:''})" class="button is-primary">Добавить изображение</a>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <div class="control">
-                                <a @click="post.blocks.splice(id, 1)" class="button is-danger">
-                                    Удалить блок
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </details>
-
-                <div class="field">
-                    <div class="control">
-                        <a @click="post.blocks.push({text:'',images:[]})" class="button is-primary">Добавить блок</a>
-                    </div>
+        <details class="post-block box details" v-for="(block, id) in post.blocks" :key="id">
+          <summary class="summary">
+            Блок №{{id+1}}
+          </summary>
+          <div class="details-content">
+            <div class="field">
+              <label class="label">
+                Текст
+              </label>
+              <div class="control">
+                <textarea v-model="block.text" class="textarea"></textarea>
+              </div>
+            </div>
+            <div class="field" v-for="(blockimage, imageid) in block.images" :key="imageid">
+              <div class="field has-addons">
+                <div class="control">
+                  <input v-model="blockimage.src" class="input" type="text" :placeholder="'Изображение №' + (imageid + 1)">
                 </div>
-
-                <div class="field is-grouped">
-                    <div class="control">
-                        <a @click="postEvent" class="button is-info">Сохранить</a>
-                    </div>
-                    <div class="control">
-                        <router-link to="/events" class="button is-text">
-                            Отмена
-                        </router-link>
-                    </div>
+                <div class="control">
+                  <a @click="block.images.splice(imageid, 1)" class="button is-danger">
+                    X
+                  </a>
                 </div>
-            </form>
-        </section>
-    </wrap-menu>
+              </div>
+              <div class="field">
+                <div v-if="blockimage.src" class="box thumb-image">
+                  <img :src="blockimage.src" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <a @click="block.images.push({src:''})" class="button is-primary">Добавить изображение</a>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <a @click="post.blocks.splice(id, 1)" class="button is-danger">
+                  Удалить блок
+                </a>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <div class="field">
+          <div class="control">
+            <a @click="post.blocks.push({text:'',images:[]})" class="button is-primary">Добавить блок</a>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <template v-if="isNewEvent">
+            <div class="control">
+              <a @click="postEvent" class="button is-info">Добавить запись</a>
+            </div>
+          </template>
+          <template v-else>
+            <div class="control">
+              <a @click="updateEvent" class="button is-info">Сохранить изменения</a>
+            </div>
+            <div class="control">
+              <a @click="deleteEvent" class="button is-danger">Удалить запись</a>
+            </div>
+          </template>
+          <div class="control">
+            <router-link to="/events" class="button is-text">
+              Отмена
+            </router-link>
+          </div>
+
+        </div>
+      </form>
+    </section>
+  </wrap-menu>
 </template>
 
 <script>
 import WrapMenu from "../../../components/WrapMenu";
+import config from "../../../config.js";
 export default {
   components: {
     WrapMenu
@@ -99,20 +123,24 @@ export default {
     };
   },
   methods: {
-    postEvent() {
-      let newDate = new Date();
-      let newPost = {
+    deleteEvent() {
+      this.$http
+        .delete(`${config.BASEURL}/events/${this.$route.params.id}`)
+        .then(() => this.$router.push("/events"))
+        .catch(err => alert(`Ошибка: ${err.error}`));
+    },
+    updateEvent() {
+      let updatedPost = {
         title: this.post.title,
         main_image: this.post.main_image,
         small_text: this.post.small_text,
-        date: newDate.toISOString(),
         images: [].concat(
           ...this.post.blocks.map((block, index) => {
             return block.images
               .map((image, imgIndex) => {
                 return {
                   level: index,
-                  image: image.url
+                  image: image.src
                 };
               })
               .filter(image => {
@@ -131,27 +159,76 @@ export default {
             return block.text ? true : false;
           })
       };
-      console.dir(newPost);
-      this.$http.post(
-        "https://shatlik-staging.herokuapp.com/events",
-        JSON.stringify(newPost)
-      );
+      this.$http
+        .put(
+          `${config.BASEURL}/events/${this.$route.params.id}`,
+          JSON.stringify(updatedPost)
+        )
+        .then(() => alert("Запись успешно изменена"))
+        .catch(err => alert(`Ошибка: ${err.error}`));
+    },
+    postEvent() {
+      let newDate = new Date();
+      let newPost = {
+        title: this.post.title,
+        main_image: this.post.main_image,
+        small_text: this.post.small_text,
+        date: newDate.toISOString(),
+        images: [].concat(
+          ...this.post.blocks.map((block, index) => {
+            return block.images
+              .map((image, imgIndex) => {
+                return {
+                  level: index,
+                  image: image.src
+                };
+              })
+              .filter(image => {
+                return block.text && image.image ? true : false;
+              });
+          })
+        ),
+        blocks: this.post.blocks
+          .map((block, index) => {
+            return {
+              level: index,
+              text: block.text
+            };
+          })
+          .filter(block => {
+            return block.text ? true : false;
+          })
+      };
+      this.$http
+        .post(`${config.BASEURL}/events`, JSON.stringify(newPost))
+        .then(resp => {
+          alert("Запись успешно добавлена");
+          this.$router.push(`/events/${resp.body.id}`);
+        })
+        .catch(err => alert(`Ошибка: ${err.error}`));
     }
-    // addBlock() {
-    //   this.post.blocks.push({
-    //     text: "",
-    //     images: []
-    //   });
-    // },
-    // addImage(block) {
-    //   block.images.push({url:''});
-    // }
+  },
+  created() {
+    if (!this.isNewEvent)
+      this.$http
+        .get(`${config.BASEURL}/events/${this.$route.params.id}`)
+        .then(resp => {
+          this.post = resp.body;
+        })
+        .catch(err => {
+          alert(`Ошибка: ${err.error}`);
+          console.dir(err);
+          this.$router.push("/events");
+        });
   },
   props: ["isNewEvent"]
 };
 </script>
 
 <style lang="scss" scoped>
+.thumb-image {
+  display: inline-block;
+}
 .button {
   height: auto;
 }

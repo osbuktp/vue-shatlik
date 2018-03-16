@@ -22,6 +22,7 @@ import ActivitiesExams from './views/Activities/Exams/Exams.vue';
 import ActivitiesRating from './views/Activities/Rating/Rating.vue';
 
 import Events from './views/Events/Events.vue';
+import Event from './views/Events/Event/Event.vue'
 
 import Interrogation from './views/Interrogation/Interrogation.vue';
 
@@ -106,6 +107,10 @@ const routes = [
     {
         path: '/events',
         component: Events
+    },
+    {
+        path: '/events/:id',
+        component: Event
     },
     {
         path: '/interrogation',
