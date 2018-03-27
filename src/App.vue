@@ -439,7 +439,7 @@ export default {
   position: relative
   z-index: 1
   overflow: hidden
-  height: 500px
+  height: 650px
   ul
     list-style: none
     &.slides
@@ -448,7 +448,7 @@ export default {
       height: 100%
       margin: 0
       padding: 0
-      transition: top 800ms
+      transition: top 500ms
       li
         height: 100%
         .img
@@ -475,14 +475,16 @@ export default {
           .item
             margin-bottom: 0
         .title
+          text-transform: uppercase
+          font-weight: 400
           color: #fff
           cursor: pointer
           font-size: 16px
-          font-family: 'SegoeUI-Bold'
-          transition: font-size 0.6s ease-out
+          // font-family: 'SegoeUI-Bold'
+          transition: font-size 0.5s ease
         .mark
           color: #fff
-          font-family: 'SegoeUI-Semilight'
+          // font-family: 'SegoeUI-Semilight'
         .dot
           position: absolute
           top: 50%
@@ -494,7 +496,7 @@ export default {
           background: #fff
           border-radius: 50%
         .progress
-          position: relative
+          position: relative  
           display: inline-block
           width: 100%
           height: 2px
@@ -502,14 +504,14 @@ export default {
           background: rgba(255, 255, 255, .5)
         &.active
           .title
-            transition: font-size 0.6s ease-in
+            transition: font-size 0.5s ease
             font-size: 36px
-            font-family: 'SegoeUI-Light'
+            // font-family: 'SegoeUI-Light'
           .progress .fill
             height: 100%
             background: #fff
   @media (min-width: 1024px)
-    max-height: 50vh
+    max-height: 60vh
     ul
       &.indicators
         padding-right: 70px
@@ -528,6 +530,9 @@ body {
 .logo-text {
   width: 320px;
   color: white;
+}
+.navbar {
+  flex-wrap: wrap;
 }
 
 .navbar > .container {
