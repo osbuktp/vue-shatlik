@@ -36,7 +36,7 @@ export default {
           JSON.stringify({ password: this.password })
         )
         .then(() => {
-          this.$router.push("/spots");
+          this.$router.push("/events");
         })
         .catch(() => {
           console.log("Auth failed");

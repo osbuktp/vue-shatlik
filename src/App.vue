@@ -166,8 +166,8 @@
 
     <main>
       <section class="left-aside is-hidden-touch">
-        <section class="site-map">
-          <menu class="menu card">
+        <section class="site-map card">
+          <menu class="menu">
             <p class="menu-label">
               Карта сайта
             </p>
@@ -439,7 +439,8 @@ export default {
   position: relative
   z-index: 1
   overflow: hidden
-  height: 650px
+  height: 700px
+  max-height: 60vh
   ul
     list-style: none
     &.slides
@@ -480,7 +481,7 @@ export default {
           color: #fff
           cursor: pointer
           font-size: 16px
-          // font-family: 'SegoeUI-Bold'
+          // font-family: 'Lobster'
           transition: font-size 0.5s ease
         .mark
           color: #fff
@@ -511,7 +512,7 @@ export default {
             height: 100%
             background: #fff
   @media (min-width: 1024px)
-    max-height: 60vh
+    max-height: 70vh
     ul
       &.indicators
         padding-right: 70px
@@ -528,7 +529,8 @@ body {
 }
 
 .logo-text {
-  width: 320px;
+  width: 280px;
+  font-size: 0.8rem;
   color: white;
 }
 .navbar {
@@ -574,7 +576,7 @@ body {
 .navbar-brand img {
   width: auto;
   margin: 10px;
-  min-height: 5rem;
+  min-height: 4rem;
 }
 
 .navbar {
@@ -591,7 +593,8 @@ body {
 }
 .info-field {
   position: relative;
-  padding: 10px 30px;
+  padding: 5px 20px;
+  font-size: 0.8rem;
   margin: 16px 10px;
   flex: 1;
   border: 2px solid white;
@@ -626,7 +629,7 @@ body {
 .left-aside,
 .right-aside {
   padding: 3rem 0;
-  width: 320px;
+  width: 280px;
 }
 
 .left-aside {

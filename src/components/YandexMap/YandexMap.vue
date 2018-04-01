@@ -29,6 +29,7 @@ export default {
     min-height: 300px;
     @include desktop {
       height: 600px;
+      max-height: 70vh;
     }
   }
 }

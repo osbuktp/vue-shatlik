@@ -6,6 +6,9 @@ import routes from './routes.js';
 
 import Bulma from 'bulma';
 
+import Carousel3d from 'vue-carousel-3d'
+
+Vue.use(Carousel3d)
 
 Vue.use(VueRouter);
 const router = new VueRouter({
