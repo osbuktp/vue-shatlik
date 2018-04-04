@@ -44,7 +44,7 @@
         <nav class="navbar is-link">
           <div :class="{'is-active': isMenuToggled}" class="navbar-menu">
             <div class="container">
-              <div class="navbar-start navbar-overflow">
+              <div @click="slideToContent" class="navbar-start navbar-overflow">
                 <router-link class="navbar-item" to="/">
                   Главная
                 </router-link>
@@ -418,20 +418,28 @@ export default {
     this.playslides[0] = this.slides[0];
     this.playslides[1] = this.slides[1];
     this.play();
+  },
+  methods: {
+    slideToContent() {
+      window.scroll({
+        top: document.querySelector("#content").offsetTop,
+        left: 0,
+        behavior: "smooth"
+      });
+      // document.querySelector("#content").scrollIntoView({
+      //   behavior: "smooth"
+      // });
+      // let interval = document.querySelector("#content").offsetTop;
+      // let timer = setInterval(function() {
+      //   if (window.scrollY < interval - 48) {
+      //     window.scrollBy(0, 50);
+      //   } else {
+      //     clearInterval(timer);
+      //   }
+      // }, 15);
+    }
   }
 };
-// methods: {
-//   scrollToContent() {
-//     let interval = document.querySelector("#content").offsetTop;
-//     let timer = setInterval(function() {
-//       if (window.scrollY < interval - 48) {
-//         window.scrollBy(0, 50);
-//       } else {
-//         clearInterval(timer);
-//       }
-//     }, 15);
-//   }
-// }
 </script>
 
 <style lang="sass" scoped>
@@ -628,7 +636,7 @@ body {
 
 .left-aside,
 .right-aside {
-  padding: 3rem 0;
+  padding: 20px 0;
   width: 280px;
 }
 
@@ -642,6 +650,9 @@ body {
 
 #content {
   flex: 1;
+  .section {
+    padding-top: 20px;
+  }
 }
 
 // .site-map {

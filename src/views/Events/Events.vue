@@ -73,7 +73,7 @@ export default {
           `${config.BASEURL}/events?offset=${this.offset}&limit=${this.limit}`
         )
         .then(resp => (this.posts = resp.body))
-        .catch(err => alert(`Error: ${err.error}`));
+        .catch(err => console.log(err));
     }
   },
   created() {
