@@ -14,6 +14,8 @@
                     <a target="_blank" href="/documents/План ФХД 1.jpg" class="button is-link">План ФХД 1 (jpg)</a>
                     <a target="_blank" href="/documents/План ФХД 2.jpg" class="button is-link">План ФХД 2 (jpg)</a>
                     <a target="_blank" href="/documents/План ФХД 3.jpg" class="button is-link">План ФХД 3 (jpg)</a>
+                    <a target="_blank" href="/documents/Отчет о деят-ти НО.xlsm" class="button is-link">Отчет о деятельности НО</a>
+                    <a target="_blank" href="/documents/Отчет о расход.дс.xlsm" class="button is-link">Отчет о расходах</a>
                 </nav>
             </div>
         </article>
