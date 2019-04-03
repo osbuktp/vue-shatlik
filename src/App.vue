@@ -132,7 +132,7 @@
           </div>-->
           <div class="slider">
             <ul class="slides" :style="style">
-              <li v-for="(slide,i) in playslides" :key="i">
+              <li v-for="slide in playslides" :key="slide.title">
                 <div class="img" :style="{ backgroundImage: `url(${slide.img})` }"></div>
               </li>
             </ul>
@@ -384,9 +384,9 @@ export default {
       });
     },
     created() {
-      // this.playslides[0] = this.slides[0];
-      // this.playslides[1] = this.slides[1];
-      this.play();
+      this.playslides[0] = this.slides[0];
+      this.playslides[1] = this.slides[1];
+      // this.play();
       this.selectSlide(0)
     },
     // methods: {
