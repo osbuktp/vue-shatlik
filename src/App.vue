@@ -331,7 +331,8 @@ export default {
       interval: 0,
       progress: 0,
       duration: 5000,
-      playslides: []
+      playslides: [
+      ]
     };
   },
   computed: {
@@ -347,7 +348,8 @@ export default {
   methods: {
     selectSlide(i) {
       this.current = i;
-      this.playslides[this.current % 2] = this.slides[this.current];
+      this.$set(this.playslides, this.current % 2, this.slides[this.current])
+      // this.playslides.$set(this.current % 2, this.slides[this.current]);
       this.resetPlay();
     },
     process() {
@@ -355,7 +357,8 @@ export default {
       if (this.current >= this.slides.length) {
         this.current = 0;
       }
-      this.playslides[this.current % 2] = this.slides[this.current];
+      this.$set(this.playslides, this.current % 2, this.slides[this.current])
+      // this.playslides.$set(this.current % 2, this.slides[this.current]);
       this.resetPlay();
     },
     going() {
@@ -382,13 +385,7 @@ export default {
         left: 0,
         behavior: "smooth"
       });
-    },
-    created() {
-      this.playslides.push(this.slides[0]);
-      this.playslides.push(this.slides[1]);
-      // this.play();
-      this.selectSlide(0)
-    },
+    }
     // methods: {
     //   // document.querySelector("#content").scrollIntoView({
     //   //   behavior: "smooth"
@@ -402,6 +399,15 @@ export default {
     //   //   }
     //   // }, 15);
     // }
+  },
+  created() {
+    // this.playslides.push(this.slides[0]);
+    // this.playslides.push(this.slides[1]);
+    // // this.play();
+    // this.selectSlide(0);
+    // this.selectSlide(1);
+    this.selectSlide(0);
+    this.play()
   }
 };
 </script>
