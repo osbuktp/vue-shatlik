@@ -132,14 +132,14 @@
           </div>-->
           <div class="slider">
             <ul class="slides" :style="style">
-              <li v-for="slide in playslides" :key="slide.title">
+              <li v-for="slide in slides" :key="slide.title">
                 <div class="img" :style="{ backgroundImage: `url(${slide.img})` }"></div>
               </li>
             </ul>
             <ul class="indicators">
               <li
                 v-for="(slide,i) in slides"
-                :key="i"
+                :key="slide.title"
                 @click="selectSlide(i)"
                 :class="i==current ? 'active' : null"
               >
@@ -330,26 +330,17 @@ export default {
       timer: 0,
       interval: 0,
       progress: 0,
-      duration: 5000,
-      playslides: [
-      ]
+      duration: 5000
     };
   },
   computed: {
     style() {
-      switch (this.current % 2) {
-        case 0:
-          return { top: "0" };
-        case 1:
-          return { top: "-100%" };
-      }
+      return {top: `-${(this.current % 4) * 100}%`}
     }
   },
   methods: {
     selectSlide(i) {
       this.current = i;
-      this.$set(this.playslides, this.current % 2, this.slides[this.current])
-      // this.playslides.$set(this.current % 2, this.slides[this.current]);
       this.resetPlay();
     },
     process() {
@@ -357,8 +348,6 @@ export default {
       if (this.current >= this.slides.length) {
         this.current = 0;
       }
-      this.$set(this.playslides, this.current % 2, this.slides[this.current])
-      // this.playslides.$set(this.current % 2, this.slides[this.current]);
       this.resetPlay();
     },
     going() {
@@ -386,27 +375,8 @@ export default {
         behavior: "smooth"
       });
     }
-    // methods: {
-    //   // document.querySelector("#content").scrollIntoView({
-    //   //   behavior: "smooth"
-    //   // });
-    //   // let interval = document.querySelector("#content").offsetTop;
-    //   // let timer = setInterval(function() {
-    //   //   if (window.scrollY < interval - 48) {
-    //   //     window.scrollBy(0, 50);
-    //   //   } else {
-    //   //     clearInterval(timer);
-    //   //   }
-    //   // }, 15);
-    // }
   },
   created() {
-    // this.playslides.push(this.slides[0]);
-    // this.playslides.push(this.slides[1]);
-    // // this.play();
-    // this.selectSlide(0);
-    // this.selectSlide(1);
-    this.selectSlide(0);
     this.play()
   }
 };
