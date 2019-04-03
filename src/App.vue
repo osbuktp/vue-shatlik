@@ -6,10 +6,20 @@
         <nav class="navbar is-link">
           <!-- <div class="container"> -->
           <div class="navbar-brand">
-            <router-link exact-active-class="someother" active-class="someother" class="navbar-item" to="/">
-              <img src='../src/assets/logo.png' width="112" height="28">
+            <router-link
+              exact-active-class="someother"
+              active-class="someother"
+              class="navbar-item"
+              to="/"
+            >
+              <img src="../src/assets/logo.png" width="112" height="28">
             </router-link>
-            <div :class="{'is-active': isMenuToggled}" @click="isMenuToggled = !isMenuToggled" class=" is-hidden-desktop navbar-burger burger" data-target="navMenuColorlink-example">
+            <div
+              :class="{'is-active': isMenuToggled}"
+              @click="isMenuToggled = !isMenuToggled"
+              class="is-hidden-desktop navbar-burger burger"
+              data-target="navMenuColorlink-example"
+            >
               <span></span>
               <span></span>
               <span></span>
@@ -45,85 +55,64 @@
           <div :class="{'is-active': isMenuToggled}" class="navbar-menu">
             <div class="container">
               <div @click="slideToContent" class="navbar-start navbar-overflow">
-                <router-link class="navbar-item" to="/">
-                  Главная
-                </router-link>
+                <router-link class="navbar-item" to="/">Главная</router-link>
 
                 <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    Об учреждении
-                  </a>
+                  <a class="navbar-link">Об учреждении</a>
                   <div class="navbar-dropdown">
-                    <router-link class="navbar-item" to="/about">
-                      Общая информация
-                    </router-link>
-                    <router-link class="navbar-item" to="/about/lead">
-                      Руководство
-                    </router-link>
-                    <router-link class="navbar-item" to="/about/staff">
-                      Персональный состав работников
-                    </router-link>
-                    <router-link class="navbar-item" to="/about/documents">
-                      Документы
-                    </router-link>
-                    <router-link class="navbar-item" to="/about/equipment">
-                      Материально-техническое обеспечение
-                    </router-link>
+                    <router-link class="navbar-item" to="/about">Общая информация</router-link>
+                    <router-link class="navbar-item" to="/about/lead">Руководство</router-link>
+                    <router-link
+                      class="navbar-item"
+                      to="/about/staff"
+                    >Персональный состав работников</router-link>
+                    <router-link class="navbar-item" to="/about/documents">Документы</router-link>
+                    <router-link
+                      class="navbar-item"
+                      to="/about/equipment"
+                    >Материально-техническое обеспечение</router-link>
                   </div>
                 </div>
 
                 <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    Услуги
-                  </a>
+                  <a class="navbar-link">Услуги</a>
                   <div class="navbar-dropdown">
-                    <router-link class="navbar-item" to="/services">
-                      Предоставляемые услуги
-                    </router-link>
-                    <router-link class="navbar-item" to="/services/conditions">
-                      Порядок и условия предоставления социальных услуг
-                    </router-link>
-                    <router-link class="navbar-item" to="/services/rates">
-                      Тарифы на социальные услуги
-                    </router-link>
-                    <router-link class="navbar-item" to="/services/amount">
-                      Численность получателей и объем предоставляемых социальных услуг
-                    </router-link>
-                    <router-link class="navbar-item" to="/services/spots">
-                      Количество свободных мест
-                    </router-link>
-                    <router-link class="navbar-item" to="/services/experience">
-                      Опыт работы
-                    </router-link>
-                    <router-link class="navbar-item" to="/services/complaints">
-                      Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
-                    </router-link>
+                    <router-link class="navbar-item" to="/services">Предоставляемые услуги</router-link>
+                    <router-link
+                      class="navbar-item"
+                      to="/services/conditions"
+                    >Порядок и условия предоставления социальных услуг</router-link>
+                    <router-link
+                      class="navbar-item"
+                      to="/services/rates"
+                    >Тарифы на социальные услуги</router-link>
+                    <router-link
+                      class="navbar-item"
+                      to="/services/amount"
+                    >Численность получателей и объем предоставляемых социальных услуг</router-link>
+                    <router-link class="navbar-item" to="/services/spots">Количество свободных мест</router-link>
+                    <router-link class="navbar-item" to="/services/experience">Опыт работы</router-link>
+                    <router-link
+                      class="navbar-item"
+                      to="/services/complaints"
+                    >Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг</router-link>
                   </div>
                 </div>
 
                 <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    Информация о деятельности
-                  </a>
+                  <a class="navbar-link">Информация о деятельности</a>
                   <div class="navbar-dropdown">
-                    <router-link class="navbar-item" to="/activities/reports">
-                      Отчеты о деятельности
-                    </router-link>
-                    <router-link class="navbar-item" to="/activities/exams">
-                      Проверки
-                    </router-link>
-                    <router-link class="navbar-item" to="/activities/rating">
-                      Независимая оценка качества оказания услуг
-                    </router-link>
+                    <router-link class="navbar-item" to="/activities/reports">Отчеты о деятельности</router-link>
+                    <router-link class="navbar-item" to="/activities/exams">Проверки</router-link>
+                    <router-link
+                      class="navbar-item"
+                      to="/activities/rating"
+                    >Независимая оценка качества оказания услуг</router-link>
                   </div>
                 </div>
 
-                <router-link to="/events" class="navbar-item">
-                  Мероприятия
-                </router-link>
-                <router-link to="/interrogation" class="navbar-item">
-                  Опрос о качестве услуг
-                </router-link>
+                <router-link to="/events" class="navbar-item">Мероприятия</router-link>
+                <router-link to="/interrogation" class="navbar-item">Опрос о качестве услуг</router-link>
               </div>
             </div>
           </div>
@@ -140,7 +129,7 @@
                 Центр социальной помощи
               </h2>
             </div>
-          </div> -->
+          </div>-->
           <div class="slider">
             <ul class="slides" :style="style">
               <li v-for="(slide,i) in playslides" :key="i">
@@ -148,13 +137,18 @@
               </li>
             </ul>
             <ul class="indicators">
-              <li v-for="(slide,i) in slides" :key="i" @click="selectSlide(i)" :class="i==current ? 'active' : null">
+              <li
+                v-for="(slide,i) in slides"
+                :key="i"
+                @click="selectSlide(i)"
+                :class="i==current ? 'active' : null"
+              >
                 <div class="item">
                   <span class="title">{{slide.title}}</span>
                   <!-- <span class="progress">
                     <div class="fill" :style="{ width: `${percent}%`}"></div>
                     <div class="dot"></div>
-                  </span> -->
+                  </span>-->
                   <!-- <p class="mark">{{slide.mark}}</p> -->
                 </div>
               </li>
@@ -168,120 +162,94 @@
       <section class="left-aside is-hidden-touch">
         <section class="site-map card">
           <menu class="menu">
-            <p class="menu-label">
-              Карта сайта
-            </p>
+            <p class="menu-label">Карта сайта</p>
             <ul class="menu-list">
               <li>
-                <router-link to="/">
-                  Главная
-                </router-link>
+                <router-link to="/">Главная</router-link>
               </li>
               <li>
-                <a expandable :opened="isAboutOpened" @click="isAboutOpened = !isAboutOpened">
-                  Об учреждении
-                </a>
+                <a
+                  expandable
+                  :opened="isAboutOpened"
+                  @click="isAboutOpened = !isAboutOpened"
+                >Об учреждении</a>
                 <ul>
                   <li>
-                    <router-link to="/about">
-                      Общая информация
-                    </router-link>
+                    <router-link to="/about">Общая информация</router-link>
                   </li>
                   <li>
-                    <router-link to="/about/lead">
-                      Руководство
-                    </router-link>
+                    <router-link to="/about/lead">Руководство</router-link>
                   </li>
                   <li>
-                    <router-link to="/about/staff">
-                      Персональный состав работников
-                    </router-link>
+                    <router-link to="/about/staff">Персональный состав работников</router-link>
                   </li>
                   <li>
-                    <router-link to="/about/documents">
-                      Документы
-                    </router-link>
+                    <router-link to="/about/documents">Документы</router-link>
                   </li>
                   <li>
-                    <router-link to="/about/equipment">
-                      Материально-техническое обеспечение
-                    </router-link>
+                    <router-link to="/about/equipment">Материально-техническое обеспечение</router-link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a expandable :opened="isServicesOpened" @click="isServicesOpened = !isServicesOpened">
-                  Услуги
-                </a>
+                <a
+                  expandable
+                  :opened="isServicesOpened"
+                  @click="isServicesOpened = !isServicesOpened"
+                >Услуги</a>
                 <ul>
                   <li>
-                    <router-link to="/services">
-                      Предоставляемые услуги
-                    </router-link>
+                    <router-link to="/services">Предоставляемые услуги</router-link>
                   </li>
                   <li>
-                    <router-link to="/services/conditions">
-                      Порядок и условия предоставления социальных услуг
-                    </router-link>
+                    <router-link
+                      to="/services/conditions"
+                    >Порядок и условия предоставления социальных услуг</router-link>
                   </li>
                   <li>
-                    <router-link to="/services/rates">
-                      Тарифы на социальные услуги
-                    </router-link>
+                    <router-link to="/services/rates">Тарифы на социальные услуги</router-link>
                   </li>
                   <li>
-                    <router-link to="/services/amount">
-                      Численность получателей и объем предоставляемых социальных услуг
-                    </router-link>
+                    <router-link
+                      to="/services/amount"
+                    >Численность получателей и объем предоставляемых социальных услуг</router-link>
                   </li>
                   <li>
-                    <router-link to="/services/spots">
-                      Количество свободных мест
-                    </router-link>
+                    <router-link to="/services/spots">Количество свободных мест</router-link>
                   </li>
                   <li>
-                    <router-link to="/services/experience">
-                      Опыт работы
-                    </router-link>
+                    <router-link to="/services/experience">Опыт работы</router-link>
                   </li>
                   <li>
-                    <router-link to="/services/complaints">
-                      Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг
-                    </router-link>
+                    <router-link
+                      to="/services/complaints"
+                    >Порядок подачи жалобы получателем социальных услуг по вопросам качества оказания социальных услуг</router-link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a expandable :opened="isActivitiesOpened" @click="isActivitiesOpened = !isActivitiesOpened">
-                  Информация о деятельности
-                </a>
+                <a
+                  expandable
+                  :opened="isActivitiesOpened"
+                  @click="isActivitiesOpened = !isActivitiesOpened"
+                >Информация о деятельности</a>
                 <ul>
                   <li>
-                    <router-link to="/activities/reports">
-                      Отчеты о деятельности
-                    </router-link>
+                    <router-link to="/activities/reports">Отчеты о деятельности</router-link>
                   </li>
                   <li>
-                    <router-link to="/activities/exams">
-                      Проверки
-                    </router-link>
+                    <router-link to="/activities/exams">Проверки</router-link>
                   </li>
                   <li>
-                    <router-link to="/activities/rating">
-                      Независимая оценка качества оказания услуг
-                    </router-link>
+                    <router-link to="/activities/rating">Независимая оценка качества оказания услуг</router-link>
                   </li>
                 </ul>
               </li>
               <li>
-                <router-link to="/events">
-                  Проводимые мероприятия
-                </router-link>
+                <router-link to="/events">Проводимые мероприятия</router-link>
               </li>
               <li>
-                <router-link to="/interrogation">
-                  Опрос граждан о качестве оказания услуг
-                </router-link>
+                <router-link to="/interrogation">Опрос граждан о качестве оказания услуг</router-link>
               </li>
             </ul>
           </menu>
@@ -294,24 +262,19 @@
 
       <section class="right-aside is-hidden-touch">
         <menu class="menu card">
-          <p class="menu-label">
-            Мы в соцсетях
-          </p>
+          <p class="menu-label">Мы в соцсетях</p>
 
           <!-- VK Widget -->
           <div id="vk_groups"></div>
         </menu>
         <menu class="menu card">
-          <p class="menu-label">
-            Часто задаваемые вопросы
-          </p>
+          <p class="menu-label">Часто задаваемые вопросы</p>
           <f-a-q></f-a-q>
         </menu>
       </section>
     </main>
 
     <footer class="footer">
-
       <section class="credentials">
         <div class="content has-text-centered">
           <p>
@@ -397,7 +360,7 @@ export default {
     },
     going() {
       let time = new Date().getTime();
-      this.percent = Math.floor(100 * (time - this.timer) / this.duration);
+      this.percent = Math.floor((100 * (time - this.timer)) / this.duration);
     },
     resetPlay() {
       clearInterval(this.interval);
@@ -412,32 +375,32 @@ export default {
       this.timer = new Date().getTime();
       this.progress = setInterval(this.going, this.duration / 100);
       this.interval = setInterval(this.process, this.duration);
-    }
-  },
-  created() {
-    this.playslides[0] = this.slides[0];
-    this.playslides[1] = this.slides[1];
-    this.play();
-  },
-  methods: {
+    },
     slideToContent() {
       window.scroll({
         top: document.querySelector("#content").offsetTop,
         left: 0,
         behavior: "smooth"
       });
-      // document.querySelector("#content").scrollIntoView({
-      //   behavior: "smooth"
-      // });
-      // let interval = document.querySelector("#content").offsetTop;
-      // let timer = setInterval(function() {
-      //   if (window.scrollY < interval - 48) {
-      //     window.scrollBy(0, 50);
-      //   } else {
-      //     clearInterval(timer);
-      //   }
-      // }, 15);
-    }
+    },
+    created() {
+      this.playslides[0] = this.slides[0];
+      this.playslides[1] = this.slides[1];
+      this.play();
+    },
+    // methods: {
+    //   // document.querySelector("#content").scrollIntoView({
+    //   //   behavior: "smooth"
+    //   // });
+    //   // let interval = document.querySelector("#content").offsetTop;
+    //   // let timer = setInterval(function() {
+    //   //   if (window.scrollY < interval - 48) {
+    //   //     window.scrollBy(0, 50);
+    //   //   } else {
+    //   //     clearInterval(timer);
+    //   //   }
+    //   // }, 15);
+    // }
   }
 };
 </script>
