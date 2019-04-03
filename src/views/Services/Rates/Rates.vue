@@ -1,13 +1,11 @@
 <template>
   <section class="section content">
-      <img src="../../../assets/prices/тарифы (1).jpg" alt="">
-      <img src="../../../assets/prices/тарифы (2).jpg" alt="">
-      <img src="../../../assets/prices/тарифы (3).jpg" alt="">
-      <img src="../../../assets/prices/тарифы (4).jpg" alt="">
-      <img src="../../../assets/prices/тарифы (5).jpg" alt="">
-      <img src="../../../assets/prices/тарифы (6).jpg" alt="">
-      <img src="../../../assets/prices/тарифы (7).jpg" alt="">
-      <img src="../../../assets/prices/тарифы (8).jpg" alt="">
-      <img src="../../../assets/prices/тарифы (9).jpg" alt="">
+      <img src="../../../assets/prices/1-min.jpg" alt="">
+      <img src="../../../assets/prices/2-min.jpg" alt="">
+      <img src="../../../assets/prices/3-min.jpg" alt="">
+      <img src="../../../assets/prices/4-min.jpg" alt="">
+      <img src="../../../assets/prices/5-min.jpg" alt="">
+      <img src="../../../assets/prices/6-min.jpg" alt="">
+      <img src="../../../assets/prices/7-min.jpg" alt="">
   </section>
 </template>
