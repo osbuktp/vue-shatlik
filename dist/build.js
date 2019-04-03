@@ -898,8 +898,8 @@ module.exports = g;
       });
     },
     created() {
-      this.playslides[0] = this.slides[0];
-      this.playslides[1] = this.slides[1];
+      this.playslides.push(this.slides[0]);
+      this.playslides.push(this.slides[1]);
       // this.play();
       this.selectSlide(0);
     }
@@ -18394,7 +18394,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(4);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_9b90b2e4_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7203a52b_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(52);
 function injectStyle (ssrContext) {
   __webpack_require__(29)
   __webpack_require__(32)
@@ -18410,12 +18410,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-9b90b2e4"
+var __vue_scopeId__ = "data-v-7203a52b"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_9b90b2e4_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7203a52b_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -18436,7 +18436,7 @@ var content = __webpack_require__(30);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("2093846a", content, true);
+var update = __webpack_require__(2)("8bf6b366", content, true);
 
 /***/ }),
 /* 30 */
@@ -18447,7 +18447,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".slider[data-v-9b90b2e4]{position:relative;z-index:1;overflow:hidden;height:700px;max-height:60vh}.slider ul[data-v-9b90b2e4]{list-style:none}.slider ul.slides[data-v-9b90b2e4]{position:absolute;width:100%;height:100%;margin:0;padding:0;transition:top .5s}.slider ul.slides li[data-v-9b90b2e4]{height:100%}.slider ul.slides li .img[data-v-9b90b2e4]{height:100%;background-size:cover;background-position:50%}.slider ul.indicators[data-v-9b90b2e4]{position:absolute;padding-right:20px;right:0;top:50%;transform:translateY(-50%);z-index:2;text-align:right}.slider ul.indicators li[data-v-9b90b2e4]{clear:both}.slider ul.indicators li .item[data-v-9b90b2e4]{position:relative;margin-bottom:16px;float:right;padding:10px 20px;background-color:rgba(50,115,220,.7)}.slider ul.indicators li:last-child .item[data-v-9b90b2e4]{margin-bottom:0}.slider ul.indicators li .title[data-v-9b90b2e4]{text-transform:uppercase;font-weight:400;color:#fff;cursor:pointer;font-size:16px;transition:font-size .5s ease}.slider ul.indicators li .mark[data-v-9b90b2e4]{color:#fff}.slider ul.indicators li .dot[data-v-9b90b2e4]{position:absolute;top:50%;right:-20px;margin-top:-5.5px;margin-left:10px;width:11px;height:11px;background:#fff;border-radius:50%}.slider ul.indicators li .progress[data-v-9b90b2e4]{position:relative;display:inline-block;width:100%;height:2px;margin:8px 0;background:hsla(0,0%,100%,.5)}.slider ul.indicators li.active .title[data-v-9b90b2e4]{transition:font-size .5s ease;font-size:36px}.slider ul.indicators li.active .progress .fill[data-v-9b90b2e4]{height:100%;background:#fff}@media (min-width:1024px){.slider[data-v-9b90b2e4]{max-height:70vh}.slider ul.indicators[data-v-9b90b2e4]{padding-right:70px}}", ""]);
+exports.push([module.i, ".slider[data-v-7203a52b]{position:relative;z-index:1;overflow:hidden;height:700px;max-height:60vh}.slider ul[data-v-7203a52b]{list-style:none}.slider ul.slides[data-v-7203a52b]{position:absolute;width:100%;height:100%;margin:0;padding:0;transition:top .5s}.slider ul.slides li[data-v-7203a52b]{height:100%}.slider ul.slides li .img[data-v-7203a52b]{height:100%;background-size:cover;background-position:50%}.slider ul.indicators[data-v-7203a52b]{position:absolute;padding-right:20px;right:0;top:50%;transform:translateY(-50%);z-index:2;text-align:right}.slider ul.indicators li[data-v-7203a52b]{clear:both}.slider ul.indicators li .item[data-v-7203a52b]{position:relative;margin-bottom:16px;float:right;padding:10px 20px;background-color:rgba(50,115,220,.7)}.slider ul.indicators li:last-child .item[data-v-7203a52b]{margin-bottom:0}.slider ul.indicators li .title[data-v-7203a52b]{text-transform:uppercase;font-weight:400;color:#fff;cursor:pointer;font-size:16px;transition:font-size .5s ease}.slider ul.indicators li .mark[data-v-7203a52b]{color:#fff}.slider ul.indicators li .dot[data-v-7203a52b]{position:absolute;top:50%;right:-20px;margin-top:-5.5px;margin-left:10px;width:11px;height:11px;background:#fff;border-radius:50%}.slider ul.indicators li .progress[data-v-7203a52b]{position:relative;display:inline-block;width:100%;height:2px;margin:8px 0;background:hsla(0,0%,100%,.5)}.slider ul.indicators li.active .title[data-v-7203a52b]{transition:font-size .5s ease;font-size:36px}.slider ul.indicators li.active .progress .fill[data-v-7203a52b]{height:100%;background:#fff}@media (min-width:1024px){.slider[data-v-7203a52b]{max-height:70vh}.slider ul.indicators[data-v-7203a52b]{padding-right:70px}}", ""]);
 
 // exports
 
@@ -18496,7 +18496,7 @@ var content = __webpack_require__(33);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("003d5426", content, true);
+var update = __webpack_require__(2)("416e3110", content, true);
 
 /***/ }),
 /* 33 */

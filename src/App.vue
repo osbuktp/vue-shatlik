@@ -384,8 +384,8 @@ export default {
       });
     },
     created() {
-      this.playslides[0] = this.slides[0];
-      this.playslides[1] = this.slides[1];
+      this.playslides.push(this.slides[0]);
+      this.playslides.push(this.slides[1]);
       // this.play();
       this.selectSlide(0)
     },
