@@ -43,13 +43,14 @@ import Sandimirova from "../../../assets/staff/sandimirova.jpg";
 import Zaripova from "../../../assets/staff/zaripova.jpg";
 import Kolobova from "../../../assets/staff/kolobova.jpg";
 import Muhamed from "../../../assets/staff/muh.jpg";
-import Komissarova from "../../../assets/staff/komissarova.jpg";
 import Suleymanova from "../../../assets/staff/suleymanova.jpg";
 import Hannova from "../../../assets/staff/hann.jpg";
 import Kurbatova from "../../../assets/staff/director.jpg"
 import Filipovskaya from "../../../assets/staff/filipovskaya.jpg"
 import Koronova from "../../../assets/staff/koronova.jpg"
 import Seliverstova from "../../../assets/staff/seliverstova.jpg"
+import Fateeva from '../../../assets/staff/fateeva.jpg'
+import Rud from '../../../assets/staff/rud.jpg'
 
 export default {
   data() {
@@ -74,10 +75,9 @@ export default {
           photo: Koronova
         },
         {
-          name: "Комиссарова Юлия Валерьевна",
-          exp: "12 лет 6 месяцев",
+          name: "Фатеева Вера Юрьевна",
           spec: "Психолог",
-          photo: Komissarova
+          photo: Fateeva
         },
         {
           name: "Филиповская Дарья Александровна",
@@ -114,6 +114,11 @@ export default {
           exp: "9 лет",
           spec: "Мед. сестра",
           photo: Muhamed
+        },
+        {
+          name: "Рудь Юлия Владимировна",
+          spec: "Муд. сестра",
+          photo: Rud
         },
         {
           name: "Колобова Татьяна Ивановна",
