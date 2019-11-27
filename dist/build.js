@@ -18846,7 +18846,7 @@ module.exports = __webpack_require__.p + "logo.png";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__views_About_Documents_Documents_vue__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__views_About_Equipment_Equipment_vue__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__views_Services_Services_vue__ = __webpack_require__(267);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__views_Services_Rates_Rates_vue__ = __webpack_require__(269);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__views_Services_Rates_Rates_vue__ = __webpack_require__(271);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__views_Services_Experience_Experience_vue__ = __webpack_require__(280);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__views_Services_Amount_Amount_vue__ = __webpack_require__(282);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__views_Services_Complaints_Complaints_vue__ = __webpack_require__(284);
@@ -26478,7 +26478,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4f5e83a7_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_48ce32c1_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__ = __webpack_require__(84);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -26494,7 +26494,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4f5e83a7_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_48ce32c1_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -26510,7 +26510,7 @@ var Component = normalizeComponent(
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("\n        Центр социальной помощи «Шатлык»\n    ")]),_vm._v(" "),_c('h3',[_vm._v("Дата государственной регистрации")]),_vm._v(" "),_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                Полное наименование\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ЦЕНТР СОЦИАЛЬНОЙ ПОМОЩИ «ШАТЛЫК» («РАДОСТЬ»)\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Краткое наименование\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АНО «ЦСП «ШАТЛЫК» («РАДОСТЬ»)\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Дата государственной регистрации\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                12.05.2017\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Форма собственности\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                НЕКОММЕРЧЕСКАЯ\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Организационно – правовая форма\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ\n            ")])])])]),_vm._v(" "),_c('h3',[_vm._v("Учредитель")]),_vm._v(" "),_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("Полное наименование")]),_vm._v(" "),_c('td',[_vm._v("АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ЦЕНТР СОЦИАЛЬНОЙ ПОМОЩИ «ШАТЛЫК» («РАДОСТЬ»)")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Учредитель")]),_vm._v(" "),_c('td',[_vm._v("ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ УЧРЕЖДЕНИЕ СОЦИАЛЬНОГО ОБСЛУЖИВАНИЯ «КОМПЛЕКСНЫЙ ЦЕНТР СОЦИАЛЬНОГО ОБСЛУЖИВАНИЯ НАСЕЛЕНИЯ «РАДОСТЬ» МИНИСТЕРСТВА ТРУДА, ЗАНЯТОСТИ И СОЦИАЛЬНОЙ ЗАЩИТЫ РЕСПУБЛИКИ ТАТАРСТАН В ЗАИНСКОМ МУНИЦИПАЛЬНОМ РАЙОНЕ»")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Муниципальное образование")]),_vm._v(" "),_c('td',[_vm._v("Г. ЗАИНСК")])])])]),_vm._v(" "),_c('h3',[_vm._v("Режим и график работы")]),_vm._v(" "),_c('h4',[_vm._v("Часы приема в АНО «ЦСП «ШАТЛЫК» («РАДОСТЬ»)")]),_vm._v(" "),_c('table',[_c('thead',[_c('tr',[_c('td',[_vm._v("\n                    Дни недели\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    Время работы\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    Обед\n                ")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                    Понедельник\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Вторник\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Среда\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Четверг\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Пятница\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Суббота\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-12.00\n                ")]),_vm._v(" "),_c('td')]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Воскресенье")]),_vm._v(" "),_c('td',[_vm._v("\n                    Выходной\n                ")])])])]),_vm._v(" "),_c('h3',[_vm._v("\n        Структура учреждения\n    ")]),_vm._v(" "),_c('a',{attrs:{"href":"../../assets/структура АНО.docx","target":"_blank"}},[_vm._v("Скачать")])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("\n        Центр социальной помощи «Шатлык»\n    ")]),_vm._v(" "),_c('h3',[_vm._v("Дата государственной регистрации")]),_vm._v(" "),_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                Полное наименование\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ЦЕНТР СОЦИАЛЬНОЙ ПОМОЩИ «ШАТЛЫК» («РАДОСТЬ»)\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Краткое наименование\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АНО «ЦСП «ШАТЛЫК» («РАДОСТЬ»)\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Дата государственной регистрации\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                12.05.2017\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Форма собственности\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                НЕКОММЕРЧЕСКАЯ\n            ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                Организационно – правовая форма\n            ")]),_vm._v(" "),_c('td',[_vm._v("\n                АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ\n            ")])])])]),_vm._v(" "),_c('h3',[_vm._v("Учредитель")]),_vm._v(" "),_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("Полное наименование")]),_vm._v(" "),_c('td',[_vm._v("АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ «ЦЕНТР СОЦИАЛЬНОЙ ПОМОЩИ «ШАТЛЫК» («РАДОСТЬ»)")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Учредитель")]),_vm._v(" "),_c('td',[_vm._v("ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ УЧРЕЖДЕНИЕ СОЦИАЛЬНОГО ОБСЛУЖИВАНИЯ «КОМПЛЕКСНЫЙ ЦЕНТР СОЦИАЛЬНОГО ОБСЛУЖИВАНИЯ НАСЕЛЕНИЯ «РАДОСТЬ» МИНИСТЕРСТВА ТРУДА, ЗАНЯТОСТИ И СОЦИАЛЬНОЙ ЗАЩИТЫ РЕСПУБЛИКИ ТАТАРСТАН В ЗАИНСКОМ МУНИЦИПАЛЬНОМ РАЙОНЕ»")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Муниципальное образование")]),_vm._v(" "),_c('td',[_vm._v("Г. ЗАИНСК")])])])]),_vm._v(" "),_c('h3',[_vm._v("Режим и график работы")]),_vm._v(" "),_c('h4',[_vm._v("Часы приема в АНО «ЦСП «ШАТЛЫК» («РАДОСТЬ»)")]),_vm._v(" "),_c('table',[_c('thead',[_c('tr',[_c('td',[_vm._v("\n                    Дни недели\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    Время работы\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    Обед\n                ")])])]),_vm._v(" "),_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                    Понедельник\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Вторник\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Среда\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Четверг\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Пятница\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-17.00\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    12.00-13.00\n                ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                    Суббота\n                ")]),_vm._v(" "),_c('td',[_vm._v("\n                    8.00-12.00\n                ")]),_vm._v(" "),_c('td')]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("Воскресенье")]),_vm._v(" "),_c('td',[_vm._v("\n                    Выходной\n                ")])])])]),_vm._v(" "),_c('h3',[_vm._v("\n        Структура учреждения\n    ")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"href":"../../../documents/структура АНО.docx","target":"_blank"}},[_vm._v("Скачать")])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -27867,7 +27867,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2961122_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0cc18aeb_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__ = __webpack_require__(268);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -27883,7 +27883,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c2961122_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0cc18aeb_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Services_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -27899,16 +27899,28 @@ var Component = normalizeComponent(
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("Предоставляемые услуги")]),_vm._v(" "),_c('div',[_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                        Социально-бытовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-медицинские\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-психологические\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-педагогические\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-трудовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-правовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности\n                    ")])])])])]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',[_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        О порядке и условиях предоставления платных услуг\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%9E%20%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B5%20%D0%B8%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%D1%85%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3.doc.doc"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Услуги, подтвержденные постановлением кабинета Министров РТ\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8%2C%20%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%BE%D0%B2%20%D0%A0%D0%A2.docx"}},[_vm._v("Просмотр")])])])])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('h1',[_vm._v("Предоставляемые услуги")]),_vm._v(" "),_c('div',[_c('table',[_c('tbody',[_c('tr',[_c('td',[_vm._v("\n                        Социально-бытовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-медицинские\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-психологические\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-педагогические\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-трудовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Социально-правовые\n                    ")])]),_vm._v(" "),_c('tr',[_c('td',[_vm._v("\n                        Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности\n                    ")])])])])]),_vm._v(" "),_c('br'),_vm._v(" "),_c('div',[_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        О порядке и условиях предоставления платных услуг\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"../../../documents/О порядке и условиях предоставления платных услуг.doc"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Услуги, подтвержденные постановлением кабинета Министров РТ\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fshatlik.ru%2Fdocuments%2F%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8%2C%20%D1%83%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC%20%D0%9A%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B0%20%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%BE%D0%B2%20%D0%A0%D0%A2.docx"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Договор на предоставление платных медицинских услуг\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"../../../documents/Договор на предоставление пл. мед. усл.docx"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('h5',[_vm._v("\n                        Тарифы\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"../../../documents/Тарифы Шатлык 2019.docx"}},[_vm._v("Просмотр")])])])]),_vm._v(" "),_c('div',[_c('img',{attrs:{"src":__webpack_require__(269),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(270),"alt":""}})])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 /* 269 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "Тарифы Шатлык 2019 1.jpg";
+
+/***/ }),
+/* 270 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "Тарифы Шатлык 2019 2.jpg";
+
+/***/ }),
+/* 271 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_9bd1f3a2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rates_vue__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0b77d1ac_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rates_vue__ = __webpack_require__(272);
 var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
@@ -27924,7 +27936,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_9bd1f3a2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rates_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0b77d1ac_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rates_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -27935,26 +27947,14 @@ var Component = normalizeComponent(
 
 
 /***/ }),
-/* 270 */
+/* 272 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('img',{attrs:{"src":__webpack_require__(271),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(272),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(273),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(274),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(275),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(276),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(277),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(278),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(279),"alt":""}})])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section content"},[_c('img',{attrs:{"src":__webpack_require__(273),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(274),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(275),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(276),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(277),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(278),"alt":""}}),_vm._v(" "),_c('img',{attrs:{"src":__webpack_require__(279),"alt":""}})])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-/* 271 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "Тарифы Шатлык 2019 1.jpg";
-
-/***/ }),
-/* 272 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "Тарифы Шатлык 2019 2.jpg";
 
 /***/ }),
 /* 273 */

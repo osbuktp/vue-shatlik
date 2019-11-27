@@ -182,6 +182,6 @@
         <h3>
             Структура учреждения
         </h3>
-        <a href="../../assets/структура АНО.docx" target="_blank">Скачать</a>
+        <a href="../../../documents/структура АНО.docx" target="_blank" class="button is-link">Скачать</a>
     </section>
 </template>
