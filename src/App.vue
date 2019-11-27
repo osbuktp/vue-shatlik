@@ -103,7 +103,8 @@
                   <a class="navbar-link">Информация о деятельности</a>
                   <div class="navbar-dropdown">
                     <router-link class="navbar-item" to="/activities/reports">Отчеты о деятельности</router-link>
-                    <router-link class="navbar-item" to="/activities/exams">Проверки</router-link>
+                    <router-link class="navbar-item" to="/activities/exams/acts">Предписания контролирующих органов</router-link>
+                    <router-link class="navbar-item" to="/activities/exams/reports">Отчеты об устранении замечаний</router-link>
                     <router-link
                       class="navbar-item"
                       to="/activities/rating"

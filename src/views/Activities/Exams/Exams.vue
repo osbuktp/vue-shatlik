@@ -1,6 +1,6 @@
 <template>
 <section class="content section">
-
+  
     <img :src="imgsrc" alt="">
 </section>
 </template>

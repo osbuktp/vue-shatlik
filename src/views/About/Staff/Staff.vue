@@ -106,7 +106,7 @@ export default {
         {
           name: "Селиверстова Татьяна Михайловна",
           exp: "39 лет",
-          spec: "Мед. сестра",
+          spec: "Мед. сестра" ,
           photo: Seliverstova
         },
         {

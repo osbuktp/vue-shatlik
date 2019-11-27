@@ -18,7 +18,8 @@ import ServicesSpots from './views/Services/Spots/Spots.vue';
 
 import Activities from './views/Activities/Activities.vue';
 import ActivitiesReports from './views/Activities/Reports/Reports.vue';
-import ActivitiesExams from './views/Activities/Exams/Exams.vue';
+import ActivitiesExamsActs from './views/Activities/Exams/Acts/Acts.vue';
+import ActivitiesExamsReports from './views/Activities/Exams/Reports/Reports.vue';
 import ActivitiesRating from './views/Activities/Rating/Rating.vue';
 
 import Events from './views/Events/Events.vue';
@@ -97,8 +98,12 @@ const routes = [
         component: ActivitiesReports
     },
     {
-        path: '/activities/exams',
-        component: ActivitiesExams
+        path: '/activities/exams/acts',
+        component: ActivitiesExamsActs
+    },
+    {
+        path: '/activities/exams/reports',
+        component: ActivitiesExamsReports
     },
     {
         path: '/activities/rating',
