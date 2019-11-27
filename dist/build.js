@@ -28241,7 +28241,7 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_097bd2f2_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_9551d048_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__ = __webpack_require__(294);
 function injectStyle (ssrContext) {
   __webpack_require__(292)
 }
@@ -28255,12 +28255,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-097bd2f2"
+var __vue_scopeId__ = "data-v-9551d048"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_097bd2f2_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_9551d048_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -28281,7 +28281,7 @@ var content = __webpack_require__(293);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("41f9a054", content, true);
+var update = __webpack_require__(2)("9d34eb88", content, true);
 
 /***/ }),
 /* 293 */
@@ -28292,7 +28292,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".level[data-v-097bd2f2]{justify-content:flex-start}.level a[data-v-097bd2f2]{margin-right:20px}", ""]);
+exports.push([module.i, ".level[data-v-9551d048]{justify-content:flex-start}.level a[data-v-9551d048]{margin-right:20px}", ""]);
 
 // exports
 
@@ -28303,7 +28303,7 @@ exports.push([module.i, ".level[data-v-097bd2f2]{justify-content:flex-start}.lev
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content section"},[_c('header',[_c('h1',[_vm._v("Отчеты")])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                        План финансово-хозяйственной деятельности АНО \"ЦСП \"Шатлык\" (\"Радость\") на 2018 год\n                    ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/ПЛАН ФХД 1 - 2019 год.jpg"}},[_vm._v("План ФХД 1 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/ПЛАН ФХД 2 - 2019 год.docx"}},[_vm._v("План ФХД 2 (docx)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/ПЛАН ФХД 3 - 2019 год.jpg"}},[_vm._v("План ФХД 3 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Отчет о деят-ти НО.xlsm"}},[_vm._v("Отчет о деятельности НО")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Отчет о расход.дс.xlsm"}},[_vm._v("Отчет о расходах")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/План мероприятий по улучшению качества оказания с.у.  Шатдлык 2019 г..docx"}},[_vm._v("План мероприятий по улучшению качества оказания с.у.")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/план по устранению недостатков Шатлык 2019.doc"}},[_vm._v("План по устранению недостатков")])])])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content section"},[_c('header',[_c('h1',[_vm._v("Отчеты")])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    План финансово-хозяйственной деятельности АНО \"ЦСП \"Шатлык\" (\"Радость\") на 2018 год\n                ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/ПЛАН ФХД 1 - 2019 год.jpg"}},[_vm._v("План ФХД 1 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/ПЛАН ФХД 2 - 2019 год.docx"}},[_vm._v("План ФХД 2 (docx)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/ПЛАН ФХД 3 - 2019 год.jpg"}},[_vm._v("План ФХД 3 (jpg)")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Отчет о деят-ти НО.xlsm"}},[_vm._v("Отчет о деятельности НО")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/Отчет о расход.дс.xlsm"}},[_vm._v("Отчет о расходах")])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -28478,7 +28478,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_144e7f5a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rating_vue__ = __webpack_require__(315);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_65efe828_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rating_vue__ = __webpack_require__(315);
 function injectStyle (ssrContext) {
   __webpack_require__(313)
 }
@@ -28492,12 +28492,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-144e7f5a"
+var __vue_scopeId__ = "data-v-65efe828"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_144e7f5a_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rating_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_65efe828_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Rating_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -28518,7 +28518,7 @@ var content = __webpack_require__(314);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("ac05957a", content, true);
+var update = __webpack_require__(2)("556e072d", content, true);
 
 /***/ }),
 /* 314 */
@@ -28529,7 +28529,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".level[data-v-144e7f5a]{justify-content:flex-start}.level a[data-v-144e7f5a]{margin-right:20px}", ""]);
+exports.push([module.i, ".level[data-v-65efe828]{justify-content:flex-start}.level a[data-v-65efe828]{margin-right:20px}", ""]);
 
 // exports
 
@@ -28540,7 +28540,7 @@ exports.push([module.i, ".level[data-v-144e7f5a]{justify-content:flex-start}.lev
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content section"},[_c('header',[_c('h1',[_vm._v("Отчеты")])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n                    План работы по повышению качества\n                ")])]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=shatlik.ru%2Fdocuments%2F%D0%BF%D0%BB%D0%B0%D0%BD%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D1%8E%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D1%81%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%D1%8E.docx"}},[_vm._v("Просмотр")]),_vm._v(" "),_c('div',{staticClass:"content"},[_c('br'),_vm._v(" "),_c('p',[_vm._v("Результаты независимой оценки")])]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"href":"/documents/результат независимой оценки.docx","target":"_blank"}},[_vm._v("DOCX")])])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content section"},[_c('header',[_c('h1',[_vm._v("Отчеты")])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/результат независимой оценки.docx"}},[_vm._v("Результаты независимой оценки")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://view.officeapps.live.com/op/view.aspx?src=shatlik.ru%2Fdocuments%2F%D0%BF%D0%BB%D0%B0%D0%BD%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D1%8E%20%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0%20%D1%81%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C%D1%8E.docx"}},[_vm._v("План работы по повышению качества")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/План мероприятий по улучшению качества оказания с.у.  Шатдлык 2019 г..docx"}},[_vm._v("План мероприятий по улучшению качества оказания с.у.")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"/documents/план по устранению недостатков Шатлык 2019.doc"}},[_vm._v("План по устранению недостатков")])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
