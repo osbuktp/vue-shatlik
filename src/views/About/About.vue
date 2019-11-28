@@ -182,6 +182,6 @@
         <h3>
             Структура учреждения
         </h3>
-        <a href="../../../documents/структура АНО.docx" target="_blank" class="button is-link">Скачать</a>
+        <a href="https://docs.google.com/gview?url=https://shatlik.ru/documents/структура+АНО.docx" target="_blank" class="button is-link">Просмотр</a>
     </section>
 </template>

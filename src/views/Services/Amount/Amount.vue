@@ -104,6 +104,6 @@
       <h2>Объем социальных услуг в рамках предпринимательской деятельности</h2>
       <p>В рамках предпринимательской деятельности в центре функционирует 2 палаты повышенной комфортности (6 койко-мест).</p>
       <h2>Объем социальных услуг</h2>
-      <a class="button is-link" href="/documents/Объем социальных услуг.docx" target="_blank">DOCX</a>
+      <a class="button is-link" href="https://docs.google.com/gview?url=https://shatlik.ru/documents/Объем+социальных+услуг.docx" target="_blank">Просмотр</a>
   </section>
 </template>

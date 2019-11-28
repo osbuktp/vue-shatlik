@@ -342,7 +342,7 @@
             <h3>
                 ДОСТУП К ИНФОРМАЦИОННЫМ СИСТЕМАМ В СФЕРЕ СОЦИАЛЬНОГО ОБСЛУЖИВАНИЯ И СЕТИ "ИНТЕРНЕТ"
             </h3>
-            <a class="button is-link" href="/documents/доступ к сети интернет.docx" target="_blank">DOCX</a>
+            <a class="button is-link" href="https://docs.google.com/gview?url=https://shatlik.ru/documents/доступ+к+сети+интернет.docx" target="_blank">Просмотр</a>
         </article>
     </section>
 </template>

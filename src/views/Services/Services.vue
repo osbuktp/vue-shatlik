@@ -52,7 +52,7 @@
                         </h5>
                     </div>
                     <nav class="level">
-                        <a target="_blank" href="../../../documents/О порядке и условиях предоставления платных услуг.doc" class="button is-link">Просмотр</a>
+                        <a target="_blank" href="https://docs.google.com/gview?url=https://shatlik.ru/documents/О+порядке+и+условиях+предоставления+платных+услуг.doc" class="button is-link">Просмотр</a>
                     </nav>
                 </div>
             </article>
@@ -76,7 +76,7 @@
                         </h5>
                     </div>
                     <nav class="level">
-                        <a target="_blank" href="../../../documents/Договор на предоставление пл. мед. усл.docx" class="button is-link">Просмотр</a>
+                        <a target="_blank" href="https://docs.google.com/gview?url=https://shatlik.ru/documents/Договор+на+предоставление+пл.+мед.+усл.docx" class="button is-link">Просмотр</a>
                     </nav>
                 </div>
             </article>
@@ -88,7 +88,7 @@
                         </h5>
                     </div>
                     <nav class="level">
-                        <a target="_blank" href="../../../documents/Тарифы Шатлык 2019.docx" class="button is-link">Просмотр</a>
+                        <a target="_blank" href="https://docs.google.com/gview?url=https://shatlik.ru/documents/Тарифы+Шатлык+2019.docx" class="button is-link">Просмотр</a>
                     </nav>
                 </div>
             </article>
