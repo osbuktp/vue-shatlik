@@ -64,8 +64,13 @@
                     <router-link class="navbar-item" to="/about/lead">Руководство</router-link>
                     <router-link
                       class="navbar-item"
+                      to="/about/structure"
+                    >Структура</router-link>
+                    <router-link
+                      class="navbar-item"
                       to="/about/staff"
                     >Персональный состав работников</router-link>
+                    
                     <router-link class="navbar-item" to="/about/documents">Документы</router-link>
                     <router-link
                       class="navbar-item"

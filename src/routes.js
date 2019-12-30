@@ -4,6 +4,7 @@ import About from './views/About/About.vue';
 import AboutConditions from './views/About/Conditions/Conditions.vue';
 import AboutRules from './views/About/Rules/Rules.vue';
 import AboutLead from './views/About/Lead/Lead.vue';
+import AboutStructure from './views/About/Structure/Structure.vue'
 import AboutStaff from './views/About/Staff/Staff.vue';
 import AboutDocuments from './views/About/Documents/Documents.vue';
 import AboutEquipment from './views/About/Equipment/Equipment.vue';
@@ -52,6 +53,10 @@ const routes = [
     {
         path: '/about/staff',
         component: AboutStaff
+    },
+    {
+        path: '/about/structure',
+        component: AboutStructure
     },
     {
         path: '/about/documents',
