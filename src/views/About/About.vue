@@ -179,9 +179,5 @@
         <h1>
             Заинск ждет вас! Приезжайте в наш центр, чтобы набраться сил и здоровья!
         </h1> -->
-        <h3>
-            Структура учреждения
-        </h3>
-        <a href="https://docs.google.com/gview?url=https://shatlik.ru/documents/структура+АНО.docx" target="_blank" class="button is-link">Просмотр</a>
     </section>
 </template>
