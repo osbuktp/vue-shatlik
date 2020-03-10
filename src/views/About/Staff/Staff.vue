@@ -50,7 +50,9 @@ import Filipovskaya from "../../../assets/staff/filipovskaya.jpg"
 import Koronova from "../../../assets/staff/koronova.jpg"
 import Seliverstova from "../../../assets/staff/seliverstova.jpg"
 import Fateeva from '../../../assets/staff/fateeva.jpg'
-import Rud from '../../../assets/staff/rud.jpg'
+import Avdonina from '../../../assets/staff/avdonina.jpg'
+import Moiseeva from '../../../assets/staff/moiseeva.jpg'
+import Ramazanova from '../../../assets/staff/ramazanova.jpg'
 
 export default {
   data() {
@@ -80,6 +82,11 @@ export default {
           photo: Fateeva
         },
         {
+          name: "Авдонина Татьяна Ивановна",
+          spec: "Специалист по кадрам",
+          photo: Avdonina
+        },
+        {
           name: "Филиповская Дарья Александровна",
           exp: "18 лет",
           spec: "Специалист по социальной работе",
@@ -104,6 +111,16 @@ export default {
           photo: Sandimirova
         },
         {
+          name: "Моисеева Людмилла Михайловна",
+          spec: "Мед. сестра",
+          photo: Moiseeva,
+        },
+        {
+          name: "Рамазанова Нурия Арыславовна",
+          spec: "Мед. сестра",
+          photo: Ramazanova
+        },
+        {
           name: "Селиверстова Татьяна Михайловна",
           exp: "39 лет",
           spec: "Мед. сестра" ,
@@ -114,11 +131,6 @@ export default {
           exp: "9 лет",
           spec: "Мед. сестра",
           photo: Muhamed
-        },
-        {
-          name: "Рудь Юлия Владимировна",
-          spec: "Муд. сестра",
-          photo: Rud
         },
         {
           name: "Колобова Татьяна Ивановна",

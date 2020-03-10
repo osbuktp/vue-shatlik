@@ -187,6 +187,9 @@
                     <router-link to="/about/lead">Руководство</router-link>
                   </li>
                   <li>
+                    <router-link to="/about/structure">Структура</router-link>
+                  </li>
+                  <li>
                     <router-link to="/about/staff">Персональный состав работников</router-link>
                   </li>
                   <li>
