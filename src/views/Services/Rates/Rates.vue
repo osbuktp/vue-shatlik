@@ -1,11 +1,16 @@
 <template>
   <section class="section content">
-      <img src="../../../assets/prices/1.JPG" alt="">
-      <img src="../../../assets/prices/2.JPG" alt="">
-      <img src="../../../assets/prices/3.JPG" alt=""> 
-      <img src="../../../assets/prices/4.JPG" alt="">
-      <img src="../../../assets/prices/5.JPG" alt="">
-      <img src="../../../assets/prices/6.JPG" alt="">
-      <img src="../../../assets/prices/7.JPG" alt="">
+      <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <h5>
+                            Тарифы на социальные услуги
+                        </h5>
+                    </div>
+                    <nav class="level">
+                        <a target="_blank" href="https://docs.google.com/gview?url=https://shatlik.ru/documents/тарифы+полустационар+и+стационарная+2020.docx" class="button is-link">Просмотр</a>
+                    </nav>
+                </div>
+            </article>
   </section>
 </template>
