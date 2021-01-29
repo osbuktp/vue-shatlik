@@ -1,73 +1,63 @@
 <template>
-    <section class="section content">
-        <h1>Предоставляемые услуги</h1>
-        <div>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            Социально-бытовые
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Социально-медицинские
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Социально-психологические
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Социально-педагогические
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Социально-трудовые
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Социально-правовые
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Услуги в целях повышения коммуникативного потенциала получателей услуг, имеющих ограничения жизнедеятельности
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+  <section class="section content">
+    <h1>Предоставляемые услуги</h1>
+    <div>
+      <table>
+        <tbody>
+          <tr>
+            <td>Социально-бытовые</td>
+          </tr>
+          <tr>
+            <td>Социально-медицинские</td>
+          </tr>
+          <tr>
+            <td>Социально-психологические</td>
+          </tr>
+          <tr>
+            <td>Социально-педагогические</td>
+          </tr>
+          <tr>
+            <td>Социально-трудовые</td>
+          </tr>
+          <tr>
+            <td>Социально-правовые</td>
+          </tr>
+          <tr>
+            <td>
+              Услуги в целях повышения коммуникативного потенциала получателей
+              услуг, имеющих ограничения жизнедеятельности
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br />
+    <div>
+      <article class="media">
+        <div class="media-content">
+          <div class="content">
+            <h5>Услуги, утвержденные постановлением Кабинета Министров РТ</h5>
+          </div>
+          <nav class="level">
+            <a
+              target="_blank"
+              href="https://docs.google.com/gview?url=https://shatlik.ru/documents/ministers.docx"
+              class="button is-link"
+              >Просмотр</a
+            >
+          </nav>
         </div>
-        <br>
-        <div>
-            <article class="media">
-                <div class="media-content">
-                    <div class="content">
-                        <h5>
-                            Услуги, подтвержденные постановлением кабинета Министров РТ
-                        </h5>
-                    </div>
-                    <nav class="level">
-                        <a target="_blank" href="https://docs.google.com/gview?url=https://shatlik.ru/documents/Услуги,+утвержденные+постановлением+Кабинета+Министров+РТ.docx" class="button is-link">Просмотр</a>
-                    </nav>
-                </div>
-            </article>
-            <article class="media">
-                <div class="media-content">
-                    <div class="content">
-                        <h5>
-                            Дополнительные услуги
-                        </h5>
-                    </div>
-                    <img src="../../assets/services/001-min.jpg" alt="">
-                    <img src="../../assets/services/002-min.jpg" alt="">
-                    <img src="../../assets/services/003-min.jpg" alt="">
-                </div>
-            </article>
+      </article>
+      <article class="media">
+        <div class="media-content">
+          <div class="content">
+            <h5>Дополнительные услуги</h5>
+          </div>
+          <img src="../../assets/services/001.jpg" alt="" />
+          <img src="../../assets/services/002.jpg" alt="" />
+          <img src="../../assets/services/003.jpg" alt="" />
         </div>
-    </section>
+      </article>
+    </div>
+  </section>
 </template>
