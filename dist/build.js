@@ -29586,7 +29586,7 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f3a9e28c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c24ebb56_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__ = __webpack_require__(293);
 function injectStyle (ssrContext) {
   __webpack_require__(291)
 }
@@ -29600,12 +29600,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-f3a9e28c"
+var __vue_scopeId__ = "data-v-c24ebb56"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __vue_script__,
-  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f3a9e28c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c24ebb56_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Reports_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -29626,7 +29626,7 @@ var content = __webpack_require__(292);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("5b9d93f2", content, true);
+var update = __webpack_require__(2)("e73b0aba", content, true);
 
 /***/ }),
 /* 292 */
@@ -29637,7 +29637,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, ".level[data-v-f3a9e28c]{display:flex;flex-wrap:wrap;justify-content:flex-start}.level a[data-v-f3a9e28c]{margin-right:20px;margin-bottom:20px}", ""]);
+exports.push([module.i, ".level[data-v-c24ebb56]{display:flex;flex-wrap:wrap;justify-content:flex-start}.level a[data-v-c24ebb56]{margin-right:20px;margin-bottom:20px}", ""]);
 
 // exports
 
@@ -29648,7 +29648,7 @@ exports.push([module.i, ".level[data-v-f3a9e28c]{display:flex;flex-wrap:wrap;jus
 
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content section"},[_c('header',[_c('h1',[_vm._v("Отчеты")])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('p',[_vm._v("\n          План финансово-хозяйственной деятельности АНО \"ЦСП \"Шатлык\"\n          (\"Радость\") на 2018 год\n        ")])]),_vm._v(" "),_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"href":"/documents/fhd.jpg"}},[_vm._v("\n          План финансово-хозяйственной деятельности")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/gview?url=https://shatlik.ru/documents/actrep.pdf"}},[_vm._v("Отчет о деятельности автономных учреждений")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/gview?url=https://shatlik.ru/documents/Отчет+о+деят-ти+НО.xlsm"}},[_vm._v("Отчет о деятельности НО")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/gview?url=https://shatlik.ru/documents/Отчет+о+расход.дс.xlsm"}},[_vm._v("Отчет о расходах")])])])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"content section"},[_c('header',[_c('h1',[_vm._v("Отчеты")])]),_vm._v(" "),_c('article',{staticClass:"media"},[_c('div',{staticClass:"media-content"},[_c('div',{staticClass:"content"},[_c('nav',{staticClass:"level"},[_c('a',{staticClass:"button is-link",attrs:{"href":"/documents/fhd.jpg"}},[_vm._v("\n            План финансово-хозяйственной деятельности")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/gview?url=https://shatlik.ru/documents/actrep.pdf"}},[_vm._v("Отчет о деятельности автономных учреждений")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/gview?url=https://shatlik.ru/documents/Отчет+о+деят-ти+НО.xlsm"}},[_vm._v("Отчет о деятельности НО")]),_vm._v(" "),_c('a',{staticClass:"button is-link",attrs:{"target":"_blank","href":"https://docs.google.com/gview?url=https://shatlik.ru/documents/Отчет+о+расход.дс.xlsm"}},[_vm._v("Отчет о расходах")])])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
