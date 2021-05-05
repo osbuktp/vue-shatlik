@@ -23,14 +23,14 @@
         </div>
 
         <object
-          data="/documents/about/Правила внутреннего распорядка для получателей социальных услуг (2).pdf"
+          data="/documents/about/Правила внутреннего распорядка.pdf"
           type="application/pdf"
           width="100%"
           height="678"
           title="Рапорт"
         >
           <iframe
-            src="/documents/about/Правила внутреннего распорядка для получателей социальных услуг (2).pdf"
+            src="/documents/about/Правила внутреннего распорядка.pdf"
             width="100%"
             height="678"
             title="Рапорт"
