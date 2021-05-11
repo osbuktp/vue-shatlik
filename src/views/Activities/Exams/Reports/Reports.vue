@@ -1,5 +1,22 @@
 <template>
   <section class="content section">
+    <h2>Ответ на предписание МТЗ И СЗ РТ 2021 г</h2>
+    <object
+      data="/documents/activities/exams/reports/Ответ на предписание МТЗ И СЗ РТ 2021 г.pdf"
+      type="application/pdf"
+      width="100%"
+      height="678"
+      title="Ответ"
+    >
+      <iframe
+        src="/documents/activities/exams/reports/Ответ на предписание МТЗ И СЗ РТ 2021 г.pdf"
+        width="100%"
+        height="678"
+        title="Ответ"
+      >
+        <p>This browser does not support PDF!</p>
+      </iframe>
+    </object>
     <h2>АКТ проверки ОНД от 17.03.2020</h2>
     <object
       data="/documents/activities/exams/reports/АКТ проверки ОНД от 17.03.2020.pdf"

@@ -247,7 +247,10 @@
                     <router-link to="/activities/reports">Отчеты о деятельности</router-link>
                   </li>
                   <li>
-                    <router-link to="/activities/exams">Проверки</router-link>
+                    <router-link to="/activities/exams/acts">Предписания контролирующих органов</router-link>
+                  </li>
+                  <li>
+                    <router-link to="/activities/exams/reports">Отчеты об устранении замечаний</router-link>
                   </li>
                   <li>
                     <router-link to="/activities/rating">Независимая оценка качества оказания услуг</router-link>

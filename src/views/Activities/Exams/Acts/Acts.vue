@@ -4,6 +4,23 @@
       <template slot="loading"> loading content here... </template></pdf
     > -->
     <div>
+      <h2>Предписание МТЗ и СЗ РТ 2021 г</h2>
+      <object
+        data="/documents/activities/exams/acts/предписание МТЗ и СЗ РТ 2021 г.pdf"
+        type="application/pdf"
+        width="100%"
+        height="678"
+        title="Предписание"
+      >
+        <iframe
+          src="/documents/activities/exams/acts/предписание МТЗ и СЗ РТ 2021 г.pdf"
+          width="100%"
+          height="678"
+          title="Предписание"
+        >
+          <p>This browser does not support PDF!</p>
+        </iframe>
+      </object>
       <h2>АКТ проверки ОНД от 29.01.2020</h2>
       <object
         data="/documents/activities/exams/acts/АКТ проверки ОНД от 29.01.2020.pdf"
